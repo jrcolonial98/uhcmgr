@@ -3,9 +3,13 @@
 The database is organized as follows.
 
 Table UHC: int id, text date, text motd (example: UHC (1, "4-4-2020", "It begins!") )
+
 Table PLAYER: text username, text nickname (example: PLAYER ("Dunkersplatt", "Bdan") )
+
 Table REGISTRATION: text player, int uhc, text team (example: REGISTRATION ("Dunkersplatt", 6, "Team BC") )
+
 Table KILL: text killer, text victim, int uhc, text time, text method (example: KILL ("Dunkersplatt", "XmasGoose", 3, "1:05:20", "shot") )
+
 Table STAT: text player, int uhc, int damageDealt, int damageTaken, ... (example: STAT ("Dunkersplatt", 8, 100, 0, ...) )
 
 The database is using sqlite3 engine, which should be built in on macOS.
@@ -13,6 +17,7 @@ The database is using sqlite3 engine, which should be built in on macOS.
 # Logfile parser
 
 This one is gonna be kinda tough because of all the little details it requires. Reading the logfile line by line, pull out every kill, first blood, first nether, first diamonds.
+
 Store it in whatever kind of data structure you like, as the code to then move the data into the database can adapt accordingly.
 
 # Stat parser
