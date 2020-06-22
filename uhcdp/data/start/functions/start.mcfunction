@@ -4,6 +4,9 @@ gamerule doDaylightCycle true
 advancement revoke @a everything
 time set 0
 
+xp set @a 0 levels
+xp set @a 0 points
+
 # Countdown (go also starts 1st day and enables daynight cycle)
 function text:three
 schedule function text:two 1s replace
