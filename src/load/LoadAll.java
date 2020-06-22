@@ -16,8 +16,6 @@ public class LoadAll {
 	// Write a bunch of Comparators
 	// then swap them out easily and rank people by any arbitrary comparison
 	
-	
-	
 	public static void main(String[] args) {
 		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc1.csv");
 		List<Kill> kills = KillLoader.loadKills("src/load/kill1.csv");

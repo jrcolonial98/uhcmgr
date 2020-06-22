@@ -1,3 +1,9 @@
+# Misc
+fill 150 245 150 170 255 170 minecraft:air
+gamerule doDaylightCycle true
+advancement revoke @a everything
+time set 0
+
 # Countdown (go also starts 1st day and enables daynight cycle)
 function text:three
 schedule function text:two 1s replace
@@ -6,16 +12,16 @@ schedule function text:go 3s append
 
 # Start timers for border and clear effects
 # set to:
-# 0-nothing-
-# 45-shirnk to 100diam-
-# 90-nothing-
-# 105-shrink to 20diam and eternal day-
-# 135- nothing 
+# 0 - nothing
+# 60 - shrink to 100diam
+# 120 - nothing
+# 135 - shrink to 20diam and eternal day
+# 165 - nothing 
 schedule function helpers:cleareffects 3s append
-schedule function helpers:shrink1 2700s append
-schedule function helpers:shrink2 6300s append
+schedule function helpers:shrink1 3600s append
+schedule function helpers:shrink2 8100s append
 
-# Add kills and deathsscoreboard
-scoreboard objectives add kills playerKillCount
+# Add kills and deaths scoreboard
+scoreboard objectives add kills playerKillCount "Kills"
 scoreboard objectives setdisplay sidebar kills
-scoreboard objectives add deaths deathCount
+scoreboard objectives add deaths deathCount "Deaths"
