@@ -1,6 +1,8 @@
 # Set up platform
 fill 150 245 150 170 255 170 minecraft:bedrock hollow
 fill 151 255 151 169 255 169 minecraft:air
+# Set up space for spectator mode redstone
+fill 171 252 171 174 255 174 minecraft:bedrock hollow
 
 # New spawnpoint
 setworldspawn 160 254 160
