@@ -10,6 +10,7 @@ Ensure that uhcdp is in the server datapacks directory. Run start:setup after cr
 ## In server.properties:
 Set gamemode to adventure, enable-command-blocks to true, and obviously the MOTD and seed
 ## Command blocks:
-TODO
+1st block(face second cmd block): /gamemode spectator @a[scores={deaths=1..}], set output to "X", Repeat, Unconditional, Always Active
+2nd block:                        /scoreboard players set @a[scores={deaths=1..}] deaths 0, set output to "X", Chain, Conditional, Always Active
 ## In-game:
 Add players to teams
