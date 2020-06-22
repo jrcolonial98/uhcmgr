@@ -11,7 +11,7 @@ difficulty normal
 gamerule naturalRegeneration false
 gamerule doInsomnia false
 gamerule doWeatherCycle false
-gamerule doDaylightCycle = false
+gamerule doDaylightCycle false
 time set 0
 
 # Objectives (moved kill scorebord init to after spread)
