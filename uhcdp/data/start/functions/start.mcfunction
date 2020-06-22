@@ -13,9 +13,9 @@ schedule function text:go 3s append
 # Start timers for border and clear effects
 # set to:
 # 0 - nothing
-# 60 - shrink to 100diam
+# 60 - shrink to 101 diam
 # 120 - nothing
-# 135 - shrink to 20diam and eternal day
+# 135 - shrink to 21 diam and eternal day
 # 165 - nothing 
 schedule function helpers:cleareffects 3s append
 schedule function helpers:shrink1 3600s append
