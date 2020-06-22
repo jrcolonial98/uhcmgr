@@ -41,6 +41,7 @@ public class Stats {
 			}
 			
 			System.out.println(un + ": " + numKills + " kills, " + numDeaths + " deaths, kdr = " + kdr);
+			System.out.println("total: " + (numKills + numDeaths));
 		}
 	}
 	

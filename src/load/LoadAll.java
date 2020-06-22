@@ -11,6 +11,13 @@ import stats.Performance;
 import java.util.List;
 
 public class LoadAll {
+	
+	// TODO:
+	// Write a bunch of Comparators
+	// then swap them out easily and rank people by any arbitrary comparison
+	
+	
+	
 	public static void main(String[] args) {
 		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc1.csv");
 		List<Kill> kills = KillLoader.loadKills("src/load/kill1.csv");
@@ -19,9 +26,9 @@ public class LoadAll {
 		
 		Stats stats = new Stats(uhcs, kills, players, registrations);
 		
-		//stats.printKillsAndDeathsAndKdr();
+		stats.printKillsAndDeathsAndKdr();
 		
-		//stats.printPlayerProfile("1ottsco"); //5, 8, 12
+		stats.printPlayerProfile("1ottsco"); //5, 8, 12
 		
 		List<Performance> ps = stats.allPerformances();
 		
