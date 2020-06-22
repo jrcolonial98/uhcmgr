@@ -1,5 +1,5 @@
 # Set up platform
-fill 150 253 150 170 255 170 minecraft:bedrock hollow
+fill 150 245 150 170 255 170 minecraft:bedrock hollow
 fill 151 255 151 169 255 169 minecraft:air
 
 # New spawnpoint
@@ -11,6 +11,8 @@ difficulty normal
 gamerule naturalRegeneration false
 gamerule doInsomnia false
 gamerule doWeatherCycle false
+gamerule doDaylightCycle = false
+time set 0
 
 # Objectives (moved kill scorebord init to after spread)
 scoreboard objectives add health health
