@@ -58,6 +58,6 @@ public class Kill {
 		return !killer.equals("");
 	}
 	public boolean isFriendlyFire() {
-		return method == FRIENDLY_FIRE;
+		return method.equals(FRIENDLY_FIRE);
 	}
 }

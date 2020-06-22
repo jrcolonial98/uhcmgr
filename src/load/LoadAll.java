@@ -6,6 +6,7 @@ import model.UHC;
 import model.Registration;
 
 import stats.Stats;
+import stats.Performance;
 
 import java.util.List;
 
@@ -20,6 +21,13 @@ public class LoadAll {
 		
 		//stats.printKillsAndDeathsAndKdr();
 		
-		stats.printPlayerProfile("1ottsco"); //5, 8, 12
+		//stats.printPlayerProfile("1ottsco"); //5, 8, 12
+		
+		List<Performance> ps = stats.allPerformances();
+		
+		for (int i = 0; i < 10; i++) {
+			Performance p = ps.get(i);
+			System.out.println(p);
+		}
 	}
 }

@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Stats {
 	List<UHC> uhcs;
@@ -150,5 +151,36 @@ public class Stats {
 			}
 		}
 		return null;
+	}
+	
+	public List<Performance> allPerformances() {
+		List<Performance> performances = new ArrayList<Performance>();
+		
+		// TODO: make this less slow
+		
+		for (Registration r : registrations) {
+			String player = r.getPlayer();
+			int uhc = r.getUhc();
+			
+			int numKills = 0;
+			int totalPlayers = 0;
+			for (Kill k : kills) {
+				if (k.getUhc() == uhc && k.getKiller().equals(player) && k.isPvp() && (!k.isFriendlyFire())) {
+					numKills++;
+				}
+			}
+			for (Registration r2 : registrations) {
+				if (r2.getUhc() == uhc) {
+					totalPlayers++;
+				}
+			}
+			
+			Performance p = new Performance(player, uhc, numKills, totalPlayers);
+			performances.add(p);
+		}
+		
+		Collections.sort(performances);
+		
+		return performances;
 	}
 }
