@@ -21,7 +21,7 @@ scoreboard objectives setdisplay list health
 
 # World boarder
 worldborder center 0 0
-worldborder set 1000
+worldborder set 1001
 
 # Teams (can be modified and not all have to be used but NEEDS ADDITIONAL MANUAL SETUP)
 team add husky
