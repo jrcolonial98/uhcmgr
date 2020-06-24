@@ -22,8 +22,8 @@ public class RunCKP {
 	public static void main (String [] args) {
 		int PLAYER_VALUE_WEIGHT = 3; // lower means killing a better player is more of a big deal, high enough numbers will count all kills the same
 		
-		List<Player> players = PlayerLoader.loadPlayers("../src/load/player1.csv");
-		List<Kill> kills = KillLoader.loadKills("../src/load/kill1.csv");
+		List<Player> players = PlayerLoader.loadPlayers("src/load/player1.csv");
+		List<Kill> kills = KillLoader.loadKills("src/load/kill1.csv");
 		
 		Map<String, Integer> points = new HashMap<String, Integer>();
 		
