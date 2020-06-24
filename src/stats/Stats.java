@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.lang.Math;
 
 public class Stats {
 	List<UHC> uhcs;
@@ -184,4 +185,98 @@ public class Stats {
 		
 		return performances;
 	}
+	
+	public HashMap<String, List<Integer>> updateElo() {
+		int startElo = 1000;
+		
+		// key is username of player and the value is a list of his/her elo after each uhc
+		// e.g. index 3 gives you the elo of that player after uhc 3
+		HashMap<String, List<Integer>> histories = new HashMap<String, List<Integer>>(); 
+		
+		//populate allHistories
+		for(Player p : players) {
+			List<Integer> history = new ArrayList<Integer>();
+			history.add(startElo);
+			histories.put(p.getUsername(),history);
+		}
+		
+		int kElo;
+		int vElo;
+		int[] newElos;
+		
+		List<Integer> kHist;
+		List<Integer> vHist;
+		int skHist;
+		int svHist;
+		
+		String killer;
+		String victim;
+		
+		for(Kill k : kills) {
+			
+			// skip pve and friendly fire kills
+			if(k.isPvp() && !k.isFriendlyFire()) {
+				
+				//Fix issue where you get a null pointer error when k.getKiller or getVictim has a misspelling 
+				//System.out.println(k.getKiller());
+				// get usernames
+				killer = k.getKiller();
+				victim = k.getVictim();
+				
+				// get previous elos
+				kHist = histories.get(killer);
+				vHist = histories.get(victim);
+				
+				skHist = kHist.size();
+				svHist = vHist.size();
+				
+				kElo = kHist.get(skHist-1);
+				vElo = vHist.get(svHist-1);
+				
+				//get new elos
+				newElos = playMatch(kElo, vElo);
+				
+				//handle updating and adding to history
+				kHist = updateHistory(kHist, skHist, k.getUhc(),newElos[0]);
+				vHist = updateHistory(vHist, svHist,k.getUhc(),newElos[1]);
+			}
+		}
+		return histories;
+	}
+	
+	private int[] playMatch(int kElo, int vElo){
+		int kEloNew;
+		int vEloNew;
+		
+		int k = 32; // max amount rating can fluctuate by is +/- 32
+		
+		int probKillerWins = (int) (1/((float) 1+Math.pow(10, (vElo-kElo)/(float)400)));
+		int pointsToKiller = k*(1-probKillerWins);
+		
+		kEloNew = kElo+pointsToKiller;
+		vEloNew = vElo-pointsToKiller;
+		
+		int[] newElos = {kEloNew, vEloNew};
+		
+		return newElos;
+	}
+	
+	private List<Integer> updateHistory(List<Integer> h,int size, int uhc, int elo ) {
+		
+		int diff = uhc - (size-1);
+		
+		//updates when kill is from the same uhc as most recent entry in history
+		//copies over last elo and adds new elo when history is out of date
+		if(diff == 0) {
+			h.set(size-1,elo);
+		}
+		else {
+			for(int i = 0; i< diff-1;i++) {
+				h.add(h.get(size-1));
+			}
+			h.add(elo);
+		}
+		return h;
+	}
 }
+
