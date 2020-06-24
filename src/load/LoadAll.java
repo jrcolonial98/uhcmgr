@@ -1,5 +1,10 @@
 package load;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*; 
 import model.Kill;
 import model.Player;
@@ -30,9 +35,31 @@ public class LoadAll {
 		//System.out.println(stats.updateElo().get("1ottsco"));
 		//System.out.println(stats.updateElo());
 		//System.out.println((float)1*0.8);
-		for(Entry<String, List<Double>> eloHistories : stats.updateElo().entrySet()) {
-			System.out.println(eloHistories);
+		
+		try {
+			FileWriter csvWriter = new FileWriter("eloMaster.csv");
+			for(Entry<String, List<Double>> eloHistories : stats.updateElo().entrySet()) {
+				String hString = eloHistories.getValue().toString();
+				
+				//System.out.println(eloHistories);
+				//System.out.println(hString.substring(1,hString.length()-1));
+				csvWriter.append(eloHistories.getKey());
+				csvWriter.append(",");
+				csvWriter.append(hString.substring(1,hString.length()-1));
+				csvWriter.append("\n");
+			}
+
+			csvWriter.flush();
+			csvWriter.close();
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Failed to write to eloMaster.csv");
+			e.printStackTrace();
 		}
+		
+		
+		
 		
 		/*
 		for(Kill k : kills) {
