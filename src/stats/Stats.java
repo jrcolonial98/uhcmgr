@@ -186,26 +186,26 @@ public class Stats {
 		return performances;
 	}
 	
-	public HashMap<String, List<Integer>> updateElo() {
-		int startElo = 1000;
+	public HashMap<String, List<Double>> updateElo() {
+		double startElo = 1000;
 		
 		// key is username of player and the value is a list of his/her elo after each uhc
 		// e.g. index 3 gives you the elo of that player after uhc 3
-		HashMap<String, List<Integer>> histories = new HashMap<String, List<Integer>>(); 
+		HashMap<String, List<Double>> histories = new HashMap<String, List<Double>>(); 
 		
 		//populate allHistories
 		for(Player p : players) {
-			List<Integer> history = new ArrayList<Integer>();
+			List<Double> history = new ArrayList<Double>();
 			history.add(startElo);
 			histories.put(p.getUsername(),history);
 		}
 		
-		int kElo;
-		int vElo;
-		int[] newElos;
+		double kElo;
+		double vElo;
+		double[] newElos;
 		
-		List<Integer> kHist;
-		List<Integer> vHist;
+		List<Double> kHist;
+		List<Double> vHist;
 		int skHist;
 		int svHist;
 		
@@ -244,39 +244,40 @@ public class Stats {
 		return histories;
 	}
 	
-	private int[] playMatch(int kElo, int vElo){
-		int kEloNew;
-		int vEloNew;
+	private double[] playMatch(double kElo, double vElo){
+		double kEloNew;
+		double vEloNew;
 		
-		int k = 32; // max amount rating can fluctuate by is +/- 32
+		double k = 32; // max amount rating can fluctuate by is +/- 32
 		
-		int probKillerWins = (int) (1/((float) 1+Math.pow(10, (vElo-kElo)/(float)400)));
-		int pointsToKiller = k*(1-probKillerWins);
+		double expDiff = Math.pow(10, (vElo-kElo)/(double)400);
+		double probKillerWins = Math.pow(1+expDiff,-1);
+		double pointsToKiller = (k*(1-probKillerWins));
 		
 		kEloNew = kElo+pointsToKiller;
 		vEloNew = vElo-pointsToKiller;
 		
-		int[] newElos = {kEloNew, vEloNew};
+		double[] newElos = {kEloNew, vEloNew};
 		
 		return newElos;
 	}
 	
-	private List<Integer> updateHistory(List<Integer> h,int size, int uhc, int elo ) {
+	private List<Double> updateHistory(List<Double> vHist,int size, int uhc, double newElos ) {
 		
 		int diff = uhc - (size-1);
 		
 		//updates when kill is from the same uhc as most recent entry in history
 		//copies over last elo and adds new elo when history is out of date
 		if(diff == 0) {
-			h.set(size-1,elo);
+			vHist.set(size-1,newElos);
 		}
 		else {
 			for(int i = 0; i< diff-1;i++) {
-				h.add(h.get(size-1));
+				vHist.add(vHist.get(size-1));
 			}
-			h.add(elo);
+			vHist.add(newElos);
 		}
-		return h;
+		return vHist;
 	}
 }
 

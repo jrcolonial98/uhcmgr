@@ -30,7 +30,7 @@ public class LoadAll {
 		//System.out.println(stats.updateElo().get("1ottsco"));
 		//System.out.println(stats.updateElo());
 		//System.out.println((float)1*0.8);
-		for(Entry<String, List<Integer>> eloHistories : stats.updateElo().entrySet()) {
+		for(Entry<String, List<Double>> eloHistories : stats.updateElo().entrySet()) {
 			System.out.println(eloHistories);
 		}
 		
