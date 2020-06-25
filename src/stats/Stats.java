@@ -248,7 +248,7 @@ public class Stats {
 		double kEloNew;
 		double vEloNew;
 		
-		double k = 32; // max amount rating can fluctuate by is +/- 32
+		double k = 294; // max amount rating can fluctuate by is +/- 32
 		
 		double expDiff = Math.pow(10, (vElo-kElo)/(double)400);
 		double probKillerWins = Math.pow(1+expDiff,-1);

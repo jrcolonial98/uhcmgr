@@ -14,8 +14,6 @@ import model.Registration;
 import stats.Stats;
 import stats.Performance;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map.Entry;
 
 public class LoadAll {
@@ -36,6 +34,7 @@ public class LoadAll {
 		//System.out.println(stats.updateElo());
 		//System.out.println((float)1*0.8);
 		
+		/*
 		try {
 			FileWriter csvWriter = new FileWriter("eloMaster.csv");
 			for(Entry<String, List<Double>> eloHistories : stats.updateElo().entrySet()) {
@@ -57,26 +56,43 @@ public class LoadAll {
 			System.out.println("Failed to write to eloMaster.csv");
 			e.printStackTrace();
 		}
+		*/
+		ArrayList<Integer> elos = new ArrayList<Integer>();
+		HashMap<Integer,String> eloName = new HashMap<Integer,String>();
+		
+		for(Entry<String, List<Double>> eloHistories : stats.updateElo().entrySet()) {
+			int currentElo = (int)(double) eloHistories.getValue().get(eloHistories.getValue().size()-1);
+			elos.add(currentElo);
+			eloName.put(currentElo,eloHistories.getKey());
+		}
+	
+		Collections.sort(elos);
+		int index = elos.size()-1;
+		int playerElo;
+		while(index >= 0) {
+			playerElo = elos.get(index);
+			System.out.print(playerElo);
+			System.out.print(" ");
+			System.out.println(eloName.get(playerElo));
+			index--; 
+		}
 		
 		
 		
-		
-		/*
 		for(Kill k : kills) {
-			System.out.println(k.getKiller().equals(""));
+			//System.out.println(k.getKiller().equals(""));
 		}
 		
 	
-		stats.printKillsAndDeathsAndKdr();
+		//stats.printKillsAndDeathsAndKdr();
 		
-		stats.printPlayerProfile("XmasGoose"); //5, 8, 12
+		//stats.printPlayerProfile("DemonicFish"); //5, 8, 12
 		
 		List<Performance> ps = stats.allPerformances();
 		
 		for (int i = 0; i < 10; i++) {
-			Performance p = ps.get(i);
+			//Performance p = ps.get(i);
 			//System.out.println(p);
 		}
-		*/
 	}
 }
