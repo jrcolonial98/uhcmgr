@@ -23,10 +23,10 @@ public class LoadAll {
 	// then swap them out easily and rank people by any arbitrary comparison
 	
 	public static void main(String[] args) {
-		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc1.csv");
-		List<Kill> kills = KillLoader.loadKills("src/load/kill1.csv");
-		List<Player> players = PlayerLoader.loadPlayers("src/load/player1.csv");
-		List<Registration> registrations = RegistrationLoader.loadRegistrations("src/load/registration1.csv");
+		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc3.csv");
+		List<Kill> kills = KillLoader.loadKills("src/load/kill3.csv");
+		List<Player> players = PlayerLoader.loadPlayers("src/load/player3.csv");
+		List<Registration> registrations = RegistrationLoader.loadRegistrations("src/load/registration3.csv");
 		
 		Stats stats = new Stats(uhcs, kills, players, registrations);
 		
@@ -56,7 +56,7 @@ public class LoadAll {
 			System.out.println("Failed to write to eloMaster.csv");
 			e.printStackTrace();
 		}
-		*/
+		
 		ArrayList<Integer> elos = new ArrayList<Integer>();
 		HashMap<Integer,String> eloName = new HashMap<Integer,String>();
 		
@@ -82,9 +82,10 @@ public class LoadAll {
 		for(Kill k : kills) {
 			//System.out.println(k.getKiller().equals(""));
 		}
+		*/
 		
 	
-		//stats.printKillsAndDeathsAndKdr();
+		stats.printKillsAndDeathsAndKdr();
 		
 		//stats.printPlayerProfile("DemonicFish"); //5, 8, 12
 		

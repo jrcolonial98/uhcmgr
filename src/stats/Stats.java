@@ -120,6 +120,8 @@ public class Stats {
 		Map<String, List<Kill>> map = new HashMap<String, List<Kill>>();
 		
 		for (Kill kill : kills) {
+			if (!kill.isPvp() || kill.isFriendlyFire()) continue;
+			
 			String killer = kill.getKiller();
 			if (!map.containsKey(killer)) {
 				map.put(killer, new ArrayList<Kill>());
