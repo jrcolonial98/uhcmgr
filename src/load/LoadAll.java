@@ -5,10 +5,14 @@ import model.Player;
 import model.UHC;
 import model.Registration;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import stats.Stats;
 import stats.Elo;
+import stats.Performance;
+import stats.PlayerProfile;
 
 public class LoadAll {
 	
@@ -24,17 +28,22 @@ public class LoadAll {
 		
 		Stats stats = new Stats(uhcs, kills, players, registrations);
 		Elo elo = new Elo(uhcs, kills, players, registrations);
+
 		
-	
-		//stats.printKillsAndDeathsAndKdr();
+		List<Performance> performances = stats.allPerformances();
+		Comparator<Performance> c1 = new Performance.RelativeComparator();
+		Collections.sort(performances, c1);
 		
-		//stats.printPlayerProfile("DemonicFish"); //5, 8, 12
+		List<PlayerProfile> profiles = stats.allPlayerProfiles();
+		Comparator<PlayerProfile> c2 = new PlayerProfile.KdrComparator();
+		Collections.sort(profiles, c2);
 		
-		//List<Performance> ps = stats.allPerformances();
+		for (int i = 0; i < profiles.size(); i++) {
+			//Performance p = performances.get(performances.size() - 1 - i);
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.kdr());
+		}
 		
-		//for (int i = 0; i < 10; i++) {
-			//Performance p = ps.get(i);
-			//System.out.println(p);
-		//}
+		System.out.println(stats.playerProfile("Dunkersplatt"));
 	}
 }

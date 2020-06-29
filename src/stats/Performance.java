@@ -1,6 +1,8 @@
 package stats;
 
-public class Performance implements Comparable {
+import java.util.Comparator;
+
+public class Performance {
 	String player;
 	int uhc;
 	int kills;
@@ -44,40 +46,6 @@ public class Performance implements Comparable {
 	public double fractionOfPlayersKilled() {
 		return ((double)kills) / ((double)totalPlayers);
 	}
-
-	@Override
-	public int compareTo(Object o) {
-		if (!(o instanceof Performance)) {
-			System.out.println("Comparing Performance with something else");
-			return 0;
-		}
-		/*
-		if (((Performance)o).getKills() == kills) {
-			if (((Performance)o).fractionOfPlayersKilled() < fractionOfPlayersKilled()) {
-				return -1;
-			}
-			else if (((Performance)o).fractionOfPlayersKilled() > fractionOfPlayersKilled()) {
-				return 1;
-			}
-			return 0;
-		}
-		return ((Performance)o).getKills() - kills; // change this line to fractionOfPlayersKilled if desired
-		*/
-		Performance po = (Performance)o;
-		int pkills = ((Performance)o).getKills();
-		double ppercent = ((Performance)o).fractionOfPlayersKilled();
-		
-		if (ppercent == fractionOfPlayersKilled()) {
-			return pkills - kills;
-		}
-		if (ppercent < fractionOfPlayersKilled()) {
-			return -1;
-		}
-		else if (ppercent > fractionOfPlayersKilled()) {
-			return 1;
-		}
-		return 0;
-	}
 	
 	public String toString() {
 		String s = "";
@@ -92,5 +60,48 @@ public class Performance implements Comparable {
 		s += "\n";
 		
 		return s;
+	}
+	
+	public static class RelativeComparator implements Comparator<Performance> {
+		public int compare(Performance o1, Performance o2) {
+			double pct1 = o1.fractionOfPlayersKilled();
+			double pct2 = o2.fractionOfPlayersKilled();
+			
+			int kills1 = o1.getKills();
+			int kills2 = o2.getKills();
+			
+			if (pct1 == pct2) {
+				return kills1 - kills2;
+			}
+			else if (pct1 > pct2) {
+				return 1;
+			}
+			else {
+				return -1;
+			}
+		}
+	}
+	public static class AbsoluteComparator implements Comparator<Performance> {
+		public int compare(Performance o1, Performance o2) {
+			double pct1 = o1.fractionOfPlayersKilled();
+			double pct2 = o2.fractionOfPlayersKilled();
+			
+			int kills1 = o1.getKills();
+			int kills2 = o2.getKills();
+			
+			if (kills1 == kills2) {
+				if (pct1 == pct2) {
+					return 0;
+				}
+				else if (pct1 > pct2) {
+					return 1;
+				}
+				else {
+					return -1;
+				}
+			}
+			return kills1 - kills2;
+		}
+		
 	}
 }

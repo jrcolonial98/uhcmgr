@@ -21,39 +21,25 @@ public class Stats {
 		this.registrations = registrations;
 	}
 	
-	public void printKillsAndDeathsAndKdr() {
-		Map<String, List<Kill>> kills = killsByPlayer();
-		Map<String, List<Kill>> deaths = deathsByPlayer();
-		
+	public List<PlayerProfile> allPlayerProfiles() {
+		List<PlayerProfile> list = new ArrayList<PlayerProfile>();
 		for (Player player : players) {
-			String un = player.getUsername();
-			int numKills = 0;
-			int numDeaths = 0;
-			double kdr = 0.0;
-			if (kills.containsKey(un)) {
-				numKills = kills.get(un).size();
-			}
-			if (deaths.containsKey(un)) {
-				numDeaths = deaths.get(un).size();
-			}
-			
-			if (numDeaths != 0) {
-				kdr = ((double)numKills) / ((double)numDeaths);
-			}
-			
-			System.out.println(un + ": " + numKills + " kills, " + numDeaths + " deaths, kdr = " + kdr);
-			System.out.println("total: " + (numKills + numDeaths));
+			PlayerProfile p = playerProfile(player.getUsername());
+			list.add(p);
 		}
+		return list;
 	}
 	
-	public void printPlayerProfile(String username) {
+	public PlayerProfile playerProfile(String username) {
 		List<Kill> kills = killsByPlayer().get(username);
 		List<Kill> deaths = deathsByPlayer().get(username);
+		List<Kill> pvpDeaths = pvpDeathsByPlayer().get(username);
 		
 		Map<String,Integer> killed = new HashMap<String,Integer>();
 		Map<String,Integer> killedBy = new HashMap<String,Integer>();
 		
 		int numKills = 0;
+		int numPvpDeaths = 0;
 		int numDeaths = 0;
 		
 		if (kills != null) {
@@ -69,9 +55,9 @@ public class Stats {
 				killed.put(victim, newVal);
 			}
 		}
-		if (deaths != null) {
-			numDeaths = deaths.size();
-			for (Kill kill : deaths) {
+		if (pvpDeaths != null) {
+			numPvpDeaths = pvpDeaths.size();
+			for (Kill kill : pvpDeaths) {
 				String killer = kill.getKiller();
 				
 				if (!killedBy.containsKey(killer)) {
@@ -82,38 +68,41 @@ public class Stats {
 				killedBy.put(killer, newVal);
 			}
 		}
-		
-		double kdr = 0.0;
-		if (numDeaths != 0.0) {
-			kdr = ((double)numKills) / ((double)numDeaths);
+		if (deaths != null) {
+			numDeaths = deaths.size();
 		}
 		
 		int gamesPlayed = 0;
+		int wins = 0;
 		for (Registration registration : registrations) {
 			if (registration.getPlayer().equals(username)) {
 				gamesPlayed++;
+				for (UHC uhc : uhcs) {
+					if (registration.getUhc() == uhc.getId()) {
+						if (registration.getTeam().equals(uhc.getWinner())) {
+							wins++;
+						}
+						break;
+					}
+				}
 			}
 		}
 		
-		double killsPerGame = 0.0;
-		if (gamesPlayed != 0) {
-			killsPerGame = ((double)numKills) / ((double)gamesPlayed);
-		}
+		Player player = playerFromString(username);
+		String nickname = player.getNickname();
 		
-		System.out.println("PLAYER PROFILE: " + username);
-		System.out.println("" + gamesPlayed + " games played");
-		System.out.println("" + numKills + " kills, " + numDeaths + " deaths, kdr = " + kdr);
-		System.out.println("Kills per game: " + killsPerGame);
-		System.out.println();
-		System.out.println("Players Killed:");
-		for (String key : killed.keySet()) {
-			System.out.println(key + " x" + killed.get(key));
-		}
-		System.out.println();
-		System.out.println("Players Killed By:");
-		for (String key : killedBy.keySet()) {
-			System.out.println(key + " x" + killedBy.get(key));
-		}
+		PlayerProfile p = new PlayerProfile();
+		p.setUsername(username);
+		p.setNickname(nickname);
+		p.setKills(numKills);
+		p.setPvpDeaths(numPvpDeaths);
+		p.setTotalDeaths(numDeaths);
+		p.setGamesPlayed(gamesPlayed);
+		p.setWins(wins);
+		p.setKilled(killed);
+		p.setKilledBy(killedBy);
+		
+		return p;
 	}
 	
 	public Map<String, List<Kill>> killsByPlayer() {
@@ -132,12 +121,26 @@ public class Stats {
 		return map;
 	}
 	
-	public Map<String, List<Kill>> deathsByPlayer() {
+	public Map<String, List<Kill>> pvpDeathsByPlayer() {
 		Map<String, List<Kill>> map = new HashMap<String, List<Kill>>();
 		
 		for (Kill kill : kills) {
 			if (!kill.isPvp() || kill.isFriendlyFire()) continue;
 			
+			String victim = kill.getVictim();
+			if (!map.containsKey(victim)) {
+				map.put(victim, new ArrayList<Kill>());
+			}
+			map.get(victim).add(kill);
+		}
+		
+		return map;
+	}
+	
+	public Map<String, List<Kill>> deathsByPlayer() {
+		Map<String, List<Kill>> map = new HashMap<String, List<Kill>>();
+		
+		for (Kill kill : kills) {
 			String victim = kill.getVictim();
 			if (!map.containsKey(victim)) {
 				map.put(victim, new ArrayList<Kill>());
@@ -182,8 +185,6 @@ public class Stats {
 			Performance p = new Performance(player, uhc, numKills, totalPlayers);
 			performances.add(p);
 		}
-		
-		Collections.sort(performances);
 		
 		return performances;
 	}
