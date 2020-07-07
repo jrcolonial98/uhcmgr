@@ -8,6 +8,7 @@ import model.Registration;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 
 import stats.Stats;
 import stats.Elo;
@@ -41,5 +42,10 @@ public class LoadAll {
 		}
 		
 		System.out.println(stats.playerProfile("Dunkersplatt"));
+		
+		Map<String,Integer> elos = elo.currentElos();
+		for (String name : elos.keySet()) {
+			System.out.println(name + ": " + elos.get(name));
+		}
 	}
 }
