@@ -16,10 +16,6 @@ import stats.PlayerProfile;
 
 public class LoadAll {
 	
-	// TODO:
-	// Write a bunch of Comparators
-	// then swap them out easily and rank people by any arbitrary comparison
-	
 	public static void main(String[] args) {
 		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc3.csv");
 		List<Kill> kills = KillLoader.loadKills("src/load/kill3.csv");
@@ -35,13 +31,13 @@ public class LoadAll {
 		Collections.sort(performances, c1);
 		
 		List<PlayerProfile> profiles = stats.allPlayerProfiles();
-		Comparator<PlayerProfile> c2 = new PlayerProfile.KdrComparator();
+		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsComparator();
 		Collections.sort(profiles, c2);
 		
 		for (int i = 0; i < profiles.size(); i++) {
 			//Performance p = performances.get(performances.size() - 1 - i);
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			System.out.println(p.getUsername() + ": " + p.kdr());
+			System.out.println(p.getUsername() + ": " + p.getKills());
 		}
 		
 		System.out.println(stats.playerProfile("Dunkersplatt"));
