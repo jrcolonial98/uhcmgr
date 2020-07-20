@@ -1,5 +1,5 @@
 # Spreads players 
-spreadplayers 0 0 180 500 true @a
+spreadplayers 0 0 300 500 true @a
 
 #Inventory 
 clear @a
