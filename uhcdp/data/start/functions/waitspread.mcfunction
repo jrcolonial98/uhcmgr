@@ -14,5 +14,5 @@ effect give @a minecraft:slow_falling 999 100
 effect give @a minecraft:mining_fatigue 999 100
 
 # Ensure they are happy before start
-title @a title {"text":"any issues?","color":"white"}
+title @a title {"text":"Any issues?","color":"white"}
 #schedule function text:wait 15s
