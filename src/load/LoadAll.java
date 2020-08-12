@@ -41,7 +41,7 @@ public class LoadAll {
 			System.out.println(p.getUsername() + ": " + p.getKills());
 		}
 		
-		System.out.println(stats.playerProfile("IntenseYogurt"));
+		System.out.println(stats.playerProfile("1ottsco"));
 		
 		Map<String,Integer> elos = elo.currentElos();
 		for (String name : elos.keySet()) {
