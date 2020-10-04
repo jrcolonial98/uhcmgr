@@ -1,0 +1,594 @@
+[00:01:54] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[00:01:54] [main/INFO]: Found new data pack file/uhcdp, loading it automatically
+[00:01:54] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:01:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:01:54] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:01:54] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:01:54] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:01:54] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[00:01:55] [Worker-Main-4/INFO]: Loaded 7 recipes
+[00:01:56] [Worker-Main-4/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[00:01:56] [Worker-Main-4/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[00:01:56] [Worker-Main-4/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[00:01:56] [Worker-Main-4/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[00:01:56] [Worker-Main-4/INFO]: Loaded 927 advancements
+[00:01:58] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[00:01:58] [Server thread/INFO]: Loading properties
+[00:01:58] [Server thread/INFO]: Default game type: ADVENTURE
+[00:01:58] [Server thread/INFO]: Generating keypair
+[00:01:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:01:58] [Server thread/INFO]: Using epoll channel type
+[00:01:58] [Server thread/INFO]: Preparing level "world"
+[00:01:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:05] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:06] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[00:02:06] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:02:07] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:07] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:02:08] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:02:08] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[00:02:09] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[00:02:09] [Worker-Main-4/INFO]: Preparing spawn area: 84%
+[00:02:10] [Worker-Main-5/INFO]: Preparing spawn area: 87%
+[00:02:10] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[00:02:11] [Worker-Main-5/INFO]: Preparing spawn area: 93%
+[00:02:11] [Server thread/INFO]: Preparing spawn area: 98%
+[00:02:11] [Server thread/INFO]: Time elapsed: 12523 ms
+[00:02:11] [Server thread/INFO]: Done (12.733s)! For help, type "help"
+[00:03:44] [User Authenticator #1/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[00:03:44] [Server thread/INFO]: Dunkersplatt[/67.185.20.60:54966] logged in with entity id 137 at (64.5, 72.0, 112.5)
+[00:03:44] [Server thread/INFO]: Dunkersplatt joined the game
+[00:03:50] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[00:03:53] [Server thread/INFO]: [Dunkersplatt: Executed 29 commands from function 'start:setup']
+[00:04:00] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 150.0, 0.5]
+[00:04:06] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, 500.5]
+[00:04:17] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, 300.5]
+[00:04:28] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, 100.5]
+[00:04:34] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, -99.5]
+[00:04:41] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, -299.5]
+[00:04:46] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, -499.5]
+[00:04:53] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, -499.5]
+[00:05:01] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, -499.5]
+[00:05:07] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, -499.5]
+[00:05:16] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, -499.5]
+[00:05:22] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, -499.5]
+[00:05:29] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, -299.5]
+[00:05:36] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, -99.5]
+[00:05:44] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, 100.5]
+[00:05:50] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, 300.5]
+[00:05:55] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -499.5, 143.42703912094234, 500.5]
+[00:06:02] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, 500.5]
+[00:06:12] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, 500.5]
+[00:06:20] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, 500.5]
+[00:06:29] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, 500.5]
+[00:06:34] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 143.42703912094234, 500.5]
+[00:06:40] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, 300.5]
+[00:06:46] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, 100.5]
+[00:06:49] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, -99.5]
+[00:06:54] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, -299.5]
+[00:07:03] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, -299.5]
+[00:07:09] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, -299.5]
+[00:07:17] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, -299.5]
+[00:07:22] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, -99.5]
+[00:07:29] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, 100.5]
+[00:07:34] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -299.5, 143.42703912094234, 300.5]
+[00:07:42] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, 300.5]
+[00:07:46] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, 300.5]
+[00:07:51] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 300.5, 143.42703912094234, 300.5]
+[00:07:56] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, 100.5]
+[00:07:59] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 143.42703912094234, -99.5]
+[00:08:04] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, -99.5]
+[00:08:09] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to -99.5, 143.42703912094234, 100.5]
+[00:08:19] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 143.42703912094234, 0.5]
+[00:09:19] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 200.5, 147.91171038400566, 0.5]
+[00:09:24] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 147.91171038400566, 200.5]
+[00:09:36] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 100.5, 147.91171038400566, -299.5]
+[00:09:45] [Server thread/INFO]: Dunkersplatt fell out of the world
+[00:09:45] [Server thread/INFO]: [Dunkersplatt: Killed Dunkersplatt]
+[00:10:46] [Server thread/INFO]: [Dunkersplatt: Added Dunkersplatt to team [eagle]]
+[00:12:14] [User Authenticator #2/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[00:12:14] [Server thread/INFO]: mrdagger17[/141.126.231.2:54861] logged in with entity id 6780 at (160.5, 254.0, 160.5)
+[00:12:14] [Server thread/INFO]: mrdagger17 joined the game
+[00:12:25] [Server thread/INFO]: [Dunkersplatt: Set mrdagger17's game mode to Creative Mode]
+[00:12:30] [Server thread/INFO]: [Dunkersplatt: Added mrdagger17 to team [evil]]
+[00:14:44] [User Authenticator #3/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:14:44] [Server thread/INFO]: St33n3r[/67.185.20.60:50088] logged in with entity id 6785 at (160.5, 254.0, 160.5)
+[00:14:44] [Server thread/INFO]: St33n3r joined the game
+[00:15:23] [User Authenticator #4/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[00:15:23] [Server thread/INFO]: XmasGoose[/24.147.23.63:49641] logged in with entity id 6786 at (160.5, 254.0, 160.5)
+[00:15:23] [Server thread/INFO]: XmasGoose joined the game
+[00:18:00] [Server thread/INFO]: [Dunkersplatt: Added XmasGoose to team [hen]]
+[00:18:04] [Server thread/INFO]: [Dunkersplatt: Added St33n3r to team [eagle]]
+[00:19:31] [User Authenticator #5/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[00:19:31] [Server thread/INFO]: seanm105[/98.227.232.67:64315] logged in with entity id 6796 at (160.5, 254.0, 160.5)
+[00:19:31] [Server thread/INFO]: seanm105 joined the game
+[00:19:44] [User Authenticator #6/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[00:19:44] [Server thread/INFO]: ToaNuparu[/73.191.221.212:54083] logged in with entity id 6798 at (160.5, 254.0, 160.5)
+[00:19:44] [Server thread/INFO]: ToaNuparu joined the game
+[00:19:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@6ece007[id=<null>,name=Koi_Pond,properties={},legacy=false] (/24.45.129.206:56598) lost connection: Disconnected
+[00:19:51] [Server thread/INFO]: [Dunkersplatt: Added seanm105 to team [evil]]
+[00:19:54] [Server thread/INFO]: [Dunkersplatt: Added ToaNuparu to team [evil]]
+[00:20:26] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Spectator Mode]
+[00:20:28] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[00:20:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@26cea33f[id=<null>,name=Koi_Pond,properties={},legacy=false] (/24.45.129.206:56695) lost connection: Disconnected
+[00:20:30] [Server thread/INFO]: [St33n3r: Set own game mode to Spectator Mode]
+[00:20:33] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Spectator Mode]
+[00:20:33] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[00:20:37] [Server thread/INFO]: [St33n3r: Set own game mode to Adventure Mode]
+[00:20:40] [Server thread/INFO]: St33n3r lost connection: Disconnected
+[00:20:40] [Server thread/INFO]: St33n3r left the game
+[00:20:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ae5e93[id=<null>,name=Koi_Pond,properties={},legacy=false] (/24.45.129.206:56707) lost connection: Disconnected
+[00:20:50] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Spectator Mode]
+[00:20:50] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[00:20:54] [User Authenticator #7/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:20:54] [Server thread/INFO]: St33n3r[/67.185.20.60:50104] logged in with entity id 6812 at (156.64028004420032, 148.2890390704714, 163.05344940894022)
+[00:20:54] [Server thread/INFO]: St33n3r joined the game
+[00:20:58] [Server thread/INFO]: St33n3r fell from a high place
+[00:20:59] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Survival Mode]
+[00:21:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@c98924f[id=<null>,name=Koi_Pond,properties={},legacy=false] (/24.45.129.206:56716) lost connection: Disconnected
+[00:21:00] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Spectator Mode]
+[00:21:01] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Survival Mode]
+[00:21:01] [User Authenticator #8/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[00:21:01] [Server thread/INFO]: mikecherry[/71.58.20.82:49664] logged in with entity id 6906 at (160.5, 254.0, 160.5)
+[00:21:01] [Server thread/INFO]: mikecherry joined the game
+[00:21:05] [Server thread/INFO]: Dunkersplatt fell from a high place
+[00:21:10] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[00:21:21] [Server thread/INFO]: [XmasGoose: Set own game mode to Creative Mode]
+[00:21:34] [Server thread/INFO]: [Dunkersplatt: Removed 1 items from player Dunkersplatt]
+[00:21:35] [Server thread/INFO]: Dunkersplatt fell out of the world
+[00:21:35] [Server thread/INFO]: [Dunkersplatt: Killed Dunkersplatt]
+[00:21:37] [Server thread/INFO]: [XmasGoose: Gave 1 [Command Block] to XmasGoose]
+[00:22:04] [User Authenticator #9/INFO]: UUID of player Koi_Pond is 0b76483e-a797-4190-a0e3-7e265ca42eb0
+[00:22:04] [Server thread/INFO]: Koi_Pond[/24.45.129.206:56831] logged in with entity id 7163 at (160.5, 254.0, 160.5)
+[00:22:04] [Server thread/INFO]: Koi_Pond joined the game
+[00:23:12] [Server thread/INFO]: [Dunkersplatt: Added Koi_Pond to team [husky]]
+[00:23:15] [Server thread/INFO]: [Dunkersplatt: Added mikecherry to team [cherry]]
+[00:24:30] [User Authenticator #10/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[00:24:30] [Server thread/INFO]: 1ottsco[/73.154.246.212:58086] logged in with entity id 7171 at (160.5, 254.0, 160.5)
+[00:24:30] [Server thread/INFO]: 1ottsco joined the game
+[00:25:40] [Server thread/INFO]: <XmasGoose> uh
+[00:25:43] [Server thread/INFO]: <XmasGoose> hi mike
+[00:25:52] [Server thread/INFO]: <mikecherry> let me out
+[00:26:02] [Server thread/INFO]: [1ottsco: Teleported mikecherry to 1ottsco]
+[00:26:19] [Server thread/INFO]: [XmasGoose: Removed 2 items from player XmasGoose]
+[00:26:40] [Server thread/INFO]: [XmasGoose: Set own game mode to Survival Mode]
+[00:26:50] [Server thread/INFO]: 1ottsco was slain by XmasGoose
+[00:26:56] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [hen]]
+[00:27:08] [Server thread/INFO]: XmasGoose was slain by mikecherry
+[00:28:26] [User Authenticator #11/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[00:28:26] [Server thread/INFO]: YungSpesh[/68.13.46.239:54626] logged in with entity id 7184 at (160.5, 254.0, 160.5)
+[00:28:26] [Server thread/INFO]: YungSpesh joined the game
+[00:28:33] [Server thread/INFO]: [Dunkersplatt: Added YungSpesh to team [eagle]]
+[00:29:25] [Server thread/INFO]: St33n3r was slain by Koi_Pond
+[00:29:41] [User Authenticator #12/INFO]: UUID of player Tran_1230 is 598c5496-a8a7-407a-8b7e-1abcd58c3014
+[00:29:41] [Server thread/INFO]: Tran_1230[/216.16.211.126:57770] logged in with entity id 7190 at (160.5, 254.0, 160.5)
+[00:29:41] [Server thread/INFO]: Tran_1230 joined the game
+[00:30:12] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:30:16] [User Authenticator #13/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[00:30:16] [Server thread/INFO]: belundun[/75.134.3.124:58314] logged in with entity id 7196 at (160.5, 254.0, 160.5)
+[00:30:16] [Server thread/INFO]: belundun joined the game
+[00:30:18] [User Authenticator #14/INFO]: UUID of player brassline is c3f8895a-489f-4549-b672-74fda36f05b8
+[00:30:18] [Server thread/INFO]: brassline[/68.5.46.7:55979] logged in with entity id 7197 at (160.5, 254.0, 160.5)
+[00:30:18] [Server thread/INFO]: brassline joined the game
+[00:30:33] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:30:46] [Server thread/INFO]: YungSpesh was slain by St33n3r
+[00:30:55] [Server thread/INFO]: mikecherry was slain by St33n3r
+[00:30:58] [Server thread/INFO]: St33n3r was slain by YungSpesh
+[00:31:06] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:31:09] [Server thread/INFO]: 1ottsco hit the ground too hard
+[00:31:21] [Server thread/INFO]: Koi_Pond was slain by St33n3r
+[00:31:26] [Server thread/INFO]: St33n3r was slain by YungSpesh
+[00:31:35] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:31:43] [Server thread/INFO]: Koi_Pond was slain by YungSpesh
+[00:32:02] [Server thread/INFO]: ToaNuparu was slain by YungSpesh
+[00:32:20] [Server thread/INFO]: St33n3r was slain by Koi_Pond
+[00:32:29] [Server thread/INFO]: 1ottsco was slain by St33n3r
+[00:32:36] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:32:40] [Server thread/INFO]: belundun was slain by Tran_1230
+[00:32:47] [Server thread/INFO]: 1ottsco was slain by Koi_Pond
+[00:32:47] [Server thread/INFO]: Koi_Pond was slain by YungSpesh
+[00:32:51] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:33:03] [Server thread/INFO]: 1ottsco was slain by St33n3r
+[00:33:20] [Server thread/INFO]: St33n3r was slain by YungSpesh
+[00:33:44] [Server thread/INFO]: Tran_1230 hit the ground too hard
+[00:33:50] [Server thread/INFO]: brassline was slain by Koi_Pond
+[00:33:53] [Server thread/INFO]: St33n3r was slain by Koi_Pond
+[00:34:29] [Server thread/INFO]: YungSpesh was slain by Koi_Pond
+[00:34:41] [Server thread/INFO]: [XmasGoose: Added belundun to team [husky]]
+[00:34:49] [Server thread/INFO]: brassline was slain by Koi_Pond
+[00:34:59] [Server thread/INFO]: <XmasGoose> tran and brass what teams would you like to be on?
+[00:35:04] [Server thread/INFO]: seanm105 was slain by belundun
+[00:35:09] [Server thread/INFO]: belundun was slain by St33n3r
+[00:35:19] [Server thread/INFO]: St33n3r was slain by Koi_Pond
+[00:35:27] [Server thread/INFO]: Koi_Pond was slain by seanm105
+[00:35:32] [Server thread/INFO]: seanm105 was slain by XmasGoose
+[00:35:36] [Server thread/INFO]: <seanm105> you monster
+[00:35:49] [Server thread/INFO]: <seanm105> here's seanny!
+[00:35:53] [Server thread/INFO]: belundun was slain by XmasGoose
+[00:35:53] [Server thread/INFO]: St33n3r was slain by Koi_Pond
+[00:36:06] [Server thread/INFO]: YungSpesh didn't want to live in the same world as St33n3r
+[00:36:06] [Server thread/INFO]: [YungSpesh: Killed YungSpesh]
+[00:36:12] [Server thread/INFO]: seanm105 was slain by XmasGoose
+[00:36:16] [Server thread/INFO]: XmasGoose was slain by Koi_Pond
+[00:36:18] [Server thread/INFO]: YungSpesh fell out of the world
+[00:36:18] [Server thread/INFO]: [YungSpesh: Killed YungSpesh]
+[00:36:28] [Server thread/INFO]: seanm105 was slain by Koi_Pond
+[00:36:36] [Server thread/INFO]: mikecherry was slain by St33n3r
+[00:36:49] [Server thread/INFO]: <seanm105> fwends?
+[00:36:59] [Server thread/INFO]: XmasGoose was slain by St33n3r
+[00:37:03] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[00:37:06] [Server thread/INFO]: <seanm105> this door should be for everyone
+[00:37:10] [Server thread/INFO]: <seanm105> for the people
+[00:37:14] [Server thread/INFO]: 1ottsco was slain by Koi_Pond
+[00:37:35] [Server thread/INFO]: 1ottsco was slain by Koi_Pond
+[00:37:44] [Server thread/INFO]: seanm105 was slain by Koi_Pond
+[00:37:49] [Server thread/INFO]: [XmasGoose: Gave 1 [Stone Button] to seanm105]
+[00:37:52] [Server thread/INFO]: belundun was slain by Koi_Pond
+[00:37:52] [Server thread/INFO]: Koi_Pond was slain by Tran_1230
+[00:38:23] [Server thread/INFO]: <XmasGoose> hell
+[00:38:32] [Server thread/INFO]: <XmasGoose> wad
+[00:39:59] [Server thread/INFO]: Tran_1230 was slain by seanm105
+[00:40:02] [Server thread/INFO]: [Dunkersplatt: Added brassline to team [eagle]]
+[00:40:08] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [evil]]
+[00:40:19] [Server thread/INFO]: <seanm105> come one, come all
+[00:40:23] [Server thread/INFO]: <seanm105> the door is open
+[00:40:40] [Server thread/INFO]: <seanm105> he broke the button
+[00:40:43] [Server thread/INFO]: <seanm105> :(
+[00:41:14] [Server thread/INFO]: <seanm105> woah, such cool things going on behind door
+[00:41:35] [Server thread/INFO]: <XmasGoose> yeehaw
+[00:41:36] [Server thread/INFO]: [Dunkersplatt: Added mikecherry to team [hen]]
+[00:41:49] [Server thread/INFO]: Tran_1230 was slain by ToaNuparu
+[00:42:48] [Server thread/INFO]: Tran_1230 was slain by ToaNuparu
+[00:43:14] [Server thread/INFO]: belundun fell from a high place
+[00:43:55] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:44:03] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [mint]]
+[00:44:04] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:44:05] [Server thread/INFO]: Tran_1230 was slain by 1ottsco
+[00:44:06] [Server thread/WARN]: Fetching packet for removed entity bcs['Stone Button'/7611, l='ServerLevel[world]', x=159.84, y=249.00, z=149.13]
+[00:44:26] [Server thread/INFO]: Tran_1230 was slain by Koi_Pond
+[00:44:36] [Server thread/INFO]: XmasGoose was slain by belundun
+[00:44:39] [Server thread/INFO]: belundun was slain by YungSpesh
+[00:44:46] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[00:44:57] [Server thread/INFO]: [1ottsco: Teleported 1ottsco to mrdagger17]
+[00:44:58] [Server thread/INFO]: Koi_Pond fell from a high place
+[00:44:59] [Server thread/WARN]: Koi_Pond moved too quickly! 12.338797908901398,189.0,-6.768017865057288
+[00:45:01] [Server thread/INFO]: 1ottsco fell from a high place
+[00:45:10] [Server thread/INFO]: [1ottsco: Set own game mode to Creative Mode]
+[00:45:26] [Server thread/INFO]: [1ottsco: Removed 1 items from player 1ottsco]
+[00:45:29] [Server thread/INFO]: [1ottsco: Teleported 1ottsco to mrdagger17]
+[00:45:37] [Server thread/INFO]: Koi_Pond was slain by YungSpesh
+[00:45:43] [Server thread/INFO]: [1ottsco: Set own game mode to Survival Mode]
+[00:46:50] [Server thread/INFO]: Tran_1230 was slain by mikecherry
+[00:48:24] [User Authenticator #15/INFO]: UUID of player ZenStryk is 594f371d-e276-44eb-bc35-a9c4509070f8
+[00:48:24] [Server thread/INFO]: ZenStryk[/69.255.53.124:50145] logged in with entity id 7898 at (160.5, 254.0, 160.5)
+[00:48:24] [Server thread/INFO]: ZenStryk joined the game
+[00:48:25] [Server thread/INFO]: seanm105 hit the ground too hard
+[00:48:45] [Server thread/INFO]: [Dunkersplatt: Added ZenStryk to team [husky]]
+[00:48:54] [Server thread/INFO]: <XmasGoose> READy
+[00:49:00] [Server thread/INFO]: 1ottsco hit the ground too hard
+[00:49:17] [Server thread/INFO]: brassline was slain by St33n3r
+[00:49:42] [Server thread/INFO]: [Dunkersplatt: Removed 3 items from player Dunkersplatt]
+[00:49:57] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:49:59] [Server thread/INFO]: <mrdagger17> spread um
+[00:50:02] [Server thread/INFO]: [Dunkersplatt: Executed 10 commands from function 'start:waitspread']
+[00:50:16] [Server thread/INFO]: <St33n3r> hope y'all like losing :)
+[00:50:19] [Server thread/INFO]: <Dunkersplatt> good?
+[00:50:35] [Server thread/INFO]: [Dunkersplatt: Executed 17 commands from function 'start:start']
+[00:51:13] [Server thread/INFO]: XmasGoose has made the advancement [Stone Age]
+[00:51:27] [Server thread/INFO]: Koi_Pond has made the advancement [Stone Age]
+[00:51:28] [Server thread/INFO]: Tran_1230 has made the advancement [Stone Age]
+[00:51:30] [Server thread/INFO]: XmasGoose has made the advancement [Getting an Upgrade]
+[00:51:39] [Server thread/INFO]: Tran_1230 has made the advancement [Getting an Upgrade]
+[00:51:49] [Server thread/INFO]: Dunkersplatt has made the advancement [Stone Age]
+[00:52:05] [Server thread/INFO]: ZenStryk has made the advancement [Stone Age]
+[00:52:06] [Server thread/INFO]: seanm105 has made the advancement [Stone Age]
+[00:52:21] [Server thread/INFO]: belundun has made the advancement [Getting an Upgrade]
+[00:52:23] [Server thread/INFO]: mikecherry has made the advancement [Stone Age]
+[00:52:24] [Server thread/INFO]: ZenStryk has made the advancement [Getting an Upgrade]
+[00:52:27] [Server thread/INFO]: belundun has made the advancement [Stone Age]
+[00:52:39] [Server thread/INFO]: St33n3r has made the advancement [Stone Age]
+[00:52:48] [Server thread/INFO]: mikecherry has made the advancement [Getting an Upgrade]
+[00:52:50] [Server thread/INFO]: Dunkersplatt has made the advancement [Getting an Upgrade]
+[00:52:57] [Server thread/INFO]: seanm105 has made the advancement [Getting an Upgrade]
+[00:53:15] [Server thread/INFO]: Koi_Pond has made the advancement [Getting an Upgrade]
+[00:53:15] [Server thread/INFO]: St33n3r has made the advancement [Getting an Upgrade]
+[00:53:38] [Server thread/INFO]: mrdagger17 has made the advancement [Getting an Upgrade]
+[00:54:03] [Server thread/INFO]: 1ottsco has made the advancement [Stone Age]
+[00:54:18] [Server thread/INFO]: 1ottsco has made the advancement [Getting an Upgrade]
+[00:54:28] [Server thread/INFO]: YungSpesh has made the advancement [Stone Age]
+[00:54:50] [Server thread/INFO]: ToaNuparu has made the advancement [Stone Age]
+[00:54:57] [Server thread/WARN]: Fetching packet for removed entity bcs['Oak Log'/13295, l='ServerLevel[world]', x=145.88, y=66.28, z=259.13]
+[00:55:04] [Server thread/INFO]: Koi_Pond has made the advancement [Acquire Hardware]
+[00:55:06] [Server thread/INFO]: YungSpesh has made the advancement [Getting an Upgrade]
+[00:55:55] [Server thread/INFO]: brassline has made the advancement [Stone Age]
+[00:56:17] [Server thread/INFO]: Tran_1230 has made the advancement [Acquire Hardware]
+[00:56:26] [Server thread/INFO]: Koi_Pond has made the advancement [Isn't It Iron Pick]
+[00:56:44] [Server thread/INFO]: mrdagger17 has made the advancement [Stone Age]
+[00:57:00] [Server thread/INFO]: 1ottsco has made the advancement [Acquire Hardware]
+[00:57:09] [Server thread/INFO]: 1ottsco has made the advancement [Isn't It Iron Pick]
+[00:57:13] [Server thread/INFO]: XmasGoose has made the advancement [Acquire Hardware]
+[00:57:33] [Server thread/INFO]: brassline has made the advancement [Getting an Upgrade]
+[00:57:49] [Server thread/INFO]: Tran_1230 has made the advancement [Isn't It Iron Pick]
+[00:57:59] [Server thread/INFO]: 1ottsco has made the advancement [Suit Up]
+[00:58:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Stick'/16038, l='ServerLevel[world]', x=165.67, y=64.00, z=271.13]
+[00:58:18] [Server thread/INFO]: Tran_1230 has made the advancement [Monster Hunter]
+[00:58:24] [Server thread/INFO]: Koi_Pond has made the advancement [Suit Up]
+[00:58:48] [Server thread/INFO]: Tran_1230 has made the advancement [Not Today, Thank You]
+[00:58:53] [Server thread/INFO]: Koi_Pond was slain by Dunkersplatt
+[00:58:53] [Server thread/INFO]: [@: Set Koi_Pond's game mode to Spectator Mode]
+[00:58:56] [Server thread/INFO]: Dunkersplatt has made the advancement [Suit Up]
+[00:58:56] [Server thread/INFO]: ZenStryk was slain by YungSpesh
+[00:58:56] [Server thread/INFO]: [@: Set ZenStryk's game mode to Spectator Mode]
+[00:59:03] [Server thread/INFO]: Dunkersplatt has made the advancement [Isn't It Iron Pick]
+[00:59:43] [Server thread/INFO]: Koi_Pond lost connection: Disconnected
+[00:59:43] [Server thread/INFO]: Koi_Pond left the game
+[00:59:46] [Server thread/INFO]: ZenStryk lost connection: Disconnected
+[00:59:46] [Server thread/INFO]: ZenStryk left the game
+[01:00:15] [Server thread/INFO]: <1ottsco> gg
+[01:00:22] [Server thread/INFO]: <XmasGoose> gg
+[01:00:45] [Server thread/INFO]: XmasGoose has made the advancement [Isn't It Iron Pick]
+[01:00:48] [Server thread/INFO]: mrdagger17 has made the advancement [Best Friends Forever]
+[01:01:00] [Server thread/INFO]: seanm105 has made the advancement [Best Friends Forever]
+[01:01:17] [Server thread/INFO]: XmasGoose has made the advancement [Not Today, Thank You]
+[01:01:39] [Server thread/INFO]: St33n3r has made the advancement [Monster Hunter]
+[01:01:42] [Server thread/INFO]: XmasGoose has made the advancement [Monster Hunter]
+[01:02:01] [Server thread/INFO]: <Dunkersplatt> gg
+[01:02:40] [Server thread/INFO]: Tran_1230 has made the advancement [Suit Up]
+[01:02:46] [Server thread/INFO]: XmasGoose was blown up by Creeper
+[01:02:46] [Server thread/INFO]: [@: Set XmasGoose's game mode to Spectator Mode]
+[01:02:49] [Server thread/INFO]: mikecherry has made the advancement [Acquire Hardware]
+[01:02:50] [Server thread/INFO]: <Dunkersplatt> gg
+[01:02:51] [Server thread/INFO]: <belundun> gg
+[01:02:53] [Server thread/INFO]: <1ottsco> gg
+[01:02:55] [Server thread/INFO]: <Dunkersplatt> :-(
+[01:03:12] [Server thread/INFO]: <YungSpesh> gg
+[01:03:14] [Server thread/INFO]: ToaNuparu has made the advancement [Getting an Upgrade]
+[01:03:17] [Server thread/INFO]: <1ottsco> gg
+[01:04:49] [Server thread/INFO]: mikecherry has made the advancement [Isn't It Iron Pick]
+[01:04:52] [Server thread/INFO]: seanm105 has made the advancement [Acquire Hardware]
+[01:05:25] [Server thread/INFO]: mrdagger17 has made the advancement [Acquire Hardware]
+[01:05:43] [Server thread/INFO]: ToaNuparu has made the advancement [Acquire Hardware]
+[01:06:02] [Server thread/INFO]: brassline has made the advancement [Acquire Hardware]
+[01:06:39] [Server thread/INFO]: belundun has made the advancement [Acquire Hardware]
+[01:06:49] [Server thread/INFO]: Dunkersplatt has made the advancement [Acquire Hardware]
+[01:06:54] [Server thread/INFO]: belundun has made the advancement [Suit Up]
+[01:06:54] [Server thread/INFO]: belundun has made the advancement [Isn't It Iron Pick]
+[01:06:56] [Server thread/INFO]: mrdagger17 has made the advancement [Isn't It Iron Pick]
+[01:07:19] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[01:07:19] [Server thread/INFO]: XmasGoose left the game
+[01:07:46] [Server thread/INFO]: brassline has made the advancement [Isn't It Iron Pick]
+[01:08:20] [Server thread/INFO]: <Dunkersplatt> if yogurt gets here we're tping btw
+[01:08:23] [Server thread/INFO]: <Dunkersplatt> for another 5-10
+[01:08:34] [Server thread/INFO]: belundun has made the advancement [Diamonds!]
+[01:08:34] [Server thread/INFO]: <Dunkersplatt> well theres the 15 min rule i dunnop
+[01:09:06] [Server thread/INFO]: mikecherry has made the advancement [Suit Up]
+[01:09:08] [Server thread/INFO]: <Tran_1230> what's the 15 minute rule?
+[01:09:14] [Server thread/INFO]: YungSpesh has made the advancement [Monster Hunter]
+[01:09:14] [Server thread/INFO]: <Dunkersplatt> you can join up to 15 min late
+[01:09:20] [Server thread/INFO]: <Dunkersplatt> after that you cant play
+[01:09:24] [Server thread/INFO]: <1ottsco> has it been 15 minujtes ye
+[01:09:30] [Server thread/INFO]: <Dunkersplatt> :-(
+[01:09:32] [Server thread/INFO]: St33n3r has made the advancement [Acquire Hardware]
+[01:09:49] [Server thread/INFO]: Tran_1230 has made the advancement [Take Aim]
+[01:10:01] [Server thread/INFO]: St33n3r has made the advancement [Isn't It Iron Pick]
+[01:10:12] [Server thread/INFO]: seanm105 has made the advancement [Isn't It Iron Pick]
+[01:10:22] [Server thread/INFO]: <1ottsco> when is the 15 minute marker
+[01:10:30] [Server thread/INFO]: seanm105 has made the advancement [Suit Up]
+[01:10:30] [Server thread/INFO]: YungSpesh has made the advancement [Acquire Hardware]
+[01:10:35] [Server thread/INFO]: <Dunkersplatt> iut's over
+[01:10:43] [Server thread/WARN]: Fetching packet for removed entity aqd['Experience Orb'/25937, l='ServerLevel[world]', x=385.44, y=12.96, z=228.51]
+[01:11:03] [Server thread/INFO]: 1ottsco has made the advancement [Not Today, Thank You]
+[01:11:47] [Server thread/INFO]: YungSpesh has made the advancement [Suit Up]
+[01:11:52] [Server thread/INFO]: <Dunkersplatt> except for jody
+[01:11:56] [Server thread/INFO]: <Dunkersplatt> she can join whenever
+[01:12:01] [Server thread/INFO]: <Dunkersplatt> (shes coming)_
+[01:12:13] [Server thread/INFO]: <belundun> she is?
+[01:12:18] [Server thread/INFO]: <Dunkersplatt> yeah lolol
+[01:12:27] [Server thread/INFO]: <belundun> awk
+[01:12:41] [User Authenticator #16/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[01:12:41] [Server thread/INFO]: Shananalovesdem[/71.105.160.25:50598] logged in with entity id 27892 at (160.5, 254.0, 160.5)
+[01:12:41] [Server thread/INFO]: Shananalovesdem joined the game
+[01:12:47] [Server thread/INFO]: Shananalovesdem fell from a high place
+[01:12:47] [Server thread/INFO]: [@: Set Shananalovesdem's game mode to Spectator Mode]
+[01:12:52] [Server thread/INFO]: <ToaNuparu> gg
+[01:12:57] [Server thread/INFO]: <belundun> lol
+[01:13:04] [Server thread/INFO]: [Dunkersplatt: Set [Deaths] for Shananalovesdem to 0]
+[01:13:09] [Server thread/INFO]: <Dunkersplatt> good to tp jody to bqiao?
+[01:13:13] [Server thread/INFO]: <belundun> yes
+[01:13:15] [Server thread/INFO]: <belundun> ty
+[01:13:29] [Server thread/INFO]: [Dunkersplatt: Set Shananalovesdem's game mode to Survival Mode]
+[01:13:32] [Server thread/INFO]: [Dunkersplatt: Teleported Shananalovesdem to belundun]
+[01:13:35] [Server thread/INFO]: Shananalovesdem has made the advancement [Acquire Hardware]
+[01:13:56] [Server thread/INFO]: Shananalovesdem has made the advancement [Isn't It Iron Pick]
+[01:14:01] [Server thread/INFO]: [Dunkersplatt: Added Shananalovesdem to team [husky]]
+[01:14:20] [Server thread/INFO]: Shananalovesdem has made the advancement [Stone Age]
+[01:14:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Cobblestone'/29924, l='ServerLevel[world]', x=376.88, y=12.00, z=303.71]
+[01:15:13] [Server thread/INFO]: ToaNuparu has made the advancement [Isn't It Iron Pick]
+[01:15:20] [Server thread/INFO]: ToaNuparu has made the advancement [Diamonds!]
+[01:15:27] [Server thread/INFO]: brassline has made the advancement [Monster Hunter]
+[01:15:58] [Server thread/INFO]: Tran_1230 has made the advancement [Hot Stuff]
+[01:16:14] [Server thread/INFO]: St33n3r has made the advancement [Diamonds!]
+[01:16:43] [Server thread/INFO]: belundun has made the advancement [Ice Bucket Challenge]
+[01:18:15] [Server thread/INFO]: mikecherry has made the advancement [Hot Stuff]
+[01:19:06] [Server thread/INFO]: Tran_1230 has made the advancement [We Need to Go Deeper]
+[01:19:55] [Server thread/INFO]: mikecherry has made the advancement [Monster Hunter]
+[01:20:13] [Server thread/INFO]: Shananalovesdem has made the advancement [Monster Hunter]
+[01:20:21] [Server thread/INFO]: Tran_1230 was burnt to a crisp whilst fighting Ghast
+[01:20:21] [Server thread/INFO]: [@: Set Tran_1230's game mode to Spectator Mode]
+[01:20:25] [Server thread/INFO]: <1ottsco> gg
+[01:20:29] [Server thread/INFO]: <ToaNuparu> gg
+[01:20:30] [Server thread/INFO]: <Dunkersplatt> gg :(
+[01:20:38] [Server thread/INFO]: <Tran_1230> I should have never fought it :(
+[01:20:45] [Server thread/INFO]: <Tran_1230> it was ignoring me
+[01:20:47] [Server thread/INFO]: Shananalovesdem has made the advancement [Suit Up]
+[01:20:56] [Server thread/INFO]: <Tran_1230> and then it moved out of range of my bow gg
+[01:20:58] [Server thread/INFO]: Tran_1230 lost connection: Disconnected
+[01:20:58] [Server thread/INFO]: Tran_1230 left the game
+[01:21:25] [Server thread/INFO]: mrdagger17 has made the advancement [The Parrots and the Bats]
+[01:21:43] [Server thread/INFO]: Shananalovesdem has made the advancement [Hot Stuff]
+[01:21:44] [Server thread/INFO]: YungSpesh has made the advancement [Isn't It Iron Pick]
+[01:22:21] [Server thread/INFO]: belundun has made the advancement [Enchanter]
+[01:23:40] [Server thread/INFO]: Shananalovesdem has made the advancement [Enchanter]
+[01:24:04] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[01:24:04] [Server thread/INFO]: 1ottsco left the game
+[01:24:08] [Server thread/INFO]: <Dunkersplatt> gg
+[01:24:11] [Server thread/INFO]: St33n3r has made the advancement [Not Today, Thank You]
+[01:25:51] [User Authenticator #17/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[01:25:52] [Server thread/INFO]: 1ottsco[/73.154.246.212:58422] logged in with entity id 37860 at (30.484993827324505, 71.0, -470.0614546184479)
+[01:25:52] [Server thread/INFO]: 1ottsco joined the game
+[01:25:56] [Server thread/INFO]: <belundun> wb
+[01:26:39] [Server thread/INFO]: seanm105 has made the advancement [Not Today, Thank You]
+[01:26:52] [Server thread/INFO]: seanm105 has made the advancement [Monster Hunter]
+[01:27:29] [Server thread/INFO]: YungSpesh has made the advancement [Hot Stuff]
+[01:27:40] [Server thread/INFO]: seanm105 has made the advancement [The Parrots and the Bats]
+[01:28:07] [Server thread/INFO]: mrdagger17 has made the advancement [Monster Hunter]
+[01:28:34] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[01:28:34] [Server thread/INFO]: 1ottsco left the game
+[01:28:38] [Server thread/INFO]: brassline has made the advancement [Not Today, Thank You]
+[01:30:49] [Server thread/INFO]: Shananalovesdem has made the advancement [Diamonds!]
+[01:31:12] [Server thread/INFO]: seanm105 has made the advancement [Diamonds!]
+[01:32:50] [Server thread/INFO]: Shananalovesdem has made the advancement [Not Today, Thank You]
+[01:33:40] [Server thread/INFO]: mrdagger17 has made the advancement [Suit Up]
+[01:33:49] [User Authenticator #18/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[01:33:49] [Server thread/INFO]: 1ottsco[/73.154.246.212:45100] logged in with entity id 42316 at (8.284398482939052, 67.0, -458.6159097475852)
+[01:33:49] [Server thread/INFO]: 1ottsco joined the game
+[01:33:53] [Server thread/INFO]: <Dunkersplatt> welcome
+[01:34:03] [Server thread/INFO]: brassline has made the advancement [Suit Up]
+[01:34:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Cobblestone'/42510, l='ServerLevel[world]', x=377.57, y=12.00, z=262.13]
+[01:34:32] [Server thread/INFO]: <1ottsco> did jody join after 15 mins?
+[01:34:39] [Server thread/INFO]: <Dunkersplatt> i used veto power
+[01:34:41] [Server thread/INFO]: ToaNuparu has made the advancement [Suit Up]
+[01:35:02] [Server thread/INFO]: YungSpesh has made the advancement [Diamonds!]
+[01:35:09] [Server thread/INFO]: <1ottsco> but my whole game plan was based off of brandon being alone!
+[01:35:12] [Server thread/INFO]: mrdagger17 has made the advancement [Not Today, Thank You]
+[01:35:21] [Server thread/INFO]: <Dunkersplatt> ye
+[01:35:24] [Server thread/INFO]: <Dunkersplatt> lol im sorry
+[01:36:34] [Server thread/INFO]: ToaNuparu has made the advancement [Monster Hunter]
+[01:38:10] [Server thread/INFO]: YungSpesh has made the advancement [Ice Bucket Challenge]
+[01:39:06] [Server thread/INFO]: mikecherry has made the advancement [Take Aim]
+[01:39:18] [Server thread/INFO]: YungSpesh has made the advancement [Enchanter]
+[01:39:30] [Server thread/INFO]: Dunkersplatt has made the advancement [Enchanter]
+[01:40:19] [Server thread/INFO]: mikecherry fell from a high place
+[01:40:19] [Server thread/INFO]: [@: Set mikecherry's game mode to Spectator Mode]
+[01:40:25] [Server thread/INFO]: <seanm105> that was my kill
+[01:40:28] [Server thread/INFO]: <1ottsco> gg
+[01:40:29] [Server thread/INFO]: <seanm105> i pushed him
+[01:40:30] [Server thread/INFO]: <YungSpesh> gg
+[01:40:32] [Server thread/INFO]: <mikecherry> absollutely his kill
+[01:40:34] [Server thread/INFO]: <Dunkersplatt> gg
+[01:40:36] [Server thread/INFO]: <mikecherry> ggs
+[01:40:39] [Server thread/INFO]: <seanm105> gg
+[01:40:39] [Server thread/INFO]: <Dunkersplatt> got it for sean
+[01:40:45] [Server thread/INFO]: <Dunkersplatt> actually the game already registered it :)
+[01:40:50] [Server thread/INFO]: <mikecherry> nice
+[01:41:02] [Server thread/INFO]: <Dunkersplatt> gg
+[01:42:13] [Server thread/INFO]: St33n3r has made the advancement [Suit Up]
+[01:42:25] [Server thread/INFO]: St33n3r has made the advancement [Enchanter]
+[01:42:39] [Server thread/INFO]: Dunkersplatt has made the advancement [Monster Hunter]
+[01:42:57] [Server thread/INFO]: brassline has made the advancement [Enchanter]
+[01:49:28] [Server thread/INFO]: Dunkersplatt has made the advancement [Diamonds!]
+[01:49:39] [Server thread/INFO]: mrdagger17 has made the advancement [Diamonds!]
+[01:49:58] [Server thread/INFO]: seanm105 has made the advancement [Hot Stuff]
+[01:51:52] [Server thread/INFO]: mikecherry lost connection: Disconnected
+[01:51:52] [Server thread/INFO]: mikecherry left the game
+[01:51:55] [User Authenticator #19/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[01:51:55] [Server thread/INFO]: mikecherry[/71.58.20.82:49820] logged in with entity id 53440 at (-99.53568935260283, 24.854958237069397, -355.448846147505)
+[01:51:55] [Server thread/INFO]: mikecherry joined the game
+[01:52:12] [Server thread/WARN]: mikecherry moved too quickly! 8.21245402697869,3.750000149011413,-4.580700615556168
+[01:53:10] [Server thread/INFO]: YungSpesh has made the advancement [Not Today, Thank You]
+[01:53:57] [Server thread/INFO]: 1ottsco has made the advancement [Take Aim]
+[01:54:07] [Server thread/INFO]: seanm105 was slain by 1ottsco
+[01:54:07] [Server thread/INFO]: [@: Set seanm105's game mode to Spectator Mode]
+[01:54:12] [Server thread/INFO]: <Dunkersplatt> gg
+[01:54:13] [Server thread/WARN]: seanm105 moved too quickly! 283.7536479413928,210.103578293248,517.8000000119209
+[01:55:05] [Server thread/INFO]: mrdagger17 has made the advancement [Ol' Betsy]
+[01:55:05] [Server thread/INFO]: mrdagger17 has made the advancement [Take Aim]
+[01:55:20] [Server thread/INFO]: 1ottsco was slain by Wolf
+[01:55:20] [Server thread/INFO]: [@: Set 1ottsco's game mode to Spectator Mode]
+[01:55:25] [Server thread/INFO]: <Dunkersplatt> gg
+[01:55:31] [Server thread/INFO]: <Dunkersplatt> wowwww
+[01:55:39] [Server thread/INFO]: <Dunkersplatt> i'll have to change some code now cause of that
+[01:55:51] [Server thread/INFO]: <seanm105> what was wrong with that
+[01:55:56] [Server thread/INFO]: <Dunkersplatt> nada
+[01:56:15] [Server thread/INFO]: <Dunkersplatt> so here's an edge case we haven't considered yet lol
+[01:56:19] [Server thread/INFO]: <Dunkersplatt> who tamed the dog
+[01:56:27] [Server thread/INFO]: <1ottsco> sean i beilevie
+[01:56:38] [Server thread/INFO]: <seanm105> conrad and I tamed the dogs together
+[01:56:45] [Server thread/INFO]: <seanm105> they were our dogs
+[01:56:54] [Server thread/INFO]: <Dunkersplatt> someones gotta get the kill
+[01:56:57] [Server thread/INFO]: <Dunkersplatt> or maybe not?
+[01:57:04] [Server thread/INFO]: <seanm105> give it to conrad
+[01:57:08] [Server thread/INFO]: <seanm105> I was dead
+[01:57:09] [Server thread/INFO]: <1ottsco> i think it should be sean
+[01:57:12] [Server thread/WARN]: 1ottsco moved too quickly! 9.992864487417819,0.0,4.449132760465119
+[01:57:16] [Server thread/INFO]: <Dunkersplatt> let's talk after :)
+[01:57:20] [Server thread/INFO]: <1ottsco> they were agro on me because i killed sean
+[01:57:22] [Server thread/INFO]: <seanm105> i had 4 dogs, conrad had 2?
+[01:57:24] [Server thread/INFO]: <Shananalovesdem> no continue talking!
+[01:57:26] [Server thread/INFO]: <1ottsco> and they were next to sean
+[01:57:42] [Server thread/INFO]: <Dunkersplatt> atm it doesn't seem definite enough to assign to someone
+[01:57:44] [Server thread/INFO]: <seanm105> also, i tried to shield at the beginning of the fight but instead opened a chest :/
+[01:57:44] [Server thread/INFO]: <Dunkersplatt> but we'll talk about it
+[01:58:16] [Server thread/INFO]: mikecherry lost connection: Disconnected
+[01:58:16] [Server thread/INFO]: mikecherry left the game
+[01:58:52] [Server thread/INFO]: mrdagger17 has made the advancement [Ice Bucket Challenge]
+[01:59:35] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[01:59:35] [Server thread/INFO]: 1ottsco left the game
+[01:59:46] [Server thread/INFO]: <seanm105> you know what would have been really funny?
+[01:59:51] [Server thread/INFO]: St33n3r has made the advancement [Hot Stuff]
+[01:59:52] [Server thread/INFO]: <seanm105> if wolfzx99 was in game
+[01:59:57] [Server thread/INFO]: brassline has made the advancement [Hot Stuff]
+[01:59:58] [Server thread/INFO]: <belundun> anyone laggy?
+[02:00:02] [Server thread/INFO]: <Dunkersplatt> no
+[02:00:07] [Server thread/INFO]: <Dunkersplatt> and lol @ sean it woulda bene his
+[02:00:18] [Server thread/INFO]: <belundun> weird item glitch
+[02:00:24] [Server thread/INFO]: <Dunkersplatt> relog
+[02:00:50] [Server thread/INFO]: Dunkersplatt has made the advancement [Not Today, Thank You]
+[02:04:29] [Server thread/INFO]: mrdagger17 has made the advancement [Enchanter]
+[02:06:07] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at zg$1.run(SourceFile:89) [server_16_2.jar:?]
+[02:06:07] [Server thread/INFO]: Stopping server
+[02:06:07] [Server thread/INFO]: Saving players
+[02:06:07] [Server thread/INFO]: mrdagger17 lost connection: Server closed
+[02:06:07] [Server thread/INFO]: mrdagger17 left the game
+[02:06:07] [Server thread/INFO]: St33n3r lost connection: Internal Exception: java.lang.StackOverflowError
+[02:06:07] [Server thread/INFO]: St33n3r left the game
+[02:06:07] [Server thread/INFO]: brassline lost connection: Internal Exception: java.lang.StackOverflowError
+[02:06:07] [Server thread/INFO]: brassline left the game
+[02:06:07] [Server thread/INFO]: seanm105 lost connection: Internal Exception: java.lang.StackOverflowError
+[02:06:07] [Server thread/INFO]: seanm105 left the game
+[02:06:07] [Server thread/INFO]: Saving worlds
+[02:06:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:06:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:06:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:06:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

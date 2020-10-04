@@ -4,6 +4,7 @@ spreadplayers 0 0 300 500 true @a
 #Inventory 
 clear @a
 gamerule keepInventory false
+scoreboard players set @a health 20
 
 # Keep them safe
 gamemode adventure @a

@@ -39,6 +39,7 @@ public class Stats {
 		Map<String,Integer> killedBy = new HashMap<String,Integer>();
 		
 		int numKills = 0;
+		int numBowKills = 0;
 		int numPvpDeaths = 0;
 		int numDeaths = 0;
 		
@@ -53,6 +54,10 @@ public class Stats {
 				int oldVal = killed.get(victim);
 				int newVal = oldVal + 1;
 				killed.put(victim, newVal);
+				
+				if (kill.getMethod().equals("shot")) {
+					numBowKills++;
+				}
 			}
 		}
 		if (pvpDeaths != null) {
@@ -95,6 +100,7 @@ public class Stats {
 		p.setUsername(username);
 		p.setNickname(nickname);
 		p.setKills(numKills);
+		p.setBowKills(numBowKills);
 		p.setPvpDeaths(numPvpDeaths);
 		p.setTotalDeaths(numDeaths);
 		p.setGamesPlayed(gamesPlayed);
@@ -184,6 +190,20 @@ public class Stats {
 			
 			Performance p = new Performance(player, uhc, numKills, totalPlayers);
 			performances.add(p);
+		}
+		
+		return performances;
+	}
+	
+	public List<Performance> performancesByPlayer(String player) {
+		List<Performance> performances = new ArrayList<Performance>();
+		
+		List<Performance> allPerformances = allPerformances();
+		
+		for (Performance p : allPerformances) {
+			if (p.getPlayer().equals(player)) {
+				performances.add(p);
+			}
 		}
 		
 		return performances;

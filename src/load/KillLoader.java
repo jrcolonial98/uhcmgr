@@ -29,6 +29,7 @@ public class KillLoader {
 			
 			kill.setMethod(method);
 			
+			System.out.println(timestamp);
 			kill.setTimestamp(Time.fromString(timestamp));
 			
 			kill.setComment(comment);

@@ -28,7 +28,7 @@ public class LoadAll {
 
 		
 		List<Performance> performances = stats.allPerformances();
-		Comparator<Performance> c1 = new Performance.RelativeComparator();
+		Comparator<Performance> c1 = new Performance.AbsoluteComparator();
 		Collections.sort(performances, c1);
 		
 		List<PlayerProfile> profiles = stats.allPlayerProfiles();
@@ -36,12 +36,18 @@ public class LoadAll {
 		Collections.sort(profiles, c2);
 		
 		for (int i = 0; i < profiles.size(); i++) {
-			//Performance p = performances.get(performances.size() - 1 - i);
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			//PlayerProfile p = profiles.get(profiles.size() - 1 - i);
 			System.out.println(p.getUsername() + ": " + p.getKills());
 		}
 		
-		System.out.println(stats.playerProfile("1ottsco"));
+		System.out.println(stats.playerProfile("Dunkersplatt"));
+		
+		List<Performance> playerPerformances = stats.performancesByPlayer("XmasGoose");
+		
+		for (Performance p : playerPerformances) {
+			System.out.println(p.toString());
+		}
 		
 		Map<String,Integer> elos = elo.currentElos();
 		for (String name : elos.keySet()) {

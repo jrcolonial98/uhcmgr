@@ -1,0 +1,1005 @@
+[00:36:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[00:36:21] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:36:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:36:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:36:21] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:36:21] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:36:21] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[00:36:22] [Worker-Main-4/INFO]: Loaded 7 recipes
+[00:36:23] [Worker-Main-4/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[00:36:23] [Worker-Main-4/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[00:36:23] [Worker-Main-4/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[00:36:23] [Worker-Main-4/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[00:36:23] [Worker-Main-4/INFO]: Loaded 927 advancements
+[00:36:24] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[00:36:24] [Server thread/INFO]: Loading properties
+[00:36:24] [Server thread/INFO]: Default game type: ADVENTURE
+[00:36:24] [Server thread/INFO]: Generating keypair
+[00:36:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:36:24] [Server thread/INFO]: Using epoll channel type
+[00:36:24] [Server thread/INFO]: Preparing level "world"
+[00:36:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:36:27] [User Authenticator #1/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[00:36:27] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:27] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 0%
+[00:36:28] [Server thread/INFO]: Preparing spawn area: 59%
+[00:36:28] [Server thread/INFO]: Time elapsed: 3675 ms
+[00:36:28] [Server thread/INFO]: Done (3.789s)! For help, type "help"
+[00:36:28] [User Authenticator #2/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:36:29] [Server thread/INFO]: belundun[/75.134.3.124:51103] logged in with entity id 13 at (161.29923363197875, 252.0, 153.80969352009924)
+[00:36:29] [Server thread/INFO]: belundun joined the game
+[00:36:29] [Server thread/INFO]: Wolfzx99[/71.11.28.234:50313] logged in with entity id 14 at (168.23073923993803, 246.0, 154.36444376623928)
+[00:36:29] [Server thread/INFO]: Wolfzx99 joined the game
+[00:36:34] [User Authenticator #3/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[00:36:34] [Server thread/INFO]: seanm105[/98.227.232.67:52247] logged in with entity id 15 at (166.25728001667312, 246.0, 154.6989692136974)
+[00:36:34] [Server thread/INFO]: seanm105 joined the game
+[00:36:40] [User Authenticator #4/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[00:36:40] [Server thread/INFO]: Dunkersplatt[/67.185.20.60:64905] logged in with entity id 16 at (170.49602399744748, 256.0, 169.74138847987572)
+[00:36:40] [Server thread/INFO]: Dunkersplatt joined the game
+[00:36:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ad25b34[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.226.219:53568) lost connection: Disconnected
+[00:36:41] [Server thread/INFO]: <Wolfzx99> fight me, belundun
+[00:36:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@5856e2cb[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.226.219:53572) lost connection: Disconnected
+[00:36:46] [User Authenticator #5/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[00:36:46] [Server thread/INFO]: mikecherry[/71.58.20.82:56376] logged in with entity id 17 at (169.11222303206185, 246.0, 153.79886057848782)
+[00:36:46] [Server thread/INFO]: mikecherry joined the game
+[00:36:47] [User Authenticator #6/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[00:36:47] [Server thread/INFO]: Shananalovesdem[/71.105.160.25:54313] logged in with entity id 18 at (164.59095771002103, 246.0, 155.4511697554038)
+[00:36:47] [Server thread/INFO]: Shananalovesdem joined the game
+[00:36:47] [User Authenticator #7/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[00:36:47] [Server thread/INFO]: ToaNuparu[/73.191.221.212:51334] logged in with entity id 19 at (168.2904887947454, 246.0, 151.30000001192093)
+[00:36:47] [Server thread/INFO]: ToaNuparu joined the game
+[00:36:49] [User Authenticator #8/INFO]: UUID of player xcatieladyx is c43cb533-27d8-4eae-8071-83e83204c43a
+[00:36:49] [Server thread/INFO]: xcatieladyx[/71.11.29.89:57721] logged in with entity id 20 at (154.08661449001647, 246.0, 158.0878135259895)
+[00:36:49] [Server thread/INFO]: xcatieladyx joined the game
+[00:36:50] [User Authenticator #9/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[00:36:50] [Server thread/INFO]: mmnickymm[/209.6.14.100:54182] logged in with entity id 21 at (157.87439670137357, 246.0, 152.38100720560942)
+[00:36:50] [Server thread/INFO]: mmnickymm joined the game
+[00:36:54] [Server thread/INFO]: belundun was slain by mikecherry
+[00:36:57] [Server thread/INFO]: <mikecherry> yes
+[00:36:58] [User Authenticator #10/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[00:36:58] [Server thread/INFO]: YungSpesh[/68.13.69.169:53252] logged in with entity id 24 at (166.29241403099226, 248.36075, 154.81876262415292)
+[00:36:58] [Server thread/INFO]: YungSpesh joined the game
+[00:36:59] [User Authenticator #11/INFO]: UUID of player IntenseYogurt is 13a16db0-6016-414a-803a-5126beda9fc3
+[00:36:59] [Server thread/INFO]: IntenseYogurt[/68.197.217.146:53117] logged in with entity id 25 at (149.70507310061225, 256.0, 171.29369903381263)
+[00:36:59] [Server thread/INFO]: IntenseYogurt joined the game
+[00:37:00] [User Authenticator #12/INFO]: UUID of player Tran_1230 is 598c5496-a8a7-407a-8b7e-1abcd58c3014
+[00:37:00] [Server thread/INFO]: Tran_1230[/216.16.211.126:57336] logged in with entity id 26 at (167.71869558279997, 246.41999998688698, 151.30000001192093)
+[00:37:00] [Server thread/INFO]: Tran_1230 joined the game
+[00:37:01] [User Authenticator #13/INFO]: UUID of player icedrake25 is 351df35b-8ad1-41ec-85f8-4ba9d0dc0e1e
+[00:37:01] [Server thread/INFO]: icedrake25[/75.134.234.159:58796] logged in with entity id 27 at (160.5, 254.0, 160.5)
+[00:37:01] [Server thread/INFO]: icedrake25 joined the game
+[00:37:04] [User Authenticator #14/INFO]: UUID of player Albertc5555 is 7a1791f0-2716-4b1c-b027-a1493e10c8a3
+[00:37:04] [Server thread/INFO]: Albertc5555[/173.63.193.39:53901] logged in with entity id 28 at (166.6052498015281, 248.4952008770059, 155.08181012226495)
+[00:37:04] [Server thread/INFO]: Albertc5555 joined the game
+[00:37:15] [Server thread/INFO]: mikecherry was slain by Tran_1230
+[00:37:16] [Server thread/INFO]: seanm105 was slain by ToaNuparu
+[00:37:17] [Server thread/INFO]: Albertc5555 was slain by Tran_1230
+[00:37:21] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[00:37:25] [Server thread/INFO]: ToaNuparu was slain by seanm105
+[00:37:44] [Server thread/INFO]: icedrake25 was slain by Wolfzx99
+[00:38:04] [User Authenticator #15/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:38:04] [Server thread/INFO]: St33n3r[/67.185.20.60:34846] logged in with entity id 39 at (163.70817116192757, 246.0, 158.16767173306326)
+[00:38:04] [Server thread/INFO]: St33n3r joined the game
+[00:38:06] [Server thread/INFO]: ToaNuparu was slain by seanm105
+[00:38:09] [Server thread/INFO]: mmnickymm was blown up by Creeper
+[00:38:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ae350a6[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.226.219:53682) lost connection: Disconnected
+[00:38:18] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[00:38:18] [Server thread/INFO]: Wolfzx99 left the game
+[00:38:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@17d42159[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.226.219:53694) lost connection: Disconnected
+[00:38:24] [User Authenticator #16/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:38:24] [Server thread/INFO]: Wolfzx99[/71.11.28.234:50329] logged in with entity id 45 at (167.76386871149396, 246.0, 167.03081566494598)
+[00:38:24] [Server thread/INFO]: Wolfzx99 joined the game
+[00:38:33] [Server thread/INFO]: [Dunkersplatt: Added St33n3r to team [eagle]]
+[00:38:38] [Server thread/INFO]: icedrake25 was slain by St33n3r
+[00:38:41] [Server thread/INFO]: [Dunkersplatt: Added seanm105 to team [evil]]
+[00:38:41] [User Authenticator #17/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[00:38:41] [Server thread/INFO]: 1ottsco[/68.118.228.61:59990] logged in with entity id 47 at (151.9542163658769, 249.0, 155.38596187546406)
+[00:38:41] [Server thread/INFO]: 1ottsco joined the game
+[00:38:44] [Server thread/INFO]: [Dunkersplatt: Added IntenseYogurt to team [evil]]
+[00:38:52] [Server thread/INFO]: [Dunkersplatt: Added belundun to team [husky]]
+[00:38:55] [Server thread/INFO]: [Dunkersplatt: Added Shananalovesdem to team [husky]]
+[00:38:56] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:38:56] [Server thread/INFO]: belundun hit the ground too hard
+[00:39:01] [Server thread/INFO]: [Dunkersplatt: Added mmnickymm to team [hen]]
+[00:39:03] [User Authenticator #18/INFO]: UUID of player Meyeravi is f3beb405-3f37-49d6-b41d-d4f5894f58b8
+[00:39:03] [Server thread/INFO]: Meyeravi[/72.224.96.171:61910] logged in with entity id 51 at (160.6447185654479, 246.0, 153.88171592143865)
+[00:39:03] [Server thread/INFO]: Meyeravi joined the game
+[00:39:03] [Server thread/INFO]: <IntenseYogurt> bdan
+[00:39:04] [Server thread/INFO]: 1ottsco was slain by mmnickymm
+[00:39:06] [Server thread/INFO]: seanm105 was slain by mmnickymm
+[00:39:07] [Server thread/INFO]: mikecherry was slain by Wolfzx99
+[00:39:07] [Server thread/INFO]: <IntenseYogurt> conrad cant get on your g
+[00:39:09] [Server thread/WARN]: Wolfzx99 moved too quickly! 10.090913180696447,0.0,-1.6074043594764476
+[00:39:10] [User Authenticator #19/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[00:39:10] [Server thread/INFO]: mrdagger17[/141.126.226.219:53756] logged in with entity id 58 at (168.36428536897617, 248.1661092609382, 152.38708072351338)
+[00:39:10] [Server thread/INFO]: mrdagger17 joined the game
+[00:39:12] [Server thread/INFO]: <IntenseYogurt> has relaunched craft twice
+[00:39:17] [Server thread/INFO]: [Dunkersplatt: Added mikecherry to team [cherry]]
+[00:39:25] [Server thread/INFO]: Wolfzx99 was slain by seanm105
+[00:39:30] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [hen]]
+[00:39:34] [Server thread/INFO]: [Dunkersplatt: Added mrdagger17 to team [evil]]
+[00:39:38] [Server thread/INFO]: [Dunkersplatt: Added Meyeravi to team [eagle]]
+[00:39:39] [Server thread/INFO]: Wolfzx99 lost connection: Timed out
+[00:39:39] [Server thread/INFO]: Wolfzx99 left the game
+[00:39:39] [Server thread/WARN]: handleDisconnection() called twice
+[00:39:41] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[00:39:41] [Server thread/INFO]: mmnickymm left the game
+[00:39:42] [User Authenticator #20/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:39:42] [Server thread/INFO]: Wolfzx99[/71.11.28.234:50455] logged in with entity id 61 at (164.9007986120661, 246.0, 151.88480789531874)
+[00:39:42] [Server thread/INFO]: Wolfzx99 joined the game
+[00:39:48] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:39:51] [Server thread/INFO]: [Dunkersplatt: Added icedrake25 to team [husky]]
+[00:39:52] [Server thread/INFO]: YungSpesh was slain by Wolfzx99
+[00:39:53] [User Authenticator #21/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[00:39:53] [Server thread/INFO]: mmnickymm[/209.6.14.100:54344] logged in with entity id 66 at (164.6196860740744, 246.0, 168.745897081914)
+[00:39:53] [Server thread/INFO]: mmnickymm joined the game
+[00:39:56] [Server thread/INFO]: [Dunkersplatt: Added Albertc5555 to team [cherry]]
+[00:39:57] [Server thread/INFO]: mmnickymm was slain by 1ottsco
+[00:40:01] [Server thread/INFO]: <IntenseYogurt> where is DezbFrag to beat parkour
+[00:40:10] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:40:25] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:40:35] [Server thread/INFO]: Tran_1230 was slain by seanm105
+[00:40:41] [Server thread/INFO]: <Dunkersplatt> team beast needs a team boost
+[00:40:49] [Server thread/INFO]: St33n3r lost connection: Timed out
+[00:40:49] [Server thread/INFO]: St33n3r left the game
+[00:40:52] [Server thread/INFO]: mikecherry hit the ground too hard
+[00:41:06] [User Authenticator #22/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:41:06] [Server thread/INFO]: St33n3r[/67.185.20.60:34864] logged in with entity id 77 at (156.8290514474809, 246.0, 157.6391609627697)
+[00:41:06] [Server thread/INFO]: St33n3r joined the game
+[00:41:23] [Server thread/INFO]: Albertc5555 hit the ground too hard
+[00:42:02] [Server thread/INFO]: <Dunkersplatt> toa / tran where do you guys wanna go
+[00:42:03] [Server thread/INFO]: <Dunkersplatt> which team
+[00:42:05] [Server thread/INFO]: belundun hit the ground too hard
+[00:42:10] [Server thread/INFO]: <IntenseYogurt> put um on cherry ?
+[00:42:16] [Server thread/INFO]: <Dunkersplatt> cool with that?
+[00:42:16] [Server thread/INFO]: Meyeravi was slain by Wolfzx99
+[00:42:18] [Server thread/INFO]: <IntenseYogurt> oh i see there are two of two
+[00:42:19] [Server thread/INFO]: mmnickymm was slain by 1ottsco
+[00:42:19] [Server thread/INFO]: <ToaNuparu> I was on cherry last week
+[00:42:20] [Server thread/INFO]: <Dunkersplatt> @ toa / tran
+[00:42:20] [Server thread/INFO]: <mikecherry> cool with that
+[00:42:22] [Server thread/INFO]: Tran_1230 was slain by St33n3r
+[00:42:23] [Server thread/INFO]: <Dunkersplatt> ok
+[00:42:28] [Server thread/INFO]: <Dunkersplatt> and @ cherry lol
+[00:42:33] [Server thread/INFO]: <mikecherry> cool with toa
+[00:42:35] [Server thread/INFO]: [Dunkersplatt: Added ToaNuparu to team [cherry]]
+[00:42:38] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [cherry]]
+[00:42:50] [Server thread/INFO]: belundun was slain by mmnickymm
+[00:42:51] [Server thread/INFO]: mrdagger17 hit the ground too hard
+[00:43:03] [Server thread/INFO]: 1ottsco was slain by mmnickymm
+[00:43:15] [Server thread/INFO]: St33n3r was slain by Wolfzx99
+[00:43:26] [Server thread/INFO]: Shananalovesdem was slain by belundun
+[00:43:27] [Server thread/INFO]: xcatieladyx was slain by Wolfzx99
+[00:43:35] [Server thread/INFO]: icedrake25 was slain by Wolfzx99
+[00:43:37] [Server thread/INFO]: Wolfzx99 was slain by Shananalovesdem
+[00:43:43] [Server thread/INFO]: ToaNuparu was slain by seanm105
+[00:43:57] [Server thread/INFO]: Wolfzx99 was slain by Tran_1230
+[00:43:58] [Server thread/INFO]: <IntenseYogurt> mike
+[00:44:00] [Server thread/INFO]: <IntenseYogurt> this side
+[00:44:03] [Server thread/INFO]: mikecherry fell from a high place
+[00:44:06] [Server thread/INFO]: <IntenseYogurt> or not...
+[00:44:07] [Server thread/INFO]: belundun hit the ground too hard
+[00:44:23] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:44:35] [Server thread/INFO]: Wolfzx99 was slain by Tran_1230
+[00:44:43] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [husky]]
+[00:44:46] [Server thread/INFO]: [Dunkersplatt: Added mmnickymm to team [husky]]
+[00:45:01] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:45:24] [Server thread/INFO]: Tran_1230 was slain by Wolfzx99
+[00:45:48] [Server thread/INFO]: Albertc5555 was slain by mrdagger17
+[00:45:49] [Server thread/INFO]: <IntenseYogurt> No Meddi :(
+[00:46:02] [Server thread/INFO]: mikecherry was slain by seanm105
+[00:46:13] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:46:32] [Server thread/INFO]: Wolfzx99 was slain by ToaNuparu
+[00:46:35] [Server thread/INFO]: belundun was slain by mrdagger17
+[00:46:42] [Server thread/INFO]: Tran_1230 hit the ground too hard whilst trying to escape mrdagger17
+[00:46:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Golden Apple'/128, l='ServerLevel[world]', x=165.64, y=246.00, z=158.61]
+[00:46:48] [User Authenticator #23/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[00:46:48] [Server thread/INFO]: yuormomlol[/68.13.69.169:51720] logged in with entity id 130 at (160.5, 254.0, 160.5)
+[00:46:48] [Server thread/INFO]: yuormomlol joined the game
+[00:46:55] [Server thread/INFO]: Shananalovesdem was slain by mrdagger17
+[00:46:57] [Server thread/INFO]: [Dunkersplatt: Added yuormomlol to team [hen]]
+[00:46:58] [Server thread/INFO]: Wolfzx99 was slain by St33n3r
+[00:47:01] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:01] [Server thread/INFO]: yuormomlol lost connection: Flying is not enabled on this server
+[00:47:01] [Server thread/INFO]: yuormomlol left the game
+[00:47:01] [Server thread/INFO]: YungSpesh hit the ground too hard
+[00:47:10] [User Authenticator #24/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[00:47:10] [Server thread/INFO]: yuormomlol[/68.13.69.169:51722] logged in with entity id 136 at (160.5, 254.0, 160.5)
+[00:47:10] [Server thread/INFO]: yuormomlol joined the game
+[00:47:11] [Server thread/INFO]: Meyeravi was slain by seanm105
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/INFO]: St33n3r was slain by xcatieladyx
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:15] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:16] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/WARN]: yuormomlol was kicked for floating too long!
+[00:47:17] [Server thread/INFO]: yuormomlol lost connection: Flying is not enabled on this server
+[00:47:17] [Server thread/INFO]: yuormomlol left the game
+[00:47:21] [Server thread/INFO]: Wolfzx99 was slain by Shananalovesdem
+[00:47:22] [Server thread/INFO]: mikecherry hit the ground too hard
+[00:47:23] [User Authenticator #25/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[00:47:23] [Server thread/INFO]: yuormomlol[/68.13.69.169:51725] logged in with entity id 143 at (160.5, 254.0, 160.5)
+[00:47:23] [Server thread/INFO]: yuormomlol joined the game
+[00:47:27] [Server thread/INFO]: mmnickymm was slain by Wolfzx99
+[00:47:27] [Server thread/INFO]: [Dunkersplatt: Added yu to team [eagle]]
+[00:47:33] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:47:34] [Server thread/INFO]: [Dunkersplatt: Added yuormomlol to team [eagle]]
+[00:47:42] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:47:49] [Server thread/INFO]: xcatieladyx was slain by seanm105
+[00:48:00] [Server thread/INFO]: Meyeravi was slain by mrdagger17
+[00:48:00] [Server thread/INFO]: Wolfzx99 was slain by Shananalovesdem
+[00:48:02] [Server thread/INFO]: <IntenseYogurt> lmaoooo
+[00:48:09] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:48:15] [Server thread/INFO]: [IntenseYogurt: Teleported IntenseYogurt to mikecherry]
+[00:48:19] [Server thread/INFO]: Wolfzx99 was slain by Shananalovesdem
+[00:48:23] [Server thread/INFO]: <Wolfzx99> hacks
+[00:48:27] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:48:28] [Server thread/INFO]: mikecherry fell from a high place
+[00:48:30] [Server thread/INFO]: Tran_1230 was slain by seanm105
+[00:48:31] [Server thread/INFO]: 1ottsco was slain by Shananalovesdem
+[00:48:40] [Server thread/INFO]: [Dunkersplatt: Added yuormomlol to team [hen]]
+[00:48:40] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:48:42] [Server thread/INFO]: Shananalovesdem was slain by mrdagger17
+[00:48:45] [Server thread/INFO]: Albertc5555 was slain by seanm105
+[00:48:46] [Server thread/INFO]: [Dunkersplatt: Added yuormomlol to team [hen]]
+[00:48:51] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [hen]]
+[00:48:51] [Server thread/INFO]: Wolfzx99 was slain by seanm105
+[00:48:58] [Server thread/INFO]: <IntenseYogurt> DUDE
+[00:49:03] [Server thread/INFO]: [Dunkersplatt: Added mmnickymm to team [hen]]
+[00:49:07] [Server thread/INFO]: [Dunkersplatt: Added yuormomlol to team [hen]]
+[00:49:09] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:49:11] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:49:11] [Server thread/INFO]: [Dunkersplatt: Added YungSpesh to team [hen]]
+[00:49:11] [Server thread/INFO]: <mmnickymm> gank team evil
+[00:49:15] [Server thread/INFO]: mrdagger17 was slain by Tran_1230
+[00:49:21] [Server thread/INFO]: mmnickymm was slain by Wolfzx99
+[00:49:22] [Server thread/INFO]: belundun was slain by seanm105
+[00:49:30] [Server thread/INFO]: <IntenseYogurt> YI
+[00:49:30] [Server thread/INFO]: Wolfzx99 was slain by 1ottsco
+[00:49:33] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[00:49:33] [Server thread/INFO]: Wolfzx99 left the game
+[00:49:33] [Server thread/INFO]: seanm105 was slain by xcatieladyx
+[00:49:43] [Server thread/INFO]: St33n3r was slain by xcatieladyx
+[00:49:50] [Server thread/INFO]: seanm105 was slain by mmnickymm
+[00:49:58] [Server thread/INFO]: <IntenseYogurt> lmao
+[00:50:01] [Server thread/INFO]: mikecherry fell from a high place
+[00:50:02] [Server thread/WARN]: Fetching packet for removed entity bbg['Golden Apple'/186, l='ServerLevel[world]', x=165.76, y=246.00, z=152.51]
+[00:50:06] [Server thread/INFO]: YungSpesh was slain by yuormomlol
+[00:50:06] [Server thread/INFO]: 1ottsco was slain by seanm105
+[00:50:13] [User Authenticator #26/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:50:13] [Server thread/INFO]: Wolfzx99[/71.11.28.234:50530] logged in with entity id 191 at (160.4400251621494, 246.0, 160.63465176648293)
+[00:50:13] [Server thread/INFO]: Wolfzx99 joined the game
+[00:50:14] [Server thread/INFO]: mrdagger17 was slain by mmnickymm
+[00:50:18] [Server thread/INFO]: <Dunkersplatt> spreading in a sec
+[00:50:20] [Server thread/INFO]: [Dunkersplatt: Set the world border to 1000.0 blocks wide]
+[00:50:21] [Server thread/INFO]: yuormomlol fell out of the world
+[00:50:21] [Server thread/INFO]: [YungSpesh: Killed yuormomlol]
+[00:50:26] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:50:27] [Server thread/WARN]: ToaNuparu moved too quickly! -4.483598276406639,8.0,9.199999988079071
+[00:50:30] [Server thread/INFO]: belundun was slain by Wolfzx99
+[00:50:37] [Server thread/INFO]: <Dunkersplatt> team calls
+[00:50:45] [Server thread/INFO]: [IntenseYogurt: Teleported mikecherry to IntenseYogurt]
+[00:50:49] [Server thread/INFO]: <IntenseYogurt> redeem
+[00:50:54] [Server thread/INFO]: ToaNuparu was slain by seanm105
+[00:50:54] [Server thread/INFO]: mmnickymm was slain by Wolfzx99
+[00:51:05] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:51:06] [Server thread/INFO]: St33n3r was slain by seanm105
+[00:51:12] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:51:15] [Server thread/INFO]: Wolfzx99 was slain by Tran_1230
+[00:51:21] [Server thread/INFO]: St33n3r lost connection: Timed out
+[00:51:21] [Server thread/INFO]: St33n3r left the game
+[00:51:28] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:51:38] [User Authenticator #27/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:51:38] [Server thread/INFO]: St33n3r[/67.185.20.60:34916] logged in with entity id 216 at (155.47112411530796, 246.0, 160.20825652779362)
+[00:51:38] [Server thread/INFO]: St33n3r joined the game
+[00:51:43] [Server thread/INFO]: xcatieladyx was slain by seanm105
+[00:51:46] [Server thread/INFO]: Albertc5555 hit the ground too hard
+[00:51:48] [Server thread/INFO]: Wolfzx99 was slain by Shananalovesdem
+[00:51:49] [Server thread/INFO]: [IntenseYogurt: Teleported belundun to IntenseYogurt]
+[00:51:51] [Server thread/INFO]: belundun fell from a high place
+[00:51:55] [Server thread/INFO]: <IntenseYogurt> ial
+[00:51:55] [Server thread/INFO]: <Dunkersplatt> meyer wya
+[00:52:02] [Server thread/INFO]: mrdagger17 was slain by mmnickymm
+[00:52:09] [Server thread/INFO]: Meyeravi was slain by seanm105
+[00:52:15] [Server thread/INFO]: Wolfzx99 was slain by Tran_1230
+[00:52:16] [Server thread/INFO]: yuormomlol was slain by Tran_1230
+[00:52:27] [Server thread/INFO]: mikecherry was slain by seanm105
+[00:52:36] [Server thread/INFO]: YungSpesh was slain by mrdagger17
+[00:52:37] [Server thread/INFO]: <Dunkersplatt> ready all?
+[00:52:40] [Server thread/INFO]: ToaNuparu was slain by Wolfzx99
+[00:52:40] [Server thread/INFO]: icedrake25 was slain by seanm105
+[00:52:42] [Server thread/INFO]: <mmnickymm> ye.
+[00:52:46] [Server thread/INFO]: mmnickymm was slain by 1ottsco
+[00:52:47] [Server thread/INFO]: <Dunkersplatt> k
+[00:52:49] [Server thread/INFO]: Meyeravi was slain by St33n3r
+[00:52:50] [Server thread/INFO]: [IntenseYogurt: Set own game mode to Survival Mode]
+[00:52:53] [Server thread/INFO]: mrdagger17 was slain by Shananalovesdem
+[00:52:54] [Server thread/INFO]: [Dunkersplatt: Executed 10 commands from function 'start:waitspread']
+[00:52:54] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at yv.b(SourceFile:202) ~[server16.jar:?]
+	at yp.a(SourceFile:939) ~[server16.jar:?]
+	at zb.a(SourceFile:467) ~[server16.jar:?]
+	at zv.a(SourceFile:867) ~[server16.jar:?]
+	at rs.a(SourceFile:122) ~[server16.jar:?]
+	at rs$b.a(SourceFile:18) ~[server16.jar:?]
+	at nk.a(SourceFile:21) ~[server16.jar:?]
+	at uy.run(SourceFile:18) ~[server16.jar:?]
+	at amn.c(SourceFile:144) ~[server16.jar:?]
+	at amr.c(SourceFile:23) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:763) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:154) ~[server16.jar:?]
+	at amn.x(SourceFile:118) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.aZ(SourceFile:745) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.x(SourceFile:739) ~[server16.jar:?]
+	at amn.bj(SourceFile:103) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:723) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:676) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[server16.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[00:52:54] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at yv.b(SourceFile:202) ~[server16.jar:?]
+	at yp.a(SourceFile:939) ~[server16.jar:?]
+	at zb.a(SourceFile:467) ~[server16.jar:?]
+	at zv.a(SourceFile:867) ~[server16.jar:?]
+	at rs.a(SourceFile:122) ~[server16.jar:?]
+	at rs$b.a(SourceFile:18) ~[server16.jar:?]
+	at nk.a(SourceFile:21) ~[server16.jar:?]
+	at uy.run(SourceFile:18) ~[server16.jar:?]
+	at amn.c(SourceFile:144) ~[server16.jar:?]
+	at amr.c(SourceFile:23) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:763) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:154) ~[server16.jar:?]
+	at amn.x(SourceFile:118) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.aZ(SourceFile:745) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.x(SourceFile:739) ~[server16.jar:?]
+	at amn.bj(SourceFile:103) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:723) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:676) ~[server16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[server16.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[00:52:59] [Server thread/INFO]: <mrdagger17> yes
+[00:53:02] [Server thread/INFO]: <Dunkersplatt> g?
+[00:53:03] [Server thread/INFO]: <mikecherry> im in bedrock
+[00:53:08] [Server thread/INFO]: St33n3r lost connection: Timed out
+[00:53:08] [Server thread/INFO]: St33n3r left the game
+[00:53:11] [Server thread/INFO]: mrdagger17 lost connection: Timed out
+[00:53:11] [Server thread/INFO]: mrdagger17 left the game
+[00:53:12] [Server thread/INFO]: <mikecherry> 4 of us are
+[00:53:13] [Server thread/INFO]: <IntenseYogurt> bdan
+[00:53:16] [Server thread/INFO]: <Dunkersplatt> ok
+[00:53:19] [User Authenticator #28/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[00:53:19] [Server thread/INFO]: mrdagger17[/141.126.226.219:53908] logged in with entity id 1213 at (160.83004402137513, 246.0, 154.8078819965835)
+[00:53:19] [Server thread/INFO]: mrdagger17 joined the game
+[00:53:20] [Server thread/INFO]: <IntenseYogurt> you need to remove all golden apple hearts
+[00:53:24] [Server thread/INFO]: <Dunkersplatt> chad
+[00:53:27] [Server thread/INFO]: <Dunkersplatt> lol
+[00:53:27] [Server thread/INFO]: <mrdagger17> help
+[00:53:28] [Server thread/INFO]: <IntenseYogurt> into
+[00:53:31] [Server thread/INFO]: <Dunkersplatt> you werent in discord nvm
+[00:53:34] [Server thread/INFO]: <IntenseYogurt> ah into
+[00:53:35] [Server thread/INFO]: <Dunkersplatt> but this datapack has no flaws
+[00:53:36] [Server thread/INFO]: <mrdagger17> I am in purgatory
+[00:53:40] [Server thread/INFO]: [Dunkersplatt: Executed 10 commands from function 'start:waitspread']
+[00:53:49] [Server thread/INFO]: <mmnickymm> IM OUTSIDE THE BORDER?
+[00:53:50] [Server thread/INFO]: <Dunkersplatt> g?
+[00:53:56] [Server thread/INFO]: <mmnickymm> nvm
+[00:53:59] [Server thread/INFO]: <Dunkersplatt> lmao
+[00:54:02] [Server thread/INFO]: <Dunkersplatt> good?
+[00:54:07] [Server thread/INFO]: <IntenseYogurt> ye
+[00:54:10] [Server thread/INFO]: <mrdagger17> mhm
+[00:54:10] [User Authenticator #29/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:54:10] [Server thread/INFO]: St33n3r[/67.185.20.60:34996] logged in with entity id 2386 at (-120.5, 70.0, -499.5)
+[00:54:10] [Server thread/INFO]: St33n3r joined the game
+[00:54:14] [Server thread/INFO]: [Dunkersplatt: Teleported St33n3r to Dunkersplatt]
+[00:54:21] [Server thread/INFO]: <Dunkersplatt> everyone good ?
+[00:54:30] [Server thread/INFO]: <IntenseYogurt> ye
+[00:54:32] [Server thread/INFO]: [Dunkersplatt: Executed 17 commands from function 'start:start']
+[00:54:42] [Server thread/INFO]: <Shananalovesdem> im outside the border
+[00:54:44] [Server thread/INFO]: <Shananalovesdem> i cant move
+[00:54:51] [Server thread/INFO]: <Dunkersplatt> who should i tp you to
+[00:55:10] [Server thread/INFO]: <belundun> can you heal her
+[00:55:11] [Server thread/INFO]: <Shananalovesdem> i need a heal
+[00:55:15] [Server thread/INFO]: <belundun> she had to fall down first
+[00:55:18] [Server thread/INFO]: Tran_1230 has made the advancement [Stone Age]
+[00:55:22] [Server thread/INFO]: [Dunkersplatt: Applied effect Regeneration to Shananalovesdem]
+[00:55:31] [Server thread/INFO]: IntenseYogurt has made the advancement [Stone Age]
+[00:55:31] [Server thread/INFO]: <Dunkersplatt> good?
+[00:55:40] [Server thread/INFO]: Wolfzx99 has made the advancement [Stone Age]
+[00:55:42] [Server thread/INFO]: <belundun> yes ty
+[00:55:48] [Server thread/INFO]: Dunkersplatt has made the advancement [Stone Age]
+[00:55:48] [Server thread/INFO]: mikecherry has made the advancement [Stone Age]
+[00:55:54] [Server thread/INFO]: mmnickymm has made the advancement [Stone Age]
+[00:55:55] [Server thread/INFO]: IntenseYogurt has made the advancement [Getting an Upgrade]
+[00:55:59] [Server thread/INFO]: mikecherry has made the advancement [Getting an Upgrade]
+[00:56:04] [Server thread/INFO]: Tran_1230 has made the advancement [Getting an Upgrade]
+[00:56:05] [Server thread/INFO]: Wolfzx99 has made the advancement [Monster Hunter]
+[00:56:05] [Server thread/INFO]: mmnickymm has made the advancement [Getting an Upgrade]
+[00:56:08] [Server thread/INFO]: mrdagger17 has made the advancement [Stone Age]
+[00:56:11] [Server thread/INFO]: ToaNuparu has made the advancement [Stone Age]
+[00:56:13] [Server thread/INFO]: icedrake25 has made the advancement [Stone Age]
+[00:56:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[00:56:33] [Server thread/INFO]: Dunkersplatt has made the advancement [Getting an Upgrade]
+[00:56:41] [Server thread/INFO]: mrdagger17 has made the advancement [Getting an Upgrade]
+[00:56:46] [Server thread/INFO]: xcatieladyx has made the advancement [Stone Age]
+[00:56:57] [Server thread/INFO]: yuormomlol has made the advancement [Stone Age]
+[00:57:00] [Server thread/INFO]: icedrake25 has made the advancement [Getting an Upgrade]
+[00:57:01] [Server thread/INFO]: yuormomlol has made the advancement [Getting an Upgrade]
+[00:57:13] [Server thread/INFO]: YungSpesh has made the advancement [Stone Age]
+[00:57:16] [Server thread/INFO]: Albertc5555 has made the advancement [Stone Age]
+[00:57:16] [Server thread/INFO]: St33n3r has made the advancement [Stone Age]
+[00:57:16] [Server thread/INFO]: Wolfzx99 has made the advancement [Getting an Upgrade]
+[00:57:24] [Server thread/INFO]: Albertc5555 has made the advancement [Getting an Upgrade]
+[00:57:24] [Server thread/INFO]: YungSpesh has made the advancement [Getting an Upgrade]
+[00:57:29] [Server thread/INFO]: Tran_1230 has made the advancement [Acquire Hardware]
+[00:57:30] [Server thread/INFO]: seanm105 has made the advancement [Stone Age]
+[00:57:33] [Server thread/INFO]: Shananalovesdem has made the advancement [Getting an Upgrade]
+[00:57:39] [Server thread/INFO]: St33n3r has made the advancement [Getting an Upgrade]
+[00:57:51] [Server thread/INFO]: 1ottsco has made the advancement [Monster Hunter]
+[00:57:55] [Server thread/INFO]: xcatieladyx has made the advancement [Getting an Upgrade]
+[00:58:18] [Server thread/INFO]: seanm105 has made the advancement [Getting an Upgrade]
+[00:58:29] [Server thread/INFO]: mmnickymm has made the advancement [Acquire Hardware]
+[00:58:57] [Server thread/INFO]: 1ottsco has made the advancement [Stone Age]
+[00:59:11] [Server thread/INFO]: 1ottsco has made the advancement [Getting an Upgrade]
+[00:59:30] [Server thread/INFO]: ToaNuparu has made the advancement [Acquire Hardware]
+[00:59:37] [Server thread/INFO]: ToaNuparu has made the advancement [Getting an Upgrade]
+[00:59:42] [Server thread/INFO]: Albertc5555 has made the advancement [Acquire Hardware]
+[00:59:54] [Server thread/INFO]: yuormomlol lost connection: Timed out
+[00:59:54] [Server thread/INFO]: yuormomlol left the game
+[01:00:09] [Server thread/INFO]: xcatieladyx has made the advancement [Acquire Hardware]
+[01:00:15] [Server thread/INFO]: belundun has made the advancement [Getting an Upgrade]
+[01:00:16] [Server thread/INFO]: Meyeravi has made the advancement [Stone Age]
+[01:00:25] [Server thread/INFO]: Albertc5555 has made the advancement [Not Today, Thank You]
+[01:00:32] [Server thread/INFO]: Albertc5555 has made the advancement [Monster Hunter]
+[01:00:40] [Server thread/INFO]: Tran_1230 has made the advancement [Suit Up]
+[01:00:43] [Server thread/INFO]: Dunkersplatt has made the advancement [Acquire Hardware]
+[01:01:18] [Server thread/INFO]: belundun has made the advancement [Stone Age]
+[01:01:31] [Server thread/INFO]: Meyeravi has made the advancement [Getting an Upgrade]
+[01:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2622ms or 52 ticks behind
+[01:01:44] [Server thread/INFO]: YungSpesh has made the advancement [Acquire Hardware]
+[01:01:52] [Server thread/INFO]: <IntenseYogurt> do apples still spawn ?
+[01:01:54] [Server thread/INFO]: <Dunkersplatt> ye
+[01:02:03] [Server thread/INFO]: 1ottsco has made the advancement [Acquire Hardware]
+[01:02:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:02:12] [Server thread/INFO]: seanm105 has made the advancement [Monster Hunter]
+[01:02:41] [User Authenticator #30/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[01:02:41] [Server thread/INFO]: yuormomlol[/68.13.69.169:51771] logged in with entity id 12580 at (440.7679372279362, 64.16610926093821, 407.61511726999595)
+[01:02:41] [Server thread/INFO]: yuormomlol joined the game
+[01:02:45] [Server thread/INFO]: Tran_1230 has made the advancement [Monster Hunter]
+[01:03:00] [Server thread/INFO]: mmnickymm has made the advancement [Monster Hunter]
+[01:03:24] [Server thread/INFO]: yuormomlol lost connection: Timed out
+[01:03:24] [Server thread/INFO]: yuormomlol left the game
+[01:03:30] [Server thread/INFO]: 1ottsco has made the advancement [Suit Up]
+[01:03:30] [Server thread/INFO]: <IntenseYogurt> can we craft g apples ?
+[01:03:34] [User Authenticator #31/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[01:03:34] [Server thread/INFO]: yuormomlol[/68.13.69.169:51780] logged in with entity id 13748 at (440.7679372279362, 64.16610926093821, 407.61511726999595)
+[01:03:34] [Server thread/INFO]: yuormomlol joined the game
+[01:03:39] [Server thread/INFO]: <mmnickymm> i dont think so
+[01:03:39] [Server thread/INFO]: mikecherry has made the advancement [Acquire Hardware]
+[01:03:40] [Server thread/INFO]: <1ottsco> if you want
+[01:03:40] [Server thread/INFO]: <belundun> everyone else yes, not you
+[01:03:50] [Server thread/INFO]: <1ottsco> wtf
+[01:04:03] [Server thread/INFO]: <mmnickymm> ohhh
+[01:04:06] [Server thread/INFO]: yuormomlol lost connection: Disconnected
+[01:04:06] [Server thread/INFO]: yuormomlol left the game
+[01:04:07] [Server thread/INFO]: <mmnickymm> golden apples
+[01:04:07] [Server thread/INFO]: <Dunkersplatt> yes you can
+[01:04:09] [Server thread/INFO]: mikecherry has made the advancement [Isn't It Iron Pick]
+[01:04:10] [Server thread/INFO]: <mmnickymm> not god apples
+[01:04:12] [Server thread/INFO]: <IntenseYogurt> thx
+[01:04:14] [Server thread/INFO]: <Dunkersplatt> ohhh
+[01:04:19] [Server thread/INFO]: <IntenseYogurt> tram watch yo health
+[01:04:24] [Server thread/INFO]: <Dunkersplatt> they're called notch apples :)
+[01:04:26] [User Authenticator #32/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[01:04:26] [Server thread/INFO]: yuormomlol[/68.13.69.169:51784] logged in with entity id 14559 at (440.7679372279362, 64.16610926093821, 407.61511726999595)
+[01:04:26] [Server thread/INFO]: yuormomlol joined the game
+[01:04:31] [Server thread/INFO]: Albertc5555 has made the advancement [Suit Up]
+[01:04:50] [Server thread/INFO]: mmnickymm was slain by Albertc5555
+[01:04:53] [Server thread/INFO]: <Dunkersplatt> gg
+[01:04:54] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[01:04:54] [Server thread/INFO]: mmnickymm left the game
+[01:05:03] [Server thread/INFO]: <Dunkersplatt> he didnt spectator mode?
+[01:05:12] [Server thread/INFO]: Shananalovesdem has made the advancement [Acquire Hardware]
+[01:05:17] [Server thread/INFO]: YungSpesh has made the advancement [Suit Up]
+[01:05:33] [Server thread/INFO]: ToaNuparu has made the advancement [Not Today, Thank You]
+[01:05:33] [Server thread/INFO]: Shananalovesdem has made the advancement [Stone Age]
+[01:05:56] [Server thread/INFO]: Shananalovesdem has made the advancement [Isn't It Iron Pick]
+[01:06:23] [Server thread/INFO]: Tran_1230 has made the advancement [Not Today, Thank You]
+[01:06:33] [Server thread/INFO]: Villager bdp['Villager'/1011, l='ServerLevel[world]', x=326.15, y=69.00, z=500.85] died, message: 'Villager was slain by Zombie'
+[01:06:47] [Server thread/INFO]: Villager bdp['Armorer'/994, l='ServerLevel[world]', x=343.70, y=69.00, z=500.70] died, message: 'Armorer was slain by Zombie'
+[01:07:06] [Server thread/INFO]: ToaNuparu has made the advancement [Monster Hunter]
+[01:07:23] [Server thread/INFO]: mikecherry has made the advancement [Monster Hunter]
+[01:07:44] [Server thread/INFO]: Villager bdp['Villager'/1013, l='ServerLevel[world]', x=301.70, y=64.00, z=500.70] died, message: 'Villager was slain by Zombie'
+[01:08:24] [Server thread/INFO]: mrdagger17 has made the advancement [Acquire Hardware]
+[01:08:47] [Server thread/INFO]: <Dunkersplatt> tell nick he can come back
+[01:08:51] [Server thread/INFO]: <Dunkersplatt> i can spec him
+[01:08:56] [Server thread/INFO]: <YungSpesh> he hopped off the call
+[01:08:59] [Server thread/INFO]: <Dunkersplatt> ok
+[01:08:59] [Server thread/INFO]: <Dunkersplatt> :(
+[01:09:01] [Server thread/INFO]: St33n3r has made the advancement [Acquire Hardware]
+[01:09:05] [Server thread/INFO]: icedrake25 has made the advancement [Acquire Hardware]
+[01:09:14] [Server thread/INFO]: icedrake25 has made the advancement [Isn't It Iron Pick]
+[01:09:14] [Server thread/INFO]: Shananalovesdem has made the advancement [Diamonds!]
+[01:09:16] [Server thread/INFO]: yuormomlol has made the advancement [Suit Up]
+[01:09:54] [Server thread/INFO]: Meyeravi has made the advancement [Not Today, Thank You]
+[01:09:57] [Server thread/INFO]: Dunkersplatt has made the advancement [Not Today, Thank You]
+[01:10:00] [Server thread/INFO]: Dunkersplatt has made the advancement [Monster Hunter]
+[01:10:06] [Server thread/INFO]: 1ottsco has made the advancement [Not Today, Thank You]
+[01:10:38] [Server thread/INFO]: Albertc5555 has made the advancement [Isn't It Iron Pick]
+[01:10:51] [Server thread/INFO]: belundun has made the advancement [Acquire Hardware]
+[01:10:56] [Server thread/INFO]: mrdagger17 has made the advancement [Isn't It Iron Pick]
+[01:11:06] [Server thread/INFO]: Villager bdp['Villager'/1147, l='ServerLevel[world]', x=346.50, y=69.00, z=500.70] died, message: 'Villager was slain by Zombie'
+[01:11:11] [Server thread/INFO]: mrdagger17 has made the advancement [Diamonds!]
+[01:11:15] [Server thread/INFO]: Wolfzx99 has made the advancement [Acquire Hardware]
+[01:11:17] [Server thread/INFO]: belundun has made the advancement [Isn't It Iron Pick]
+[01:11:22] [Server thread/INFO]: Wolfzx99 has made the advancement [Isn't It Iron Pick]
+[01:11:56] [Server thread/INFO]: belundun has made the advancement [Suit Up]
+[01:12:33] [Server thread/INFO]: 1ottsco has made the advancement [Isn't It Iron Pick]
+[01:12:40] [Server thread/INFO]: Dunkersplatt has made the advancement [Hot Stuff]
+[01:13:38] [Server thread/INFO]: seanm105 has made the advancement [Acquire Hardware]
+[01:13:49] [Server thread/INFO]: seanm105 has made the advancement [Isn't It Iron Pick]
+[01:13:56] [Server thread/INFO]: IntenseYogurt has made the advancement [Acquire Hardware]
+[01:13:57] [Server thread/INFO]: St33n3r lost connection: Timed out
+[01:13:57] [Server thread/INFO]: St33n3r left the game
+[01:14:01] [Server thread/INFO]: Dunkersplatt has made the advancement [Isn't It Iron Pick]
+[01:14:01] [Server thread/INFO]: Dunkersplatt has made the advancement [Suit Up]
+[01:14:02] [User Authenticator #33/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[01:14:02] [Server thread/INFO]: St33n3r[/67.185.20.60:35166] logged in with entity id 25210 at (398.2859074765838, 16.0, -11.165353018200257)
+[01:14:02] [Server thread/INFO]: St33n3r joined the game
+[01:14:14] [Server thread/INFO]: xcatieladyx has made the advancement [Suit Up]
+[01:14:26] [Server thread/INFO]: Tran_1230 has made the advancement [Best Friends Forever]
+[01:14:39] [Server thread/INFO]: IntenseYogurt has made the advancement [Isn't It Iron Pick]
+[01:15:12] [Server thread/INFO]: yuormomlol has made the advancement [Acquire Hardware]
+[01:15:30] [Server thread/INFO]: Meyeravi has made the advancement [Acquire Hardware]
+[01:15:31] [Server thread/INFO]: mikecherry has made the advancement [Suit Up]
+[01:15:36] [Server thread/INFO]: yuormomlol has made the advancement [Isn't It Iron Pick]
+[01:16:05] [Server thread/INFO]: seanm105 has made the advancement [Suit Up]
+[01:17:00] [Server thread/INFO]: Dunkersplatt has made the advancement [Diamonds!]
+[01:17:45] [Server thread/INFO]: mrdagger17 has made the advancement [Suit Up]
+[01:18:08] [Server thread/INFO]: 1ottsco has made the advancement [Hot Stuff]
+[01:18:45] [Server thread/INFO]: Wolfzx99 has made the advancement [Suit Up]
+[01:18:55] [Server thread/INFO]: ToaNuparu was slain by Zombie
+[01:18:59] [Server thread/INFO]: <belundun> gg
+[01:19:00] [Server thread/INFO]: <Dunkersplatt> gg
+[01:19:05] [Server thread/INFO]: <icedrake25> rip gg
+[01:19:09] [Server thread/INFO]: <Tran_1230> one more for baby zombies
+[01:19:14] [Server thread/INFO]: Meyeravi has made the advancement [Suit Up]
+[01:19:47] [Server thread/INFO]: Meyeravi has made the advancement [Isn't It Iron Pick]
+[01:19:55] [Server thread/INFO]: [Dunkersplatt: Set ToaNuparu's game mode to Spectator Mode]
+[01:20:07] [Server thread/INFO]: icedrake25 has made the advancement [Suit Up]
+[01:20:13] [Server thread/INFO]: Shananalovesdem has made the advancement [Suit Up]
+[01:20:17] [Server thread/INFO]: IntenseYogurt has made the advancement [Hot Stuff]
+[01:20:32] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/34818, l='ServerLevel[world]', x=72.60, y=8.52, z=-237.31]
+[01:20:57] [Server thread/INFO]: xcatieladyx has made the advancement [Isn't It Iron Pick]
+[01:21:19] [Server thread/WARN]: yuormomlol moved wrongly!
+[01:21:52] [Server thread/INFO]: Tran_1230 hit the ground too hard
+[01:21:57] [Server thread/INFO]: <Dunkersplatt> gg :(
+[01:21:58] [Server thread/INFO]: <seanm105> classic
+[01:22:01] [Server thread/INFO]: <icedrake25> gg
+[01:22:02] [Server thread/INFO]: [Dunkersplatt: Set Tran_1230's game mode to Spectator Mode]
+[01:22:03] [Server thread/INFO]: <seanm105> gg
+[01:22:08] [Server thread/INFO]: <Tran_1230> that was so funny
+[01:22:12] [Server thread/INFO]: <Tran_1230> lol
+[01:22:17] [Server thread/INFO]: <Dunkersplatt> what happened
+[01:22:18] [Server thread/INFO]: mrdagger17 has made the advancement [Ice Bucket Challenge]
+[01:22:24] [Server thread/INFO]: <Tran_1230> i saw the oxidaisys
+[01:22:27] [Server thread/INFO]: <Tran_1230> my hope to heal back
+[01:22:29] [Server thread/INFO]: <Tran_1230> then splat
+[01:22:33] [Server thread/INFO]: <Dunkersplatt> ohhhh hahaha
+[01:22:40] [Server thread/INFO]: <Tran_1230> also we need to not do this ocean thing again
+[01:22:52] [Server thread/INFO]: <Tran_1230> at one point I think I had like 8 creepers in view
+[01:22:52] [Server thread/INFO]: <Dunkersplatt> not fun?
+[01:22:58] [Server thread/INFO]: <Dunkersplatt> ye the mobs are a big thing
+[01:22:58] [Server thread/INFO]: St33n3r has made the advancement [Suit Up]
+[01:22:58] [Server thread/INFO]: St33n3r has made the advancement [Isn't It Iron Pick]
+[01:23:00] [Server thread/INFO]: YungSpesh has made the advancement [Isn't It Iron Pick]
+[01:23:01] [Server thread/INFO]: <seanm105> that's part of the fun
+[01:23:09] [Server thread/INFO]: <Tran_1230> just discourages caving that's all
+[01:23:15] [Server thread/INFO]: belundun has made the advancement [Monster Hunter]
+[01:23:19] [Server thread/INFO]: <icedrake25> more mobs more fun
+[01:23:31] [Server thread/INFO]: belundun has made the advancement [Diamonds!]
+[01:23:33] [Server thread/INFO]: Shananalovesdem has made the advancement [Monster Hunter]
+[01:23:57] [Server thread/INFO]: IntenseYogurt has made the advancement [Diamonds!]
+[01:24:13] [Server thread/INFO]: mrdagger17 has made the advancement [Enchanter]
+[01:24:27] [Server thread/INFO]: xcatieladyx has made the advancement [Diamonds!]
+[01:24:27] [Server thread/INFO]: seanm105 has made the advancement [Enchanter]
+[01:24:52] [Server thread/INFO]: 1ottsco has made the advancement [Diamonds!]
+[01:24:53] [Server thread/INFO]: IntenseYogurt has made the advancement [Suit Up]
+[01:25:07] [Server thread/INFO]: Shananalovesdem has made the advancement [Ice Bucket Challenge]
+[01:25:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01:25:33] [Server thread/INFO]: mikecherry has made the advancement [Hot Stuff]
+[01:26:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[01:26:24] [Server thread/INFO]: Dunkersplatt has made the advancement [Ice Bucket Challenge]
+[01:26:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
+[01:26:44] [Server thread/INFO]: belundun has made the advancement [Ice Bucket Challenge]
+[01:26:51] [Server thread/INFO]: Tran_1230 lost connection: Disconnected
+[01:26:51] [Server thread/INFO]: Tran_1230 left the game
+[01:26:57] [User Authenticator #34/INFO]: UUID of player Tran_1230 is 598c5496-a8a7-407a-8b7e-1abcd58c3014
+[01:26:57] [Server thread/INFO]: Tran_1230[/216.16.211.126:57558] logged in with entity id 42853 at (-377.5239361040001, 11.0, 111.93412402930497)
+[01:26:57] [Server thread/INFO]: Tran_1230 joined the game
+[01:27:07] [Server thread/INFO]: IntenseYogurt has made the advancement [Enchanter]
+[01:27:09] [Server thread/INFO]: <Dunkersplatt> tran / toa, did you guys respawn in the bedrock?
+[01:27:11] [Server thread/INFO]: <Dunkersplatt> or on the ground
+[01:27:17] [Server thread/INFO]: <ToaNuparu> ground
+[01:27:19] [Server thread/INFO]: Villager bdp['Fletcher'/1178, l='ServerLevel[world]', x=306.44, y=67.00, z=500.70] died, message: 'Fletcher was slain by Zombie'
+[01:27:22] [Server thread/INFO]: <Dunkersplatt> oh boy
+[01:27:24] [Server thread/INFO]: belundun has made the advancement [Enchanter]
+[01:27:39] [Server thread/INFO]: Shananalovesdem has made the advancement [Enchanter]
+[01:27:44] [Server thread/INFO]: icedrake25 has made the advancement [Enchanter]
+[01:27:49] [Server thread/INFO]: Villager bdp['Villager'/1259, l='ServerLevel[world]', x=295.61, y=56.00, z=458.70] died, message: 'Villager was slain by Zombie Villager'
+[01:27:51] [Server thread/INFO]: <1ottsco> what time did the game start
+[01:27:56] [Server thread/INFO]: Dunkersplatt has made the advancement [Enchanter]
+[01:28:22] [Server thread/INFO]: IntenseYogurt has made the advancement [Cover Me With Diamonds]
+[01:29:12] [Server thread/INFO]: Wolfzx99 has made the advancement [Enchanter]
+[01:29:53] [Server thread/INFO]: Meyeravi has made the advancement [Enchanter]
+[01:30:05] [Server thread/INFO]: xcatieladyx has made the advancement [Enchanter]
+[01:30:09] [Server thread/INFO]: IntenseYogurt has made the advancement [Monster Hunter]
+[01:30:26] [Server thread/INFO]: mikecherry has made the advancement [We Need to Go Deeper]
+[01:30:28] [Server thread/INFO]: Albertc5555 has made the advancement [We Need to Go Deeper]
+[01:30:30] [Server thread/INFO]: ToaNuparu has made the advancement [We Need to Go Deeper]
+[01:30:38] [Server thread/INFO]: Tran_1230 has made the advancement [We Need to Go Deeper]
+[01:30:44] [Server thread/INFO]: yuormomlol lost connection: Timed out
+[01:30:44] [Server thread/INFO]: yuormomlol left the game
+[01:30:49] [User Authenticator #35/INFO]: UUID of player yuormomlol is aa643dd1-a651-4363-ac12-c7fa0d5fd545
+[01:30:49] [Server thread/INFO]: yuormomlol[/68.13.69.169:51803] logged in with entity id 46940 at (313.0219107849676, 13.0, 482.53091328811706)
+[01:30:49] [Server thread/INFO]: yuormomlol joined the game
+[01:30:57] [Server thread/INFO]: mikecherry has made the advancement [Not Today, Thank You]
+[01:31:02] [Server thread/INFO]: IntenseYogurt has made the advancement [Not Today, Thank You]
+[01:31:16] [Server thread/INFO]: Tran_1230 has made the advancement [Those Were the Days]
+[01:31:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:31:27] [Server thread/INFO]: <seanm105> yo, aren't you dead?
+[01:31:30] [Server thread/INFO]: icedrake25 has made the advancement [Diamonds!]
+[01:31:34] [Server thread/INFO]: <Dunkersplatt> hes spectator in nether
+[01:31:37] [Server thread/INFO]: <Dunkersplatt> still gets achievement
+[01:31:39] [Server thread/INFO]: <seanm105> ah, gatcha
+[01:31:40] [Server thread/INFO]: <Tran_1230> I can still live my ghostly life!
+[01:31:47] [Server thread/WARN]: Tran_1230 moved too quickly! 9.266062527417262,-3.6553040956771525,-1.8517511620967468
+[01:31:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3776ms or 75 ticks behind
+[01:32:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2940ms or 58 ticks behind
+[01:32:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/48675, l='ServerLevel[world]', x=66.88, y=12.00, z=-275.38]
+[01:32:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/48661, l='ServerLevel[world]', x=66.66, y=12.00, z=-275.13]
+[01:32:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2394ms or 47 ticks behind
+[01:32:35] [Server thread/INFO]: St33n3r has made the advancement [Diamonds!]
+[01:32:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2303ms or 46 ticks behind
+[01:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
+[01:33:02] [Server thread/INFO]: Tran_1230 lost connection: Disconnected
+[01:33:02] [Server thread/INFO]: Tran_1230 left the game
+[01:33:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
+[01:33:19] [Server thread/INFO]: yuormomlol has made the advancement [We Need to Go Deeper]
+[01:33:28] [Server thread/INFO]: <Dunkersplatt> oh boi
+[01:33:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[01:34:10] [Server thread/INFO]: 1ottsco has made the advancement [We Need to Go Deeper]
+[01:34:12] [Server thread/INFO]: YungSpesh has made the advancement [We Need to Go Deeper]
+[01:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:34:26] [Server thread/INFO]: <belundun> fair, scott really needs gold
+[01:34:28] [Server thread/INFO]: 1ottsco was slain by mikecherry
+[01:34:30] [Server thread/INFO]: YungSpesh has made the advancement [Diamonds!]
+[01:34:30] [Server thread/INFO]: YungSpesh has made the advancement [Hot Stuff]
+[01:34:35] [Server thread/INFO]: [Dunkersplatt: Set 1ottsco's game mode to Spectator Mode]
+[01:34:36] [Server thread/INFO]: <Dunkersplatt> gg
+[01:34:40] [Server thread/INFO]: <1ottsco> gg
+[01:34:43] [Server thread/INFO]: <belundun> gg
+[01:34:51] [Server thread/INFO]: Albertc5555 has made the advancement [Take Aim]
+[01:34:51] [Server thread/INFO]: yuormomlol tried to swim in lava
+[01:34:56] [Server thread/INFO]: St33n3r has made the advancement [Enchanter]
+[01:35:00] [Server thread/INFO]: [Dunkersplatt: Set yuormomlol's game mode to Spectator Mode]
+[01:35:06] [Server thread/INFO]: <IntenseYogurt> cherry learning the evil tactics
+[01:35:11] [Server thread/INFO]: YungSpesh tried to swim in lava to escape mikecherry
+[01:35:16] [Server thread/INFO]: Albertc5555 was shot by Skeleton
+[01:35:21] [Server thread/INFO]: <belundun> gg
+[01:35:23] [Server thread/INFO]: <Dunkersplatt> gg gg
+[01:35:26] [Server thread/INFO]: [Dunkersplatt: Set YungSpesh's game mode to Spectator Mode]
+[01:35:26] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[01:35:28] [Server thread/INFO]: [YungSpesh: Set own game mode to Spectator Mode]
+[01:35:31] [Server thread/INFO]: [Dunkersplatt: Set Albertc5555's game mode to Spectator Mode]
+[01:35:55] [Server thread/INFO]: <mikecherry> do i get 3 kills there?
+[01:36:10] [Server thread/INFO]: <Albertc5555> can I tp?
+[01:36:11] [Server thread/INFO]: <Dunkersplatt> did you kill yuourmom
+[01:36:14] [Server thread/INFO]: <1ottsco> middle click
+[01:36:18] [Server thread/INFO]: <IntenseYogurt> weird thing to ask
+[01:36:21] [Server thread/INFO]: <YungSpesh> lol
+[01:36:21] [Server thread/INFO]: <Dunkersplatt> haha
+[01:36:27] [Server thread/INFO]: <Albertc5555> oh ty.
+[01:36:28] [Server thread/INFO]: <mikecherry> yes
+[01:37:05] [Server thread/WARN]: YungSpesh moved too quickly! 0.3724276237370816,1.6816732789645386,10.115410234714602
+[01:37:05] [Server thread/WARN]: yuormomlol moved too quickly! -6.775322902877782,6.374559529491627,-5.06990488687039
+[01:37:05] [Server thread/WARN]: ToaNuparu moved too quickly! -6.601601412523344,-2.6158167429970476,7.537891704081488
+[01:37:09] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to mikecherry]
+[01:37:46] [Server thread/INFO]: Shananalovesdem has made the advancement [Cover Me With Diamonds]
+[01:38:20] [Server thread/INFO]: [YungSpesh: Teleported yuormomlol to YungSpesh]
+[01:39:20] [Server thread/INFO]: icedrake25 has made the advancement [Cover Me With Diamonds]
+[01:39:32] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Meyeravi]
+[01:39:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Coal'/56865, l='ServerLevel[world]', x=-194.89, y=13.00, z=102.83]
+[01:40:01] [Server thread/WARN]: Fetching packet for removed entity bbg['Coal'/56919, l='ServerLevel[world]', x=-195.13, y=13.00, z=101.91]
+[01:40:38] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Meyeravi]
+[01:40:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/57600, l='ServerLevel[world]', x=334.82, y=11.00, z=68.03]
+[01:41:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/58977, l='ServerLevel[world]', x=-107.32, y=11.00, z=131.72]
+[01:42:05] [Server thread/WARN]: Albertc5555 moved too quickly! -9.479783882128466,0.0,3.789249715563841
+[01:42:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[01:42:55] [Server thread/WARN]: Fetching packet for removed entity bbg['Andesite'/59886, l='ServerLevel[world]', x=-12.13, y=15.04, z=76.89]
+[01:43:54] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[01:43:54] [Server thread/INFO]: YungSpesh left the game
+[01:44:01] [Server thread/INFO]: yuormomlol lost connection: Disconnected
+[01:44:01] [Server thread/INFO]: yuormomlol left the game
+[01:44:29] [Server thread/INFO]: Shananalovesdem has made the advancement [Not Today, Thank You]
+[01:44:47] [Server thread/INFO]: belundun has made the advancement [Cover Me With Diamonds]
+[01:45:55] [Server thread/WARN]: Albertc5555 moved too quickly! -87.60595905203483,2.0,730.920132015404
+[01:48:06] [Server thread/INFO]: Wolfzx99 has made the advancement [Not Today, Thank You]
+[01:48:23] [Server thread/INFO]: Meyeravi has made the advancement [Diamonds!]
+[01:48:35] [Server thread/INFO]: Wolfzx99 has made the advancement [Best Friends Forever]
+[01:50:50] [User Authenticator #36/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[01:50:51] [Server thread/INFO]: YungSpesh[/68.13.69.169:53621] logged in with entity id 67844 at (413.5201192463085, 16.143164454608485, -27.10589264071231)
+[01:50:51] [Server thread/INFO]: YungSpesh joined the game
+[01:51:40] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:52:32] [Server thread/WARN]: Fetching packet for removed entity bbg['Andesite'/69526, l='ServerLevel[world]', x=290.38, y=11.94, z=-131.88]
+[01:54:36] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/71723, l='ServerLevel[world]', x=-9.13, y=26.04, z=8.48]
+[01:54:41] [Server thread/INFO]: xcatieladyx has made the advancement [Hot Stuff]
+[01:54:45] [Server thread/INFO]: <IntenseYogurt> bord?
+[01:54:50] [Server thread/INFO]: <Dunkersplatt> idk
+[01:55:11] [Server thread/INFO]: <Dunkersplatt> lol
+[01:55:17] [Server thread/INFO]: <IntenseYogurt> ias
+[01:55:29] [Server thread/INFO]: <IntenseYogurt> ias at last game's photograph
+[01:55:35] [Server thread/INFO]: <IntenseYogurt> * a time we both remember
+[01:55:45] [Server thread/INFO]: <IntenseYogurt> when we looked upon one another in the g at the end
+[01:55:51] [Server thread/INFO]: belundun has made the advancement [Not Today, Thank You]
+[01:55:57] [Server thread/INFO]: <Dunkersplatt> yes yes
+[01:56:15] [Server thread/INFO]: mrdagger17 has made the advancement [Monster Hunter]
+[01:57:06] [Server thread/WARN]: 1ottsco moved too quickly! 8.962347250424742,3.9387245965748434,-2.3169196783402413
+[01:57:40] [Server thread/INFO]: mrdagger17 has made the advancement [Cover Me With Diamonds]
+[01:58:03] [Server thread/INFO]: Dunkersplatt has made the advancement [Cover Me With Diamonds]
+[01:58:27] [Server thread/INFO]: St33n3r has made the advancement [Cover Me With Diamonds]
+[01:59:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-397, y=71, z=388} fu{x=-398, y=71, z=387}
+[01:59:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-397, y=71, z=388} fu{x=-398, y=71, z=387}
+[01:59:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-395, y=72, z=389} fu{x=-397, y=71, z=390}
+[01:59:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-395, y=72, z=389} fu{x=-397, y=71, z=390}
+[01:59:18] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-395, y=72, z=389} fu{x=-397, y=71, z=390}
+[01:59:18] [Server thread/INFO]: Wolfzx99 has made the advancement [Take Aim]
+[01:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-399, y=74, z=385} fu{x=-399, y=73, z=385}
+[01:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-399, y=74, z=385} fu{x=-399, y=73, z=385}
+[01:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-399, y=74, z=385} fu{x=-399, y=73, z=385}
+[01:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-399, y=74, z=385} fu{x=-399, y=73, z=385}
+[01:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-399, y=74, z=385} fu{x=-399, y=73, z=385}
+[01:59:52] [Server thread/INFO]: icedrake25 has made the advancement [Not Today, Thank You]
+[01:59:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-400, y=73, z=387} fu{x=-402, y=74, z=386}
+[01:59:56] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-400, y=73, z=387} fu{x=-402, y=74, z=386}
+[01:59:56] [Server thread/INFO]: Wolfzx99 was slain by icedrake25
+[01:59:59] [Server thread/INFO]: <Dunkersplatt> gg
+[02:00:03] [Server thread/INFO]: [Dunkersplatt: Set Wolfzx99's game mode to Spectator Mode]
+[02:00:15] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Wolfzx99]
+[02:00:19] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to icedrake25]
+[02:00:40] [Server thread/INFO]: seanm105 has made the advancement [Cover Me With Diamonds]
+[02:00:49] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:01:21] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to 1ottsco]
+[02:01:44] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:02:06] [Server thread/WARN]: 1ottsco moved too quickly! 1.6695845513052134,0.0,9.953421987906992
+[02:03:33] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:05:02] [Server thread/INFO]: mikecherry drowned
+[02:05:08] [Server thread/INFO]: <Dunkersplatt> gg
+[02:05:09] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to mikecherry]
+[02:05:11] [Server thread/INFO]: <1ottsco> gg
+[02:05:30] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/81050, l='ServerLevel[world]', x=-132.88, y=10.00, z=93.64]
+[02:05:33] [Server thread/INFO]: mikecherry drowned
+[02:05:37] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:05:37] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/81184, l='ServerLevel[world]', x=172.75, y=12.85, z=-129.46]
+[02:05:38] [Server thread/INFO]: [Dunkersplatt: Set mikecherry's game mode to Spectator Mode]
+[02:05:45] [Server thread/WARN]: 1ottsco moved too quickly! -3.725460779956734,0.0,9.658586807888497
+[02:06:11] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[02:06:11] [Server thread/INFO]: 1ottsco left the game
+[02:06:45] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:06:48] [Server thread/INFO]: belundun has made the advancement [Hot Stuff]
+[02:07:02] [Server thread/WARN]: Boat (vehicle of icedrake25) moved wrongly! 0.27919642271385214
+[02:07:02] [Server thread/INFO]: <Dunkersplatt> howd that hpapen mike
+[02:07:21] [Server thread/INFO]: <mikecherry> I thought i was covered but i missed a block lol
+[02:07:35] [Server thread/INFO]: <mikecherry> i was going down in an underwater ravine
+[02:07:39] [Server thread/INFO]: <mikecherry> big choke
+[02:08:58] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:08:58] [Server thread/INFO]: belundun left the game
+[02:10:12] [Server thread/INFO]: mrdagger17 has made the advancement [Hot Stuff]
+[02:10:19] [User Authenticator #37/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[02:10:19] [Server thread/INFO]: belundun[/75.134.3.124:51238] logged in with entity id 84306 at (-165.64284358985523, 62.52326524554528, 73.92626213311426)
+[02:10:19] [Server thread/INFO]: belundun joined the game
+[02:10:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Redstone Dust'/84800, l='ServerLevel[world]', x=-113.30, y=9.00, z=202.13]
+[02:10:59] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:11:17] [Server thread/WARN]: Boat (vehicle of icedrake25) moved wrongly! 0.26360241628603376
+[02:12:01] [Server thread/INFO]: seanm105 has made the advancement [Hot Stuff]
+[02:12:01] [Server thread/WARN]: Wolfzx99 moved too quickly! -0.2299364038720313,5.249999633354058,8.972455947109708
+[02:15:22] [Server thread/WARN]: Fetching packet for removed entity bbg['Diorite'/87741, l='ServerLevel[world]', x=47.88, y=12.00, z=-45.38]
+[02:18:06] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:18:06] [Server thread/INFO]: YungSpesh left the game
+[02:18:14] [User Authenticator #38/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:18:14] [Server thread/INFO]: YungSpesh[/68.13.69.169:53669] logged in with entity id 89530 at (45.819587929687536, 20.048788752151896, -44.3879407458986)
+[02:18:14] [Server thread/INFO]: YungSpesh joined the game
+[02:19:18] [Server thread/INFO]: belundun has made the advancement [Best Friends Forever]
+[02:19:54] [Server thread/INFO]: Albertc5555 lost connection: Disconnected
+[02:19:54] [Server thread/INFO]: Albertc5555 left the game
+[02:21:17] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:21:17] [Server thread/INFO]: YungSpesh left the game
+[02:21:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Diorite'/90682, l='ServerLevel[world]', x=44.69, y=12.00, z=-47.55]
+[02:21:23] [User Authenticator #39/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:21:23] [Server thread/INFO]: YungSpesh[/68.13.69.169:53674] logged in with entity id 90708 at (48.76833519312371, 13.92798575947206, -44.74728439357121)
+[02:21:23] [Server thread/INFO]: YungSpesh joined the game
+[02:22:23] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:22:23] [Server thread/INFO]: YungSpesh left the game
+[02:23:00] [User Authenticator #40/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:23:00] [Server thread/INFO]: YungSpesh[/68.13.69.169:53678] logged in with entity id 91188 at (48.76833519312371, 13.92798575947206, -44.74728439357121)
+[02:23:00] [Server thread/INFO]: YungSpesh joined the game
+[02:24:27] [Server thread/INFO]: <Shananalovesdem> TEE HEE
+[02:24:33] [Server thread/INFO]: <Shananalovesdem> Smooth
+[02:24:46] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:24:48] [Server thread/INFO]: <Shananalovesdem> LOL
+[02:27:30] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[02:27:30] [Server thread/INFO]: YungSpesh left the game
+[02:27:49] [User Authenticator #41/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:27:49] [Server thread/INFO]: YungSpesh[/68.13.69.169:53690] logged in with entity id 92566 at (17.595400948025457, 77.08239525218953, -29.04233915471898)
+[02:27:49] [Server thread/INFO]: YungSpesh joined the game
+[02:30:26] [Server thread/INFO]: Dunkersplatt has made the advancement [Ol' Betsy]
+[02:30:26] [Server thread/INFO]: Dunkersplatt has made the advancement [Take Aim]
+[02:30:47] [Server thread/INFO]: icedrake25 has made the advancement [Take Aim]
+[02:32:05] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:32:05] [Server thread/INFO]: YungSpesh left the game
+[02:32:13] [User Authenticator #42/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:32:13] [Server thread/INFO]: YungSpesh[/68.13.69.169:53703] logged in with entity id 93957 at (11.910762689299553, 58.83415459211488, -42.208694634021455)
+[02:32:13] [Server thread/INFO]: YungSpesh joined the game
+[02:33:38] [Server thread/INFO]: St33n3r has made the advancement [Ol' Betsy]
+[02:33:38] [Server thread/INFO]: St33n3r has made the advancement [Take Aim]
+[02:34:30] [Server thread/INFO]: seanm105 has made the advancement [Not Today, Thank You]
+[02:34:46] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:34:46] [Server thread/INFO]: YungSpesh left the game
+[02:34:53] [User Authenticator #43/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:34:53] [Server thread/INFO]: YungSpesh[/68.13.69.169:53714] logged in with entity id 94872 at (7.532362043980344, 62.949618396267994, -41.636566613333834)
+[02:34:53] [Server thread/INFO]: YungSpesh joined the game
+[02:35:48] [Server thread/INFO]: <IntenseYogurt> looks like mandatory surface?
+[02:35:59] [Server thread/INFO]: <IntenseYogurt> maybe not
+[02:36:01] [Server thread/INFO]: <IntenseYogurt> idk cant see
+[02:37:00] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:37:00] [Server thread/INFO]: YungSpesh left the game
+[02:37:04] [User Authenticator #44/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:37:04] [Server thread/INFO]: YungSpesh[/68.13.69.169:53717] logged in with entity id 95316 at (12.569271354168745, 61.062808977894974, -34.105559943999516)
+[02:37:04] [Server thread/INFO]: YungSpesh joined the game
+[02:38:24] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[02:38:24] [Server thread/INFO]: YungSpesh left the game
+[02:38:35] [User Authenticator #45/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:38:35] [Server thread/INFO]: YungSpesh[/68.13.69.169:53720] logged in with entity id 95682 at (7.906503299610269, 68.17346524976759, -39.10895688525743)
+[02:38:35] [Server thread/INFO]: YungSpesh joined the game
+[02:39:50] [Server thread/INFO]: belundun was shot by IntenseYogurt
+[02:39:50] [Server thread/INFO]: IntenseYogurt has made the advancement [Take Aim]
+[02:39:54] [Server thread/INFO]: St33n3r has made the advancement [Not Today, Thank You]
+[02:39:59] [Server thread/INFO]: <belundun> nice shot
+[02:40:10] [Server thread/INFO]: icedrake25 was slain by mrdagger17
+[02:40:15] [Server thread/INFO]: Shananalovesdem was slain by seanm105
+[02:40:21] [Server thread/INFO]: [Dunkersplatt: Set icedrake25's game mode to Spectator Mode]
+[02:40:25] [Server thread/INFO]: [Dunkersplatt: Set Shananalovesdem's game mode to Spectator Mode]
+[02:40:33] [Server thread/INFO]: [Dunkersplatt: Set belundun's game mode to Spectator Mode]
+[02:41:01] [Server thread/INFO]: IntenseYogurt was shot by Dunkersplatt
+[02:41:07] [Server thread/INFO]: mrdagger17 was shot by St33n3r
+[02:41:10] [Server thread/INFO]: [Dunkersplatt: Set IntenseYogurt's game mode to Spectator Mode]
+[02:41:17] [Server thread/INFO]: <Dunkersplatt> did sean diee
+[02:41:20] [Server thread/INFO]: <IntenseYogurt> no
+[02:41:22] [Server thread/INFO]: <IntenseYogurt> he just hid
+[02:41:25] [Server thread/INFO]: <IntenseYogurt> while we yelled
+[02:41:26] [Server thread/INFO]: [Dunkersplatt: Set mrdagger17's game mode to Spectator Mode]
+[02:41:27] [Server thread/INFO]: <icedrake25> PUSSY
+[02:41:33] [Server thread/INFO]: <Shananalovesdem> dead ass
+[02:42:17] [Server thread/INFO]: xcatieladyx was slain by seanm105
+[02:42:31] [Server thread/INFO]: Dunkersplatt was slain by seanm105
+[02:42:32] [Server thread/INFO]: seanm105 fell from a high place
+[02:42:35] [Server thread/INFO]: <icedrake25> put yo bone away
+[02:42:35] [Server thread/INFO]: <belundun> gg!!
+[02:42:36] [Server thread/INFO]: <Dunkersplatt> LMAO
+[02:42:37] [Server thread/INFO]: <Dunkersplatt> gg
+[02:42:38] [Server thread/INFO]: <belundun> oh man sean
+[02:42:39] [Server thread/INFO]: Meyeravi has made the advancement [Hot Stuff]
+[02:42:40] [Server thread/INFO]: <IntenseYogurt> SEAN
+[02:42:40] [Server thread/INFO]: <Shananalovesdem> gg
+[02:42:44] [Server thread/INFO]: <icedrake25> gg
+[02:42:46] [Server thread/INFO]: <seanm105> fucking close
+[02:42:46] [Server thread/INFO]: [Dunkersplatt: Executed 5 commands from function 'start:stop']
+[02:42:53] [Server thread/INFO]: <seanm105> i think...
+[02:42:55] [Server thread/INFO]: <belundun> the dual weild with the bone
+[02:43:00] [Server thread/INFO]: <belundun> DISRESPECT
+[02:43:08] [Server thread/INFO]: <Shananalovesdem> cri
+[02:43:12] [Server thread/INFO]: icedrake25 lost connection: Disconnected
+[02:43:12] [Server thread/INFO]: icedrake25 left the game
+[02:43:14] [Server thread/INFO]: <Dunkersplatt> you broke catie's shield hjahahah
+[02:43:15] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[02:43:15] [Server thread/INFO]: Shananalovesdem left the game
+[02:43:25] [Server thread/INFO]: <seanm105> i panicked and threw out my shield
+[02:43:28] [Server thread/INFO]: xcatieladyx lost connection: Disconnected
+[02:43:28] [Server thread/INFO]: xcatieladyx left the game
+[02:43:41] [Server thread/INFO]: ToaNuparu lost connection: Disconnected
+[02:43:41] [Server thread/INFO]: ToaNuparu left the game
+[02:44:32] [Server thread/INFO]: IntenseYogurt lost connection: Disconnected
+[02:44:32] [Server thread/INFO]: IntenseYogurt left the game
+[02:44:46] [Server thread/INFO]: seanm105 lost connection: Disconnected
+[02:44:46] [Server thread/INFO]: seanm105 left the game
+[02:45:52] [Server thread/INFO]: Meyeravi lost connection: Disconnected
+[02:45:52] [Server thread/INFO]: Meyeravi left the game
+[02:46:48] [Server thread/INFO]: St33n3r lost connection: Disconnected
+[02:46:48] [Server thread/INFO]: St33n3r left the game
+[02:46:59] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:46:59] [Server thread/INFO]: belundun left the game
+[02:47:09] [Server thread/INFO]: YungSpesh lost connection: Timed out
+[02:47:09] [Server thread/INFO]: YungSpesh left the game
+[02:51:02] [Server thread/INFO]: Dunkersplatt lost connection: Disconnected
+[02:51:02] [Server thread/INFO]: Dunkersplatt left the game
+[02:51:55] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[02:51:55] [Server thread/INFO]: Wolfzx99 left the game
+[02:55:47] [Server thread/INFO]: mrdagger17 lost connection: Disconnected
+[02:55:47] [Server thread/INFO]: mrdagger17 left the game
+[03:12:30] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at yd$1.run(SourceFile:90) [server16.jar:?]
+[03:12:30] [Server thread/INFO]: Stopping server
+[03:12:30] [Server thread/INFO]: Saving players
+[03:12:30] [Server thread/INFO]: Saving worlds
+[03:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

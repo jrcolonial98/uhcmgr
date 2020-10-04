@@ -1,0 +1,120 @@
+[02:07:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[02:07:15] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:07:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:07:15] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:07:15] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:07:15] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:07:15] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[02:07:16] [Worker-Main-6/INFO]: Loaded 7 recipes
+[02:07:17] [Worker-Main-6/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[02:07:17] [Worker-Main-6/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[02:07:17] [Worker-Main-6/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[02:07:17] [Worker-Main-6/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[02:07:17] [Worker-Main-6/INFO]: Loaded 927 advancements
+[02:07:19] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[02:07:19] [Server thread/INFO]: Loading properties
+[02:07:19] [Server thread/INFO]: Default game type: ADVENTURE
+[02:07:19] [Server thread/INFO]: Generating keypair
+[02:07:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:07:19] [Server thread/INFO]: Using epoll channel type
+[02:07:19] [Server thread/INFO]: Preparing level "world"
+[02:07:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[02:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[02:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[02:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[02:07:21] [Server thread/INFO]: Preparing spawn area: 0%
+[02:07:22] [Server thread/INFO]: Preparing spawn area: 44%
+[02:07:22] [Server thread/INFO]: Time elapsed: 2869 ms
+[02:07:22] [Server thread/INFO]: Done (3.000s)! For help, type "help"
+[02:07:25] [User Authenticator #1/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[02:07:25] [User Authenticator #2/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[02:07:26] [Server thread/INFO]: Dunkersplatt[/67.185.20.60:55390] logged in with entity id 282 at (112.38675015402919, 14.0, 84.69999998807907)
+[02:07:26] [Server thread/INFO]: Dunkersplatt joined the game
+[02:07:26] [Server thread/INFO]: St33n3r[/67.185.20.60:50209] logged in with entity id 283 at (169.5484125665437, 20.0, 90.79288393665992)
+[02:07:26] [Server thread/INFO]: St33n3r joined the game
+[02:07:27] [User Authenticator #3/INFO]: UUID of player brassline is c3f8895a-489f-4549-b672-74fda36f05b8
+[02:07:27] [Server thread/INFO]: brassline[/68.5.46.7:56144] logged in with entity id 284 at (165.58138808287654, 20.49520087700591, 85.6875937695009)
+[02:07:27] [Server thread/INFO]: brassline joined the game
+[02:07:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[02:07:31] [User Authenticator #4/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[02:07:31] [Server thread/INFO]: ToaNuparu[/73.191.221.212:54736] logged in with entity id 437 at (-122.84880837229731, 32.0, -335.3660710302926)
+[02:07:31] [Server thread/INFO]: ToaNuparu joined the game
+[02:07:45] [User Authenticator #5/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[02:07:45] [Server thread/INFO]: seanm105[/98.227.232.67:64587] logged in with entity id 680 at (-151.73794866727718, 65.28900091887829, -352.45866393280966)
+[02:07:45] [Server thread/INFO]: seanm105 joined the game
+[02:07:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[02:08:01] [User Authenticator #6/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[02:08:01] [Server thread/INFO]: belundun[/75.134.3.124:58573] logged in with entity id 731 at (174.69999998807899, 14.0, -84.69312655791823)
+[02:08:01] [Server thread/INFO]: belundun joined the game
+[02:08:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@3939598a[id=<null>,name=Shananalovesdem,properties={},legacy=false] (/71.105.160.25:50827) lost connection: Disconnected
+[02:08:16] [User Authenticator #7/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[02:08:16] [Server thread/INFO]: Shananalovesdem[/71.105.160.25:50829] logged in with entity id 943 at (311.3928605840377, 12.0, -68.91713553968047)
+[02:08:16] [Server thread/INFO]: Shananalovesdem joined the game
+[02:08:17] [User Authenticator #8/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:08:17] [Server thread/INFO]: YungSpesh[/68.13.46.239:54900] logged in with entity id 1043 at (111.30000001192093, 14.0, 85.82913920039906)
+[02:08:17] [Server thread/INFO]: YungSpesh joined the game
+[02:08:29] [Server thread/INFO]: Shananalovesdem has made the advancement [Cover Me With Diamonds]
+[02:08:30] [User Authenticator #9/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[02:08:30] [Server thread/INFO]: mrdagger17[/141.126.231.2:55304] logged in with entity id 1113 at (-138.01543733697477, 62.0, -357.30000001192093)
+[02:08:30] [Server thread/INFO]: mrdagger17 joined the game
+[02:08:34] [Server thread/INFO]: <Dunkersplatt> sry abouit that
+[02:12:28] [Server thread/WARN]: seanm105 moved too quickly! -10.686234226008857,0.0,-0.35420615579016257
+[02:13:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Cobblestone'/2380, l='ServerLevel[world]', x=82.13, y=55.00, z=101.77]
+[02:18:53] [Server thread/INFO]: ToaNuparu has made the advancement [Enchanter]
+[02:20:28] [Server thread/INFO]: Dunkersplatt has made the advancement [Cover Me With Diamonds]
+[02:23:01] [Server thread/INFO]: belundun has made the advancement [Not Today, Thank You]
+[02:23:05] [Server thread/INFO]: belundun has made the advancement [Monster Hunter]
+[02:23:45] [Server thread/INFO]: Dunkersplatt has made the advancement [Take Aim]
+[02:23:59] [Server thread/INFO]: belundun has made the advancement [Hot Stuff]
+[02:25:18] [Server thread/INFO]: ToaNuparu has made the advancement [The Parrots and the Bats]
+[02:27:47] [Server thread/INFO]: belundun has made the advancement [Cover Me With Diamonds]
+[02:31:40] [User Authenticator #10/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:31:40] [Server thread/INFO]: 1ottsco[/73.154.246.212:45358] logged in with entity id 9952 at (300.06999675301654, 78.50065022980377, 409.4267017497453)
+[02:31:40] [Server thread/INFO]: 1ottsco joined the game
+[02:33:48] [Server thread/INFO]: [1ottsco: Teleported 1ottsco to Dunkersplatt]
+[02:34:12] [Server thread/INFO]: St33n3r has made the advancement [Ol' Betsy]
+[02:34:12] [Server thread/INFO]: St33n3r has made the advancement [Take Aim]
+[02:34:29] [Server thread/INFO]: YungSpesh has made the advancement [Ol' Betsy]
+[02:34:41] [Server thread/INFO]: ToaNuparu has made the advancement [Take Aim]
+[02:35:07] [Server thread/INFO]: ToaNuparu was slain by Dunkersplatt
+[02:35:07] [Server thread/INFO]: [@: Set ToaNuparu's game mode to Spectator Mode]
+[02:35:11] [Server thread/INFO]: mrdagger17 was slain by Dunkersplatt
+[02:35:11] [Server thread/INFO]: [@: Set mrdagger17's game mode to Spectator Mode]
+[02:35:25] [Server thread/INFO]: <1ottsco> twhoever is killing the dogs i love you
+[02:35:32] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at zg$1.run(SourceFile:89) [server_16_2.jar:?]
+[02:35:32] [Server thread/INFO]: Stopping server
+[02:35:32] [Server thread/INFO]: Saving players
+[02:35:32] [Server thread/INFO]: Dunkersplatt lost connection: Server closed
+[02:35:32] [Server thread/INFO]: Dunkersplatt left the game
+[02:35:32] [Server thread/INFO]: brassline lost connection: Internal Exception: java.lang.StackOverflowError
+[02:35:32] [Server thread/INFO]: brassline left the game
+[02:35:32] [Server thread/INFO]: belundun lost connection: Internal Exception: java.lang.StackOverflowError
+[02:35:32] [Server thread/INFO]: belundun left the game
+[02:35:32] [Server thread/INFO]: YungSpesh lost connection: Internal Exception: java.lang.StackOverflowError
+[02:35:32] [Server thread/INFO]: YungSpesh left the game
+[02:35:32] [Server thread/INFO]: ToaNuparu lost connection: Internal Exception: java.lang.StackOverflowError
+[02:35:32] [Server thread/INFO]: ToaNuparu left the game
+[02:35:32] [Server thread/INFO]: Saving worlds
+[02:35:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:35:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:35:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:35:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

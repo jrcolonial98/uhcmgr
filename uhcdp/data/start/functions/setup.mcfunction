@@ -26,8 +26,8 @@ worldborder center 0 0
 worldborder set 1001
 
 # Teams (can be modified and not all have to be used but NEEDS ADDITIONAL MANUAL SETUP)
-team add husky
-team modify husky color aqua
+team add uconn
+team modify uconn color aqua
 
 team add evil
 team modify evil color black
@@ -35,11 +35,11 @@ team modify evil color black
 team add cherry
 team modify cherry color red
 
-team add eagle
-team modify eagle color gold
+team add bc
+team modify bc color gold
 
-team add hen
-team modify hen color yellow
+team add beast
+team modify beast color yellow
 
 team add mint
 team modify mint color green

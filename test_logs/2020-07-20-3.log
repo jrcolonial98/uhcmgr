@@ -1,0 +1,1554 @@
+[00:07:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[00:07:50] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:07:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:07:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:07:50] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:07:50] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:07:50] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[00:07:51] [Worker-Main-4/INFO]: Loaded 7 recipes
+[00:07:52] [Worker-Main-4/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[00:07:52] [Worker-Main-4/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[00:07:52] [Worker-Main-4/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[00:07:52] [Worker-Main-4/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[00:07:52] [Worker-Main-4/INFO]: Loaded 927 advancements
+[00:07:53] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[00:07:53] [Server thread/INFO]: Loading properties
+[00:07:53] [Server thread/INFO]: Default game type: ADVENTURE
+[00:07:53] [Server thread/INFO]: Generating keypair
+[00:07:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:07:54] [Server thread/INFO]: Using epoll channel type
+[00:07:54] [Server thread/INFO]: Preparing level "world"
+[00:07:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:07:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:07:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:07:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:07:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:07:56] [Server thread/INFO]: Preparing spawn area: 0%
+[00:07:57] [Server thread/INFO]: Preparing spawn area: 47%
+[00:08:00] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[00:08:00] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[00:08:01] [Worker-Main-5/INFO]: Preparing spawn area: 87%
+[00:08:01] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[00:08:02] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[00:08:02] [Worker-Main-5/INFO]: Preparing spawn area: 88%
+[00:08:03] [Worker-Main-4/INFO]: Preparing spawn area: 89%
+[00:08:03] [Server thread/INFO]: Preparing spawn area: 93%
+[00:08:04] [Server thread/INFO]: Preparing spawn area: 95%
+[00:08:04] [Server thread/INFO]: Time elapsed: 9749 ms
+[00:08:04] [Server thread/INFO]: Done (9.895s)! For help, type "help"
+[00:08:09] [User Authenticator #1/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[00:08:09] [Server thread/INFO]: Dunkersplatt[/24.151.84.216:53275] logged in with entity id 107 at (158.52670781040706, 246.0, 161.00321605403906)
+[00:08:09] [Server thread/INFO]: Dunkersplatt joined the game
+[00:08:14] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 100.0, 0.5]
+[00:08:18] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 500.5, 100.0, 500.5]
+[00:08:18] [Server thread/WARN]: Dunkersplatt moved too quickly! 500.0,34.0,500.0
+[00:11:54] [Server thread/INFO]: [Dunkersplatt: Set the world border to 700.0 blocks wide]
+[00:13:05] [Server thread/WARN]: Dunkersplatt moved too quickly! -10.61908825096566,0.0,2.16301072414808
+[00:14:12] [Server thread/INFO]: [Dunkersplatt: Set the world border to 400.0 blocks wide]
+[00:15:35] [Server thread/INFO]: [Dunkersplatt: Set the world border to 100.0 blocks wide]
+[00:15:52] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 100.0, 0.5]
+[00:15:55] [Server thread/INFO]: [Dunkersplatt: Set the world border to 1000.0 blocks wide]
+[00:15:58] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 160.5, 250.0, 160.5]
+[00:17:05] [Server thread/INFO]: [Dunkersplatt: Added Dunkersplatt to team [eagle]]
+[00:17:10] [Server thread/INFO]: [Dunkersplatt: Added YungSpesh to team [evil]]
+[00:17:13] [Server thread/INFO]: [Dunkersplatt: Added Inspyur to team [evil]]
+[00:17:18] [Server thread/INFO]: [Dunkersplatt: Added YungSpesh to team [eagle]]
+[00:17:21] [Server thread/INFO]: [Dunkersplatt: Added Inspyur to team [eagle]]
+[00:17:24] [Server thread/INFO]: [Dunkersplatt: Added Meyeravi to team [eagle]]
+[00:17:28] [Server thread/INFO]: [Dunkersplatt: Added IntenseYogurt to team [evil]]
+[00:17:30] [Server thread/INFO]: [Dunkersplatt: Added seanm105 to team [evil]]
+[00:17:34] [Server thread/INFO]: [Dunkersplatt: Added Wolfzx99 to team [evil]]
+[00:17:37] [Server thread/INFO]: [Dunkersplatt: Added mrdagger17 to team [evil]]
+[00:17:40] [Server thread/INFO]: [Dunkersplatt: Added meddi3 to team [cherry]]
+[00:17:47] [Server thread/INFO]: [Dunkersplatt: Added mikecherry to team [cherry]]
+[00:17:56] [Server thread/INFO]: [Dunkersplatt: Added SKILLVINIK to team [cherry]]
+[00:18:01] [Server thread/INFO]: [Dunkersplatt: Added Albertc5555 to team [cherry]]
+[00:18:06] [Server thread/INFO]: [Dunkersplatt: Added XmasGoose to team [hen]]
+[00:18:13] [Server thread/INFO]: [Dunkersplatt: Added icedrake25 to team [husky]]
+[00:18:17] [Server thread/INFO]: [Dunkersplatt: Added belundun to team [husky]]
+[00:18:21] [Server thread/INFO]: [Dunkersplatt: Added Shananalovesdem to team [husky]]
+[00:19:11] [User Authenticator #2/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[00:19:11] [Server thread/INFO]: 1ottsco[/24.151.96.10:48150] logged in with entity id 10267 at (160.5, 254.0, 160.5)
+[00:19:11] [Server thread/INFO]: 1ottsco joined the game
+[00:20:23] [User Authenticator #3/INFO]: UUID of player icedrake25 is 351df35b-8ad1-41ec-85f8-4ba9d0dc0e1e
+[00:20:23] [Server thread/INFO]: icedrake25[/75.134.234.159:62808] logged in with entity id 10268 at (160.5, 254.0, 160.5)
+[00:20:23] [Server thread/INFO]: icedrake25 joined the game
+[00:20:28] [Server thread/INFO]: 1ottsco fell from a high place
+[00:21:34] [Server thread/INFO]: 1ottsco fell from a high place
+[00:23:06] [Server thread/INFO]: 1ottsco fell from a high place
+[00:23:34] [User Authenticator #4/INFO]: UUID of player Meyeravi is f3beb405-3f37-49d6-b41d-d4f5894f58b8
+[00:23:34] [Server thread/INFO]: Meyeravi[/72.224.96.171:56987] logged in with entity id 10272 at (160.5, 254.0, 160.5)
+[00:23:34] [Server thread/INFO]: Meyeravi joined the game
+[00:24:17] [User Authenticator #5/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[00:24:17] [Server thread/INFO]: mmnickymm[/146.115.121.54:57422] logged in with entity id 10273 at (160.5, 254.0, 160.5)
+[00:24:17] [Server thread/INFO]: mmnickymm joined the game
+[00:24:57] [Server thread/INFO]: [Dunkersplatt: Removed 2 items from player Dunkersplatt]
+[00:25:14] [Server thread/INFO]: [Dunkersplatt: Added mmnickymm to team [hen]]
+[00:25:59] [Server thread/INFO]: mmnickymm fell from a high place
+[00:26:18] [Server thread/INFO]: 1ottsco fell from a high place
+[00:26:22] [User Authenticator #6/INFO]: UUID of player damonsterwolf is 5ae2ce73-cb88-4b81-bcdc-87a9e52cb6f8
+[00:26:22] [Server thread/INFO]: damonsterwolf[/24.2.133.77:63136] logged in with entity id 10276 at (160.5, 254.0, 160.5)
+[00:26:22] [Server thread/INFO]: damonsterwolf joined the game
+[00:27:22] [Server thread/INFO]: [Dunkersplatt: Added damonsterwolf to team [hen]]
+[00:27:26] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [hen]]
+[00:27:41] [Server thread/INFO]: mmnickymm fell from a high place
+[00:28:03] [User Authenticator #7/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[00:28:03] [Server thread/INFO]: Shananalovesdem[/71.105.160.32:50712] logged in with entity id 10279 at (160.5, 254.0, 160.5)
+[00:28:03] [Server thread/INFO]: Shananalovesdem joined the game
+[00:28:04] [User Authenticator #8/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[00:28:04] [Server thread/INFO]: YungSpesh[/68.13.69.169:61061] logged in with entity id 10280 at (160.5, 254.0, 160.5)
+[00:28:04] [Server thread/INFO]: YungSpesh joined the game
+[00:28:11] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[00:28:11] [Server thread/INFO]: Shananalovesdem left the game
+[00:28:43] [Server thread/INFO]: mmnickymm fell from a high place
+[00:28:59] [Server thread/INFO]: 1ottsco fell from a high place
+[00:30:21] [Server thread/INFO]: mmnickymm fell from a high place
+[00:31:30] [Server thread/INFO]: YungSpesh was slain by 1ottsco
+[00:31:44] [Server thread/INFO]: 1ottsco fell from a high place
+[00:31:48] [Server thread/INFO]: mmnickymm fell from a high place
+[00:32:39] [User Authenticator #9/INFO]: UUID of player IntenseYogurt is 13a16db0-6016-414a-803a-5126beda9fc3
+[00:32:39] [Server thread/INFO]: IntenseYogurt[/68.197.219.193:57371] logged in with entity id 10295 at (160.5, 254.0, 160.5)
+[00:32:39] [Server thread/INFO]: IntenseYogurt joined the game
+[00:32:43] [Server thread/INFO]: [Dunkersplatt: Removed 4 items from player Dunkersplatt]
+[00:32:45] [Server thread/INFO]: [IntenseYogurt: Set own game mode to Creative Mode]
+[00:33:00] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to mmnickymm]
+[00:33:00] [User Authenticator #10/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[00:33:00] [Server thread/INFO]: Shananalovesdem[/71.105.160.32:50784] logged in with entity id 10296 at (161.42957027845, 246.0, 156.53467081849888)
+[00:33:00] [Server thread/INFO]: Shananalovesdem joined the game
+[00:33:08] [User Authenticator #11/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:33:08] [Server thread/INFO]: Wolfzx99[/73.69.129.6:56334] logged in with entity id 10297 at (160.5, 254.0, 160.5)
+[00:33:08] [Server thread/INFO]: Wolfzx99 joined the game
+[00:33:11] [User Authenticator #12/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[00:33:11] [Server thread/INFO]: mrdagger17[/141.126.216.104:55028] logged in with entity id 10298 at (160.5, 254.0, 160.5)
+[00:33:11] [Server thread/INFO]: mrdagger17 joined the game
+[00:33:24] [Server thread/INFO]: 1ottsco fell from a high place
+[00:34:15] [Server thread/INFO]: [Dunkersplatt: Removed 1 items from player Dunkersplatt]
+[00:34:16] [Server thread/INFO]: Dunkersplatt fell out of the world
+[00:34:16] [Server thread/INFO]: [Dunkersplatt: Killed Dunkersplatt]
+[00:34:41] [Server thread/INFO]: Meyeravi was slain by YungSpesh
+[00:35:01] [Server thread/INFO]: 1ottsco fell from a high place
+[00:35:13] [User Authenticator #13/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[00:35:13] [Server thread/INFO]: belundun[/75.133.102.102:52553] logged in with entity id 10304 at (160.5, 254.0, 160.5)
+[00:35:13] [Server thread/INFO]: belundun joined the game
+[00:35:29] [Server thread/INFO]: Wolfzx99 was slain by mrdagger17
+[00:35:38] [Server thread/INFO]: YungSpesh fell from a high place
+[00:35:45] [User Authenticator #14/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[00:35:45] [Server thread/INFO]: mikecherry[/69.121.197.123:52771] logged in with entity id 10307 at (160.5, 254.0, 160.5)
+[00:35:45] [Server thread/INFO]: mikecherry joined the game
+[00:35:48] [User Authenticator #15/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[00:35:48] [Server thread/INFO]: seanm105[/98.227.232.67:60730] logged in with entity id 10308 at (160.5, 254.0, 160.5)
+[00:35:48] [Server thread/INFO]: seanm105 joined the game
+[00:35:51] [User Authenticator #16/INFO]: UUID of player Albertc5555 is 7a1791f0-2716-4b1c-b027-a1493e10c8a3
+[00:35:51] [Server thread/INFO]: Albertc5555[/173.70.115.19:60944] logged in with entity id 10309 at (160.5, 254.0, 160.5)
+[00:35:51] [Server thread/INFO]: Albertc5555 joined the game
+[00:35:59] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[00:35:59] [Server thread/INFO]: Wolfzx99 left the game
+[00:36:21] [User Authenticator #17/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:36:21] [Server thread/INFO]: Wolfzx99[/73.69.129.6:56994] logged in with entity id 10310 at (169.69999998807907, 246.0, 165.44223051598684)
+[00:36:21] [Server thread/INFO]: Wolfzx99 joined the game
+[00:36:24] [Server thread/INFO]: Shananalovesdem fell from a high place
+[00:36:32] [Server thread/INFO]: mrdagger17 hit the ground too hard
+[00:36:52] [Server thread/INFO]: 1ottsco fell from a high place
+[00:37:51] [User Authenticator #18/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[00:37:51] [Server thread/INFO]: XmasGoose[/73.149.203.16:4761] logged in with entity id 10314 at (160.5, 254.0, 160.5)
+[00:37:51] [Server thread/INFO]: XmasGoose joined the game
+[00:37:53] [Server thread/INFO]: Wolfzx99 hit the ground too hard
+[00:37:56] [Server thread/INFO]: belundun fell from a high place
+[00:38:34] [Server thread/INFO]: mikecherry fell from a high place
+[00:38:45] [Server thread/INFO]: 1ottsco fell from a high place
+[00:38:54] [Server thread/INFO]: Shananalovesdem fell from a high place
+[00:39:21] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 259.0273730381917, 0.5]
+[00:39:22] [Server thread/WARN]: Dunkersplatt moved too quickly! -164.40067780974977,0.0,-164.85529972036863
+[00:39:25] [Server thread/INFO]: mrdagger17 fell from a high place
+[00:39:26] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 160.5, 259.0273730381917, 160.5]
+[00:39:49] [Server thread/INFO]: <XmasGoose> boo
+[00:39:53] [Server thread/INFO]: <XmasGoose> >:(
+[00:39:56] [Server thread/INFO]: Wolfzx99 hit the ground too hard
+[00:40:02] [Server thread/INFO]: <XmasGoose> lets keep tradition
+[00:40:09] [Server thread/INFO]: Albertc5555 hit the ground too hard
+[00:40:14] [Server thread/INFO]: 1ottsco fell from a high place
+[00:40:18] [Server thread/INFO]: <YungSpesh> nate brendan wants us to tell you to set up the command blocks
+[00:40:27] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 160.5, 300.0, 160.5]
+[00:40:27] [Server thread/WARN]: Dunkersplatt moved too quickly! 2.017377765008632,44.49894057027035,-1.199999988079071
+[00:40:35] [Server thread/INFO]: [Dunkersplatt: Teleported 16 entities to 160.5, 300.0, 160.5]
+[00:40:36] [Server thread/INFO]: seanm105 fell from a high place
+[00:40:36] [Server thread/INFO]: mikecherry fell from a high place
+[00:40:37] [Server thread/INFO]: 1ottsco fell from a high place
+[00:40:37] [Server thread/INFO]: Albertc5555 fell from a high place
+[00:40:37] [Server thread/INFO]: belundun fell from a high place
+[00:40:37] [Server thread/INFO]: mrdagger17 fell from a high place
+[00:40:37] [Server thread/INFO]: mmnickymm fell from a high place
+[00:40:37] [Server thread/INFO]: Meyeravi fell from a high place
+[00:40:37] [Server thread/INFO]: Shananalovesdem fell from a high place
+[00:40:37] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:40:37] [Server thread/INFO]: icedrake25 fell from a high place
+[00:40:37] [Server thread/INFO]: YungSpesh fell from a high place
+[00:40:37] [Server thread/INFO]: XmasGoose fell from a high place
+[00:40:37] [Server thread/INFO]: damonsterwolf fell from a high place
+[00:40:38] [Server thread/WARN]: Fetching packet for removed entity ze['icedrake25'/10268, l='ServerLevel[world]', x=159.91, y=246.00, z=158.55]
+[00:40:38] [Server thread/WARN]: Fetching packet for removed entity ze['YungSpesh'/10280, l='ServerLevel[world]', x=168.02, y=247.00, z=154.55]
+[00:40:38] [Server thread/WARN]: Fetching packet for removed entity ze['XmasGoose'/10314, l='ServerLevel[world]', x=164.62, y=246.00, z=153.27]
+[00:40:38] [Server thread/WARN]: Fetching packet for removed entity ze['damonsterwolf'/10276, l='ServerLevel[world]', x=154.75, y=246.00, z=159.95]
+[00:40:46] [Server thread/INFO]: [Dunkersplatt: Teleported 16 entities to 160.5, 300.0, 160.5]
+[00:40:48] [Server thread/INFO]: belundun fell from a high place
+[00:40:48] [Server thread/INFO]: mmnickymm fell from a high place
+[00:40:48] [Server thread/INFO]: mikecherry fell from a high place
+[00:40:48] [Server thread/INFO]: Albertc5555 fell from a high place
+[00:40:48] [Server thread/INFO]: YungSpesh fell from a high place
+[00:40:48] [Server thread/INFO]: mrdagger17 fell from a high place
+[00:40:48] [Server thread/INFO]: XmasGoose fell from a high place
+[00:40:48] [Server thread/INFO]: damonsterwolf fell from a high place
+[00:40:48] [Server thread/INFO]: icedrake25 fell from a high place
+[00:40:48] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:40:48] [Server thread/INFO]: Shananalovesdem fell from a high place
+[00:40:48] [Server thread/INFO]: Meyeravi fell from a high place
+[00:40:50] [Server thread/WARN]: seanm105 moved too quickly! -0.2006807920593019,-12.708162068455493,0.10726817998147453
+[00:40:51] [Server thread/INFO]: seanm105 fell from a high place
+[00:40:51] [Server thread/INFO]: 1ottsco fell from a high place
+[00:40:55] [Server thread/INFO]: [XmasGoose: Set own game mode to Creative Mode]
+[00:41:03] [Server thread/INFO]: [Dunkersplatt: Teleported 16 entities to 160.5, 300.0, 160.5]
+[00:41:05] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:41:05] [Server thread/INFO]: Albertc5555 fell from a high place
+[00:41:05] [Server thread/INFO]: mikecherry fell from a high place
+[00:41:05] [Server thread/INFO]: mrdagger17 fell from a high place
+[00:41:05] [Server thread/INFO]: Shananalovesdem fell from a high place
+[00:41:05] [Server thread/INFO]: Meyeravi fell from a high place
+[00:41:05] [Server thread/INFO]: YungSpesh fell from a high place
+[00:41:05] [Server thread/INFO]: belundun fell from a high place
+[00:41:05] [Server thread/INFO]: mmnickymm fell from a high place
+[00:41:05] [Server thread/INFO]: 1ottsco fell from a high place
+[00:41:05] [Server thread/INFO]: damonsterwolf fell from a high place
+[00:41:05] [Server thread/INFO]: icedrake25 fell from a high place
+[00:41:06] [Server thread/INFO]: seanm105 fell from a high place
+[00:41:12] [Server thread/INFO]: [XmasGoose: Gave 2 [Command Block] to XmasGoose]
+[00:41:15] [Server thread/INFO]: <seanm105> i imagine this is how lemmings feel
+[00:41:26] [Server thread/INFO]: <IntenseYogurt> Cherry where is the full team ?
+[00:41:34] [Server thread/INFO]: <mikecherry> we'll have 4 soon
+[00:41:36] [Server thread/INFO]: <IntenseYogurt> <3
+[00:41:45] [Server thread/INFO]: <Dunkersplatt> lovely
+[00:41:49] [Server thread/INFO]: Albertc5555 was slain by mmnickymm
+[00:42:02] [Server thread/INFO]: Wolfzx99 was slain by icedrake25
+[00:42:07] [Server thread/INFO]: icedrake25 was slain by mmnickymm
+[00:42:15] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:42:16] [Server thread/INFO]: <IntenseYogurt> hetlo n8
+[00:42:37] [Server thread/INFO]: mrdagger17 was slain by Wolfzx99
+[00:42:39] [Server thread/INFO]: YungSpesh was slain by mikecherry
+[00:42:57] [Server thread/INFO]: mmnickymm fell from a high place
+[00:42:59] [Server thread/INFO]: 1ottsco fell from a high place
+[00:43:01] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:43:03] [Server thread/INFO]: mikecherry fell from a high place
+[00:43:05] [Server thread/INFO]: [Dunkersplatt: Applied effect Jump Boost to 16 targets]
+[00:43:15] [Server thread/INFO]: [Dunkersplatt: Applied effect Jump Boost to 16 targets]
+[00:43:26] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:43:28] [Server thread/INFO]: mmnickymm was slain by 1ottsco
+[00:43:33] [Server thread/INFO]: [Dunkersplatt: Applied effect Jump Boost to 16 targets]
+[00:43:41] [Server thread/INFO]: belundun fell from a high place
+[00:43:44] [Server thread/INFO]: 1ottsco fell from a high place
+[00:43:46] [Server thread/INFO]: Albertc5555 fell from a high place
+[00:43:46] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:43:47] [Server thread/INFO]: [XmasGoose: Removed 3 items from player XmasGoose]
+[00:43:48] [Server thread/INFO]: mikecherry fell from a high place
+[00:44:01] [User Authenticator #19/INFO]: UUID of player meddi3 is edf95149-22fa-44b3-96b8-f0357b6ca50d
+[00:44:01] [Server thread/INFO]: meddi3[/100.8.184.52:65337] logged in with entity id 10499 at (160.5, 254.0, 160.5)
+[00:44:01] [Server thread/INFO]: meddi3 joined the game
+[00:44:18] [Server thread/INFO]: Shananalovesdem was slain by belundun
+[00:44:37] [Server thread/INFO]: <meddi3> hi guys
+[00:44:38] [Server thread/INFO]: icedrake25 was slain by belundun
+[00:44:44] [Server thread/INFO]: belundun was slain by 1ottsco
+[00:44:46] [Server thread/INFO]: <Dunkersplatt> hi is skillvinik here soon
+[00:44:50] [Server thread/INFO]: <Dunkersplatt> or should we start + tp him
+[00:44:57] [Server thread/INFO]: <Albertc5555> yes hell be here soon
+[00:44:58] [Server thread/INFO]: <meddi3> yes i think hes coming back rn
+[00:45:00] [Server thread/INFO]: 1ottsco was slain by YungSpesh
+[00:45:01] [Server thread/INFO]: <Dunkersplatt> ok
+[00:45:26] [Server thread/INFO]: icedrake25 was slain by meddi3
+[00:45:29] [Server thread/INFO]: [Dunkersplatt: Applied effect Jump Boost to 17 targets]
+[00:45:33] [Server thread/INFO]: seanm105 was slain by meddi3
+[00:45:39] [Server thread/INFO]: belundun fell from a high place
+[00:45:47] [Server thread/INFO]: mrdagger17 was slain by 1ottsco
+[00:46:04] [Server thread/INFO]: 1ottsco hit the ground too hard
+[00:46:12] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:46:18] [Server thread/INFO]: meddi3 was slain by Albertc5555
+[00:46:49] [Server thread/INFO]: Shananalovesdem hit the ground too hard
+[00:46:51] [Server thread/INFO]: mikecherry fell from a high place
+[00:47:21] [Server thread/INFO]: belundun fell from a high place
+[00:47:22] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Wolfzx99]
+[00:47:39] [Server thread/INFO]: YungSpesh fell from a high place
+[00:48:01] [Server thread/INFO]: mikecherry lost connection: Timed out
+[00:48:01] [Server thread/INFO]: mikecherry left the game
+[00:48:01] [Server thread/WARN]: handleDisconnection() called twice
+[00:48:05] [Server thread/INFO]: 1ottsco fell from a high place
+[00:48:16] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:48:27] [User Authenticator #20/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[00:48:27] [Server thread/INFO]: mikecherry[/69.121.197.123:52789] logged in with entity id 10517 at (166.57209940495167, 246.0, 166.97537545969985)
+[00:48:27] [Server thread/INFO]: mikecherry joined the game
+[00:48:51] [Server thread/INFO]: [XmasGoose: Applied effect Blindness to 17 targets]
+[00:48:59] [Server thread/INFO]: belundun was slain by YungSpesh
+[00:48:59] [Server thread/INFO]: <XmasGoose> dont look at the map
+[00:49:03] [Server thread/INFO]: [XmasGoose: Set own game mode to Survival Mode]
+[00:49:08] [Server thread/INFO]: mmnickymm fell from a high place
+[00:49:10] [Server thread/INFO]: <XmasGoose> !
+[00:49:16] [Server thread/INFO]: <XmasGoose> !
+[00:49:18] [Server thread/INFO]: <XmasGoose> dont look at the map
+[00:49:19] [Server thread/INFO]: XmasGoose was slain by 1ottsco
+[00:49:24] [Server thread/INFO]: [XmasGoose: Applied effect Blindness to 17 targets]
+[00:49:26] [Server thread/INFO]: <XmasGoose> HA
+[00:49:35] [Server thread/INFO]: mrdagger17 was slain by Wolfzx99
+[00:49:35] [Server thread/INFO]: seanm105 hit the ground too hard
+[00:49:41] [Server thread/INFO]: <Dunkersplatt> if skillvinik isn't here by 8:52 we'll start and tp him
+[00:49:45] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[00:49:46] [Server thread/INFO]: Albertc5555 was slain by Shananalovesdem
+[00:49:46] [Server thread/INFO]: [XmasGoose: Applied effect Dolphin's Grace to 17 targets]
+[00:49:58] [Server thread/INFO]: <mmnickymm> no mic today nate?
+[00:49:58] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:58] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:58] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:58] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:49:59] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:00] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:01] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/INFO]: mikecherry was slain by Wolfzx99
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:02] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:03] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:04] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:05] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:06] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:07] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:08] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:09] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:10] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:11] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:12] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:13] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:14] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/INFO]: [XmasGoose: Applied effect Speed to 17 targets]
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:15] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:16] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:17] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:18] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:19] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:20] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:21] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:22] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:23] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/WARN]: icedrake25 was kicked for floating too long!
+[00:50:24] [Server thread/INFO]: icedrake25 lost connection: Timed out
+[00:50:24] [Server thread/INFO]: icedrake25 left the game
+[00:50:27] [Server thread/INFO]: Wolfzx99 was slain by YungSpesh
+[00:50:28] [Server thread/INFO]: 1ottsco was slain by meddi3
+[00:50:30] [Server thread/INFO]: belundun fell from a high place
+[00:50:35] [Server thread/INFO]: [XmasGoose: Applied effect Glowing to 16 targets]
+[00:50:38] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[00:50:46] [User Authenticator #21/INFO]: UUID of player icedrake25 is 351df35b-8ad1-41ec-85f8-4ba9d0dc0e1e
+[00:50:46] [Server thread/INFO]: icedrake25[/75.134.234.159:63184] logged in with entity id 10528 at (160.20053967126728, 247.7531999805212, 156.07366730209486)
+[00:50:46] [Server thread/INFO]: icedrake25 joined the game
+[00:50:47] [Server thread/INFO]: mmnickymm fell from a high place
+[00:50:55] [Server thread/INFO]: <XmasGoose> a rough mod
+[00:51:16] [Server thread/INFO]: <IntenseYogurt> we should do a seed at some point with little islands and mostly ocean
+[00:51:23] [Server thread/INFO]: <mikecherry> skill siad hed on his way
+[00:51:39] [Server thread/INFO]: <Dunkersplatt> oh he entered the discord
+[00:51:43] [User Authenticator #22/INFO]: UUID of player SKILLVINIK is 5f684cde-723e-44cc-b5d7-ea17889a5cde
+[00:51:43] [Server thread/INFO]: SKILLVINIK[/69.112.44.242:53475] logged in with entity id 10530 at (160.5, 254.0, 160.5)
+[00:51:43] [Server thread/INFO]: SKILLVINIK joined the game
+[00:51:47] [Server thread/INFO]: <Dunkersplatt> meyer join the bc channel
+[00:52:06] [Server thread/INFO]: <Dunkersplatt> ok ready all?
+[00:52:08] [Server thread/INFO]: belundun was slain by Wolfzx99
+[00:52:09] [Server thread/INFO]: [Dunkersplatt: Removed 2 items from 18 players]
+[00:52:10] [Server thread/INFO]: <SKILLVINIK> jes
+[00:52:12] [Server thread/INFO]: <mmnickymm> yyyyyyeeeeeeeeeeeeettt
+[00:52:15] [Server thread/INFO]: <SKILLVINIK> sorry for late
+[00:52:25] [Server thread/INFO]: <Dunkersplatt> no worries
+[00:52:29] [Server thread/INFO]: Wolfzx99 hit the ground too hard
+[00:52:31] [Server thread/INFO]: <Dunkersplatt> spreading
+[00:52:31] [Server thread/INFO]: mikecherry fell from a high place
+[00:52:34] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[00:52:34] [Server thread/INFO]: [Dunkersplatt: Executed 10 commands from function 'start:waitspread']
+[00:52:38] [Server thread/INFO]: <Shananalovesdem> issues
+[00:52:40] [Server thread/INFO]: [IntenseYogurt: Set own game mode to Survival Mode]
+[00:52:44] [Server thread/INFO]: <Dunkersplatt> what
+[00:52:44] [Server thread/INFO]: <belundun> TeamNewMap
+[00:52:44] [Server thread/INFO]: <Shananalovesdem> jk im good
+[00:52:48] [Server thread/INFO]: <Dunkersplatt> ok
+[00:52:54] [Server thread/INFO]: <IntenseYogurt> wait
+[00:52:57] [Server thread/INFO]: <IntenseYogurt> can you tp me to my team
+[00:53:01] [Server thread/INFO]: <IntenseYogurt> i am in a hole
+[00:53:02] [Server thread/INFO]: [Dunkersplatt: Teleported IntenseYogurt to mrdagger17]
+[00:53:05] [Server thread/INFO]: <Dunkersplatt> good now?
+[00:53:05] [Server thread/INFO]: <IntenseYogurt> thx
+[00:53:07] [Server thread/INFO]: <IntenseYogurt> yers
+[00:53:08] [Server thread/INFO]: <Dunkersplatt> ok
+[00:53:10] [Server thread/INFO]: <Dunkersplatt> starting
+[00:53:19] [Server thread/INFO]: [Dunkersplatt: Executed 17 commands from function 'start:start']
+[00:54:09] [Server thread/INFO]: Dunkersplatt has made the advancement [Stone Age]
+[00:54:13] [Server thread/INFO]: mmnickymm has made the advancement [Stone Age]
+[00:54:24] [Server thread/INFO]: Dunkersplatt has made the advancement [Getting an Upgrade]
+[00:54:25] [Server thread/INFO]: icedrake25 has made the advancement [Stone Age]
+[00:54:25] [Server thread/INFO]: IntenseYogurt has made the advancement [Stone Age]
+[00:54:30] [Server thread/INFO]: belundun has made the advancement [Stone Age]
+[00:54:35] [Server thread/INFO]: belundun has made the advancement [Getting an Upgrade]
+[00:54:44] [Server thread/INFO]: meddi3 has made the advancement [Stone Age]
+[00:54:53] [Server thread/INFO]: damonsterwolf has made the advancement [Stone Age]
+[00:54:55] [Server thread/INFO]: YungSpesh has made the advancement [Stone Age]
+[00:55:00] [Server thread/INFO]: icedrake25 has made the advancement [Getting an Upgrade]
+[00:55:09] [Server thread/INFO]: damonsterwolf was slain by Wolfzx99
+[00:55:09] [Server thread/INFO]: [@: Set damonsterwolf's game mode to Spectator Mode]
+[00:55:09] [Server thread/INFO]: [@: Set [Deaths] for damonsterwolf to 0]
+[00:55:13] [Server thread/INFO]: seanm105 has made the advancement [Stone Age]
+[00:55:22] [Server thread/INFO]: <mikecherry> can evil stop spawning next to nates team lmao
+[00:55:32] [Server thread/INFO]: <Dunkersplatt> gg
+[00:55:33] [Server thread/INFO]: mikecherry has made the advancement [Stone Age]
+[00:55:35] [Server thread/INFO]: <Dunkersplatt> lmao
+[00:55:36] [Server thread/INFO]: <SKILLVINIK> ripperoni
+[00:55:36] [Server thread/INFO]: mmnickymm was slain by mrdagger17
+[00:55:36] [Server thread/INFO]: [@: Set mmnickymm's game mode to Spectator Mode]
+[00:55:36] [Server thread/INFO]: [@: Set [Deaths] for mmnickymm to 0]
+[00:55:40] [Server thread/INFO]: <Dunkersplatt> oh my gosh
+[00:55:47] [Server thread/INFO]: <mmnickymm> i am gonna scream
+[00:55:47] [Server thread/INFO]: <Dunkersplatt> gg :(
+[00:55:49] [Server thread/INFO]: meddi3 has made the advancement [Getting an Upgrade]
+[00:55:53] [Server thread/INFO]: XmasGoose was slain by seanm105
+[00:55:54] [Server thread/INFO]: [@: Set XmasGoose's game mode to Spectator Mode]
+[00:55:54] [Server thread/INFO]: [@: Set [Deaths] for XmasGoose to 0]
+[00:55:58] [Server thread/INFO]: Meyeravi has made the advancement [Getting an Upgrade]
+[00:55:59] [Server thread/INFO]: IntenseYogurt was slain by 1ottsco
+[00:55:59] [Server thread/INFO]: [@: Set IntenseYogurt's game mode to Spectator Mode]
+[00:55:59] [Server thread/INFO]: [@: Set [Deaths] for IntenseYogurt to 0]
+[00:56:02] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-414, y=64, z=-2} fu{x=-414, y=62, z=-2}
+[00:56:03] [Server thread/INFO]: <IntenseYogurt> ggs
+[00:56:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[00:56:11] [Server thread/INFO]: <Dunkersplatt> tggs
+[00:56:18] [Server thread/INFO]: <SKILLVINIK> smh
+[00:56:18] [Server thread/INFO]: mikecherry has made the advancement [Getting an Upgrade]
+[00:56:19] [Server thread/INFO]: <IntenseYogurt> oops yellow!
+[00:56:21] [Server thread/INFO]: <IntenseYogurt> again?
+[00:56:31] [Server thread/INFO]: Albertc5555 has made the advancement [Stone Age]
+[00:56:33] [Server thread/INFO]: <mikecherry> f for nicky
+[00:56:35] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:56:35] [Server thread/INFO]: [@: Set 1ottsco's game mode to Spectator Mode]
+[00:56:35] [Server thread/INFO]: [@: Set [Deaths] for 1ottsco to 0]
+[00:56:35] [Server thread/INFO]: <Dunkersplatt> thats unreal
+[00:56:37] [Server thread/INFO]: <IntenseYogurt> ggs
+[00:56:40] [Server thread/INFO]: <XmasGoose> geez
+[00:56:40] [Server thread/INFO]: <1ottsco> gg
+[00:56:41] [Server thread/INFO]: <Dunkersplatt> ggs
+[00:56:42] [Server thread/INFO]: belundun has made the advancement [Acquire Hardware]
+[00:56:42] [Server thread/INFO]: <SKILLVINIK> SKILLVINIK has made the achievment [BIG TITTY GOTH GF]
+[00:56:45] [Server thread/INFO]: <mmnickymm> gg
+[00:56:47] [Server thread/INFO]: <XmasGoose> wtf is spread
+[00:56:53] [Server thread/INFO]: <IntenseYogurt> yeah ngl that was wack
+[00:56:59] [Server thread/INFO]: <IntenseYogurt> we saw them in under 10 seconds
+[00:57:00] [Server thread/INFO]: YungSpesh has made the advancement [Getting an Upgrade]
+[00:57:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:57:02] [Server thread/INFO]: <Dunkersplatt> i dunno
+[00:57:06] [Server thread/INFO]: <Dunkersplatt> how close did u spawn
+[00:57:12] [Server thread/INFO]: seanm105 has made the advancement [Ice Bucket Challenge]
+[00:57:13] [Server thread/INFO]: <mmnickymm> like 60 blocks away
+[00:57:13] [Server thread/WARN]: 1ottsco moved too quickly! -7.6459517751492,0.2566540295504325,8.079978667308106
+[00:57:17] [Server thread/INFO]: <IntenseYogurt> like i walked 20 bocks n saw nate
+[00:57:22] [Server thread/INFO]: <SKILLVINIK> i also have spread complaint because a cringy gamergirl spawned next to me
+[00:57:23] [Server thread/WARN]: Fetching packet for removed entity bbg['Raw Beef'/15734, l='ServerLevel[world]', x=255.54, y=71.00, z=-360.12]
+[00:57:27] [Server thread/INFO]: <IntenseYogurt> lmaooo
+[00:57:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[00:57:44] [Server thread/INFO]: Albertc5555 has made the advancement [Getting an Upgrade]
+[00:57:45] [Server thread/INFO]: <meddi3> hi
+[00:58:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[00:58:12] [Server thread/WARN]: 1ottsco moved too quickly! 1.2142007219830617,0.0,11.13232807001819
+[00:58:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2306ms or 46 ticks behind
+[00:58:40] [Server thread/INFO]: Meyeravi has made the advancement [Stone Age]
+[00:58:48] [Server thread/WARN]: 1ottsco moved too quickly! 5.525271605951055,0.0,9.386851232760137
+[00:59:05] [Server thread/INFO]: Shananalovesdem has made the advancement [Acquire Hardware]
+[00:59:43] [Server thread/INFO]: icedrake25 has made the advancement [Acquire Hardware]
+[01:00:29] [Server thread/INFO]: mrdagger17 was slain by belundun
+[01:00:29] [Server thread/INFO]: [@: Set mrdagger17's game mode to Spectator Mode]
+[01:00:29] [Server thread/INFO]: [@: Set [Deaths] for mrdagger17 to 0]
+[01:00:38] [Server thread/INFO]: <IntenseYogurt> 3 teams spawned on one another
+[01:00:52] [Server thread/INFO]: seanm105 was slain by Shananalovesdem
+[01:00:52] [Server thread/INFO]: [@: Set seanm105's game mode to Spectator Mode]
+[01:00:52] [Server thread/INFO]: [@: Set [Deaths] for seanm105 to 0]
+[01:00:54] [Server thread/INFO]: Shananalovesdem has made the advancement [Ice Bucket Challenge]
+[01:00:54] [Server thread/INFO]: <IntenseYogurt> ggs
+[01:00:58] [Server thread/INFO]: Shananalovesdem has made the advancement [Stone Age]
+[01:01:05] [Server thread/INFO]: <Shananalovesdem> gg
+[01:01:23] [Server thread/INFO]: Dunkersplatt has made the advancement [Acquire Hardware]
+[01:02:17] [Server thread/INFO]: mikecherry has made the advancement [Acquire Hardware]
+[01:02:19] [Server thread/INFO]: Dunkersplatt has made the advancement [What a Deal!]
+[01:02:31] [Server thread/INFO]: mikecherry has made the advancement [Isn't It Iron Pick]
+[01:03:05] [Server thread/INFO]: mikecherry has made the advancement [Monster Hunter]
+[01:03:11] [Server thread/INFO]: mikecherry has made the advancement [Not Today, Thank You]
+[01:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2282ms or 45 ticks behind
+[01:03:17] [Server thread/WARN]: mrdagger17 moved too quickly! -9.887163479130379,0.0,-2.210380906089199
+[01:03:28] [Server thread/WARN]: seanm105 moved too quickly! -0.3748482943738054,-2.8181688159839524,-10.026881062433603
+[01:03:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[01:03:38] [Server thread/WARN]: seanm105 moved too quickly! -4.090529880319849,0.32290576825526784,-9.42312709722394
+[01:03:44] [Server thread/INFO]: mikecherry has made the advancement [Suit Up]
+[01:04:42] [Server thread/INFO]: <SKILLVINIK> SKILLVINIK has made the advancement [2 Pump Chump]
+[01:05:04] [Server thread/INFO]: Wolfzx99 has made the advancement [Stone Age]
+[01:05:20] [Server thread/INFO]: YungSpesh has made the advancement [Monster Hunter]
+[01:05:23] [Server thread/WARN]: mikecherry moved wrongly!
+[01:06:06] [Server thread/INFO]: belundun has made the advancement [Monster Hunter]
+[01:06:42] [Server thread/WARN]: mrdagger17 moved too quickly! -10.299886220095857,-0.20705077727897958,1.592107538633627
+[01:06:54] [Server thread/WARN]: seanm105 moved too quickly! 7.33222977720294,4.306935314203159,-5.2681180048307965
+[01:07:01] [Server thread/WARN]: seanm105 moved too quickly! -6.952936842905089,0.0,7.18812353978705
+[01:07:06] [Server thread/WARN]: seanm105 moved too quickly! 3.2596179827548752,0.0,10.058491832818223
+[01:07:09] [Server thread/INFO]: damonsterwolf lost connection: Disconnected
+[01:07:09] [Server thread/INFO]: damonsterwolf left the game
+[01:07:11] [Server thread/WARN]: seanm105 moved too quickly! 9.969230309966093,2.164140819435218,0.838533746104142
+[01:07:15] [Server thread/INFO]: <SKILLVINIK> RIP
+[01:07:19] [Server thread/INFO]: Shananalovesdem has made the advancement [Getting an Upgrade]
+[01:07:19] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[01:07:19] [Server thread/INFO]: mmnickymm left the game
+[01:07:25] [Server thread/INFO]: SKILLVINIK has made the advancement [Stone Age]
+[01:07:39] [Server thread/INFO]: SKILLVINIK has made the advancement [Getting an Upgrade]
+[01:07:59] [Server thread/INFO]: mikecherry lost connection: Timed out
+[01:07:59] [Server thread/INFO]: mikecherry left the game
+[01:08:02] [Server thread/WARN]: Fetching packet for removed entity bbg['Iron Ore'/25485, l='ServerLevel[world]', x=-430.94, y=50.00, z=-143.88]
+[01:08:02] [Server thread/WARN]: Fetching packet for removed entity bbg['Iron Ore'/25548, l='ServerLevel[world]', x=-431.88, y=50.00, z=-143.88]
+[01:08:16] [User Authenticator #23/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[01:08:17] [Server thread/INFO]: mikecherry[/69.121.197.123:52861] logged in with entity id 25776 at (-185.51746651179337, 12.0, 283.3810808955886)
+[01:08:17] [Server thread/INFO]: mikecherry joined the game
+[01:08:20] [Server thread/WARN]: IntenseYogurt moved too quickly! -3.090387891268648,7.500000298023224,-5.978543540703754
+[01:08:24] [Server thread/INFO]: Villager bdp['Nitwit'/12981, l='ServerLevel[world]', x=-417.50, y=69.00, z=-104.13] died, message: 'Nitwit was slain by Zombie'
+[01:08:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[01:08:25] [Server thread/INFO]: <SKILLVINIK> that counts as a forfeit
+[01:08:32] [Server thread/INFO]: icedrake25 lost connection: Disconnected
+[01:08:32] [Server thread/INFO]: icedrake25 left the game
+[01:08:50] [User Authenticator #24/INFO]: UUID of player icedrake25 is 351df35b-8ad1-41ec-85f8-4ba9d0dc0e1e
+[01:08:50] [Server thread/INFO]: icedrake25[/75.134.234.159:63418] logged in with entity id 26265 at (213.51959590933444, 41.0, 98.46594181235483)
+[01:08:50] [Server thread/INFO]: icedrake25 joined the game
+[01:08:56] [Server thread/INFO]: Wolfzx99 has made the advancement [Getting an Upgrade]
+[01:09:11] [Server thread/INFO]: mikecherry has made the advancement [Diamonds!]
+[01:09:34] [Server thread/INFO]: Albertc5555 has made the advancement [Acquire Hardware]
+[01:09:42] [Server thread/INFO]: Albertc5555 has made the advancement [Isn't It Iron Pick]
+[01:09:51] [Server thread/INFO]: belundun has made the advancement [Isn't It Iron Pick]
+[01:10:15] [Server thread/INFO]: SKILLVINIK has made the advancement [Acquire Hardware]
+[01:10:16] [Server thread/INFO]: icedrake25 has made the advancement [Isn't It Iron Pick]
+[01:10:25] [Server thread/INFO]: SKILLVINIK has made the advancement [Isn't It Iron Pick]
+[01:10:58] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[01:10:58] [Server thread/INFO]: XmasGoose left the game
+[01:11:02] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[01:11:02] [Server thread/INFO]: 1ottsco left the game
+[01:11:08] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[01:11:08] [Server thread/INFO]: Shananalovesdem left the game
+[01:11:26] [Server thread/INFO]: meddi3 has made the advancement [Acquire Hardware]
+[01:11:35] [Server thread/INFO]: YungSpesh has made the advancement [Acquire Hardware]
+[01:11:43] [Server thread/INFO]: belundun has made the advancement [Diamonds!]
+[01:11:45] [Server thread/INFO]: meddi3 has made the advancement [Isn't It Iron Pick]
+[01:12:03] [Server thread/INFO]: YungSpesh has made the advancement [Isn't It Iron Pick]
+[01:12:16] [Server thread/INFO]: Dunkersplatt has made the advancement [Isn't It Iron Pick]
+[01:12:32] [Server thread/INFO]: mikecherry lost connection: Timed out
+[01:12:32] [Server thread/INFO]: mikecherry left the game
+[01:12:37] [User Authenticator #25/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[01:12:37] [Server thread/INFO]: mikecherry[/69.121.197.123:52882] logged in with entity id 29893 at (-185.57846687452377, 12.0, 185.3850296771035)
+[01:12:37] [Server thread/INFO]: mikecherry joined the game
+[01:12:50] [User Authenticator #26/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[01:12:51] [Server thread/INFO]: Shananalovesdem[/71.105.160.32:50962] logged in with entity id 30126 at (251.30582113237966, 58.0, -392.69999998807907)
+[01:12:51] [Server thread/INFO]: Shananalovesdem joined the game
+[01:13:10] [Server thread/INFO]: Shananalovesdem has made the advancement [Suit Up]
+[01:13:22] [Server thread/WARN]: IntenseYogurt moved too quickly! 7.9784305675424605,-0.03798228104655266,-6.740081271839138
+[01:13:29] [Server thread/INFO]: Wolfzx99 fell from a high place
+[01:13:29] [Server thread/INFO]: [@: Set Wolfzx99's game mode to Spectator Mode]
+[01:13:29] [Server thread/INFO]: [@: Set [Deaths] for Wolfzx99 to 0]
+[01:13:29] [Server thread/INFO]: YungSpesh has made the advancement [Suit Up]
+[01:13:32] [Server thread/INFO]: <Dunkersplatt> gg
+[01:13:34] [Server thread/INFO]: <icedrake25> rip
+[01:13:35] [Server thread/WARN]: mrdagger17 moved too quickly! -9.254788856425648,0.0,-6.696762615159059
+[01:13:35] [Server thread/INFO]: <icedrake25> gg
+[01:13:35] [Server thread/INFO]: <belundun> gg
+[01:13:40] [Server thread/INFO]: Dunkersplatt has made the advancement [Suit Up]
+[01:15:01] [Server thread/INFO]: icedrake25 has made the advancement [Suit Up]
+[01:15:10] [Server thread/WARN]: seanm105 moved too quickly! -7.031910405494008,3.1818314224346267,-7.129058703716623
+[01:15:28] [Server thread/WARN]: seanm105 moved too quickly! -7.883394409393361,0.0,6.585139233878634
+[01:15:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Iron Ore'/33995, l='ServerLevel[world]', x=-132.13, y=12.00, z=498.13]
+[01:15:45] [Server thread/INFO]: <IntenseYogurt> brendan ial
+[01:15:48] [Server thread/INFO]: <IntenseYogurt> what on earth was that
+[01:16:01] [Server thread/INFO]: belundun has made the advancement [What a Deal!]
+[01:16:37] [Server thread/INFO]: mikecherry burned to death
+[01:16:37] [Server thread/INFO]: [@: Set mikecherry's game mode to Spectator Mode]
+[01:16:37] [Server thread/INFO]: [@: Set [Deaths] for mikecherry to 0]
+[01:16:42] [Server thread/INFO]: <icedrake25> oof gg
+[01:16:46] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/35234, l='ServerLevel[world]', x=212.71, y=12.00, z=194.13]
+[01:17:11] [Server thread/INFO]: <SKILLVINIK> i forfeit
+[01:17:15] [Server thread/INFO]: Meyeravi has made the advancement [Monster Hunter]
+[01:17:16] [Server thread/INFO]: Meyeravi was slain by Zombie
+[01:17:16] [Server thread/INFO]: [@: Set Meyeravi's game mode to Spectator Mode]
+[01:17:16] [Server thread/INFO]: [@: Set [Deaths] for Meyeravi to 0]
+[01:17:27] [Server thread/INFO]: <IntenseYogurt> this uhc is something
+[01:17:45] [Server thread/WARN]: mikecherry moved too quickly! -10.465643878763615,0.0,-0.7950006806834153
+[01:17:47] [Server thread/INFO]: YungSpesh tried to swim in lava
+[01:17:47] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[01:17:47] [Server thread/INFO]: [@: Set [Deaths] for YungSpesh to 0]
+[01:17:52] [Server thread/INFO]: <IntenseYogurt> omg haha
+[01:17:53] [Server thread/INFO]: <belundun> gg
+[01:17:58] [Server thread/INFO]: <IntenseYogurt> gg
+[01:17:59] [Server thread/INFO]: <icedrake25> what is going on
+[01:18:01] [Server thread/INFO]: <icedrake25> gg
+[01:18:11] [Server thread/INFO]: <IntenseYogurt> 2 UHCs in one night never sounded possible until right now
+[01:18:18] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:18:19] [Server thread/INFO]: <mrdagger17> we should cancel uhc 18 and strike it from the record
+[01:18:22] [Server thread/INFO]: <Wolfzx99> team uconn is heading to victory
+[01:18:26] [Server thread/INFO]: <icedrake25> nah
+[01:18:28] [Server thread/INFO]: <meddi3> who
+[01:18:31] [Server thread/INFO]: <SKILLVINIK> not if we win
+[01:18:31] [Server thread/INFO]: <icedrake25> yall bad
+[01:18:49] [Server thread/INFO]: <YungSpesh> that was a test run
+[01:18:53] [Server thread/INFO]: <YungSpesh> new datapack
+[01:19:04] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:19:11] [Server thread/INFO]: <Dunkersplatt> problem is spreadplayers command is not very good
+[01:19:18] [Server thread/INFO]: <Dunkersplatt> and the parameters are different for # of players, # of teams etc
+[01:19:28] [Server thread/INFO]: <Dunkersplatt> so we just try our best for "one size fits all" spread parameters
+[01:20:43] [Server thread/INFO]: Dunkersplatt has made the advancement [Monster Hunter]
+[01:20:53] [Server thread/INFO]: Villager bdp['Villager'/28, l='ServerLevel[world]', x=136.70, y=65.00, z=33.12] died, message: 'Villager was blown up by Creeper'
+[01:21:37] [Server thread/INFO]: SKILLVINIK has made the advancement [Suit Up]
+[01:21:40] [Server thread/INFO]: icedrake25 has made the advancement [Diamonds!]
+[01:21:42] [Server thread/INFO]: <SKILLVINIK> no cheating plz
+[01:22:08] [Server thread/INFO]: belundun has made the advancement [Suit Up]
+[01:22:54] [Server thread/INFO]: Albertc5555 has made the advancement [Hot Stuff]
+[01:22:55] [Server thread/INFO]: Dunkersplatt has made the advancement [Take Aim]
+[01:23:22] [Server thread/WARN]: IntenseYogurt moved too quickly! -0.22071264444946337,-1.6988804614116262,10.033507553619089
+[01:23:22] [Server thread/INFO]: [YungSpesh: Teleported Meyeravi to Dunkersplatt]
+[01:23:29] [Server thread/INFO]: Dunkersplatt has made the advancement [Diamonds!]
+[01:24:15] [Server thread/INFO]: icedrake25 has made the advancement [Ice Bucket Challenge]
+[01:25:12] [Server thread/INFO]: SKILLVINIK has made the advancement [Diamonds!]
+[01:26:05] [Server thread/INFO]: icedrake25 has made the advancement [Enchanter]
+[01:26:36] [Server thread/INFO]: seanm105 lost connection: Disconnected
+[01:26:36] [Server thread/INFO]: seanm105 left the game
+[01:26:57] [Server thread/INFO]: belundun has made the advancement [Enchanter]
+[01:27:41] [Server thread/INFO]: Shananalovesdem has made the advancement [Isn't It Iron Pick]
+[01:28:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Diorite'/45147, l='ServerLevel[world]', x=208.88, y=12.96, z=134.80]
+[01:28:20] [Server thread/INFO]: * Wolfzx99 died in orbit
+[01:28:22] [Server thread/WARN]: IntenseYogurt moved too quickly! -3.557364620705002,0.0,-9.458792529574623
+[01:28:22] [Server thread/WARN]: mikecherry moved too quickly! -6.802716642013337,0.0,7.900183758134631
+[01:28:40] [Server thread/INFO]: <icedrake25> were there any aliens?
+[01:28:46] [Server thread/INFO]: meddi3 has made the advancement [Diamonds!]
+[01:28:50] [Server thread/INFO]: <Wolfzx99> yes
+[01:29:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Granite'/45828, l='ServerLevel[world]', x=-85.34, y=12.00, z=476.71]
+[01:29:17] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/46167, l='ServerLevel[world]', x=208.16, y=13.07, z=170.04]
+[01:29:30] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[01:29:30] [Server thread/INFO]: Wolfzx99 left the game
+[01:30:16] [Server thread/INFO]: Dunkersplatt has made the advancement [Hot Stuff]
+[01:30:45] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:32:14] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:32:20] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to belundun]
+[01:32:29] [Server thread/INFO]: <belundun> ;)
+[01:32:31] [Server thread/WARN]: Fetching packet for removed entity bbg['Redstone Dust'/48900, l='ServerLevel[world]', x=222.57, y=12.44, z=118.13]
+[01:32:44] [Server thread/INFO]: meddi3 has made the advancement [Suit Up]
+[01:32:51] [Server thread/INFO]: Albertc5555 has made the advancement [Diamonds!]
+[01:32:58] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to meddi3]
+[01:33:19] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to IntenseYogurt]
+[01:33:22] [Server thread/WARN]: IntenseYogurt moved too quickly! -3.668041367487831,6.187496377615428,-7.7776386057221885
+[01:33:36] [Server thread/INFO]: Shananalovesdem has made the advancement [Enchanter]
+[01:33:37] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:33:56] [Server thread/INFO]: meddi3 has made the advancement [Monster Hunter]
+[01:34:55] [Server thread/INFO]: mikecherry lost connection: Timed out
+[01:34:55] [Server thread/INFO]: mikecherry left the game
+[01:36:47] [Server thread/INFO]: Villager bdp['Villager'/35, l='ServerLevel[world]', x=133.30, y=63.00, z=33.30] died, message: 'Villager was slain by Zombie'
+[01:37:02] [Server thread/INFO]: Villager bdp['Fletcher'/83, l='ServerLevel[world]', x=128.18, y=56.00, z=52.30] died, message: 'Fletcher was slain by Zombie'
+[01:37:49] [Server thread/INFO]: meddi3 has made the advancement [We Need to Go Deeper]
+[01:37:56] [Server thread/INFO]: IntenseYogurt has made the advancement [We Need to Go Deeper]
+[01:38:06] [Server thread/INFO]: <IntenseYogurt> :-0
+[01:38:14] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:38:15] [Server thread/INFO]: <IntenseYogurt> that was supposed to be a face :(
+[01:38:33] [User Authenticator #27/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[01:38:34] [Server thread/INFO]: mikecherry[/69.121.197.123:52977] logged in with entity id 53493 at (-119.22759305866614, 18.493515503066455, 410.60181934536996)
+[01:38:34] [Server thread/INFO]: mikecherry joined the game
+[01:38:38] [Server thread/INFO]: mikecherry has made the advancement [We Need to Go Deeper]
+[01:38:59] [Server thread/INFO]: <IntenseYogurt> greetings, Michael Cerr'
+[01:39:09] [Server thread/INFO]: <mikecherry> hello
+[01:40:38] [Server thread/INFO]: mikecherry has made the advancement [Those Were the Days]
+[01:40:48] [Server thread/INFO]: mrdagger17 has made the advancement [We Need to Go Deeper]
+[01:40:49] [Server thread/INFO]: <Dunkersplatt> GL in there
+[01:40:54] [Server thread/INFO]: <mikecherry> im dead lol
+[01:40:58] [Server thread/INFO]: YungSpesh has made the advancement [We Need to Go Deeper]
+[01:40:58] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to meddi3]
+[01:41:01] [Server thread/INFO]: <Dunkersplatt> oh
+[01:41:50] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:42:57] [Server thread/WARN]: Fetching packet for removed entity bbg['Jungle Log'/57451, l='ServerLevel[world]', x=477.13, y=85.38, z=226.88]
+[01:43:07] [Server thread/INFO]: meddi3 has made the advancement [Not Today, Thank You]
+[01:45:10] [User Authenticator #28/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[01:45:10] [Server thread/INFO]: XmasGoose[/73.149.203.16:5133] logged in with entity id 59547 at (135.33296239121782, 81.12988564163564, 38.06271473886369)
+[01:45:10] [Server thread/INFO]: XmasGoose joined the game
+[01:45:27] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:45:43] [Server thread/INFO]: XmasGoose has made the advancement [We Need to Go Deeper]
+[01:45:51] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to XmasGoose]
+[01:45:53] [User Authenticator #29/INFO]: UUID of player damonsterwolf is 5ae2ce73-cb88-4b81-bcdc-87a9e52cb6f8
+[01:45:53] [Server thread/INFO]: damonsterwolf[/24.2.133.77:63477] logged in with entity id 60288 at (-424.3876189847491, 65.70918976813017, -281.1080992052524)
+[01:45:53] [Server thread/INFO]: damonsterwolf joined the game
+[01:45:54] [User Authenticator #30/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[01:45:54] [Server thread/INFO]: 1ottsco[/24.151.96.10:49258] logged in with entity id 60389 at (117.32452095826987, 53.30516049692849, -70.57868721696506)
+[01:45:54] [Server thread/INFO]: 1ottsco joined the game
+[01:46:02] [Server thread/WARN]: 1ottsco moved too quickly! -8.125458363359854,-6.000000238418565,0.103365832327043
+[01:46:26] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[01:46:35] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/61022, l='ServerLevel[world]', x=459.88, y=55.00, z=257.13]
+[01:46:44] [Server thread/WARN]: 1ottsco moved too quickly! 10.028089468383428,0.15000000596046448,1.3595644690597055
+[01:47:01] [Server thread/WARN]: 1ottsco moved too quickly! -5.417976222870465,0.0,-9.445513513443686
+[01:47:06] [Server thread/INFO]: 1ottsco has made the advancement [We Need to Go Deeper]
+[01:47:14] [Server thread/INFO]: Shananalovesdem has made the advancement [Diamonds!]
+[01:47:22] [Server thread/INFO]: Shananalovesdem has made the advancement [Cover Me With Diamonds]
+[01:47:30] [Server thread/INFO]: damonsterwolf has made the advancement [We Need to Go Deeper]
+[01:47:51] [Server thread/INFO]: belundun lost connection: Disconnected
+[01:47:51] [Server thread/INFO]: belundun left the game
+[01:48:23] [Server thread/WARN]: IntenseYogurt moved too quickly! 7.723192795248977,5.955840902507077,-3.5438706613214777
+[01:48:23] [Server thread/WARN]: damonsterwolf moved too quickly! -1.5919346148796052,0.0,10.175147786043567
+[01:48:23] [Server thread/WARN]: 1ottsco moved too quickly! -6.966288680087331,7.874285884993533,-0.2890786489871289
+[01:48:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2659ms or 53 ticks behind
+[01:48:33] [Server thread/WARN]: mikecherry moved too quickly! 10.076276679509192,2.078246482582088,-2.7384177270115515
+[01:48:47] [Server thread/INFO]: Albertc5555 has made the advancement [Ice Bucket Challenge]
+[01:49:38] [Server thread/WARN]: 1ottsco moved too quickly! 4.985495943983665,5.999735833966724,6.800918857201978
+[01:50:12] [Server thread/WARN]: 1ottsco moved too quickly! -8.72665580637019,0.0,5.160781126775362
+[01:50:21] [Server thread/WARN]: 1ottsco moved too quickly! -6.315361299198173,-2.1924845271855062,8.38866691366519
+[01:50:29] [Server thread/WARN]: 1ottsco moved too quickly! -2.20082109537276,0.004938071236225028,10.076540502720803
+[01:50:38] [Server thread/WARN]: 1ottsco moved too quickly! 7.649769160602773,2.618834768101543,-7.334139605558448
+[01:50:41] [Server thread/WARN]: 1ottsco moved too quickly! 7.333599719558208,3.374968840290279,6.29634097998678
+[01:50:48] [Server thread/WARN]: 1ottsco moved too quickly! -0.2640623768463115,-3.7466194923685094,-10.335512128029592
+[01:50:56] [Server thread/WARN]: 1ottsco moved too quickly! -4.209572468477518,-0.0205750260020352,-9.147375011173835
+[01:51:07] [Server thread/INFO]: <YungSpesh> what happened to belundun
+[01:51:10] [Server thread/INFO]: <Shananalovesdem> poopoo
+[01:51:16] [Server thread/WARN]: 1ottsco moved too quickly! -4.588790736273438,1.4950660194469805,9.039580082853178
+[01:51:20] [Server thread/INFO]: Dunkersplatt has made the advancement [Ice Bucket Challenge]
+[01:51:23] [Server thread/INFO]: <SKILLVINIK> did he die?
+[01:51:29] [Server thread/WARN]: 1ottsco moved too quickly! 6.82075261356141,-0.0037791347345716986,7.914637900261624
+[01:51:31] [Server thread/INFO]: <icedrake25> number two
+[01:51:35] [Server thread/WARN]: 1ottsco moved too quickly! 7.552151210597344,6.013705902042204,3.232448286369518
+[01:51:45] [Server thread/INFO]: <SKILLVINIK> so you guys actually have 3 people alive?
+[01:51:47] [Server thread/INFO]: <Dunkersplatt> "oh no, a bunch of zombies are on me. i need to take a shit" -brandon -ziyu
+[01:51:51] [Server thread/WARN]: 1ottsco moved too quickly! -3.2700520915462334,0.0,10.10989394997381
+[01:51:54] [Server thread/WARN]: 1ottsco moved too quickly! -10.218987276170594,0.0,1.5824284876896542
+[01:51:56] [Server thread/INFO]: <IntenseYogurt> lmao
+[01:51:58] [Server thread/WARN]: 1ottsco moved too quickly! -9.393642616518775,0.2571929036599272,3.5574681501478977
+[01:52:03] [Server thread/WARN]: 1ottsco moved too quickly! -10.28348928179895,0.0,3.27002218832277
+[01:52:11] [Server thread/INFO]: <SKILLVINIK> oh so it's just cheating ok makes sense
+[01:52:12] [Server thread/WARN]: 1ottsco moved too quickly! 6.073749436517858,0.43144196048433514,7.973813600785661
+[01:52:24] [Server thread/INFO]: <meddi3> hi
+[01:52:30] [Server thread/WARN]: 1ottsco moved too quickly! 9.453234383165238,-1.9435767162846105,5.356933712697739
+[01:52:30] [Server thread/INFO]: <IntenseYogurt> we should deff add a if you leave you outa stay on server
+[01:52:47] [Server thread/INFO]: <meddi3> what why
+[01:52:49] [Server thread/WARN]: 1ottsco moved too quickly! 2.1979998457803163,-3.304046553911789,-9.528210848472144
+[01:52:51] [Server thread/INFO]: SKILLVINIK has made the advancement [Monster Hunter]
+[01:52:53] [Server thread/WARN]: mrdagger17 moved too quickly! 9.873778416286669,1.7343716426777291,3.891620699145335
+[01:52:57] [Server thread/INFO]: <IntenseYogurt> like if you go to poop
+[01:52:59] [Server thread/INFO]: Dunkersplatt has made the advancement [Enchanter]
+[01:53:02] [Server thread/WARN]: 1ottsco moved too quickly! -7.615884406467444,-0.0205750260020352,-7.721249747053207
+[01:53:03] [Server thread/INFO]: <YungSpesh> second that
+[01:53:06] [Server thread/WARN]: 1ottsco moved too quickly! -9.676618726336983,0.0,-4.169485906340739
+[01:53:08] [Server thread/INFO]: <IntenseYogurt> caus then you are able to hide from danger for an extended period
+[01:53:09] [Server thread/WARN]: 1ottsco moved too quickly! -8.437815991854166,0.0,-6.543779263313681
+[01:53:20] [Server thread/INFO]: <meddi3> huh
+[01:53:25] [Server thread/WARN]: mrdagger17 moved too quickly! 9.060557013905452,4.4936004384917965,3.5702314182206294
+[01:53:25] [Server thread/WARN]: IntenseYogurt moved too quickly! 4.915813994880239,0.0,-8.768658094432851
+[01:53:25] [Server thread/WARN]: 1ottsco moved too quickly! 8.832565631457726,1.1175929378491531,4.95044988684765
+[01:53:40] [Server thread/WARN]: 1ottsco moved too quickly! 7.858439002904333,-0.7439534119620461,6.760815237957658
+[01:53:47] [Server thread/INFO]: <YungSpesh> like theoretically, i could just take a massive dump for the first 15 minutes and then go straight to my teammates
+[01:53:57] [Server thread/INFO]: <IntenseYogurt> it's an honor system thing
+[01:54:00] [User Authenticator #31/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[01:54:00] [Server thread/INFO]: belundun[/75.133.102.102:55346] logged in with entity id 67370 at (457.1194594939004, 32.0, 257.69999998807907)
+[01:54:00] [Server thread/INFO]: belundun joined the game
+[01:54:01] [Server thread/INFO]: <IntenseYogurt> like id trust nobody to do that
+[01:54:01] [Server thread/INFO]: damonsterwolf lost connection: Disconnected
+[01:54:01] [Server thread/INFO]: damonsterwolf left the game
+[01:54:08] [Server thread/INFO]: <IntenseYogurt> but also a 20 min poop is possible
+[01:54:10] [Server thread/INFO]: <YungSpesh> speak of the devil
+[01:54:16] [Server thread/INFO]: <belundun> my butthole is on fire
+[01:54:24] [Server thread/INFO]: <YungSpesh> from the zombies yeah?
+[01:54:29] [Server thread/WARN]: 1ottsco moved too quickly! -1.7015886003274545,-3.6292348082512262,9.216232016016463
+[01:54:34] [Server thread/INFO]: <meddi3> y cheat who
+[01:54:40] [Server thread/INFO]: <belundun> ate too much rotten flesh
+[01:54:45] [Server thread/INFO]: <YungSpesh> lmao
+[01:54:46] [Server thread/INFO]: Albertc5555 has made the advancement [Suit Up]
+[01:55:00] [Server thread/INFO]: <SKILLVINIK> i get the need to poop when enemy team shows up :(
+[01:55:11] [Server thread/WARN]: 1ottsco moved too quickly! -1.6628801868062624,1.9855838629540372,9.832668128731711
+[01:55:15] [Server thread/WARN]: 1ottsco moved too quickly! 3.4650678651481144,-3.0225245991581495,-9.520343024219926
+[01:56:00] [Server thread/WARN]: mrdagger17 moved too quickly! 0.0,11.272675263935852,0.0
+[01:56:28] [Server thread/INFO]: SKILLVINIK has made the advancement [Ice Bucket Challenge]
+[01:57:13] [Server thread/WARN]: mrdagger17 moved too quickly! 0.0,10.672675240093998,0.0
+[01:57:17] [Server thread/INFO]: Dunkersplatt has made the advancement [Cover Me With Diamonds]
+[01:57:38] [Server thread/WARN]: 1ottsco moved too quickly! -0.41335674174223414,0.1594245042101221,-22.931397993232338
+[01:57:42] [Server thread/WARN]: 1ottsco moved too quickly! 0.9251343218776356,0.0,-25.58097035435093
+[01:57:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/70901, l='ServerLevel[world]', x=237.12, y=11.09, z=142.13]
+[01:57:48] [Server thread/WARN]: 1ottsco moved too quickly! -9.677145644552752,0.0,-3.6594089442238555
+[01:57:52] [Server thread/WARN]: 1ottsco moved too quickly! 9.424542645607914,-0.283303809644849,6.648195181632673
+[01:57:58] [Server thread/INFO]: [XmasGoose: Teleported XmasGoose to 1ottsco]
+[01:58:25] [Server thread/INFO]: Albertc5555 has made the advancement [Enchanter]
+[01:58:25] [Server thread/WARN]: 1ottsco moved too quickly! 0.0,-10.113442595005026,0.0
+[01:58:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:58:41] [Server thread/INFO]: SKILLVINIK has made the advancement [Enchanter]
+[01:58:45] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/72087, l='ServerLevel[world]', x=-16.87, y=10.53, z=421.45]
+[01:59:04] [Server thread/WARN]: 1ottsco moved too quickly! 9.566494387457453,-1.4551867120622148,-2.8422032740488135
+[01:59:51] [Server thread/WARN]: 1ottsco moved too quickly! 4.197411729741816,0.7800004959106417,-9.758429155118733
+[02:00:00] [Server thread/WARN]: 1ottsco moved too quickly! -6.0383674710896,0.9561331909739863,8.599283240620082
+[02:00:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[02:00:04] [Server thread/WARN]: 1ottsco moved too quickly! 2.5097647218396446,0.6663025067773702,10.434342831386516
+[02:00:11] [Server thread/WARN]: 1ottsco moved too quickly! 4.524877105269979,0.0,-9.49673481084568
+[02:00:14] [Server thread/WARN]: 1ottsco moved too quickly! -0.14279920830199444,3.7969712941757976,-9.422560013480677
+[02:00:33] [Server thread/WARN]: 1ottsco moved too quickly! 10.386763401394859,0.0,-1.4014619879359884
+[02:00:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[02:00:39] [Server thread/INFO]: icedrake25 has made the advancement [Monster Hunter]
+[02:00:54] [Server thread/INFO]: belundun lost connection: Timed out
+[02:00:54] [Server thread/INFO]: belundun left the game
+[02:01:37] [Server thread/WARN]: 1ottsco moved too quickly! -6.267132146953031,0.0,-9.78874485362428
+[02:01:52] [Server thread/WARN]: 1ottsco moved too quickly! 8.710238487973129,0.0,5.328462612418264
+[02:02:13] [Server thread/INFO]: <icedrake25> think he dc'ed
+[02:02:19] [Server thread/INFO]: <XmasGoose> he isnt on disc
+[02:02:39] [Server thread/INFO]: [YungSpesh: Teleported Meyeravi to YungSpesh]
+[02:02:41] [Server thread/INFO]: <XmasGoose> think his parents cut the wifi?
+[02:02:48] [Server thread/INFO]: <icedrake25> solid chance
+[02:02:50] [Server thread/INFO]: <XmasGoose> cya later!!
+[02:02:56] [Server thread/INFO]: <IntenseYogurt> :(
+[02:03:13] [Server thread/WARN]: 1ottsco moved too quickly! -3.629057882242364,3.4274901791381893,9.818491914073377
+[02:03:18] [Server thread/WARN]: 1ottsco moved too quickly! -9.60954943964191,0.0,-4.651077016258057
+[02:03:31] [Server thread/WARN]: XmasGoose moved too quickly! -10.55180985351359,1.5600000619888306,0.7518202636523768
+[02:03:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[02:04:21] [Server thread/WARN]: 1ottsco moved too quickly! 9.999977034155904,-0.7800004959106417,-2.4383604049483836
+[02:05:09] [Server thread/INFO]: Villager bdp['Fletcher'/37, l='ServerLevel[world]', x=133.70, y=56.00, z=53.65] died, message: 'Fletcher was slain by Zombie'
+[02:05:16] [User Authenticator #32/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[02:05:16] [Server thread/INFO]: belundun[/75.133.102.102:51117] logged in with entity id 77899 at (301.1827099140627, 68.0, 405.4686020337236)
+[02:05:16] [Server thread/INFO]: belundun joined the game
+[02:05:50] [Server thread/INFO]: Villager bdp['Nitwit'/72, l='ServerLevel[world]', x=133.30, y=63.00, z=33.30] died, message: 'Nitwit was slain by Zombie'
+[02:06:22] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/78730, l='ServerLevel[world]', x=60.14, y=23.67, z=85.18]
+[02:07:04] [User Authenticator #33/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[02:07:04] [Server thread/INFO]: Wolfzx99[/73.69.129.6:40170] logged in with entity id 79184 at (-49.098707451753086, 94.26277556894986, -295.6156678238749)
+[02:07:04] [Server thread/INFO]: Wolfzx99 joined the game
+[02:07:11] [Server thread/INFO]: <1ottsco> hi caelan
+[02:07:21] [Server thread/INFO]: <Wolfzx99> hi, my victim
+[02:07:36] [Server thread/INFO]: <1ottsco> no why did you have to do this? :(
+[02:07:43] [Server thread/INFO]: <meddi3> lol
+[02:07:45] [Server thread/INFO]: <IntenseYogurt> evilllll
+[02:07:58] [Server thread/WARN]: 1ottsco moved too quickly! 5.522173558982388,-4.268841808338095,10.020674745454798
+[02:08:05] [Server thread/INFO]: <SKILLVINIK> team evil = team elo > wins
+[02:08:18] [Server thread/INFO]: <Wolfzx99> :(
+[02:08:23] [Server thread/INFO]: <IntenseYogurt> Eloville, population, us
+[02:08:26] [Server thread/WARN]: Fetching packet for removed entity bbg['Flint'/78424, l='ServerLevel[world]', x=60.13, y=12.00, z=96.15]
+[02:08:32] [Server thread/WARN]: mrdagger17 moved too quickly! 6.87198242502248,-3.9661366818597372,-7.682671477091091
+[02:08:35] [Server thread/WARN]: mikecherry moved too quickly! 0.0,10.306939257555078,0.0
+[02:08:44] [Server thread/INFO]: <SKILLVINIK> and it's located far away from dub nation
+[02:09:01] [Server thread/WARN]: mikecherry moved too quickly! 2.1300195593022835,0.0,-10.521782212276491
+[02:09:08] [Server thread/INFO]: meddi3 has made the advancement [Enchanter]
+[02:09:09] [Server thread/INFO]: icedrake25 has made the advancement [Cover Me With Diamonds]
+[02:10:04] [Server thread/INFO]: Shananalovesdem has made the advancement [Hot Stuff]
+[02:10:27] [Server thread/INFO]: icedrake25 has made the advancement [Hot Stuff]
+[02:10:31] [Server thread/WARN]: mikecherry moved too quickly! -8.327912561768187,0.0,7.015154181684636
+[02:11:52] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/82036, l='ServerLevel[world]', x=72.84, y=12.63, z=101.10]
+[02:13:03] [Server thread/INFO]: Albertc5555 has made the advancement [Cover Me With Diamonds]
+[02:13:07] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:13:08] [Server thread/WARN]: 1ottsco moved too quickly! -7.7462890008929435,3.8443302895307667,-6.753778173022056
+[02:13:32] [Server thread/WARN]: mrdagger17 moved too quickly! 10.741573666634451,-8.939953411395422,-5.364627142273704
+[02:13:32] [Server thread/WARN]: IntenseYogurt moved too quickly! -12.090116399932242,0.0,1.4431994940823358
+[02:13:32] [Server thread/WARN]: Wolfzx99 moved too quickly! -9.479866162904187,0.0,-3.8536250023078935
+[02:14:30] [Server thread/INFO]: icedrake25 has made the advancement [Not Today, Thank You]
+[02:14:33] [Server thread/INFO]: Shananalovesdem has made the advancement [Monster Hunter]
+[02:14:35] [Server thread/INFO]: <SKILLVINIK> ALPACA PARTYYYYY
+[02:15:09] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Meyeravi]
+[02:15:19] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:15:27] [Server thread/WARN]: Fetching packet for removed entity bcj['Skeleton'/83741, l='ServerLevel[world]', x=85.70, y=15.95, z=16.30]
+[02:15:35] [Server thread/WARN]: mikecherry moved too quickly! 5.5889567545399075,-3.3717738464494573,-8.04979294113501
+[02:16:00] [Server thread/WARN]: mikecherry moved too quickly! -9.795006326048892,0.0,2.073932707767215
+[02:16:14] [Server thread/WARN]: mikecherry moved too quickly! -9.167383784946196,3.7466194923685094,4.40364737036053
+[02:16:15] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:16:50] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:17:13] [Server thread/INFO]: icedrake25 burned to death
+[02:17:13] [Server thread/INFO]: [@: Set icedrake25's game mode to Spectator Mode]
+[02:17:13] [Server thread/INFO]: [@: Set [Deaths] for icedrake25 to 0]
+[02:17:21] [Server thread/INFO]: Dunkersplatt was slain by Shananalovesdem
+[02:17:21] [Server thread/INFO]: [@: Set Dunkersplatt's game mode to Spectator Mode]
+[02:17:21] [Server thread/INFO]: [@: Set [Deaths] for Dunkersplatt to 0]
+[02:17:24] [Server thread/INFO]: <IntenseYogurt> ggs
+[02:17:25] [Server thread/INFO]: <XmasGoose> damn
+[02:17:25] [Server thread/INFO]: <1ottsco> gg
+[02:17:26] [Server thread/INFO]: <XmasGoose> gg
+[02:17:27] [Server thread/INFO]: <Wolfzx99> gg
+[02:17:28] [Server thread/INFO]: <YungSpesh> gg
+[02:17:32] [User Authenticator #34/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[02:17:32] [Server thread/INFO]: mmnickymm[/146.115.121.54:61998] logged in with entity id 85078 at (135.43533409415554, 74.39089811431705, 22.64152343407182)
+[02:17:32] [Server thread/INFO]: mmnickymm joined the game
+[02:17:40] [Server thread/INFO]: belundun has made the advancement [Cover Me With Diamonds]
+[02:17:48] [Server thread/INFO]: belundun was slain by Albertc5555
+[02:17:48] [Server thread/INFO]: [@: Set belundun's game mode to Spectator Mode]
+[02:17:48] [Server thread/INFO]: [@: Set [Deaths] for belundun to 0]
+[02:17:53] [Server thread/INFO]: <belundun> gg
+[02:18:32] [Server thread/WARN]: mrdagger17 moved too quickly! -4.482891927979189,0.0,9.638899166972976
+[02:18:32] [Server thread/WARN]: Wolfzx99 moved too quickly! 1.2196252005349528,2.180501309045326,-10.085535344764978
+[02:18:34] [Server thread/WARN]: Wolfzx99 moved too quickly! 0.01287164616858405,-0.5556192175490651,-10.583488436011258
+[02:18:38] [Server thread/WARN]: mikecherry moved too quickly! -1.0392716710064605,2.4507269352119323,10.257352858432924
+[02:18:53] [Server thread/INFO]: mikecherry lost connection: Timed out
+[02:18:53] [Server thread/INFO]: mikecherry left the game
+[02:18:59] [User Authenticator #35/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[02:18:59] [Server thread/INFO]: mikecherry[/69.121.197.123:53038] logged in with entity id 85432 at (-41.38346682741692, 82.50786033517493, 31.087951388005877)
+[02:18:59] [Server thread/INFO]: mikecherry joined the game
+[02:19:07] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to SKILLVINIK]
+[02:19:22] [Server thread/INFO]: Shananalovesdem has made the advancement [Take Aim]
+[02:19:39] [Server thread/INFO]: <Wolfzx99> run on ice
+[02:19:41] [Server thread/INFO]: Albertc5555 has made the advancement [Not Today, Thank You]
+[02:20:19] [Server thread/INFO]: SKILLVINIK was slain by meddi3
+[02:20:19] [Server thread/INFO]: [@: Set SKILLVINIK's game mode to Spectator Mode]
+[02:20:19] [Server thread/INFO]: [@: Set [Deaths] for SKILLVINIK to 0]
+[02:20:25] [Server thread/INFO]: <XmasGoose> yo
+[02:20:28] [Server thread/INFO]: <YungSpesh> !
+[02:20:35] [Server thread/INFO]: <XmasGoose> YO
+[02:20:54] [Server thread/INFO]: SKILLVINIK lost connection: Disconnected
+[02:20:54] [Server thread/INFO]: SKILLVINIK left the game
+[02:21:29] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[02:21:29] [Server thread/INFO]: mmnickymm left the game
+[02:21:48] [Server thread/INFO]: meddi3 was slain by Shananalovesdem using [Head's Will Roll]
+[02:21:48] [Server thread/INFO]: [@: Set meddi3's game mode to Spectator Mode]
+[02:21:48] [Server thread/INFO]: [@: Set [Deaths] for meddi3 to 0]
+[02:21:55] [User Authenticator #36/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[02:21:55] [Server thread/INFO]: mmnickymm[/146.115.121.54:62254] logged in with entity id 86185 at (13.92741576924481, 69.5991214151243, 1.4604909801491823)
+[02:21:55] [Server thread/INFO]: mmnickymm joined the game
+[02:22:04] [Server thread/INFO]: Albertc5555 was slain by Shananalovesdem using [Head's Will Roll]
+[02:22:04] [Server thread/INFO]: [@: Set Albertc5555's game mode to Spectator Mode]
+[02:22:04] [Server thread/INFO]: [@: Set [Deaths] for Albertc5555 to 0]
+[02:22:05] [Server thread/INFO]: <1ottsco> gg
+[02:22:06] [Server thread/INFO]: <IntenseYogurt> QUEEEEEEEEN!! QUEEEEEEN!!
+[02:22:06] [Server thread/INFO]: <XmasGoose> OMG
+[02:22:07] [Server thread/INFO]: <YungSpesh> gggggg
+[02:22:07] [Server thread/INFO]: <Dunkersplatt> GG
+[02:22:07] [Server thread/INFO]: <mikecherry> ggs
+[02:22:08] [Server thread/INFO]: <1ottsco> holy fuck
+[02:22:08] [Server thread/INFO]: <belundun> GG
+[02:22:08] [Server thread/INFO]: <IntenseYogurt> LEGEND
+[02:22:09] [Server thread/INFO]: <Wolfzx99> GGGGGG
+[02:22:09] [Server thread/INFO]: <XmasGoose> QWHOAHHODHA
+[02:22:09] [Server thread/INFO]: <mmnickymm> gg
+[02:22:09] [Server thread/INFO]: <icedrake25> GF
+[02:22:10] [Server thread/INFO]: <IntenseYogurt> OI(ENTgfoisAN'pOEITGNesa'ikogfnokdsnf
+[02:22:10] [Server thread/INFO]: <Dunkersplatt> What the fuck
+[02:22:13] [Server thread/INFO]: <IntenseYogurt> HEADS RAE ROLL_OAfomd
+[02:22:14] [Server thread/INFO]: <meddi3> yo gg u mad good
+[02:22:14] [Server thread/INFO]: <mmnickymm> gosh dang
+[02:22:14] [Server thread/INFO]: <YungSpesh> YOOOOOOOOO
+[02:22:14] [Server thread/INFO]: <XmasGoose> VOOOOOOVOOOO ZELAAAA
+[02:22:15] [Server thread/INFO]: <mrdagger17> hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+[02:22:19] [Server thread/INFO]: <XmasGoose> GEEEEYYAAAA
+[02:22:20] [Server thread/INFO]: <IntenseYogurt> JODY JODY JODY JODY JODY!
+[02:22:23] [Server thread/INFO]: icedrake25 lost connection: Disconnected
+[02:22:23] [Server thread/INFO]: icedrake25 left the game
+[02:22:26] [Server thread/INFO]: <XmasGoose> FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[02:22:28] [Server thread/INFO]: <IntenseYogurt> History has never seen the likess!
+[02:22:30] [Server thread/INFO]: <XmasGoose> HOLY
+[02:22:32] [Server thread/INFO]: <XmasGoose> SHIT
+[02:22:37] [Server thread/INFO]: <XmasGoose> UPDATE THE ELO SYSTEM
+[02:22:45] [Server thread/INFO]: Albertc5555 lost connection: Disconnected
+[02:22:45] [Server thread/INFO]: Albertc5555 left the game
+[02:22:59] [Server thread/INFO]: mikecherry lost connection: Timed out
+[02:22:59] [Server thread/INFO]: mikecherry left the game
+[02:25:27] [Server thread/INFO]: [XmasGoose: Set the world border to 10000.0 blocks wide]
+[02:25:36] [Server thread/INFO]: [XmasGoose: Set own game mode to Creative Mode]
+[02:25:41] [Server thread/INFO]: Meyeravi lost connection: Disconnected
+[02:25:41] [Server thread/INFO]: Meyeravi left the game
+[02:25:44] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[02:25:44] [Server thread/INFO]: mmnickymm left the game
+[02:25:51] [Server thread/INFO]: [XmasGoose: Teleported mrdagger17 to XmasGoose]
+[02:26:14] [Server thread/INFO]: meddi3 lost connection: Timed out
+[02:26:14] [Server thread/INFO]: meddi3 left the game
+[02:26:54] [Server thread/INFO]: [XmasGoose: Set mrdagger17's game mode to Creative Mode]
+[02:27:34] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[02:27:34] [Server thread/INFO]: Wolfzx99 left the game
+[02:28:25] [Server thread/INFO]: [XmasGoose: Teleported 8 entities to XmasGoose]
+[02:28:32] [Server thread/WARN]: IntenseYogurt moved too quickly! -5.382805540170409,0.0,9.605082479815167
+[02:28:32] [Server thread/WARN]: belundun moved too quickly! 6.750996165203219,5.984559513994455,-5.281727577753145
+[02:28:47] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[02:29:14] [Server thread/INFO]: YungSpesh was slain by Iron Golem
+[02:29:14] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[02:29:14] [Server thread/INFO]: [@: Set [Deaths] for YungSpesh to 0]
+[02:29:21] [Server thread/INFO]: XmasGoose has made the advancement [Acquire Hardware]
+[02:29:43] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to Dunkersplatt]
+[02:29:49] [Server thread/WARN]: IntenseYogurt moved too quickly! 101.85462348935528,-76.94724511213889,295.4672470982172
+[02:30:32] [Server thread/WARN]: 1ottsco moved too quickly! 1.5397324720055394,0.0,-10.565696106121834
+[02:31:22] [Server thread/INFO]: [Dunkersplatt: Executed 5 commands from function 'start:stop']
+[02:31:24] [Server thread/INFO]: [Dunkersplatt: Set the time to 1000]
+[02:31:55] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[02:31:55] [Server thread/INFO]: YungSpesh left the game
+[02:32:01] [Server thread/WARN]: mrdagger17 moved too quickly! 11.549040518729669,1.6628835325044378,5.549627614880421
+[02:32:03] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[02:32:03] [Server thread/INFO]: XmasGoose left the game
+[02:33:33] [Server thread/WARN]: mrdagger17 moved too quickly! 4.803438020794005,0.20539441955945392,8.812390866602357
+[02:33:33] [Server thread/WARN]: 1ottsco moved too quickly! 7.724348236202104,2.2512912165567514,-7.246873891108805
+[02:33:46] [User Authenticator #37/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:33:46] [Server thread/INFO]: YungSpesh[/68.13.69.169:61361] logged in with entity id 89402 at (256.7843322122856, 71.0, -349.4999962417467)
+[02:33:46] [Server thread/INFO]: YungSpesh joined the game
+[02:33:55] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[02:33:55] [Server thread/INFO]: YungSpesh left the game
+[02:36:12] [Server thread/INFO]: Dunkersplatt lost connection: Disconnected
+[02:36:12] [Server thread/INFO]: Dunkersplatt left the game
+[02:36:19] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[02:36:19] [Server thread/INFO]: Shananalovesdem left the game
+[02:36:44] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:36:44] [Server thread/INFO]: belundun left the game
+[02:36:46] [User Authenticator #38/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[02:36:46] [Server thread/INFO]: belundun[/75.133.102.102:51490] logged in with entity id 90115 at (302.2653566662429, 74.88218111416953, -384.5866113047001)
+[02:36:46] [Server thread/INFO]: belundun joined the game
+[02:37:29] [Server thread/INFO]: <belundun> gg
+[02:37:29] [Server thread/INFO]: <belundun> gg
+[02:37:29] [Server thread/INFO]: <belundun> gg
+[02:37:29] [Server thread/INFO]: <belundun> tgg
+[02:37:32] [Server thread/INFO]: <belundun> gg
+[02:37:32] [Server thread/INFO]: <belundun> gg
+[02:37:32] [Server thread/INFO]: <belundun> tgg
+[02:37:33] [Server thread/INFO]: <belundun> tgg
+[02:37:33] [Server thread/INFO]: <belundun> g
+[02:37:33] [Server thread/INFO]: <belundun> g
+[02:37:34] [Server thread/INFO]: <belundun> gw
+[02:37:35] [Server thread/INFO]: <belundun> gw
+[02:37:35] [Server thread/INFO]: <belundun> wgg
+[02:37:35] [Server thread/INFO]: <belundun> gwg
+[02:37:36] [Server thread/INFO]: <belundun> g
+[02:37:36] [Server thread/INFO]: <belundun> g
+[02:37:36] [Server thread/INFO]: <belundun> g
+[02:37:37] [Server thread/INFO]: <belundun> g
+[02:37:37] [Server thread/INFO]: <belundun> gg
+[02:37:37] [Server thread/INFO]: <belundun> gg
+[02:37:37] [Server thread/INFO]: <belundun> tgg
+[02:37:37] [Server thread/INFO]: <belundun> gg
+[02:37:37] [Server thread/INFO]: <belundun> tgg
+[02:37:38] [Server thread/INFO]: <belundun> g
+[02:37:38] [Server thread/INFO]: <belundun> gg
+[02:37:38] [Server thread/INFO]: <belundun> gg
+[02:37:38] [Server thread/INFO]: <belundun> gg
+[02:37:39] [Server thread/INFO]: <belundun> tgg
+[02:37:39] [Server thread/INFO]: <belundun> gg
+[02:37:39] [Server thread/INFO]: <belundun> tgg
+[02:37:40] [Server thread/INFO]: <belundun> g
+[02:37:40] [Server thread/INFO]: <belundun> g
+[02:37:40] [Server thread/INFO]: <belundun> gg
+[02:38:33] [Server thread/WARN]: IntenseYogurt moved too quickly! -9.74053956297962,0.0,2.507650490418655
+[02:38:33] [Server thread/WARN]: 1ottsco moved too quickly! -6.379444322614475,0.0,8.059939459284635
+[02:38:40] [Server thread/INFO]: <belundun> g
+[02:38:40] [Server thread/INFO]: <belundun> gg
+[02:38:40] [Server thread/INFO]: <belundun> gg
+[02:38:40] [Server thread/INFO]: <belundun> gg
+[02:38:40] [Server thread/INFO]: <belundun> g
+[02:38:42] [Server thread/INFO]: <belundun> gg
+[02:38:42] [Server thread/INFO]: <belundun> gg
+[02:38:42] [Server thread/INFO]: <belundun> gg
+[02:38:43] [Server thread/INFO]: <belundun> g
+[02:38:43] [Server thread/INFO]: <belundun> g
+[02:38:50] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:38:50] [Server thread/INFO]: belundun left the game
+[02:39:51] [Server thread/INFO]: [1ottsco: Teleported mrdagger17 to 1ottsco]
+[02:39:54] [Server thread/INFO]: [1ottsco: Teleported IntenseYogurt to 1ottsco]
+[02:39:58] [Server thread/WARN]: 1ottsco moved too quickly! 12.592132509798773,0.0,15.795541922189386
+[02:40:02] [User Authenticator #39/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[02:40:02] [Server thread/INFO]: Dunkersplatt[/24.151.84.216:53709] logged in with entity id 90901 at (295.016543982711, 73.5275666829212, -393.62826760807485)
+[02:40:02] [Server thread/INFO]: Dunkersplatt joined the game
+[02:40:05] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 1ottsco]
+[02:40:05] [Server thread/WARN]: Dunkersplatt moved too quickly! -51.46405909466006,-2.0900252699708943,-45.99568750167697
+[02:40:13] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[02:40:26] [Server thread/INFO]: [1ottsco: Set IntenseYogurt's game mode to Creative Mode]
+[02:40:26] [Server thread/INFO]: [1ottsco: Set mrdagger17's game mode to Creative Mode]
+[02:40:26] [Server thread/INFO]: [1ottsco: Set own game mode to Creative Mode]
+[02:40:41] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 1ottsco]
+[02:42:24] [Server thread/WARN]: 1ottsco moved too quickly! -7.907351025889255,0.0,-7.126184039145585
+[02:48:40] [Server thread/INFO]: IntenseYogurt lost connection: Disconnected
+[02:48:40] [Server thread/INFO]: IntenseYogurt left the game
+[02:53:03] [Server thread/INFO]: mrdagger17 lost connection: Disconnected
+[02:53:03] [Server thread/INFO]: mrdagger17 left the game
+[02:53:39] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[02:53:39] [Server thread/INFO]: 1ottsco left the game
+[02:59:44] [Server thread/INFO]: Dunkersplatt lost connection: Disconnected
+[02:59:44] [Server thread/INFO]: Dunkersplatt left the game
+[05:42:08] [Server thread/INFO]: Stopping server
+[05:42:08] [Server thread/INFO]: Saving players
+[05:42:08] [Server thread/INFO]: Saving worlds
+[05:42:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:42:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:42:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:42:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

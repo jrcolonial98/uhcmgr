@@ -22,6 +22,7 @@ schedule function text:go 3s append
 # 165 - nothing 
 schedule function helpers:cleareffects 3s append
 schedule function helpers:shrink1 3600s append
+schedule function helpers:mansurface 7200s append
 schedule function helpers:shrink2 8100s append
 
 # Add kills and deaths scoreboard

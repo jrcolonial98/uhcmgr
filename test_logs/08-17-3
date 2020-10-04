@@ -1,0 +1,1173 @@
+[00:31:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[00:31:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:31:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:31:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:31:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:31:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:31:53] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[00:31:54] [Worker-Main-4/INFO]: Loaded 7 recipes
+[00:31:55] [Worker-Main-4/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[00:31:55] [Worker-Main-4/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[00:31:55] [Worker-Main-4/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[00:31:55] [Worker-Main-4/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[00:31:55] [Worker-Main-4/INFO]: Loaded 927 advancements
+[00:31:56] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[00:31:56] [Server thread/INFO]: Loading properties
+[00:31:56] [Server thread/INFO]: Default game type: ADVENTURE
+[00:31:56] [Server thread/INFO]: Generating keypair
+[00:31:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:31:56] [Server thread/INFO]: Using epoll channel type
+[00:31:56] [Server thread/INFO]: Preparing level "world"
+[00:31:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:31:58] [User Authenticator #1/INFO]: UUID of player mmnickymm is 9f0ba0df-c79e-4d1b-9eb8-314246aa9757
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[00:32:00] [Server thread/INFO]: Time elapsed: 3584 ms
+[00:32:00] [Server thread/INFO]: Done (3.720s)! For help, type "help"
+[00:32:00] [Server thread/INFO]: mmnickymm[/209.6.14.100:61675] logged in with entity id 181 at (158.29009428576478, 254.0, 160.70772377070884)
+[00:32:00] [Server thread/INFO]: mmnickymm joined the game
+[00:32:02] [User Authenticator #2/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:32:02] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37134] logged in with entity id 186 at (160.5, 254.0, 160.5)
+[00:32:02] [Server thread/INFO]: Wolfzx99 joined the game
+[00:32:06] [User Authenticator #3/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[00:32:06] [Server thread/INFO]: Dunkersplatt[/67.183.15.208:55320] logged in with entity id 187 at (173.4025820785494, 256.0, 173.06654563012808)
+[00:32:06] [Server thread/INFO]: Dunkersplatt joined the game
+[00:32:11] [User Authenticator #4/INFO]: UUID of player Albertc5555 is 7a1791f0-2716-4b1c-b027-a1493e10c8a3
+[00:32:11] [Server thread/INFO]: Albertc5555[/173.63.193.39:54930] logged in with entity id 188 at (168.5002199438885, 248.0, 160.7032641837881)
+[00:32:11] [Server thread/INFO]: Albertc5555 joined the game
+[00:32:12] [User Authenticator #5/INFO]: UUID of player xcatieladyx is c43cb533-27d8-4eae-8071-83e83204c43a
+[00:32:12] [Server thread/INFO]: xcatieladyx[/71.11.29.89:64183] logged in with entity id 189 at (160.5, 254.0, 160.5)
+[00:32:12] [Server thread/INFO]: xcatieladyx joined the game
+[00:32:17] [User Authenticator #6/INFO]: UUID of player DezBFrag is 698c863b-831e-4334-be15-e8e4980ecaee
+[00:32:17] [Server thread/INFO]: DezBFrag[/24.151.115.240:57530] logged in with entity id 191 at (160.53726734570063, 256.0, 170.34340922919182)
+[00:32:17] [Server thread/INFO]: DezBFrag joined the game
+[00:32:29] [User Authenticator #7/INFO]: UUID of player ninjaturtle103 is defbeff1-daff-4255-a720-8f463c1c9643
+[00:32:29] [Server thread/INFO]: ninjaturtle103[/73.251.28.192:57029] logged in with entity id 192 at (167.7275191485738, 246.0, 160.69999998807907)
+[00:32:29] [Server thread/INFO]: ninjaturtle103 joined the game
+[00:32:38] [User Authenticator #8/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[00:32:38] [Server thread/INFO]: 1ottsco[/68.118.228.61:57962] logged in with entity id 194 at (160.5, 254.0, 160.5)
+[00:32:38] [Server thread/INFO]: 1ottsco joined the game
+[00:32:52] [Server thread/INFO]: [Dunkersplatt: Added xcatieladyx to team [eagle]]
+[00:32:55] [User Authenticator #9/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[00:32:55] [Server thread/INFO]: Shananalovesdem[/71.105.160.32:60324] logged in with entity id 198 at (160.5, 254.0, 160.5)
+[00:32:55] [Server thread/INFO]: Shananalovesdem joined the game
+[00:32:57] [User Authenticator #10/INFO]: UUID of player Tran_1230 is 598c5496-a8a7-407a-8b7e-1abcd58c3014
+[00:32:57] [Server thread/INFO]: Tran_1230[/207.144.75.21:50943] logged in with entity id 199 at (168.3816800992687, 247.24918707874468, 155.69326089343588)
+[00:32:57] [Server thread/INFO]: Tran_1230 joined the game
+[00:32:59] [User Authenticator #11/INFO]: UUID of player SKILLVINIK is 5f684cde-723e-44cc-b5d7-ea17889a5cde
+[00:32:59] [Server thread/INFO]: SKILLVINIK[/73.172.25.44:55634] logged in with entity id 200 at (160.5, 254.0, 160.5)
+[00:32:59] [Server thread/INFO]: SKILLVINIK joined the game
+[00:33:00] [Server thread/INFO]: [Dunkersplatt: Added Wolfzx99 to team [evil]]
+[00:33:04] [Server thread/INFO]: <1ottsco> why the fuck am i left handed
+[00:33:06] [Server thread/INFO]: [Dunkersplatt: Added SKILLVINIK to team [cherry]]
+[00:33:12] [Server thread/INFO]: [Dunkersplatt: Added Shananalovesdem to team [husky]]
+[00:33:13] [User Authenticator #12/INFO]: UUID of player mikecherry is 3cb58faf-930a-40a5-b66d-646d750d3e2c
+[00:33:13] [Server thread/INFO]: mikecherry[/69.121.195.86:58470] logged in with entity id 201 at (150.68807652480214, 256.0, 170.52065696281397)
+[00:33:13] [Server thread/INFO]: mikecherry joined the game
+[00:33:16] [Server thread/INFO]: [Dunkersplatt: Added 1ottsco to team [hen]]
+[00:33:20] [User Authenticator #13/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[00:33:20] [Server thread/INFO]: YungSpesh[/68.13.69.169:64905] logged in with entity id 202 at (168.71542835166062, 248.0, 157.9813102382912)
+[00:33:20] [Server thread/INFO]: YungSpesh joined the game
+[00:33:27] [User Authenticator #14/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[00:33:27] [Server thread/INFO]: XmasGoose[/73.149.203.16:1964] logged in with entity id 203 at (160.5, 254.0, 160.5)
+[00:33:27] [Server thread/INFO]: XmasGoose joined the game
+[00:33:53] [Server thread/INFO]: [Dunkersplatt: Added XmasGoose to team [hen]]
+[00:34:00] [User Authenticator #15/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[00:34:01] [Server thread/INFO]: mrdagger17[/141.126.226.219:59223] logged in with entity id 205 at (166.16299317227592, 246.0, 159.45757473401216)
+[00:34:01] [Server thread/INFO]: mrdagger17 joined the game
+[00:34:29] [Server thread/INFO]: Wolfzx99 was slain by 1ottsco
+[00:34:44] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[00:34:44] [Server thread/INFO]: YungSpesh left the game
+[00:34:44] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [evil]]
+[00:34:46] [Server thread/INFO]: <Tran_1230> kill me plz
+[00:34:51] [User Authenticator #16/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[00:34:51] [Server thread/INFO]: St33n3r[/67.183.15.208:42486] logged in with entity id 207 at (160.5, 254.0, 160.5)
+[00:34:51] [Server thread/INFO]: St33n3r joined the game
+[00:34:51] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [cherry]]
+[00:34:57] [Server thread/INFO]: [Dunkersplatt: Added St33n3r to team [eagle]]
+[00:35:02] [Server thread/INFO]: XmasGoose was slain by 1ottsco
+[00:35:11] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:35:16] [Server thread/INFO]: Shananalovesdem was slain by Wolfzx99
+[00:35:19] [Server thread/INFO]: SKILLVINIK was slain by xcatieladyx
+[00:35:34] [Server thread/INFO]: mmnickymm was slain by St33n3r
+[00:35:34] [User Authenticator #17/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[00:35:34] [Server thread/INFO]: YungSpesh[/68.13.69.169:64911] logged in with entity id 218 at (165.73935024436622, 246.4952008770059, 152.13962999313614)
+[00:35:34] [Server thread/INFO]: YungSpesh joined the game
+[00:35:36] [Server thread/INFO]: xcatieladyx was slain by SKILLVINIK
+[00:35:39] [Server thread/INFO]: [XmasGoose: Set own game mode to Creative Mode]
+[00:35:44] [Server thread/INFO]: Albertc5555 fell from a high place
+[00:35:57] [Server thread/INFO]: St33n3r was slain by Tran_1230
+[00:36:00] [Server thread/INFO]: Tran_1230 was slain by Wolfzx99
+[00:36:02] [Server thread/INFO]: [Dunkersplatt: Teleported DezBFrag to Dunkersplatt]
+[00:36:08] [Server thread/INFO]: 1ottsco lost connection: Disconnected
+[00:36:08] [Server thread/INFO]: 1ottsco left the game
+[00:36:11] [Server thread/INFO]: Wolfzx99 was slain by YungSpesh
+[00:36:12] [Server thread/INFO]: [Dunkersplatt: Teleported DezBFrag to Dunkersplatt]
+[00:36:12] [Server thread/WARN]: DezBFrag moved too quickly! 2.0559185993522817,8.823240724935772,14.574806179102865
+[00:36:13] [Server thread/INFO]: mrdagger17 was slain by YungSpesh
+[00:36:21] [Server thread/INFO]: SKILLVINIK was slain by Wolfzx99
+[00:36:27] [Server thread/INFO]: mmnickymm was slain by St33n3r
+[00:36:35] [Server thread/INFO]: St33n3r was slain by mmnickymm
+[00:36:42] [Server thread/INFO]: mrdagger17 was slain by Wolfzx99
+[00:36:43] [Server thread/INFO]: DezBFrag fell from a high place
+[00:36:47] [Server thread/INFO]: YungSpesh was slain by SKILLVINIK
+[00:37:12] [Server thread/INFO]: SKILLVINIK was slain by YungSpesh
+[00:37:16] [Server thread/INFO]: Shananalovesdem was slain by St33n3r
+[00:37:22] [Server thread/INFO]: ninjaturtle103 was slain by St33n3r
+[00:37:34] [User Authenticator #18/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[00:37:35] [Server thread/INFO]: seanm105[/98.227.232.67:51390] logged in with entity id 240 at (160.5, 254.0, 160.5)
+[00:37:35] [Server thread/INFO]: seanm105 joined the game
+[00:37:35] [Server thread/INFO]: Wolfzx99 was slain by St33n3r
+[00:37:39] [Server thread/INFO]: [Dunkersplatt: Added seanm105 to team [evil]]
+[00:37:39] [Server thread/INFO]: mrdagger17 was slain by Tran_1230
+[00:37:40] [Server thread/INFO]: Albertc5555 was slain by St33n3r
+[00:37:45] [Server thread/INFO]: Tran_1230 was slain by St33n3r
+[00:37:48] [Server thread/INFO]: YungSpesh was slain by St33n3r
+[00:37:54] [User Authenticator #19/INFO]: UUID of player IntenseYogurt is 13a16db0-6016-414a-803a-5126beda9fc3
+[00:37:54] [Server thread/INFO]: IntenseYogurt[/68.197.217.146:50048] logged in with entity id 249 at (160.5, 254.0, 160.5)
+[00:37:54] [Server thread/INFO]: IntenseYogurt joined the game
+[00:37:56] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[00:37:59] [Server thread/INFO]: [XmasGoose: Gave 2 [Command Block] to XmasGoose]
+[00:38:01] [User Authenticator #20/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[00:38:01] [Server thread/INFO]: 1ottsco[/68.118.228.61:58022] logged in with entity id 252 at (155.20203504610413, 247.04488488728202, 159.69999998807907)
+[00:38:01] [Server thread/INFO]: 1ottsco joined the game
+[00:38:01] [Server thread/INFO]: [Dunkersplatt: Added IntenseYogurt to team [evil]]
+[00:38:09] [Server thread/INFO]: St33n3r was slain by YungSpesh
+[00:38:19] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:38:58] [User Authenticator #21/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[00:38:58] [Server thread/INFO]: ToaNuparu[/73.191.221.212:52943] logged in with entity id 373 at (160.5, 254.0, 160.5)
+[00:38:58] [Server thread/INFO]: ToaNuparu joined the game
+[00:39:04] [Server thread/INFO]: [Dunkersplatt: Added ToaNuparu to team [evil]]
+[00:39:11] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 257.52201598189697, 0.5]
+[00:39:29] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 160.5, 260.0, 160.5]
+[00:39:40] [Server thread/INFO]: [Dunkersplatt: Added SKILLVINIK to team [hen]]
+[00:39:51] [Server thread/INFO]: [Dunkersplatt: Teleported 19 entities to Dunkersplatt]
+[00:39:51] [Server thread/WARN]: Albertc5555 moved too quickly! 2.8267930601483044,-8.0,-11.178830672900773
+[00:39:51] [Server thread/WARN]: seanm105 moved too quickly! 8.791992511399798,2.0,-7.590129897477084
+[00:39:51] [Server thread/WARN]: DezBFrag moved too quickly! 12.080950590713883,-8.0,8.653540826634583
+[00:39:51] [Server thread/WARN]: ninjaturtle103 moved too quickly! 15.767857303425046,-2.1661092609382138,-0.9620492008766064
+[00:39:58] [Server thread/INFO]: <IntenseYogurt> critter. join ev
+[00:39:58] [Server thread/INFO]: [XmasGoose: Set own game mode to Survival Mode]
+[00:40:00] [Server thread/INFO]: [XmasGoose: Removed 3 items from player XmasGoose]
+[00:40:00] [Server thread/INFO]: xcatieladyx was slain by St33n3r
+[00:40:03] [Server thread/INFO]: Tran_1230 was slain by Wolfzx99
+[00:40:04] [Server thread/INFO]: SKILLVINIK was slain by 1ottsco
+[00:40:26] [Server thread/INFO]: IntenseYogurt was slain by Wolfzx99
+[00:40:29] [Server thread/INFO]: <Dunkersplatt> uconn + MEATLOAF crossover?
+[00:40:30] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:40:30] [Server thread/INFO]: St33n3r was slain by xcatieladyx
+[00:40:36] [Server thread/INFO]: mrdagger17 was slain by Wolfzx99
+[00:40:37] [Server thread/INFO]: Albertc5555 was slain by SKILLVINIK
+[00:40:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@377c4359[id=<null>,name=babar103,properties={},legacy=false] (/73.251.28.192:63485) lost connection: Disconnected
+[00:40:50] [Server thread/INFO]: Wolfzx99 was slain by seanm105
+[00:40:50] [User Authenticator #22/INFO]: UUID of player babar103 is 062bdb4e-364c-4664-946b-63a4346da055
+[00:40:50] [Server thread/INFO]: babar103[/73.251.28.192:63486] logged in with entity id 665 at (160.5, 254.0, 160.5)
+[00:40:50] [Server thread/INFO]: babar103 joined the game
+[00:40:58] [Server thread/INFO]: <ninjaturtle103> Hes with us
+[00:41:00] [Server thread/INFO]: <Dunkersplatt> ite
+[00:41:00] [User Authenticator #23/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[00:41:00] [Server thread/INFO]: belundun[/75.134.3.124:50145] logged in with entity id 667 at (160.5, 254.0, 160.5)
+[00:41:00] [Server thread/INFO]: belundun joined the game
+[00:41:05] [Server thread/INFO]: [Dunkersplatt: Added babar103 to team [meatloaf]]
+[00:41:10] [Server thread/INFO]: <IntenseYogurt> waolfz
+[00:41:13] [Server thread/INFO]: <IntenseYogurt> evil chat bubba
+[00:41:17] [Server thread/INFO]: Albertc5555 was slain by 1ottsco
+[00:41:19] [Server thread/WARN]: Albertc5555 moved too quickly! -9.199999988079071,8.0,9.199999988079071
+[00:41:20] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[00:41:21] [Server thread/INFO]: [Dunkersplatt: Added belundun to team [husky]]
+[00:41:22] [Server thread/INFO]: Tran_1230 was slain by 1ottsco
+[00:41:24] [Server thread/INFO]: 1ottsco was slain by Wolfzx99
+[00:41:24] [Server thread/INFO]: seanm105 was slain by St33n3r
+[00:41:28] [Server thread/INFO]: mmnickymm was slain by Wolfzx99
+[00:41:28] [Server thread/INFO]: Shananalovesdem was slain by SKILLVINIK
+[00:41:29] [Server thread/INFO]: ToaNuparu was slain by St33n3r
+[00:41:32] [Server thread/INFO]: mrdagger17 was slain by Wolfzx99
+[00:41:40] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[00:41:40] [Server thread/INFO]: xcatieladyx was slain by babar103
+[00:41:41] [Server thread/WARN]: Fetching packet for removed entity ze['xcatieladyx'/189, l='ServerLevel[world]', x=169.70, y=246.00, z=169.70]
+[00:41:45] [Server thread/INFO]: Wolfzx99 was slain by SKILLVINIK
+[00:41:57] [Server thread/INFO]: [Dunkersplatt: Added ToaNuparu to team [cherry]]
+[00:41:57] [Server thread/INFO]: belundun was slain by SKILLVINIK
+[00:42:00] [Server thread/INFO]: <mrdagger17> mr dunkersplatt, tear down this wall
+[00:42:09] [Server thread/INFO]: XmasGoose was slain by SKILLVINIK
+[00:42:21] [Server thread/INFO]: mikecherry was slain by SKILLVINIK
+[00:42:49] [Server thread/INFO]: DezBFrag fell from a high place
+[00:42:49] [Server thread/INFO]: IntenseYogurt fell from a high place
+[00:42:51] [User Authenticator #24/INFO]: UUID of player TheUltimateJon is 700991ea-66f1-40c2-a1e3-7014ea7dfa21
+[00:42:51] [Server thread/INFO]: TheUltimateJon[/73.251.28.192:51327] logged in with entity id 687 at (160.5, 254.0, 160.5)
+[00:42:51] [Server thread/INFO]: TheUltimateJon joined the game
+[00:42:52] [Server thread/INFO]: <XmasGoose> brandon and jody
+[00:42:54] [Server thread/INFO]: <seanm105> you monster
+[00:42:54] [Server thread/INFO]: <XmasGoose> unmute
+[00:42:58] [Server thread/INFO]: [Dunkersplatt: Added TheUltimateJon to team [meatloaf]]
+[00:43:07] [Server thread/INFO]: <XmasGoose> UNMUTE BRANDON
+[00:43:10] [Server thread/INFO]: <1ottsco> ziyu is cheats
+[00:43:17] [Server thread/INFO]: <YungSpesh> i deny
+[00:43:19] [Server thread/INFO]: St33n3r was slain by xcatieladyx
+[00:43:23] [Server thread/INFO]: IntenseYogurt was slain by mikecherry
+[00:43:30] [Server thread/INFO]: <belundun> we are by ourselves
+[00:43:34] [Server thread/INFO]: [Dunkersplatt: Added Tran_1230 to team [husky]]
+[00:43:35] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[00:43:35] [Server thread/INFO]: XmasGoose left the game
+[00:43:39] [Server thread/INFO]: <1ottsco> no yur not
+[00:43:46] [User Authenticator #25/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[00:43:46] [Server thread/INFO]: XmasGoose[/73.149.203.16:2148] logged in with entity id 689 at (164.30129484137447, 246.0, 161.39504540283045)
+[00:43:46] [Server thread/INFO]: XmasGoose joined the game
+[00:43:52] [Server thread/INFO]: IntenseYogurt was slain by Albertc5555
+[00:43:53] [Server thread/INFO]: <SKILLVINIK> remember guys, don't say anything today that could make haunt you later if you become famous and successful
+[00:44:06] [Server thread/INFO]: <DezBFrag> suck my pp
+[00:44:25] [Server thread/INFO]: <seanm105> white people suk
+[00:44:33] [Server thread/INFO]: <SKILLVINIK> i would cancel you but i don't think anybody will know u anyway
+[00:44:42] [Server thread/INFO]: <seanm105> ;)
+[00:44:50] [Server thread/INFO]: SKILLVINIK was slain by Albertc5555
+[00:45:02] [Server thread/INFO]: XmasGoose was slain by mikecherry
+[00:45:11] [Server thread/INFO]: Wolfzx99 fell from a high place
+[00:45:11] [Server thread/INFO]: belundun was slain by mmnickymm
+[00:45:14] [Server thread/INFO]: <mmnickymm> :(
+[00:45:16] [Server thread/INFO]: <mmnickymm> im sorry
+[00:45:23] [Server thread/INFO]: <belundun> I"M CRYING
+[00:45:26] [Server thread/WARN]: IntenseYogurt moved too quickly! 9.199999988079071,8.0,3.634146653991934
+[00:45:29] [Server thread/INFO]: Albertc5555 was slain by SKILLVINIK
+[00:45:31] [Server thread/INFO]: <belundun> ARE YOU HAPPY
+[00:45:31] [Server thread/WARN]: Albertc5555 moved too quickly! 7.973196565925093,8.0,0.800000011920929
+[00:45:40] [Server thread/INFO]: <1ottsco> NATE ABANDONED ME!!!!
+[00:45:47] [Server thread/INFO]: ninjaturtle103 was slain by St33n3r
+[00:45:49] [Server thread/INFO]: <belundun> hey scott theres no need to yell
+[00:45:50] [Server thread/INFO]: TheUltimateJon was slain by St33n3r
+[00:45:53] [Server thread/INFO]: <mmnickymm> kill me
+[00:45:59] [Server thread/INFO]: mmnickymm was slain by 1ottsco
+[00:46:01] [Server thread/INFO]: <1ottsco> okay
+[00:46:02] [Server thread/INFO]: <IntenseYogurt> last call for Critter
+[00:46:08] [Server thread/INFO]: SKILLVINIK was slain by St33n3r
+[00:46:17] [Server thread/INFO]: DezBFrag fell from a high place
+[00:46:24] [Server thread/INFO]: <YungSpesh> so peeps good with there being a team of 5
+[00:46:25] [Server thread/INFO]: 1ottsco was slain by St33n3r
+[00:46:29] [Server thread/INFO]: <mikecherry> yes
+[00:46:30] [Server thread/INFO]: Tran_1230 was slain by SKILLVINIK
+[00:46:36] [Server thread/INFO]: <YungSpesh> eskeddit
+[00:46:50] [Server thread/INFO]: <seanm105> It depends on who's on the team of 5
+[00:46:57] [Server thread/INFO]: <YungSpesh> team BC
+[00:47:00] [Server thread/INFO]: SKILLVINIK was slain by xcatieladyx
+[00:47:08] [Server thread/INFO]: <YungSpesh> current rosters + meyeravi
+[00:47:15] [Server thread/INFO]: Albertc5555 was slain by SKILLVINIK
+[00:47:23] [Server thread/INFO]: <SKILLVINIK> i own u ALb
+[00:47:28] [Server thread/INFO]: St33n3r was slain by 1ottsco
+[00:47:35] [Server thread/INFO]: seanm105 was slain by belundun
+[00:47:39] [Server thread/INFO]: xcatieladyx was slain by St33n3r
+[00:47:43] [Server thread/INFO]: babar103 was slain by SKILLVINIK
+[00:47:54] [Server thread/INFO]: Shananalovesdem was slain by belundun
+[00:47:57] [Server thread/INFO]: <Shananalovesdem> rude
+[00:47:58] [Server thread/INFO]: mikecherry was slain by SKILLVINIK
+[00:48:06] [Server thread/INFO]: YungSpesh fell out of the world
+[00:48:06] [Server thread/INFO]: [1ottsco: Killed YungSpesh]
+[00:48:13] [Server thread/INFO]: <YungSpesh> whoa whoa whoa whoa
+[00:48:17] [Server thread/INFO]: TheUltimateJon was slain by DezBFrag
+[00:48:18] [Server thread/INFO]: <SKILLVINIK> anyone watching this stream sucks
+[00:48:22] [Server thread/INFO]: <1ottsco> oof
+[00:48:24] [Server thread/INFO]: St33n3r was slain by xcatieladyx
+[00:48:29] [Server thread/INFO]: xcatieladyx was slain by St33n3r
+[00:48:32] [Server thread/INFO]: <Dunkersplatt> once meyer's in we spread
+[00:48:38] [Server thread/INFO]: <Dunkersplatt> get ready
+[00:48:43] [Server thread/INFO]: XmasGoose was slain by SKILLVINIK
+[00:48:45] [User Authenticator #26/INFO]: UUID of player Meyeravi is f3beb405-3f37-49d6-b41d-d4f5894f58b8
+[00:48:45] [Server thread/INFO]: Meyeravi[/72.224.96.171:53920] logged in with entity id 740 at (160.5, 254.0, 160.5)
+[00:48:45] [Server thread/INFO]: Meyeravi joined the game
+[00:48:48] [Server thread/INFO]: <YungSpesh> 1ottsco facilitated human trafficking with Wayfair
+[00:48:52] [Server thread/INFO]: [Dunkersplatt: Added Meyeravi to team [eagle]]
+[00:48:55] [Server thread/INFO]: <Dunkersplatt> ready all?
+[00:49:14] [Server thread/INFO]: ToaNuparu was slain by SKILLVINIK
+[00:49:15] [Server thread/INFO]: 1ottsco was slain by SKILLVINIK
+[00:49:18] [Server thread/INFO]: <IntenseYogurt> are there any new rules for today >
+[00:49:29] [Server thread/INFO]: ninjaturtle103 was slain by SKILLVINIK
+[00:49:30] [Server thread/INFO]: <mmnickymm> ...
+[00:49:40] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[00:49:40] [Server thread/INFO]: Wolfzx99 left the game
+[00:49:45] [Server thread/INFO]: <Dunkersplatt> OK SPREADING
+[00:49:47] [Server thread/INFO]: <IntenseYogurt> wait
+[00:49:50] [Server thread/INFO]: <Dunkersplatt> ok
+[00:49:54] [Server thread/INFO]: <IntenseYogurt> critter needs dos minz
+[00:49:54] [Server thread/INFO]: <mmnickymm> ... <Dunkersplatt> No killing
+[00:49:55] [Server thread/INFO]: <Dunkersplatt> everyone has to be in
+[00:50:01] [Server thread/INFO]: <Dunkersplatt> lmfao matt just got called by his mom
+[00:50:06] [Server thread/INFO]: <IntenseYogurt> perfect
+[00:50:11] [Server thread/INFO]: <IntenseYogurt> how evil of his mom to call at this time
+[00:50:19] [Server thread/INFO]: [YungSpesh: Teleported 1ottsco to YungSpesh]
+[00:50:24] [Server thread/INFO]: <IntenseYogurt> Matt if your mom needs a team next week, have her contact us
+[00:50:27] [Server thread/INFO]: [YungSpesh: Teleported 1ottsco to YungSpesh]
+[00:50:28] [Server thread/INFO]: 1ottsco fell from a high place
+[00:50:35] [Server thread/INFO]: YungSpesh fell out of the world
+[00:50:35] [Server thread/INFO]: [1ottsco: Killed YungSpesh]
+[00:50:43] [Server thread/INFO]: <YungSpesh> TWICE!
+[00:50:49] [User Authenticator #27/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[00:50:49] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37200] logged in with entity id 755 at (153.48563037004973, 246.0, 154.39608022006436)
+[00:50:49] [Server thread/INFO]: Wolfzx99 joined the game
+[00:50:50] [Server thread/INFO]: <1ottsco> it has to go
+[00:50:51] [Server thread/INFO]: <Dunkersplatt> where caelan go
+[00:50:52] [Server thread/INFO]: <YungSpesh> this man is shameless
+[00:50:58] [Server thread/INFO]: <IntenseYogurt> he is relogging now
+[00:51:00] [Server thread/INFO]: <seanm105> help
+[00:51:02] [Server thread/INFO]: <IntenseYogurt> had a laptop issue
+[00:51:02] [Server thread/INFO]: <seanm105> abuse
+[00:51:03] [Server thread/INFO]: <Dunkersplatt> once he's in we go
+[00:51:05] [Server thread/INFO]: seanm105 was slain by Tran_1230
+[00:51:06] [Server thread/INFO]: <IntenseYogurt> ye
+[00:51:24] [Server thread/INFO]: ToaNuparu was slain by Tran_1230
+[00:51:27] [Server thread/INFO]: <YungSpesh> scotts lets settle this like men and step outside
+[00:51:35] [Server thread/INFO]: <YungSpesh> rock papers scissors best of 3
+[00:51:39] [Server thread/INFO]: <1ottsco> SCISSORS!
+[00:51:48] [Server thread/INFO]: <mmnickymm> gun
+[00:51:48] [Server thread/INFO]: <YungSpesh> PAPER!
+[00:51:51] [Server thread/INFO]: <1ottsco> I WIN!
+[00:51:52] [Server thread/INFO]: <YungSpesh> FUCK!
+[00:51:55] [Server thread/INFO]: DezBFrag was slain by ninjaturtle103
+[00:51:56] [Server thread/INFO]: Wolfzx99 was slain by ninjaturtle103
+[00:52:02] [Server thread/INFO]: ninjaturtle103 was slain by belundun
+[00:52:03] [Server thread/INFO]: <YungSpesh> well played
+[00:52:04] [Server thread/INFO]: belundun was slain by Tran_1230
+[00:52:15] [Server thread/INFO]: <YungSpesh> ROCK!
+[00:52:22] [Server thread/INFO]: <Dunkersplatt> oh cae4laans back lol
+[00:52:23] [Server thread/INFO]: <XmasGoose> WHAT UHC IS THIS?
+[00:52:32] [Server thread/INFO]: <Wolfzx99> yup
+[00:52:32] [Server thread/INFO]: <Dunkersplatt> UHC XXII basby
+[00:52:35] [Server thread/INFO]: [Dunkersplatt: Removed 2 items from player Dunkersplatt]
+[00:52:36] [Server thread/INFO]: XmasGoose was slain by Shananalovesdem
+[00:52:37] [Server thread/INFO]: <Dunkersplatt> get ready
+[00:52:39] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[00:52:39] [Server thread/INFO]: <SKILLVINIK> if you are watching this stream you are actually really hot
+[00:52:42] [Server thread/INFO]: [Dunkersplatt: Executed 10 commands from function 'start:waitspread']
+[00:52:45] [Server thread/INFO]: <belundun> yes
+[00:52:50] [Server thread/INFO]: <belundun> nvm
+[00:52:54] [Server thread/INFO]: <Dunkersplatt> yes
+[00:53:04] [Server thread/INFO]: <Dunkersplatt> don't watch stream pls. against rules
+[00:53:09] [Server thread/INFO]: <Dunkersplatt> everyone g?
+[00:53:13] [Server thread/INFO]: <XmasGoose> yu
+[00:53:14] [Server thread/WARN]: mikecherry moved too quickly! -5.677607871651958,-4.44668908913232,-7.270531268117921
+[00:53:20] [Server thread/INFO]: <Dunkersplatt> ial shut it nate
+[00:53:23] [Server thread/INFO]: [Dunkersplatt: Executed 17 commands from function 'start:start']
+[00:53:24] [Server thread/INFO]: <XmasGoose> yuy
+[00:53:31] [Server thread/INFO]: <SKILLVINIK> remember guys, if you lose you'll disappoint your parents as well
+[00:53:55] [Server thread/INFO]: mmnickymm has made the advancement [Stone Age]
+[00:53:59] [Server thread/INFO]: DezBFrag has made the advancement [Stone Age]
+[00:54:02] [Server thread/INFO]: IntenseYogurt has made the advancement [Stone Age]
+[00:54:07] [Server thread/INFO]: Dunkersplatt has made the advancement [Stone Age]
+[00:54:14] [Server thread/INFO]: Tran_1230 has made the advancement [Stone Age]
+[00:54:18] [Server thread/INFO]: mmnickymm has made the advancement [Getting an Upgrade]
+[00:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[00:54:23] [Server thread/INFO]: Dunkersplatt has made the advancement [Getting an Upgrade]
+[00:54:23] [Server thread/INFO]: belundun has made the advancement [Stone Age]
+[00:54:25] [Server thread/INFO]: ninjaturtle103 has made the advancement [Stone Age]
+[00:54:28] [Server thread/INFO]: Tran_1230 has made the advancement [Getting an Upgrade]
+[00:54:31] [Server thread/INFO]: Wolfzx99 has made the advancement [Getting an Upgrade]
+[00:54:36] [Server thread/INFO]: DezBFrag has made the advancement [Getting an Upgrade]
+[00:54:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:54:40] [Server thread/INFO]: IntenseYogurt has made the advancement [Getting an Upgrade]
+[00:54:41] [Server thread/INFO]: xcatieladyx has made the advancement [Stone Age]
+[00:54:43] [Server thread/INFO]: ninjaturtle103 has made the advancement [Getting an Upgrade]
+[00:54:44] [Server thread/INFO]: 1ottsco has made the advancement [Stone Age]
+[00:54:45] [Server thread/INFO]: belundun has made the advancement [Getting an Upgrade]
+[00:54:46] [Server thread/INFO]: Wolfzx99 has made the advancement [Stone Age]
+[00:54:54] [Server thread/INFO]: mikecherry has made the advancement [Stone Age]
+[00:54:54] [Server thread/INFO]: 1ottsco has made the advancement [Getting an Upgrade]
+[00:54:58] [Server thread/INFO]: Shananalovesdem has made the advancement [Getting an Upgrade]
+[00:55:11] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/3865, l='ServerLevel[world]', x=213.09, y=75.36, z=376.39]
+[00:55:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[00:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2126ms or 42 ticks behind
+[00:55:32] [Server thread/INFO]: SKILLVINIK has made the advancement [Stone Age]
+[00:55:45] [Server thread/INFO]: xcatieladyx has made the advancement [Getting an Upgrade]
+[00:55:46] [Server thread/INFO]: mrdagger17 has made the advancement [Stone Age]
+[00:55:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2275ms or 45 ticks behind
+[00:55:51] [Server thread/INFO]: XmasGoose has made the advancement [Stone Age]
+[00:55:52] [Server thread/INFO]: mrdagger17 has made the advancement [Getting an Upgrade]
+[00:55:55] [Server thread/INFO]: mikecherry has made the advancement [Getting an Upgrade]
+[00:55:57] [Server thread/INFO]: ToaNuparu has made the advancement [Stone Age]
+[00:56:00] [Server thread/WARN]: Fetching packet for removed entity bbg['Oak Log'/4721, l='ServerLevel[world]', x=181.96, y=66.00, z=478.41]
+[00:56:02] [Server thread/INFO]: XmasGoose has made the advancement [Getting an Upgrade]
+[00:56:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2457ms or 49 ticks behind
+[00:56:11] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=119, y=64, z=-377} fu{x=120, y=64, z=-380}
+[00:56:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2726ms or 54 ticks behind
+[00:56:25] [Server thread/INFO]: seanm105 has made the advancement [Stone Age]
+[00:56:38] [Server thread/INFO]: SKILLVINIK has made the advancement [Getting an Upgrade]
+[00:56:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3691ms or 73 ticks behind
+[00:56:48] [Server thread/INFO]: Meyeravi has made the advancement [Stone Age]
+[00:56:55] [Server thread/INFO]: mrdagger17 has made the advancement [Acquire Hardware]
+[00:56:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3226ms or 64 ticks behind
+[00:57:01] [Server thread/INFO]: IntenseYogurt has made the advancement [Acquire Hardware]
+[00:57:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2380ms or 47 ticks behind
+[00:57:29] [Server thread/WARN]: DezBFrag moved wrongly!
+[00:57:30] [Server thread/WARN]: Fetching packet for removed entity bbg['Oxeye Daisy'/6350, l='ServerLevel[world]', x=460.37, y=66.36, z=-4.17]
+[00:57:31] [Server thread/INFO]: babar103 has made the advancement [Getting an Upgrade]
+[00:57:35] [Server thread/INFO]: seanm105 has made the advancement [Acquire Hardware]
+[00:57:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7408ms or 148 ticks behind
+[00:57:41] [Server thread/INFO]: TheUltimateJon has made the advancement [Stone Age]
+[00:57:45] [Server thread/INFO]: St33n3r has made the advancement [Stone Age]
+[00:57:45] [Server thread/INFO]: Meyeravi has made the advancement [Getting an Upgrade]
+[00:57:49] [Server thread/INFO]: YungSpesh has made the advancement [Stone Age]
+[00:57:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3273ms or 65 ticks behind
+[00:57:57] [Server thread/INFO]: YungSpesh has made the advancement [Getting an Upgrade]
+[00:57:58] [Server thread/INFO]: babar103 has made the advancement [Stone Age]
+[00:58:01] [Server thread/INFO]: Wolfzx99 has made the advancement [Acquire Hardware]
+[00:58:09] [Server thread/INFO]: TheUltimateJon has made the advancement [Getting an Upgrade]
+[00:58:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3338ms or 66 ticks behind
+[00:58:19] [Server thread/WARN]: mikecherry moved too quickly! 5.23232659181329,-1.4199999868869781,8.652664360435509
+[00:58:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4560ms or 91 ticks behind
+[00:58:47] [Server thread/INFO]: YungSpesh has made the advancement [Monster Hunter]
+[00:58:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5765ms or 115 ticks behind
+[00:58:59] [Server thread/INFO]: XmasGoose has made the advancement [Acquire Hardware]
+[00:59:01] [Server thread/INFO]: ToaNuparu has made the advancement [Getting an Upgrade]
+[00:59:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4929ms or 98 ticks behind
+[00:59:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4680ms or 93 ticks behind
+[00:59:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3157ms or 63 ticks behind
+[01:00:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2612ms or 52 ticks behind
+[01:00:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:00:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[01:01:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2784ms or 55 ticks behind
+[01:01:03] [Server thread/INFO]: mmnickymm has made the advancement [Monster Hunter]
+[01:01:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3201ms or 64 ticks behind
+[01:01:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4159ms or 83 ticks behind
+[01:01:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3372ms or 67 ticks behind
+[01:02:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:02:17] [Server thread/INFO]: XmasGoose has made the advancement [Isn't It Iron Pick]
+[01:02:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01:02:40] [Server thread/INFO]: YungSpesh has made the advancement [Acquire Hardware]
+[01:02:41] [Server thread/INFO]: Albertc5555 has made the advancement [Stone Age]
+[01:02:48] [Server thread/INFO]: XmasGoose has made the advancement [Not Today, Thank You]
+[01:02:48] [Server thread/INFO]: ninjaturtle103 has made the advancement [Acquire Hardware]
+[01:03:13] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[01:03:13] [Server thread/INFO]: XmasGoose left the game
+[01:03:16] [Server thread/INFO]: IntenseYogurt has made the advancement [Hot Stuff]
+[01:03:18] [Server thread/INFO]: ninjaturtle103 has made the advancement [Isn't It Iron Pick]
+[01:03:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:03:25] [User Authenticator #28/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[01:03:25] [Server thread/INFO]: XmasGoose[/73.149.203.16:2266] logged in with entity id 12194 at (-413.5819952889394, 42.0, 325.09506550354496)
+[01:03:25] [Server thread/INFO]: XmasGoose joined the game
+[01:03:32] [Server thread/INFO]: 1ottsco has made the advancement [Acquire Hardware]
+[01:03:37] [Server thread/INFO]: ninjaturtle103 has made the advancement [Diamonds!]
+[01:03:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5376ms or 107 ticks behind
+[01:03:42] [Server thread/INFO]: seanm105 has made the advancement [Getting an Upgrade]
+[01:03:55] [Server thread/INFO]: TheUltimateJon has made the advancement [Acquire Hardware]
+[01:03:58] [Server thread/INFO]: SKILLVINIK has made the advancement [Acquire Hardware]
+[01:04:04] [Server thread/INFO]: TheUltimateJon has made the advancement [Isn't It Iron Pick]
+[01:04:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:04:44] [Server thread/INFO]: XmasGoose has made the advancement [Monster Hunter]
+[01:04:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/13530, l='ServerLevel[world]', x=185.06, y=49.21, z=-361.13]
+[01:04:59] [Server thread/INFO]: mmnickymm has made the advancement [Acquire Hardware]
+[01:05:17] [Server thread/INFO]: DezBFrag has made the advancement [Acquire Hardware]
+[01:05:24] [Server thread/INFO]: DezBFrag has made the advancement [Isn't It Iron Pick]
+[01:05:49] [Server thread/INFO]: babar103 has made the advancement [Isn't It Iron Pick]
+[01:05:55] [Server thread/INFO]: <Shananalovesdem> u changed the game version and now i have no texture pack
+[01:05:57] [Server thread/INFO]: <Shananalovesdem> @brendan
+[01:06:04] [Server thread/INFO]: Wolfzx99 has made the advancement [Monster Hunter]
+[01:06:13] [Server thread/INFO]: <YungSpesh> that is tragic
+[01:06:16] [Server thread/INFO]: Wolfzx99 has made the advancement [Not Today, Thank You]
+[01:06:30] [Server thread/INFO]: <YungSpesh> even playing field, no more xray for team UCONN
+[01:06:34] [Server thread/INFO]: Tran_1230 has made the advancement [Monster Hunter]
+[01:06:42] [Server thread/INFO]: St33n3r has made the advancement [Getting an Upgrade]
+[01:07:03] [Server thread/INFO]: IntenseYogurt has made the advancement [Suit Up]
+[01:07:04] [Server thread/INFO]: Albertc5555 has made the advancement [Acquire Hardware]
+[01:07:08] [Server thread/INFO]: mikecherry has made the advancement [Acquire Hardware]
+[01:07:17] [Server thread/INFO]: ninjaturtle103 has made the advancement [Monster Hunter]
+[01:07:24] [Server thread/INFO]: ToaNuparu has made the advancement [Acquire Hardware]
+[01:07:32] [Server thread/INFO]: Albertc5555 has made the advancement [Not Today, Thank You]
+[01:07:41] [Server thread/INFO]: 1ottsco has made the advancement [Monster Hunter]
+[01:07:48] [Server thread/INFO]: XmasGoose has made the advancement [Suit Up]
+[01:07:50] [Server thread/INFO]: Albertc5555 has made the advancement [Monster Hunter]
+[01:07:55] [Server thread/INFO]: mmnickymm has made the advancement [Isn't It Iron Pick]
+[01:08:03] [Server thread/INFO]: belundun has made the advancement [Acquire Hardware]
+[01:08:08] [Server thread/INFO]: 1ottsco has made the advancement [Suit Up]
+[01:08:14] [Server thread/INFO]: seanm105 has made the advancement [Suit Up]
+[01:08:21] [Server thread/INFO]: Albertc5555 has made the advancement [Isn't It Iron Pick]
+[01:08:22] [Server thread/INFO]: belundun has made the advancement [Isn't It Iron Pick]
+[01:08:28] [Server thread/INFO]: <belundun> how to take off curse of the binding
+[01:08:29] [Server thread/INFO]: mrdagger17 has made the advancement [Suit Up]
+[01:08:29] [Server thread/INFO]: mrdagger17 has made the advancement [Isn't It Iron Pick]
+[01:08:32] [Server thread/INFO]: <belundun> GET ME OUT
+[01:08:35] [Server thread/INFO]: <mikecherry> lmaooo
+[01:08:40] [Server thread/INFO]: YungSpesh has made the advancement [Isn't It Iron Pick]
+[01:08:41] [Server thread/INFO]: <1ottsco> you have to die
+[01:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[01:08:51] [Server thread/INFO]: Dunkersplatt has made the advancement [Acquire Hardware]
+[01:09:23] [Server thread/INFO]: Tran_1230 has made the advancement [Acquire Hardware]
+[01:09:26] [Server thread/INFO]: Dunkersplatt has made the advancement [Isn't It Iron Pick]
+[01:09:27] [Server thread/INFO]: SKILLVINIK has made the advancement [Not Today, Thank You]
+[01:09:27] [Server thread/INFO]: seanm105 has made the advancement [Not Today, Thank You]
+[01:09:32] [Server thread/INFO]: seanm105 has made the advancement [Monster Hunter]
+[01:10:23] [Server thread/INFO]: Tran_1230 has made the advancement [Suit Up]
+[01:10:26] [Server thread/INFO]: mikecherry has made the advancement [Suit Up]
+[01:10:37] [Server thread/INFO]: Shananalovesdem has made the advancement [Suit Up]
+[01:10:37] [Server thread/INFO]: Shananalovesdem has made the advancement [Acquire Hardware]
+[01:10:40] [Server thread/INFO]: Wolfzx99 has made the advancement [Suit Up]
+[01:10:41] [Server thread/INFO]: SKILLVINIK has made the advancement [Isn't It Iron Pick]
+[01:10:51] [Server thread/WARN]: mikecherry moved too quickly! -7.991781525038235,2.580000013113022,-5.883255836686711
+[01:11:04] [Server thread/INFO]: xcatieladyx has made the advancement [Acquire Hardware]
+[01:11:11] [Server thread/INFO]: xcatieladyx has made the advancement [Isn't It Iron Pick]
+[01:11:14] [Server thread/INFO]: Shananalovesdem has made the advancement [Stone Age]
+[01:11:15] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[01:11:15] [Server thread/INFO]: Wolfzx99 left the game
+[01:11:15] [Server thread/INFO]: mrdagger17 has made the advancement [Diamonds!]
+[01:11:18] [User Authenticator #29/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[01:11:18] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37212] logged in with entity id 19998 at (-192.9104214357531, 35.0, 55.60758795333587)
+[01:11:18] [Server thread/INFO]: Wolfzx99 joined the game
+[01:11:21] [Server thread/INFO]: DezBFrag has made the advancement [Suit Up]
+[01:11:32] [Server thread/INFO]: belundun has made the advancement [Diamonds!]
+[01:11:35] [Server thread/INFO]: Shananalovesdem has made the advancement [Diamonds!]
+[01:11:36] [Server thread/INFO]: Wolfzx99 has made the advancement [Isn't It Iron Pick]
+[01:11:50] [Server thread/INFO]: St33n3r has made the advancement [Acquire Hardware]
+[01:11:59] [Server thread/INFO]: St33n3r has made the advancement [Isn't It Iron Pick]
+[01:12:18] [Server thread/INFO]: ToaNuparu has made the advancement [Suit Up]
+[01:13:03] [Server thread/INFO]: Albertc5555 has made the advancement [Suit Up]
+[01:13:10] [Server thread/INFO]: mikecherry has made the advancement [Isn't It Iron Pick]
+[01:13:31] [Server thread/INFO]: Shananalovesdem has made the advancement [Isn't It Iron Pick]
+[01:13:36] [Server thread/INFO]: St33n3r has made the advancement [Diamonds!]
+[01:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[01:13:43] [Server thread/INFO]: mmnickymm has made the advancement [Suit Up]
+[01:14:04] [Server thread/INFO]: mikecherry has made the advancement [Monster Hunter]
+[01:14:04] [Server thread/INFO]: IntenseYogurt has made the advancement [Isn't It Iron Pick]
+[01:14:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:14:21] [Server thread/INFO]: TheUltimateJon has made the advancement [Suit Up]
+[01:14:38] [Server thread/INFO]: Tran_1230 has made the advancement [Hot Stuff]
+[01:14:48] [Server thread/INFO]: TheUltimateJon has made the advancement [Hot Stuff]
+[01:14:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[01:15:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:15:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[01:15:51] [Server thread/INFO]: ToaNuparu has made the advancement [Not Today, Thank You]
+[01:15:52] [Server thread/INFO]: Meyeravi has made the advancement [Acquire Hardware]
+[01:15:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[01:16:13] [Server thread/INFO]: ToaNuparu has made the advancement [Monster Hunter]
+[01:16:15] [Server thread/INFO]: mrdagger17 has made the advancement [Ice Bucket Challenge]
+[01:16:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:16:36] [Server thread/INFO]: Tran_1230 has made the advancement [Diamonds!]
+[01:16:47] [Server thread/INFO]: xcatieladyx has made the advancement [Suit Up]
+[01:16:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[01:17:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[01:17:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2187ms or 43 ticks behind
+[01:17:40] [Server thread/INFO]: Tran_1230 has made the advancement [Ice Bucket Challenge]
+[01:17:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2626ms or 52 ticks behind
+[01:18:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2268ms or 45 ticks behind
+[01:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2262ms or 45 ticks behind
+[01:18:28] [Server thread/INFO]: mikecherry has made the advancement [What a Deal!]
+[01:18:28] [Server thread/INFO]: belundun has made the advancement [Suit Up]
+[01:18:32] [Server thread/INFO]: <belundun> !
+[01:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2840ms or 56 ticks behind
+[01:18:47] [Server thread/INFO]: 1ottsco has made the advancement [Isn't It Iron Pick]
+[01:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2452ms or 49 ticks behind
+[01:19:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2628ms or 52 ticks behind
+[01:19:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[01:19:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
+[01:20:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[01:20:20] [Server thread/INFO]: TheUltimateJon has made the advancement [Not Today, Thank You]
+[01:20:24] [Server thread/INFO]: mmnickymm has made the advancement [Hot Stuff]
+[01:20:28] [Server thread/INFO]: YungSpesh has made the advancement [Diamonds!]
+[01:20:29] [Server thread/INFO]: ToaNuparu fell from a high place
+[01:20:29] [Server thread/INFO]: [@: Set ToaNuparu's game mode to Spectator Mode]
+[01:20:32] [Server thread/INFO]: ninjaturtle103 has made the advancement [Suit Up]
+[01:20:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[01:20:37] [Server thread/INFO]: <TheUltimateJon> gg
+[01:20:41] [Server thread/INFO]: 1ottsco has made the advancement [Hot Stuff]
+[01:20:47] [Server thread/INFO]: <1ottsco> gg
+[01:20:49] [Server thread/INFO]: babar103 has made the advancement [Acquire Hardware]
+[01:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[01:21:06] [Server thread/INFO]: ninjaturtle103 has made the advancement [Ice Bucket Challenge]
+[01:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:21:20] [Server thread/INFO]: Albertc5555 has made the advancement [Getting an Upgrade]
+[01:21:33] [Server thread/INFO]: Dunkersplatt has made the advancement [Diamonds!]
+[01:21:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:21:42] [Server thread/INFO]: Meyeravi has made the advancement [Suit Up]
+[01:21:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:22:04] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[01:22:04] [Server thread/INFO]: Wolfzx99 left the game
+[01:22:07] [User Authenticator #30/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[01:22:07] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37222] logged in with entity id 32329 at (-109.07882750719033, 12.0, 7.935291411335838)
+[01:22:07] [Server thread/INFO]: Wolfzx99 joined the game
+[01:22:09] [Server thread/INFO]: seanm105 has made the advancement [Isn't It Iron Pick]
+[01:22:10] [Server thread/INFO]: Tran_1230 has made the advancement [Isn't It Iron Pick]
+[01:22:13] [Server thread/WARN]: Wolfzx99 moved wrongly!
+[01:22:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:22:25] [Server thread/INFO]: <SKILLVINIK> that's a forfeit
+[01:22:31] [Server thread/INFO]: YungSpesh has made the advancement [Suit Up]
+[01:22:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:22:42] [Server thread/WARN]: Fetching packet for removed entity bbg['Coal'/32999, l='ServerLevel[world]', x=-458.13, y=12.67, z=218.88]
+[01:22:42] [Server thread/INFO]: Dunkersplatt has made the advancement [Suit Up]
+[01:22:52] [Server thread/WARN]: Wolfzx99 moved too quickly! -9.534893111828197,3.249187078744683,-0.2031831630715466
+[01:22:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2236ms or 44 ticks behind
+[01:23:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2392ms or 47 ticks behind
+[01:23:28] [Server thread/INFO]: babar103 has made the advancement [Suit Up]
+[01:23:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:23:35] [Server thread/INFO]: SKILLVINIK has made the advancement [Suit Up]
+[01:23:42] [Server thread/INFO]: <belundun> might have to go take a 20 minuter
+[01:23:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[01:24:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[01:24:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
+[01:24:33] [Server thread/INFO]: IntenseYogurt has made the advancement [Enchanter]
+[01:24:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2592ms or 51 ticks behind
+[01:24:42] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[01:24:42] [Server thread/INFO]: YungSpesh left the game
+[01:24:46] [User Authenticator #31/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[01:24:46] [Server thread/INFO]: YungSpesh[/68.13.69.169:65162] logged in with entity id 35152 at (141.48040833325103, 11.0, -351.8012768097961)
+[01:24:46] [Server thread/INFO]: YungSpesh joined the game
+[01:25:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4719ms or 94 ticks behind
+[01:25:18] [Server thread/INFO]: Wolfzx99 has made the advancement [Enchanter]
+[01:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4150ms or 83 ticks behind
+[01:25:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3346ms or 66 ticks behind
+[01:25:46] [Server thread/INFO]: Dunkersplatt has made the advancement [Ice Bucket Challenge]
+[01:25:46] [Server thread/INFO]: belundun has made the advancement [Enchanter]
+[01:25:53] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/36404, l='ServerLevel[world]', x=116.25, y=13.21, z=-456.75]
+[01:25:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4101ms or 82 ticks behind
+[01:26:02] [Server thread/INFO]: mmnickymm has made the advancement [Diamonds!]
+[01:26:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3899ms or 77 ticks behind
+[01:26:25] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/37099, l='ServerLevel[world]', x=114.46, y=10.70, z=-457.41]
+[01:26:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4180ms or 83 ticks behind
+[01:26:38] [Server thread/WARN]: Fetching packet for removed entity bbg['Raw Chicken'/37413, l='ServerLevel[world]', x=277.41, y=72.00, z=415.91]
+[01:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4253ms or 85 ticks behind
+[01:27:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4332ms or 86 ticks behind
+[01:27:18] [Server thread/INFO]: Meyeravi has made the advancement [Isn't It Iron Pick]
+[01:27:30] [Server thread/INFO]: St33n3r has made the advancement [Suit Up]
+[01:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind
+[01:27:42] [Server thread/INFO]: SKILLVINIK has made the advancement [Diamonds!]
+[01:27:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4393ms or 87 ticks behind
+[01:27:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Iron Ore'/39062, l='ServerLevel[world]', x=211.12, y=13.28, z=331.06]
+[01:27:55] [Server thread/INFO]: Dunkersplatt has made the advancement [Enchanter]
+[01:28:01] [Server thread/INFO]: seanm105 has made the advancement [Enchanter]
+[01:28:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4223ms or 84 ticks behind
+[01:28:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3894ms or 77 ticks behind
+[01:28:34] [Server thread/INFO]: babar103 has made the advancement [Diamonds!]
+[01:28:45] [Server thread/INFO]: seanm105 has made the advancement [Hot Stuff]
+[01:28:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3522ms or 70 ticks behind
+[01:29:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3637ms or 72 ticks behind
+[01:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3520ms or 70 ticks behind
+[01:29:31] [Server thread/WARN]: ninjaturtle103 moved too quickly! 3.139378613949212,2.989349985873975,9.05480787919987
+[01:29:38] [Server thread/INFO]: xcatieladyx has made the advancement [Enchanter]
+[01:29:40] [Server thread/INFO]: Shananalovesdem has made the advancement [Enchanter]
+[01:29:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3048ms or 60 ticks behind
+[01:30:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[01:30:10] [Server thread/INFO]: mikecherry has made the advancement [Not Today, Thank You]
+[01:30:10] [Server thread/INFO]: Meyeravi has made the advancement [Diamonds!]
+[01:30:14] [Server thread/INFO]: xcatieladyx has made the advancement [Diamonds!]
+[01:30:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3773ms or 75 ticks behind
+[01:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3244ms or 64 ticks behind
+[01:30:42] [Server thread/INFO]: Meyeravi has made the advancement [Enchanter]
+[01:30:44] [Server thread/INFO]: 1ottsco has made the advancement [Not Today, Thank You]
+[01:30:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3838ms or 76 ticks behind
+[01:31:01] [Server thread/INFO]: DezBFrag has made the advancement [Monster Hunter]
+[01:31:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5276ms or 105 ticks behind
+[01:31:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4526ms or 90 ticks behind
+[01:31:38] [Server thread/INFO]: mmnickymm has made the advancement [Not Today, Thank You]
+[01:31:39] [Server thread/INFO]: Albertc5555 has made the advancement [Hot Stuff]
+[01:31:42] [Server thread/WARN]: mikecherry moved too quickly! -7.54373289215286,-0.164773281826065,-6.804164223797187
+[01:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3484ms or 69 ticks behind
+[01:32:10] [Server thread/INFO]: mrdagger17 has made the advancement [Enchanter]
+[01:32:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3630ms or 72 ticks behind
+[01:32:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4568ms or 91 ticks behind
+[01:32:43] [Server thread/INFO]: YungSpesh has made the advancement [Enchanter]
+[01:32:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4667ms or 93 ticks behind
+[01:33:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5399ms or 107 ticks behind
+[01:33:24] [Server thread/INFO]: mikecherry has made the advancement [Hot Stuff]
+[01:33:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5974ms or 119 ticks behind
+[01:33:53] [Server thread/INFO]: IntenseYogurt has made the advancement [Monster Hunter]
+[01:33:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5485ms or 109 ticks behind
+[01:34:05] [Server thread/INFO]: St33n3r has made the advancement [Enchanter]
+[01:34:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4572ms or 91 ticks behind
+[01:34:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Coal'/46464, l='ServerLevel[world]', x=287.60, y=21.04, z=331.44]
+[01:34:25] [Server thread/INFO]: Tran_1230 has made the advancement [Enchanter]
+[01:34:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4530ms or 90 ticks behind
+[01:34:48] [Server thread/INFO]: belundun has made the advancement [Cover Me With Diamonds]
+[01:34:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4682ms or 93 ticks behind
+[01:34:57] [Server thread/INFO]: SKILLVINIK has made the advancement [Hot Stuff]
+[01:35:09] [Server thread/INFO]: seanm105 has made the advancement [We Need to Go Deeper]
+[01:35:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6178ms or 123 ticks behind
+[01:35:24] [Server thread/INFO]: <SKILLVINIK> let's all meet in nether
+[01:35:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6675ms or 133 ticks behind
+[01:35:45] [Server thread/INFO]: <Albertc5555> down. can i borrow your portal?
+[01:35:50] [Server thread/INFO]: <SKILLVINIK> be there or be square as shit
+[01:35:56] [Server thread/INFO]: <mrdagger17> yes
+[01:35:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7187ms or 143 ticks behind
+[01:36:16] [Server thread/INFO]: <SKILLVINIK> you don't wanna take my portal, it has a lava trap
+[01:36:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7041ms or 140 ticks behind
+[01:36:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6828ms or 136 ticks behind
+[01:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7641ms or 152 ticks behind
+[01:37:07] [Server thread/INFO]: mikecherry has made the advancement [We Need to Go Deeper]
+[01:37:08] [Server thread/INFO]: Albertc5555 has made the advancement [We Need to Go Deeper]
+[01:37:12] [Server thread/INFO]: mmnickymm has made the advancement [Ice Bucket Challenge]
+[01:37:23] [Server thread/INFO]: mikecherry has made the advancement [Take Aim]
+[01:37:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6966ms or 139 ticks behind
+[01:37:46] [Server thread/INFO]: Wolfzx99 has made the advancement [Hot Stuff]
+[01:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6030ms or 120 ticks behind
+[01:37:59] [Server thread/INFO]: mrdagger17 has made the advancement [Hot Stuff]
+[01:38:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9145ms or 182 ticks behind
+[01:38:27] [Server thread/INFO]: ToaNuparu lost connection: Disconnected
+[01:38:27] [Server thread/INFO]: ToaNuparu left the game
+[01:38:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7535ms or 150 ticks behind
+[01:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6453ms or 129 ticks behind
+[01:39:06] [Server thread/WARN]: mikecherry moved wrongly!
+[01:39:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6439ms or 128 ticks behind
+[01:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5983ms or 119 ticks behind
+[01:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5619ms or 112 ticks behind
+[01:40:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5956ms or 119 ticks behind
+[01:40:27] [User Authenticator #32/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[01:40:27] [Server thread/INFO]: ToaNuparu[/73.191.221.212:53327] logged in with entity id 52818 at (61.97447982855071, 41.360198666227575, 46.59578028734609)
+[01:40:27] [Server thread/INFO]: ToaNuparu joined the game
+[01:40:40] [Server thread/INFO]: <SKILLVINIK> that's a disqualification
+[01:40:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5740ms or 114 ticks behind
+[01:40:59] [Server thread/INFO]: ToaNuparu has made the advancement [We Need to Go Deeper]
+[01:41:00] [Server thread/INFO]: Tran_1230 has made the advancement [Cover Me With Diamonds]
+[01:41:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5854ms or 117 ticks behind
+[01:41:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5730ms or 114 ticks behind
+[01:41:27] [Server thread/INFO]: Shananalovesdem has made the advancement [Cover Me With Diamonds]
+[01:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
+[01:41:43] [Server thread/INFO]: belundun has made the advancement [Hot Stuff]
+[01:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5027ms or 100 ticks behind
+[01:42:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5267ms or 105 ticks behind
+[01:42:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4990ms or 99 ticks behind
+[01:42:58] [Server thread/INFO]: Shananalovesdem has made the advancement [Hot Stuff]
+[01:43:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4314ms or 86 ticks behind
+[01:43:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4336ms or 86 ticks behind
+[01:43:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4584ms or 91 ticks behind
+[01:43:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3836ms or 76 ticks behind
+[01:44:15] [Server thread/INFO]: Wolfzx99 has made the advancement [Take Aim]
+[01:44:16] [Server thread/INFO]: mikecherry was shot by Wolfzx99
+[01:44:16] [Server thread/INFO]: [@: Set mikecherry's game mode to Spectator Mode]
+[01:44:16] [Server thread/INFO]: Albertc5555 tried to swim in lava to escape mikecherry
+[01:44:16] [Server thread/INFO]: [@: Set Albertc5555's game mode to Spectator Mode]
+[01:44:17] [Server thread/INFO]: ninjaturtle103 has made the advancement [Not Today, Thank You]
+[01:44:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4396ms or 87 ticks behind
+[01:44:25] [Server thread/INFO]: <Dunkersplatt> gg
+[01:44:26] [Server thread/INFO]: <belundun> ial lets go mikecherry
+[01:44:27] [Server thread/INFO]: <1ottsco> gg
+[01:44:29] [Server thread/INFO]: <mmnickymm> lol
+[01:44:30] [Server thread/INFO]: <XmasGoose> gg
+[01:44:30] [Server thread/WARN]: Albertc5555 moved too quickly! 247.80000001192093,243.008,149.19999998807907
+[01:44:31] [Server thread/INFO]: <SKILLVINIK> nice kill Mike
+[01:44:31] [Server thread/INFO]: <XmasGoose> MIK
+[01:44:33] [Server thread/INFO]: <XmasGoose> E
+[01:44:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3960ms or 79 ticks behind
+[01:44:38] [Server thread/INFO]: <XmasGoose> mikey c!
+[01:44:44] [Server thread/INFO]: <Albertc5555> good kill mike
+[01:44:56] [Server thread/INFO]: <SKILLVINIK> classic red
+[01:44:56] [Server thread/WARN]: Shananalovesdem moved wrongly!
+[01:44:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6593ms or 131 ticks behind
+[01:45:01] [Server thread/INFO]: <IntenseYogurt> maybe next time, cherry
+[01:45:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5370ms or 107 ticks behind
+[01:45:21] [Server thread/INFO]: <mikecherry> see u next week
+[01:45:25] [Server thread/INFO]: mikecherry lost connection: Disconnected
+[01:45:25] [Server thread/INFO]: mikecherry left the game
+[01:45:28] [Server thread/INFO]: <SKILLVINIK> i have faith that yogurt boy will find a way to lose
+[01:45:34] [Server thread/INFO]: <IntenseYogurt> ;)
+[01:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4474ms or 89 ticks behind
+[01:45:50] [Server thread/INFO]: Albertc5555 lost connection: Disconnected
+[01:45:50] [Server thread/INFO]: Albertc5555 left the game
+[01:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4113ms or 82 ticks behind
+[01:46:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3170ms or 63 ticks behind
+[01:46:20] [Server thread/INFO]: <XmasGoose> john put coords in chat
+[01:46:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3340ms or 66 ticks behind
+[01:46:39] [Server thread/INFO]: mmnickymm has made the advancement [Enchanter]
+[01:46:45] [Server thread/INFO]: belundun lost connection: Disconnected
+[01:46:45] [Server thread/INFO]: belundun left the game
+[01:46:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2662ms or 53 ticks behind
+[01:46:56] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[01:46:56] [Server thread/INFO]: Wolfzx99 left the game
+[01:46:58] [Server thread/INFO]: <SKILLVINIK> [suck, my, ween]
+[01:46:58] [User Authenticator #33/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[01:46:58] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37232] logged in with entity id 58795 at (-83.39124766194482, 11.0, 12.924689392844625)
+[01:46:58] [Server thread/INFO]: Wolfzx99 joined the game
+[01:47:01] [Server thread/INFO]: TheUltimateJon has made the advancement [Monster Hunter]
+[01:47:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:47:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[01:47:44] [Server thread/INFO]: mrdagger17 has made the advancement [We Need to Go Deeper]
+[01:48:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2880ms or 57 ticks behind
+[01:48:04] [User Authenticator #34/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[01:48:04] [Server thread/INFO]: belundun[/75.134.3.124:50261] logged in with entity id 59886 at (276.30000001192093, 12.0, -247.30000001192093)
+[01:48:04] [Server thread/INFO]: belundun joined the game
+[01:48:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3313ms or 66 ticks behind
+[01:48:29] [Server thread/INFO]: Wolfzx99 has made the advancement [We Need to Go Deeper]
+[01:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2822ms or 56 ticks behind
+[01:48:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3388ms or 67 ticks behind
+[01:49:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3495ms or 69 ticks behind
+[01:49:22] [Server thread/INFO]: 1ottsco has made the advancement [Enchanter]
+[01:49:27] [Server thread/INFO]: <1ottsco> be afraid!
+[01:49:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2720ms or 54 ticks behind
+[01:49:33] [Server thread/INFO]: <Dunkersplatt> :)
+[01:49:36] [Server thread/INFO]: XmasGoose has made the advancement [Enchanter]
+[01:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2408ms or 48 ticks behind
+[01:50:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3089ms or 61 ticks behind
+[01:50:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
+[01:50:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3406ms or 68 ticks behind
+[01:50:52] [Server thread/WARN]: Fetching packet for removed entity bbg['Diorite'/62477, l='ServerLevel[world]', x=11.13, y=11.00, z=-295.17]
+[01:51:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7130ms or 142 ticks behind
+[01:51:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3451ms or 69 ticks behind
+[01:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3200ms or 64 ticks behind
+[01:52:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2943ms or 58 ticks behind
+[01:52:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3091ms or 61 ticks behind
+[01:52:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2648ms or 52 ticks behind
+[01:52:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3601ms or 72 ticks behind
+[01:53:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2927ms or 58 ticks behind
+[01:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[01:53:48] [Server thread/INFO]: belundun has made the advancement [Monster Hunter]
+[01:54:39] [Server thread/INFO]: SKILLVINIK has made the advancement [Enchanter]
+[01:54:49] [Server thread/INFO]: belundun has made the advancement [Not Today, Thank You]
+[01:55:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01:55:53] [Server thread/INFO]: babar103 has made the advancement [Monster Hunter]
+[01:56:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2997ms or 59 ticks behind
+[01:56:30] [Server thread/WARN]: Dunkersplatt moved wrongly!
+[01:56:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[01:57:04] [Server thread/INFO]: IntenseYogurt has made the advancement [Diamonds!]
+[01:57:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:58:40] [Server thread/INFO]: IntenseYogurt has made the advancement [Cover Me With Diamonds]
+[01:59:34] [Server thread/INFO]: SKILLVINIK has made the advancement [Monster Hunter]
+[02:00:17] [Server thread/INFO]: Shananalovesdem has made the advancement [Take Aim]
+[02:00:32] [Server thread/INFO]: <XmasGoose> n
+[02:00:33] [Server thread/INFO]: <mmnickymm> y
+[02:00:37] [Server thread/INFO]: <Dunkersplatt> shhh
+[02:00:39] [Server thread/INFO]: <Dunkersplatt> bad guys above us
+[02:01:00] [Server thread/INFO]: <SKILLVINIK> n
+[02:01:26] [Server thread/INFO]: Dunkersplatt has made the advancement [Take Aim]
+[02:01:27] [Server thread/INFO]: <IntenseYogurt> wall ?
+[02:01:39] [Server thread/INFO]: <IntenseYogurt> when does border move
+[02:01:59] [Server thread/INFO]: Tran_1230 was slain by Dunkersplatt
+[02:01:59] [Server thread/INFO]: [@: Set Tran_1230's game mode to Spectator Mode]
+[02:02:21] [Server thread/INFO]: DezBFrag has made the advancement [Diamonds!]
+[02:02:26] [Server thread/INFO]: Shananalovesdem was slain by YungSpesh
+[02:02:26] [Server thread/INFO]: [@: Set Shananalovesdem's game mode to Spectator Mode]
+[02:02:27] [Server thread/INFO]: DezBFrag has made the advancement [Ice Bucket Challenge]
+[02:02:46] [Server thread/INFO]: St33n3r has made the advancement [Hot Stuff]
+[02:02:49] [Server thread/INFO]: St33n3r has made the advancement [Ice Bucket Challenge]
+[02:02:49] [Server thread/INFO]: belundun was slain by Dunkersplatt
+[02:02:49] [Server thread/INFO]: [@: Set belundun's game mode to Spectator Mode]
+[02:02:55] [Server thread/INFO]: <belundun> gg
+[02:03:02] [Server thread/INFO]: <Tran_1230> dunkersplat how low were you
+[02:03:09] [Server thread/INFO]: Dunkersplatt has made the advancement [Cover Me With Diamonds]
+[02:03:36] [Server thread/INFO]: babar103 has made the advancement [Not Today, Thank You]
+[02:03:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[02:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[02:04:23] [Server thread/INFO]: TheUltimateJon has made the advancement [Enchanter]
+[02:04:27] [Server thread/INFO]: DezBFrag has made the advancement [Enchanter]
+[02:04:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[02:04:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[02:05:05] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:05:05] [Server thread/INFO]: belundun left the game
+[02:05:10] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[02:05:10] [Server thread/INFO]: Shananalovesdem left the game
+[02:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[02:05:39] [Server thread/INFO]: DezBFrag has made the advancement [Cover Me With Diamonds]
+[02:05:41] [Server thread/INFO]: Tran_1230 lost connection: Disconnected
+[02:05:41] [Server thread/INFO]: Tran_1230 left the game
+[02:05:49] [Server thread/INFO]: ninjaturtle103 has made the advancement [Cover Me With Diamonds]
+[02:05:53] [User Authenticator #35/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[02:05:53] [Server thread/INFO]: ToaNuparu lost connection: You logged in from another location
+[02:05:53] [Server thread/INFO]: ToaNuparu left the game
+[02:05:53] [Server thread/INFO]: ToaNuparu[/73.191.221.212:53461] logged in with entity id 75225 at (-8.40881451122214, 71.6529293300226, -18.18999567229873)
+[02:05:53] [Server thread/INFO]: ToaNuparu joined the game
+[02:06:04] [Server thread/INFO]: TheUltimateJon has made the advancement [Cover Me With Diamonds]
+[02:06:15] [Server thread/INFO]: ninjaturtle103 has made the advancement [Enchanter]
+[02:09:36] [Server thread/WARN]: Fetching packet for removed entity bbg['Oak Planks'/77517, l='ServerLevel[world]', x=144.13, y=11.88, z=-359.42]
+[02:11:19] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-389, y=73, z=382} fu{x=-389, y=72, z=383}
+[02:11:19] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-389, y=73, z=382} fu{x=-389, y=72, z=383}
+[02:11:19] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-389, y=73, z=382} fu{x=-389, y=72, z=383}
+[02:11:31] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-386, y=64, z=392} fu{x=-387, y=63, z=394}
+[02:11:31] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-386, y=64, z=392} fu{x=-387, y=63, z=394}
+[02:12:19] [Server thread/INFO]: seanm105 has made the advancement [Ice Bucket Challenge]
+[02:13:04] [Server thread/INFO]: babar103 has made the advancement [Enchanter]
+[02:14:50] [Server thread/INFO]: XmasGoose lost connection: Timed out
+[02:14:50] [Server thread/INFO]: XmasGoose left the game
+[02:14:54] [Server thread/INFO]: <IntenseYogurt> reported
+[02:15:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@5b0af444[id=<null>,name=XmasGoose,properties={},legacy=false] (/73.149.203.16:2510) lost connection: Disconnected
+[02:15:01] [Server thread/INFO]: <SKILLVINIK> that's a dq
+[02:15:02] [User Authenticator #36/INFO]: UUID of player XmasGoose is adc2fc4d-22d1-4622-8256-ca71f4a153df
+[02:15:02] [Server thread/INFO]: XmasGoose[/73.149.203.16:2525] logged in with entity id 80827 at (-271.9933135827075, 85.0, 305.85007826478125)
+[02:15:02] [Server thread/INFO]: XmasGoose joined the game
+[02:15:04] [Server thread/INFO]: <IntenseYogurt> facts
+[02:17:47] [Server thread/WARN]: Fetching packet for removed entity bbg['Iron Ore'/82525, l='ServerLevel[world]', x=13.51, y=11.00, z=-47.21]
+[02:18:48] [Server thread/INFO]: 1ottsco lost connection: Timed out
+[02:18:48] [Server thread/INFO]: 1ottsco left the game
+[02:19:43] [Server thread/INFO]: mrdagger17 has made the advancement [Monster Hunter]
+[02:19:45] [User Authenticator #37/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:19:45] [Server thread/INFO]: 1ottsco[/68.118.228.61:58388] logged in with entity id 83766 at (-115.35224339431245, 71.0, 329.705783878621)
+[02:19:45] [Server thread/INFO]: 1ottsco joined the game
+[02:19:51] [User Authenticator #38/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:19:51] [Server thread/INFO]: 1ottsco lost connection: You logged in from another location
+[02:19:51] [Server thread/INFO]: 1ottsco left the game
+[02:19:51] [Server thread/INFO]: 1ottsco[/68.118.228.61:58402] logged in with entity id 83813 at (-111.64705670520762, 65.40739540236494, 329.5496458061306)
+[02:19:51] [Server thread/INFO]: 1ottsco joined the game
+[02:20:25] [Server thread/WARN]: 1ottsco was kicked for floating too long!
+[02:20:25] [Server thread/INFO]: 1ottsco lost connection: Flying is not enabled on this server
+[02:20:25] [Server thread/INFO]: 1ottsco left the game
+[02:20:46] [Server thread/INFO]: DezBFrag has made the advancement [Hot Stuff]
+[02:20:53] [Server thread/INFO]: ninjaturtle103 has made the advancement [Hot Stuff]
+[02:21:19] [User Authenticator #39/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:21:19] [Server thread/INFO]: 1ottsco[/68.118.228.61:58424] logged in with entity id 84422 at (-81.13917812971096, 64.16610926093821, 274.2346092320776)
+[02:21:19] [Server thread/INFO]: 1ottsco joined the game
+[02:21:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Bone'/84415, l='ServerLevel[world]', x=4.43, y=63.00, z=201.80]
+[02:21:29] [Server thread/INFO]: babar103 has made the advancement [Hot Stuff]
+[02:21:38] [Server thread/WARN]: 1ottsco moved too quickly! 9.694479229870694,0.7967356006687041,-3.125805512610441
+[02:21:54] [Server thread/WARN]: 1ottsco was kicked for floating too long!
+[02:21:54] [Server thread/INFO]: 1ottsco lost connection: Flying is not enabled on this server
+[02:21:54] [Server thread/INFO]: 1ottsco left the game
+[02:21:59] [Server thread/INFO]: Villager bdp['Nitwit'/173, l='ServerLevel[world]', x=17.49, y=64.69, z=165.50] died, message: 'Nitwit tried to swim in lava'
+[02:22:46] [Server thread/INFO]: YungSpesh has made the advancement [Not Today, Thank You]
+[02:22:47] [Server thread/INFO]: mmnickymm has made the advancement [What a Deal!]
+[02:22:58] [Server thread/WARN]: ToaNuparu moved too quickly! 7.439641971269408,-7.052104722457948,-1.2033296952847898
+[02:23:12] [Server thread/INFO]: seanm105 has made the advancement [Best Friends Forever]
+[02:23:57] [User Authenticator #40/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:23:57] [Server thread/INFO]: 1ottsco[/68.118.228.61:58478] logged in with entity id 85771 at (-41.46356104775394, 64.16610926093821, 258.97475196383965)
+[02:23:57] [Server thread/INFO]: 1ottsco joined the game
+[02:24:04] [Server thread/INFO]: <1ottsco> can you guys read this chat message
+[02:24:07] [Server thread/INFO]: <mmnickymm> yes
+[02:24:09] [Server thread/INFO]: <SKILLVINIK> yes
+[02:24:11] [Server thread/INFO]: <Wolfzx99> no
+[02:24:13] [Server thread/INFO]: xcatieladyx has made the advancement [Hot Stuff]
+[02:24:30] [Server thread/INFO]: XmasGoose has made the advancement [What a Deal!]
+[02:24:42] [Server thread/INFO]: 1ottsco lost connection: Timed out
+[02:24:42] [Server thread/INFO]: 1ottsco left the game
+[02:25:54] [User Authenticator #41/INFO]: UUID of player 1ottsco is 27494d59-47ca-4405-a1da-7f75a2551d5d
+[02:25:54] [Server thread/INFO]: 1ottsco[/68.118.228.61:58496] logged in with entity id 86768 at (-28.645591109014745, 63.0, 250.1270182862767)
+[02:25:54] [Server thread/INFO]: 1ottsco joined the game
+[02:27:42] [Server thread/INFO]: 1ottsco has made the advancement [What a Deal!]
+[02:28:12] [Server thread/INFO]: 1ottsco has made the advancement [Ol' Betsy]
+[02:28:42] [Server thread/INFO]: SKILLVINIK has made the advancement [What a Deal!]
+[02:30:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Birch Log'/89194, l='ServerLevel[world]', x=199.12, y=80.00, z=260.10]
+[02:31:00] [Server thread/INFO]: <IntenseYogurt> what is surfacing rule ? At what poinnt ?
+[02:31:56] [Server thread/INFO]: ninjaturtle103 has made the advancement [Take Aim]
+[02:32:07] [Server thread/INFO]: TheUltimateJon has made the advancement [Take Aim]
+[02:32:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Oak Sapling'/87607, l='ServerLevel[world]', x=57.14, y=63.00, z=124.54]
+[02:32:20] [Server thread/INFO]: Villager bdp['Villager'/15, l='ServerLevel[world]', x=19.95, y=64.50, z=157.93] died, message: 'Villager tried to swim in lava'
+[02:32:21] [Server thread/INFO]: Villager bdp['Nitwit'/155, l='ServerLevel[world]', x=20.69, y=64.46, z=157.98] died, message: 'Nitwit was shot by DezBFrag'
+[02:32:21] [Server thread/INFO]: DezBFrag has made the advancement [Take Aim]
+[02:33:05] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/90259, l='ServerLevel[world]', x=-0.40, y=72.32, z=92.56]
+[02:34:09] [Server thread/INFO]: mmnickymm has made the advancement [Take Aim]
+[02:34:44] [Server thread/INFO]: SKILLVINIK has made the advancement [Cover Me With Diamonds]
+[02:34:49] [Server thread/INFO]: Dunkersplatt has made the advancement [Not Today, Thank You]
+[02:35:19] [Server thread/INFO]: SKILLVINIK has made the advancement [Take Aim]
+[02:36:07] [Server thread/INFO]: Dunkersplatt has made the advancement [Monster Hunter]
+[02:36:19] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/91564, l='ServerLevel[world]', x=-118.86, y=12.44, z=-46.73]
+[02:36:20] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/91569, l='ServerLevel[world]', x=-118.13, y=11.32, z=-46.31]
+[02:39:09] [Server thread/INFO]: DezBFrag has made the advancement [Not Today, Thank You]
+[02:39:17] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/92651, l='ServerLevel[world]', x=-87.80, y=12.30, z=-49.23]
+[02:40:59] [Server thread/INFO]: <mmnickymm> how long until we gotta be up top?
+[02:41:08] [Server thread/INFO]: <Dunkersplatt> seems like a bit
+[02:44:21] [Server thread/WARN]: Fetching packet for removed entity bbg['Gold Ore'/94356, l='ServerLevel[world]', x=-68.99, y=15.12, z=-51.13]
+[02:44:24] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/94369, l='ServerLevel[world]', x=-99.54, y=13.00, z=-49.73]
+[02:44:26] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/94387, l='ServerLevel[world]', x=-71.00, y=14.06, z=-50.77]
+[02:45:50] [Server thread/INFO]: mmnickymm has made the advancement [Best Friends Forever]
+[02:48:09] [Server thread/INFO]: 1ottsco has made the advancement [Take Aim]
+[02:48:26] [Server thread/INFO]: <Dunkersplatt> yellow got arrows
+[02:48:28] [Server thread/INFO]: <Dunkersplatt> big time
+[02:48:35] [Server thread/INFO]: <1ottsco> no we just shot them all
+[02:49:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/95702, l='ServerLevel[world]', x=79.87, y=63.02, z=-49.29]
+[02:50:03] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/95779, l='ServerLevel[world]', x=-24.14, y=26.14, z=-37.47]
+[02:50:58] [Server thread/INFO]: <Dunkersplatt> very sneaky toph!
+[02:51:05] [Server thread/INFO]: xcatieladyx has made the advancement [Take Aim]
+[02:51:17] [Server thread/INFO]: babar103 has made the advancement [Take Aim]
+[02:52:16] [Server thread/INFO]: XmasGoose has made the advancement [Ol' Betsy]
+[02:53:00] [Server thread/WARN]: Fetching packet for removed entity bbg['Wheat Seeds'/96382, l='ServerLevel[world]', x=-19.09, y=67.00, z=-14.89]
+[02:54:07] [Server thread/INFO]: XmasGoose has made the advancement [Take Aim]
+[02:55:29] [Server thread/INFO]: <SKILLVINIK> that's a win
+[02:55:30] [Server thread/INFO]: <1ottsco> yello w wins uhc@@@@
+[02:55:32] [Server thread/INFO]: Wolfzx99 has made the advancement [Diamonds!]
+[02:55:33] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/97061, l='ServerLevel[world]', x=-12.13, y=12.07, z=-79.58]
+[02:57:22] [Server thread/INFO]: mmnickymm was shot by ninjaturtle103
+[02:57:22] [Server thread/INFO]: [@: Set mmnickymm's game mode to Spectator Mode]
+[02:57:38] [Server thread/INFO]: mmnickymm lost connection: Disconnected
+[02:57:38] [Server thread/INFO]: mmnickymm left the game
+[02:57:42] [Server thread/INFO]: <Dunkersplatt> gg
+[02:58:18] [Server thread/INFO]: SKILLVINIK was slain by ninjaturtle103
+[02:58:18] [Server thread/INFO]: [@: Set SKILLVINIK's game mode to Spectator Mode]
+[02:58:18] [Server thread/INFO]: 1ottsco was slain by ninjaturtle103
+[02:58:18] [Server thread/INFO]: [@: Set 1ottsco's game mode to Spectator Mode]
+[02:58:22] [Server thread/INFO]: TheUltimateJon has made the advancement [Ice Bucket Challenge]
+[02:58:27] [Server thread/INFO]: XmasGoose was slain by ninjaturtle103
+[02:58:27] [Server thread/INFO]: [@: Set XmasGoose's game mode to Spectator Mode]
+[02:58:57] [Server thread/INFO]: St33n3r has made the advancement [Monster Hunter]
+[02:59:11] [Server thread/INFO]: ninjaturtle103 fell from a high place
+[02:59:11] [Server thread/INFO]: [@: Set ninjaturtle103's game mode to Spectator Mode]
+[02:59:11] [Server thread/INFO]: babar103 fell from a high place
+[02:59:11] [Server thread/INFO]: [@: Set babar103's game mode to Spectator Mode]
+[02:59:15] [Server thread/INFO]: DezBFrag was slain by xcatieladyx
+[02:59:15] [Server thread/INFO]: [@: Set DezBFrag's game mode to Spectator Mode]
+[02:59:16] [Server thread/WARN]: Fetching packet for removed entity bbg['Cooked Mutton'/98071, l='ServerLevel[world]', x=-39.88, y=46.00, z=-33.42]
+[02:59:17] [Server thread/INFO]: mrdagger17 has made the advancement [Cover Me With Diamonds]
+[02:59:19] [Server thread/INFO]: TheUltimateJon was slain by Dunkersplatt
+[02:59:19] [Server thread/INFO]: [@: Set TheUltimateJon's game mode to Spectator Mode]
+[02:59:25] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/98330, l='ServerLevel[world]', x=-16.47, y=30.51, z=-33.76]
+[02:59:25] [Server thread/INFO]: <Dunkersplatt> gg]
+[02:59:28] [Server thread/INFO]: <ninjaturtle103> gg
+[02:59:32] [Server thread/INFO]: <SKILLVINIK> team evil avoiding all combat
+[02:59:36] [Server thread/INFO]: <TheUltimateJon> gg
+[02:59:38] [Server thread/INFO]: Meyeravi has made the advancement [Hot Stuff]
+[02:59:44] [Server thread/INFO]: <SKILLVINIK> my roast must've hit home
+[02:59:51] [Server thread/INFO]: YungSpesh has made the advancement [Hot Stuff]
+[03:00:20] [Server thread/INFO]: SKILLVINIK lost connection: Disconnected
+[03:00:20] [Server thread/INFO]: SKILLVINIK left the game
+[03:00:29] [Server thread/INFO]: babar103 lost connection: Disconnected
+[03:00:29] [Server thread/INFO]: babar103 left the game
+[03:01:06] [Server thread/INFO]: DezBFrag lost connection: Disconnected
+[03:01:06] [Server thread/INFO]: DezBFrag left the game
+[03:01:08] [Server thread/INFO]: TheUltimateJon lost connection: Disconnected
+[03:01:08] [Server thread/INFO]: TheUltimateJon left the game
+[03:01:11] [Server thread/INFO]: ninjaturtle103 lost connection: Disconnected
+[03:01:11] [Server thread/INFO]: ninjaturtle103 left the game
+[03:01:49] [Server thread/INFO]: Dunkersplatt has made the advancement [Hot Stuff]
+[03:02:40] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[03:02:40] [Server thread/INFO]: Wolfzx99 left the game
+[03:02:42] [User Authenticator #42/INFO]: UUID of player Wolfzx99 is d9427869-ca15-4cec-adb4-d3b76ab9f214
+[03:02:42] [Server thread/INFO]: Wolfzx99[/141.126.209.75:37250] logged in with entity id 98852 at (-16.10846819149785, 50.0, 4.416023162750294)
+[03:02:42] [Server thread/INFO]: Wolfzx99 joined the game
+[03:03:28] [Server thread/INFO]: YungSpesh has made the advancement [Cover Me With Diamonds]
+[03:04:02] [Server thread/INFO]: IntenseYogurt has made the advancement [Take Aim]
+[03:04:07] [Server thread/INFO]: St33n3r has made the advancement [Ol' Betsy]
+[03:05:30] [Server thread/INFO]: Wolfzx99 was shot by St33n3r
+[03:05:30] [Server thread/INFO]: St33n3r has made the advancement [Take Aim]
+[03:05:30] [Server thread/INFO]: [@: Set Wolfzx99's game mode to Spectator Mode]
+[03:05:34] [Server thread/INFO]: <1ottsco> gg
+[03:06:14] [Server thread/INFO]: xcatieladyx has made the advancement [Not Today, Thank You]
+[03:06:14] [Server thread/INFO]: seanm105 has made the advancement [Take Aim]
+[03:06:54] [Server thread/INFO]: Meyeravi has made the advancement [Take Aim]
+[03:07:00] [Server thread/INFO]: seanm105 was slain by YungSpesh
+[03:07:00] [Server thread/INFO]: [@: Set seanm105's game mode to Spectator Mode]
+[03:07:36] [Server thread/INFO]: <Dunkersplatt> surprised us sean
+[03:08:19] [Server thread/INFO]: mrdagger17 has made the advancement [Take Aim]
+[03:08:39] [Server thread/INFO]: Meyeravi has made the advancement [Not Today, Thank You]
+[03:08:43] [Server thread/INFO]: Meyeravi was shot by mrdagger17
+[03:08:43] [Server thread/INFO]: [@: Set Meyeravi's game mode to Spectator Mode]
+[03:08:49] [Server thread/INFO]: YungSpesh has made the advancement [Ice Bucket Challenge]
+[03:10:11] [Server thread/INFO]: St33n3r was shot by IntenseYogurt
+[03:10:11] [Server thread/INFO]: [@: Set St33n3r's game mode to Spectator Mode]
+[03:10:18] [Server thread/INFO]: <seanm105> the comeback!
+[03:11:04] [Server thread/INFO]: xcatieladyx has made the advancement [Ol' Betsy]
+[03:12:12] [Server thread/INFO]: mrdagger17 was shot by xcatieladyx
+[03:12:12] [Server thread/INFO]: [@: Set mrdagger17's game mode to Spectator Mode]
+[03:12:54] [Server thread/INFO]: IntenseYogurt was shot by YungSpesh
+[03:12:54] [Server thread/INFO]: YungSpesh has made the advancement [Take Aim]
+[03:12:54] [Server thread/INFO]: [@: Set IntenseYogurt's game mode to Spectator Mode]
+[03:12:57] [Server thread/INFO]: <IntenseYogurt> ggs
+[03:13:01] [Server thread/INFO]: <Wolfzx99> gg
+[03:13:04] [Server thread/INFO]: <1ottsco> gg
+[03:13:08] [Server thread/INFO]: <IntenseYogurt> lmao Skill talking from the dead, what's new
+[03:13:13] [Server thread/INFO]: ToaNuparu lost connection: Disconnected
+[03:13:13] [Server thread/INFO]: ToaNuparu left the game
+[03:13:14] [Server thread/INFO]: <XmasGoose> gg
+[03:13:23] [Server thread/INFO]: [Dunkersplatt: Executed 5 commands from function 'start:stop']
+[03:13:27] [Server thread/INFO]: [Dunkersplatt: Set the time to 1000]
+[03:13:59] [Server thread/INFO]: xcatieladyx lost connection: Disconnected
+[03:13:59] [Server thread/INFO]: xcatieladyx left the game
+[03:14:06] [Server thread/INFO]: seanm105 lost connection: Disconnected
+[03:14:06] [Server thread/INFO]: seanm105 left the game
+[03:15:28] [Server thread/INFO]: Meyeravi lost connection: Disconnected
+[03:15:28] [Server thread/INFO]: Meyeravi left the game
+[03:16:19] [Server thread/INFO]: St33n3r lost connection: Disconnected
+[03:16:19] [Server thread/INFO]: St33n3r left the game
+[03:16:46] [Server thread/WARN]: Wolfzx99 moved too quickly! -2.8573488664368605,4.115586600024102,9.185072680757639
+[03:17:11] [Server thread/WARN]: Wolfzx99 moved too quickly! 6.627169822340125,0.0,-7.5431338238288745
+[03:17:52] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:17:55] [Server thread/WARN]: Wolfzx99 moved too quickly! 5.777636454066837,3.1745408595849085,-7.827827129595152
+[03:18:05] [Server thread/INFO]: IntenseYogurt lost connection: Disconnected
+[03:18:05] [Server thread/INFO]: IntenseYogurt left the game
+[03:18:07] [Server thread/WARN]: Wolfzx99 moved too quickly! -10.247700010682436,0.010064534229542232,0.3739753935111416
+[03:18:08] [Server thread/INFO]: Wolfzx99 lost connection: Disconnected
+[03:18:08] [Server thread/INFO]: Wolfzx99 left the game
+[03:18:10] [Server thread/INFO]: XmasGoose lost connection: Disconnected
+[03:18:10] [Server thread/INFO]: XmasGoose left the game
+[03:19:08] [Server thread/INFO]: YungSpesh hit the ground too hard
+[03:19:08] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:19:37] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:19:37] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:19:40] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:19:40] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:19:46] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:19:46] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:19:49] [Server thread/INFO]: [Dunkersplatt: Set [Deaths] for YungSpesh to 0]
+[03:19:54] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:20:04] [Server thread/INFO]: [1ottsco: Teleported 1ottsco to YungSpesh]
+[03:20:07] [Server thread/INFO]: [1ottsco: Set own game mode to Survival Mode]
+[03:20:07] [Server thread/INFO]: [@: Set 1ottsco's game mode to Spectator Mode]
+[03:20:15] [Server thread/INFO]: [Dunkersplatt: Set [Deaths] for 1ottsco to 0]
+[03:20:17] [Server thread/INFO]: [1ottsco: Set own game mode to Survival Mode]
+[03:20:33] [Server thread/INFO]: [Dunkersplatt: Applied effect Regeneration to 1ottsco]
+[03:21:02] [Server thread/INFO]: 1ottsco was slain by YungSpesh using [Death]
+[03:21:02] [Server thread/INFO]: [@: Set 1ottsco's game mode to Spectator Mode]
+[03:21:21] [Server thread/INFO]: [1ottsco: Set [Deaths] for 1ottsco to 0]
+[03:21:22] [Server thread/INFO]: [1ottsco: Set own game mode to Survival Mode]
+[03:21:23] [Server thread/INFO]: [YungSpesh: Gave 1 [Stone Axe] to YungSpesh]
+[03:21:27] [Server thread/INFO]: [1ottsco: Set own game mode to Spectator Mode]
+[03:21:30] [Server thread/INFO]: [1ottsco: Teleported 1ottsco to YungSpesh]
+[03:21:33] [Server thread/INFO]: [1ottsco: Set own game mode to Survival Mode]
+[03:21:55] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:22:19] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:22:23] [Server thread/INFO]: mrdagger17 lost connection: Disconnected
+[03:22:23] [Server thread/INFO]: mrdagger17 left the game
+[03:22:24] [Server thread/INFO]: Dunkersplatt lost connection: Disconnected
+[03:22:24] [Server thread/INFO]: Dunkersplatt left the game
+[03:22:26] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:22:34] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:22:44] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:23:31] [Server thread/INFO]: [1ottsco: Gave 1 [Iron Boots] to 1ottsco]
+[03:23:59] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:24:04] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:24:53] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-34, y=68, z=0} fu{x=-33, y=66, z=-2}
+[03:25:15] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:25:16] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:25:43] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to YungSpesh]
+[03:25:46] [Server thread/INFO]: YungSpesh was slain by 1ottsco using [Death]
+[03:25:46] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:25:55] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:25:55] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:26:02] [Server thread/INFO]: [1ottsco: Set [Deaths] for YungSpesh to 0]
+[03:26:22] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to 1ottsco]
+[03:26:32] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:28:40] [Server thread/INFO]: YungSpesh fell from a high place
+[03:28:40] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:28:56] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to 1ottsco]
+[03:29:01] [Server thread/INFO]: [1ottsco: Set [Deaths] for YungSpesh to 0]
+[03:31:04] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:34:17] [Server thread/INFO]: [YungSpesh: Gave 1 [Netherite Axe] to YungSpesh]
+[03:34:29] [Server thread/INFO]: [YungSpesh: Teleported YungSpesh to 1ottsco]
+[03:34:31] [Server thread/INFO]: [1ottsco: Applied effect Saturation to 1ottsco]
+[03:34:50] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:34:53] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[03:36:30] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:37:05] [Server thread/INFO]: [YungSpesh: Gave 1 [Netherite Axe] to YungSpesh]
+[03:37:08] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:37:43] [Server thread/INFO]: [1ottsco: Applied effect Regeneration to 1ottsco]
+[03:38:22] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:38:44] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[03:38:49] [Server thread/INFO]: [1ottsco: Gave 1 [Water Bucket] to 1ottsco]
+[03:38:54] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:39:02] [Server thread/INFO]: YungSpesh was slain by Shulker
+[03:39:02] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:39:21] [Server thread/INFO]: [YungSpesh: Set own game mode to Survival Mode]
+[03:39:21] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:39:24] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[03:39:24] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:39:27] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[03:39:27] [Server thread/INFO]: [@: Set YungSpesh's game mode to Spectator Mode]
+[03:39:29] [Server thread/INFO]: [1ottsco: Set [Deaths] for YungSpesh to 0]
+[03:39:33] [Server thread/INFO]: [YungSpesh: Set own game mode to Creative Mode]
+[03:40:17] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at yd$1.run(SourceFile:90) [server16.jar:?]
+[03:40:17] [Server thread/INFO]: Stopping server
+[03:40:17] [Server thread/INFO]: Saving players
+[03:40:17] [Server thread/INFO]: Saving worlds
+[03:40:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:40:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:40:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:40:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

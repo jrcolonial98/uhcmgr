@@ -144,11 +144,11 @@ public class LogfileParser {
 			
 			// reset kills (from before game started) once game starts
 			if (line.contains(GAME_START)) {
-				gameStarted = true;
+				//gameStarted = true;
 				kills.add(line);
-				continue;
+				//continue;
 			}
-			if (!gameStarted) continue;
+			//if (!gameStarted) continue;
 			
 			for (String antipattern : ANTIPATTERNS) {
 				if (line.contains(antipattern)) {

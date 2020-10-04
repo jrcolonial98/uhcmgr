@@ -1,0 +1,217 @@
+[02:35:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[02:35:44] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:35:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:35:44] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:35:44] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:35:44] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:35:44] [main/INFO]: Reloading ResourceManager: Default, uhcdp
+[02:35:45] [Worker-Main-4/INFO]: Loaded 7 recipes
+[02:35:46] [Worker-Main-4/ERROR]: Couldn't load function tag test:load as it is missing following references: minecraft: (from uhcdp)
+[02:35:46] [Worker-Main-4/ERROR]: Couldn't load function tag test:tick as it is missing following references: minecraft: (from uhcdp)
+[02:35:46] [Worker-Main-4/ERROR]: Couldn't load function tag start:load as it is missing following references: minecraft: (from uhcdp)
+[02:35:46] [Worker-Main-4/ERROR]: Couldn't load function tag start:tick as it is missing following references: minecraft: (from uhcdp)
+[02:35:46] [Worker-Main-4/INFO]: Loaded 927 advancements
+[02:35:47] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[02:35:47] [Server thread/INFO]: Loading properties
+[02:35:47] [Server thread/INFO]: Default game type: ADVENTURE
+[02:35:47] [Server thread/INFO]: Generating keypair
+[02:35:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:35:48] [Server thread/INFO]: Using epoll channel type
+[02:35:48] [Server thread/INFO]: Preparing level "world"
+[02:35:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:35:50] [User Authenticator #1/INFO]: UUID of player brassline is c3f8895a-489f-4549-b672-74fda36f05b8
+[02:35:50] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:50] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:50] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:50] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:50] [Server thread/INFO]: Preparing spawn area: 0%
+[02:35:51] [Server thread/INFO]: Preparing spawn area: 19%
+[02:35:51] [Server thread/INFO]: Time elapsed: 2931 ms
+[02:35:51] [Server thread/INFO]: Done (3.063s)! For help, type "help"
+[02:35:52] [Server thread/INFO]: brassline[/68.5.46.7:56155] logged in with entity id 220 at (-16.88495991885776, 68.0, -10.065827000776105)
+[02:35:52] [Server thread/INFO]: brassline joined the game
+[02:35:54] [User Authenticator #2/INFO]: UUID of player Dunkersplatt is 3b70edd9-6c29-414f-8ed4-4de77d329ceb
+[02:35:54] [User Authenticator #3/INFO]: UUID of player YungSpesh is e932a485-f5d5-4449-afc4-6c8bb25bda06
+[02:35:54] [Server thread/INFO]: Dunkersplatt[/67.185.20.60:62967] logged in with entity id 388 at (-5.435113778838995, 72.0, -25.23070925983469)
+[02:35:54] [Server thread/INFO]: Dunkersplatt joined the game
+[02:35:55] [Server thread/INFO]: YungSpesh[/68.13.46.239:54959] logged in with entity id 389 at (-27.78078661079201, 71.25220334025373, 5.147504063199115)
+[02:35:55] [Server thread/INFO]: YungSpesh joined the game
+[02:35:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2446ms or 48 ticks behind
+[02:35:56] [User Authenticator #4/INFO]: UUID of player Shananalovesdem is 9278ab9c-1a2f-49bd-8bf5-f282400e9fa2
+[02:35:56] [Server thread/INFO]: Shananalovesdem[/71.105.160.25:50946] logged in with entity id 432 at (110.10464965624134, 17.0, -132.25068975993747)
+[02:35:56] [Server thread/INFO]: Shananalovesdem joined the game
+[02:35:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@18d8f7eb[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.231.2:55449) lost connection: Disconnected
+[02:36:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c8559d1[id=<null>,name=mrdagger17,properties={},legacy=false] (/141.126.231.2:55451) lost connection: Disconnected
+[02:36:01] [User Authenticator #5/INFO]: UUID of player belundun is c8f7ca2d-6a76-4bc6-885f-39ec08ba6354
+[02:36:01] [Server thread/INFO]: belundun[/75.134.3.124:58653] logged in with entity id 561 at (111.18954057238864, 17.0, -132.24210433098347)
+[02:36:02] [Server thread/INFO]: belundun joined the game
+[02:36:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2698ms or 53 ticks behind
+[02:36:13] [User Authenticator #6/INFO]: UUID of player St33n3r is 9fc359c4-3481-447b-bdaf-ea010abcd03d
+[02:36:13] [Server thread/INFO]: St33n3r[/67.185.20.60:50230] logged in with entity id 668 at (-4.008719077520228, 69.0, -24.100809441291172)
+[02:36:13] [Server thread/INFO]: St33n3r joined the game
+[02:36:15] [User Authenticator #7/INFO]: UUID of player ToaNuparu is 28d149aa-b386-4019-9dff-a3335f270de9
+[02:36:15] [Server thread/INFO]: ToaNuparu[/73.191.221.212:54853] logged in with entity id 684 at (49.84594928432589, 154.43900454429075, 43.56248240492272)
+[02:36:15] [Server thread/INFO]: ToaNuparu joined the game
+[02:36:18] [Server thread/INFO]: belundun has made the advancement [Take Aim]
+[02:36:30] [User Authenticator #8/INFO]: UUID of player seanm105 is dec0b5f7-35b4-4c8f-a433-b8e09a7ee018
+[02:36:30] [Server thread/INFO]: seanm105[/98.227.232.67:64636] logged in with entity id 711 at (-6.031727916723332, 69.0, -20.606187056413656)
+[02:36:30] [Server thread/INFO]: seanm105 joined the game
+[02:37:00] [User Authenticator #9/INFO]: UUID of player mrdagger17 is 4199007e-f366-43d8-b995-f24dd4251da2
+[02:37:00] [Server thread/INFO]: mrdagger17[/141.126.231.2:55513] logged in with entity id 822 at (-0.11477810445382347, 190.0625180252439, -1.7606818761803302)
+[02:37:00] [Server thread/INFO]: mrdagger17 joined the game
+[02:41:14] [Server thread/INFO]: Dunkersplatt has made the advancement [Hot Stuff]
+[02:43:26] [Server thread/INFO]: Dunkersplatt has made the advancement [Ol' Betsy]
+[02:43:53] [Server thread/INFO]: <belundun> ial
+[02:43:57] [Server thread/INFO]: <Dunkersplatt> :)
+[02:44:12] [Server thread/INFO]: belundun has made the advancement [Ol' Betsy]
+[02:44:27] [Server thread/INFO]: YungSpesh has made the advancement [Take Aim]
+[02:44:35] [Server thread/INFO]: Shananalovesdem has made the advancement [Ol' Betsy]
+[02:44:48] [Server thread/INFO]: Shananalovesdem has made the advancement [Take Aim]
+[02:44:55] [Server thread/INFO]: Shananalovesdem was slain by Dunkersplatt
+[02:44:55] [Server thread/INFO]: [@: Set Shananalovesdem's game mode to Spectator Mode]
+[02:45:00] [Server thread/INFO]: belundun was shot by YungSpesh
+[02:45:00] [Server thread/INFO]: [@: Set belundun's game mode to Spectator Mode]
+[02:45:04] [Server thread/INFO]: <Dunkersplatt> ggggg
+[02:45:07] [Server thread/INFO]: <belundun> gg
+[02:45:10] [Server thread/INFO]: <Shananalovesdem> gg
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2706, l='ServerLevel[world]', x=41.31, y=75.49, z=-0.56]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2707, l='ServerLevel[world]', x=39.33, y=74.61, z=-5.42]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2708, l='ServerLevel[world]', x=35.35, y=79.29, z=-3.67]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2709, l='ServerLevel[world]', x=35.41, y=78.43, z=-4.40]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2710, l='ServerLevel[world]', x=42.48, y=76.67, z=-1.57]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2711, l='ServerLevel[world]', x=38.34, y=75.33, z=-4.54]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2712, l='ServerLevel[world]', x=40.36, y=78.53, z=-0.47]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2713, l='ServerLevel[world]', x=38.51, y=77.29, z=-0.69]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2714, l='ServerLevel[world]', x=37.39, y=76.32, z=0.39]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sandstone'/2715, l='ServerLevel[world]', x=37.54, y=76.39, z=-3.30]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Sand'/2716, l='ServerLevel[world]', x=35.32, y=77.43, z=-0.65]
+[02:45:40] [Server thread/INFO]: seanm105 lost connection: Disconnected
+[02:45:40] [Server thread/INFO]: seanm105 left the game
+[02:46:00] [Server thread/INFO]: [Dunkersplatt: Executed 5 commands from function 'start:stop']
+[02:46:03] [Server thread/INFO]: [Dunkersplatt: Set the time to 1000]
+[02:48:31] [Server thread/INFO]: St33n3r lost connection: Disconnected
+[02:48:31] [Server thread/INFO]: St33n3r left the game
+[02:49:46] [Server thread/INFO]: YungSpesh lost connection: Disconnected
+[02:49:46] [Server thread/INFO]: YungSpesh left the game
+[02:49:58] [Server thread/INFO]: brassline lost connection: Disconnected
+[02:49:58] [Server thread/INFO]: brassline left the game
+[02:50:09] [Server thread/INFO]: Shananalovesdem lost connection: Disconnected
+[02:50:09] [Server thread/INFO]: Shananalovesdem left the game
+[02:50:57] [Server thread/WARN]: belundun moved too quickly! -0.330350117609715,0.0,-10.79042938560724
+[02:51:54] [Server thread/INFO]: belundun lost connection: Disconnected
+[02:51:54] [Server thread/INFO]: belundun left the game
+[02:52:47] [Server thread/INFO]: [Dunkersplatt: Set own game mode to Creative Mode]
+[02:52:49] [Server thread/INFO]: Dunkersplatt has made the advancement [We Need to Go Deeper]
+[02:53:15] [Server thread/INFO]: <Dunkersplatt> -44 -147
+[02:53:30] [Server thread/WARN]: mrdagger17 moved too quickly! -11.672719648633688,-5.998103046627051,15.442304632287573
+[02:53:35] [Server thread/WARN]: mrdagger17 moved too quickly! -9.904347310842553,0.2429297114774016,-4.9517349412792235
+[02:55:27] [Server thread/WARN]: mrdagger17 moved too quickly! -0.8237035448529468,0.0,18.529363948155776
+[02:56:57] [Server thread/WARN]: mrdagger17 moved too quickly! 6.210620285033798,0.0,-9.012957675221912
+[02:59:20] [Server thread/INFO]: mrdagger17 lost connection: Disconnected
+[02:59:20] [Server thread/INFO]: mrdagger17 left the game
+[03:13:08] [Server thread/INFO]: ToaNuparu lost connection: Disconnected
+[03:13:08] [Server thread/INFO]: ToaNuparu left the game
+[03:17:14] [Server thread/INFO]: [Dunkersplatt: Teleported Dunkersplatt to 0.5, 77.79833368681605, 0.5]
+[03:26:13] [Server thread/INFO]: [Dunkersplatt: Stopping the server]
+[03:26:13] [Server thread/INFO]: Stopping server
+[03:26:13] [Server thread/INFO]: Saving players
+[03:26:13] [Server thread/INFO]: Dunkersplatt lost connection: Disconnected
+[03:26:13] [Server thread/INFO]: Dunkersplatt left the game
+[03:26:13] [Server thread/INFO]: Saving worlds
+[03:26:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:26:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:26:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:26:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

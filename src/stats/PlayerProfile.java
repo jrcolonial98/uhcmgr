@@ -8,6 +8,7 @@ public class PlayerProfile {
 	String nickname;
 	
 	int kills;
+	int bowKills;
 	int pvpDeaths;
 	int totalDeaths;
 	int gamesPlayed;
@@ -37,6 +38,13 @@ public class PlayerProfile {
 	}
 	public void setKills(int kills) {
 		this.kills = kills;
+	}
+	
+	public int getBowKills() {
+		return bowKills;
+	}
+	public void setBowKills(int bowKills) {
+		this.bowKills = bowKills;
 	}
 	
 	public int getPvpDeaths() {
@@ -116,6 +124,11 @@ public class PlayerProfile {
 	public static class KillsComparator implements Comparator<PlayerProfile> {
 		public int compare(PlayerProfile o1, PlayerProfile o2) {
 			return o1.getKills() - o2.getKills();
+		}
+	}
+	public static class BowKillsComparator implements Comparator<PlayerProfile> {
+		public int compare(PlayerProfile o1, PlayerProfile o2) {
+			return o1.getBowKills() - o2.getBowKills();
 		}
 	}
 	public static class WinRateComparator implements Comparator<PlayerProfile> {
