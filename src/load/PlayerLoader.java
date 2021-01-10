@@ -13,12 +13,15 @@ public class PlayerLoader {
 		for (String[] components : loader) {
 			String username = components[0];
 			String nickname = components[1];
+			String defaultTeam = components[2];
 			
 			Player player = new Player();
 			
 			player.setUsername(username);
 			
 			player.setNickname(nickname);
+			
+			player.setDefaultTeam(defaultTeam);
 			
 			list.add(player);
 		}

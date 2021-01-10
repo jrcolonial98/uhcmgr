@@ -16,6 +16,7 @@ public class PlayerProfile {
 	
 	Map<String,Integer> killed;
 	Map<String,Integer> killedBy;
+	Map<String,Integer> environmentKilledBy;
 	
 	public PlayerProfile() { }
 	
@@ -87,6 +88,13 @@ public class PlayerProfile {
 	}
 	public void setKilledBy(Map<String,Integer> killedBy) {
 		this.killedBy = killedBy;
+	}
+	
+	public Map<String,Integer> getEnvironmentKilledBy() {
+		return environmentKilledBy;
+	}
+	public void setEnvironmentKilledBy(Map<String,Integer> environmentKilledBy) {
+		this.environmentKilledBy = environmentKilledBy;
 	}
 	
 	public double kdr() {
@@ -179,6 +187,11 @@ public class PlayerProfile {
 		s += "Players Killed By:\n";
 		for (String key : killedBy.keySet()) {
 			s += key + " x" + killedBy.get(key) + "\n";
+		}
+		s += "\n";
+		s += "PvE Deaths:\n";
+		for (String key : environmentKilledBy.keySet()) {
+			s += key + " x" + environmentKilledBy.get(key) + "\n";
 		}
 		
 		return s;

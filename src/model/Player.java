@@ -3,6 +3,7 @@ package model;
 public class Player {
 	String username = "";
 	String nickname = "";
+	String defaultTeam = "";
 	
 	public Player() { }
 	
@@ -18,5 +19,12 @@ public class Player {
 	}
 	public String getNickname() {
 		return nickname;
+	}
+	
+	public void setDefaultTeam(String defaultTeam) {
+		this.defaultTeam = defaultTeam;
+	}
+	public String getDefaultTeam() {
+		return defaultTeam;
 	}
 }

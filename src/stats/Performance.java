@@ -4,12 +4,14 @@ import java.util.Comparator;
 
 public class Performance {
 	String player;
+	String team;
 	int uhc;
 	int kills;
 	int totalPlayers;
 	
-	public Performance(String player, int uhc, int kills, int totalPlayers) {
+	public Performance(String player, String team, int uhc, int kills, int totalPlayers) {
 		this.player = player;
+		this.team = team;
 		this.uhc = uhc;
 		this.kills = kills;
 		this.totalPlayers = totalPlayers;
@@ -20,6 +22,13 @@ public class Performance {
 	}
 	public String getPlayer() {
 		return player;
+	}
+	
+	public void setTeam(String team) {
+		this.team = team;
+	}
+	public String getTeam() {
+		return team;
 	}
 	
 	public void setUhc(int uhc) {

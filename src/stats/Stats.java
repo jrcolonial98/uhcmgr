@@ -6,22 +6,61 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.lang.Math;
 
 public class Stats {
+	// members passed in constructor
 	List<UHC> uhcs;
 	List<Kill> kills;
 	List<Player> players;
 	List<Registration> registrations;
+	
+	// members generated in constructor
+	List<PlayerProfile> playerProfiles;
+	List<Performance> allPerformances;
+	Map<String,List<Performance>> allPerformancesByPlayer;
+	List<Matchup> allMatchups;
 	
 	public Stats(List<UHC> uhcs, List<Kill> kills, List<Player> players, List<Registration> registrations) {
 		this.uhcs = uhcs; 
 		this.kills = kills;
 		this.players = players;
 		this.registrations = registrations;
+		
+		this.playerProfiles = allPlayerProfiles();
+		this.allPerformances = allPerformances();
+		this.allPerformancesByPlayer = allPerformancesByPlayer();
+		this.allMatchups = allMatchups();
 	}
 	
-	public List<PlayerProfile> allPlayerProfiles() {
+	public List<PlayerProfile> getPlayerProfiles() {
+		return playerProfiles;
+	}
+	public PlayerProfile getPlayerProfile(String username) {
+		for (PlayerProfile p : playerProfiles) {
+			if (p.getUsername().equals(username)) {
+				return p;
+			}
+		}
+		return null;
+	}
+	public List<Performance> getAllPerformances() {
+		return allPerformances;
+	}
+	public Map<String,List<Performance>> getAllPerformancesByPlayer() {
+		return allPerformancesByPlayer;
+	}
+	public List<Performance> performancesByPlayer(String player) {
+		return allPerformancesByPlayer.get(player);
+	}
+	public List<Matchup> getAllMatchups() {
+		return allMatchups;
+	}
+	
+	private List<PlayerProfile> allPlayerProfiles() {
 		List<PlayerProfile> list = new ArrayList<PlayerProfile>();
 		for (Player player : players) {
 			PlayerProfile p = playerProfile(player.getUsername());
@@ -30,13 +69,14 @@ public class Stats {
 		return list;
 	}
 	
-	public PlayerProfile playerProfile(String username) {
+	private PlayerProfile playerProfile(String username) {
 		List<Kill> kills = killsByPlayer().get(username);
 		List<Kill> deaths = deathsByPlayer().get(username);
 		List<Kill> pvpDeaths = pvpDeathsByPlayer().get(username);
 		
 		Map<String,Integer> killed = new HashMap<String,Integer>();
 		Map<String,Integer> killedBy = new HashMap<String,Integer>();
+		Map<String,Integer> environmentKilledBy = new HashMap<String,Integer>();
 		
 		int numKills = 0;
 		int numBowKills = 0;
@@ -75,6 +115,20 @@ public class Stats {
 		}
 		if (deaths != null) {
 			numDeaths = deaths.size();
+			for (Kill kill : deaths) {
+				String method = kill.getMethod();
+				
+				if (kill.isPvp()) {
+					continue;
+				}
+				
+				if (!environmentKilledBy.containsKey(method)) {
+					environmentKilledBy.put(method, 0);
+				}
+				int oldVal = environmentKilledBy.get(method);
+				int newVal = oldVal + 1;
+				environmentKilledBy.put(method, newVal);
+			}
 		}
 		
 		int gamesPlayed = 0;
@@ -107,6 +161,7 @@ public class Stats {
 		p.setWins(wins);
 		p.setKilled(killed);
 		p.setKilledBy(killedBy);
+		p.setEnvironmentKilledBy(environmentKilledBy);
 		
 		return p;
 	}
@@ -166,13 +221,14 @@ public class Stats {
 		return null;
 	}
 	
-	public List<Performance> allPerformances() {
+	private List<Performance> allPerformances() {
 		List<Performance> performances = new ArrayList<Performance>();
 		
 		// TODO: make this less slow
 		
 		for (Registration r : registrations) {
 			String player = r.getPlayer();
+			String team = r.getTeam();
 			int uhc = r.getUhc();
 			
 			int numKills = 0;
@@ -188,25 +244,165 @@ public class Stats {
 				}
 			}
 			
-			Performance p = new Performance(player, uhc, numKills, totalPlayers);
+			Performance p = new Performance(player, team, uhc, numKills, totalPlayers);
 			performances.add(p);
 		}
 		
 		return performances;
 	}
 	
-	public List<Performance> performancesByPlayer(String player) {
-		List<Performance> performances = new ArrayList<Performance>();
+	private Map<String, List<Performance>> allPerformancesByPlayer() {
+		Map<String, List<Performance>> map = new HashMap<String, List<Performance>>();
 		
-		List<Performance> allPerformances = allPerformances();
+		List<Performance> performances = allPerformances();
 		
-		for (Performance p : allPerformances) {
-			if (p.getPlayer().equals(player)) {
-				performances.add(p);
+		for (Performance p : performances) {
+			String player = p.getPlayer();
+			
+			if (!map.containsKey(player)) {
+				map.put(player, new ArrayList<Performance>());
+			}
+			
+			map.get(player).add(p);
+		}
+		
+		return map;
+	}
+	
+	private List<Matchup> allMatchups() {
+		List<Matchup> matchups = new ArrayList<Matchup>();
+		
+		for (PlayerProfile p : playerProfiles) {
+			String p1 = p.getUsername();
+			for (String p2 : p.getKilled().keySet()) {
+				int p1Score = p.getKilled().get(p2);
+				int p2Score = 0;
+				if (p.getKilledBy().containsKey(p2)) {
+					p2Score = p.getKilledBy().get(p2);
+				}
+				Matchup m = new Matchup(p1, p2, p1Score, p2Score);
+				
+				boolean shouldAdd = true;
+				for (Matchup m2 : matchups) {
+					if (m.equals(m2)) {
+						shouldAdd = false;
+						break;
+					}
+				}
+				
+				if (shouldAdd) {
+					matchups.add(m);
+				}
 			}
 		}
 		
-		return performances;
+		return matchups;
+	}
+	
+	public void writeToCsv(String fileName) throws IOException {
+		Map<String, List<Performance>> performances = allPerformancesByPlayer();
+		
+		FileWriter writer = new FileWriter(fileName);
+		
+		List<String> header = new ArrayList<String>();
+		header.add("Player");
+		header.add("Team");
+		for (UHC uhc : uhcs) {
+			String value = "UHC " + uhc.getId();
+			header.add(value);
+		}
+		String joinedHeader = String.join(",", header);
+		writer.write(joinedHeader + "\n");
+		
+		for (String player : performances.keySet()) {
+			List<String> values = new ArrayList<String>();
+			values.add(player);
+			values.add(""); // todo: team
+			//values.add(""); // todo: team pic url ?
+			
+			int total = 0;
+			int uhc = 0;
+			for (Performance p : performances.get(player)) {
+				uhc++;
+				while (p.getUhc() > uhc) {
+					values.add("" + total);
+					uhc++;
+				}
+				total += p.getKills();
+				values.add("" + total);
+			}
+			while (uhc < uhcs.size()) {
+				uhc++;
+				values.add("" + total);
+			}
+			
+			String line = String.join(",", values);
+			
+			writer.write(line + "\n");
+		}
+		
+		writer.close();
+	}
+	
+	public Map<String,Integer> killsByTeam() {
+		List<Performance> performances = allPerformances();
+		
+		Map<String,Integer> map = new HashMap<String,Integer>();
+		
+		for (Performance p : performances) {
+			for (Registration r : registrations) {
+				if (r.getUhc() == p.getUhc() && r.getPlayer().equals(p.getPlayer())) {
+					if (!map.keySet().contains(p.getTeam())) {
+						map.put(p.getTeam(), 0);
+					}
+					int oldVal = map.get(p.getTeam());
+					int newVal = oldVal + p.getKills();
+					map.put(p.getTeam(), newVal);
+				}
+			}
+		}
+		
+		return map;
+	}
+	
+	public Map<String,Double> killAvgByTeam() {
+		Map<String,Double> map = new HashMap<String,Double>();
+		
+		Map<String,Integer> killsByTeam = killsByTeam();
+		
+		Map<String,Integer> teamSize = new HashMap<String,Integer>();
+		
+		for (String team : killsByTeam.keySet()) {
+			double total = (double) killsByTeam.get(team);
+			int size = 0;
+			for (Player p : players) {
+				if (p.getDefaultTeam().equals(team)) {
+					size++;
+				}
+			}
+			double dsize = (double)size;
+			double avg = total / dsize;
+			map.put(team, avg);
+		}
+		
+		return map;
+	}
+	
+	public Map<String,Integer> winsByTeam() {
+		Map<String,Integer> map = new HashMap<String,Integer>();
+		
+		for (UHC uhc : uhcs) {
+			String winner = uhc.getWinner();
+			
+			if (!map.keySet().contains(winner)) {
+				map.put(winner, 0);
+			}
+			int oldVal = map.get(winner);
+			int newVal = oldVal + 1;
+			map.put(winner, newVal);
+		}
+		
+		return map;
 	}
 }
 
