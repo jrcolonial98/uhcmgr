@@ -30,7 +30,7 @@ public class LoadAll {
 
 		
 		List<Performance> performances = stats.getAllPerformances();
-		Comparator<Performance> c1 = new Performance.RelativeComparator();
+		Comparator<Performance> c1 = new Performance.AbsoluteComparator();
 		Collections.sort(performances, c1);
 		
 		for (int i = 0; i < 15; i++) {
