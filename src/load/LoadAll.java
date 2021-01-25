@@ -40,7 +40,7 @@ public class LoadAll {
 		}
 		
 		List<PlayerProfile> profiles = stats.getPlayerProfiles();
-		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsPerGameComparator();
+		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsComparator();
 		Collections.sort(profiles, c2);
 		
 		stats.writeToCsv("data.csv");
@@ -48,7 +48,7 @@ public class LoadAll {
 		for (int i = 0; i < profiles.size(); i++) {
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
 			//PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			System.out.println(p.getUsername() + ": " + p.killsPerGame());
+			System.out.println(p.getUsername() + ": " + p.getKills());
 		}
 		
 		
