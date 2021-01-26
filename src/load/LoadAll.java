@@ -30,8 +30,10 @@ public class LoadAll {
 
 		
 		List<Performance> performances = stats.getAllPerformances();
-		Comparator<Performance> c1 = new Performance.AbsoluteComparator();
+		Comparator<Performance> c1 = new Performance.RelativeComparator();
 		Collections.sort(performances, c1);
+		
+		System.out.println("Best Performances (by % of players killed):\n");
 		
 		for (int i = 0; i < 15; i++) {
 			Performance p = performances.get(performances.size() - 1 - i);
@@ -40,40 +42,48 @@ public class LoadAll {
 		}
 		
 		List<PlayerProfile> profiles = stats.getPlayerProfiles();
-		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsComparator();
+		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsPerGameComparator();
 		Collections.sort(profiles, c2);
+		
+		// Write out kill total across games into file
 		
 		stats.writeToCsv("data.csv");
 		
+		System.out.println("\n-----------------------------\n");
+		System.out.println("Kills per Game:\n");
+		
 		for (int i = 0; i < profiles.size(); i++) {
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			//PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			System.out.println(p.getUsername() + ": " + p.getKills());
+			System.out.println(p.getUsername() + ": " + p.killsPerGame());
 		}
 		
-		
-		System.out.println(stats.getPlayerProfile("XmasGoose"));
-		
-		List<Performance> playerPerformances = stats.performancesByPlayer("Dunkersplatt");
-		for (Performance p : playerPerformances) {
-			System.out.println(p.toString());
-		}
+		System.out.println("\n-----------------------------\n");
+		System.out.println("Kills by Team:\n");
 		
 		Map<String,Integer> killsByTeam = stats.killsByTeam();
 		for (String team : killsByTeam.keySet()) {
 			System.out.println(team + ": " + killsByTeam.get(team));
 		}
 		
+		System.out.println("\n-----------------------------\n");
+		System.out.println("Wins per Team:\n");
+		
 		Map<String,Integer> winsByTeam = stats.winsByTeam();
 		for (String team : winsByTeam.keySet()) {
 			System.out.println(team + ": " + winsByTeam.get(team));
 		}
+		
+		System.out.println("\n-----------------------------\n");
+		System.out.println("Kill Avg by Team: (wtf)\n");
 		
 		System.out.println();
 		Map<String,Double> killAvgByTeam = stats.killAvgByTeam();
 		for (String team : killAvgByTeam.keySet()) {
 			System.out.println(team + ": " + killAvgByTeam.get(team));
 		}
+		
+		System.out.println("\n-----------------------------\n");
+		System.out.println("Top Matchups:\n");
 		
 		List<Matchup> matchups = stats.getAllMatchups();
 		Comparator<Matchup> matchupsComparator = new Matchup.MostEncountersComparator();
@@ -83,12 +93,92 @@ public class LoadAll {
 			System.out.println(m);
 		}
 		
+		System.out.println("\n-----------------------------\n");
 		
+		System.out.println("Kills:\n");
 		
-		Map<String,Integer> elos = elo.currentElos();
-		for (String name : elos.keySet()) {
-			System.out.println(name + ": " + elos.get(name));
+		Comparator<PlayerProfile> c2_alternate = new PlayerProfile.KillsComparator();
+		Collections.sort(profiles, c2_alternate);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.getKills());
 		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Wins:\n");
+		
+		Comparator<PlayerProfile> c3 = new PlayerProfile.WinsComparator();
+		Collections.sort(profiles, c3);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.getWins());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Games Played:\n");
+		
+		Comparator<PlayerProfile> c4 = new PlayerProfile.GamesPlayedComparator();
+		Collections.sort(profiles, c4);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.getGamesPlayed());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Win Rate:\n");
+		
+		Comparator<PlayerProfile> c5 = new PlayerProfile.WinRateComparator();
+		Collections.sort(profiles, c5);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.winRate());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Losses:\n");
+		
+		Comparator<PlayerProfile> c6 = new PlayerProfile.LossesComparator();
+		Collections.sort(profiles, c6);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.getLosses());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Kills per Loss:\n");
+		
+		Comparator<PlayerProfile> c7 = new PlayerProfile.KillsPerLossComparator();
+		Collections.sort(profiles, c7);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.killsPerLoss());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println(stats.getPlayerProfile("1ottsco"));
+		
+		List<Performance> playerPerformances2 = stats.performancesByPlayer("Nova_MC");
+		for (Performance p : playerPerformances2) {
+			System.out.println(p.toString());
+		}
+		
+		
+		//Map<String,Integer> elos = elo.currentElos();
+		//for (String name : elos.keySet()) {
+		//	System.out.println(name + ": " + elos.get(name));
+		//}
 		
 		
 		
