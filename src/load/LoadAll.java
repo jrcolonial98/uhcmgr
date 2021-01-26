@@ -74,7 +74,7 @@ public class LoadAll {
 		}
 		
 		System.out.println("\n-----------------------------\n");
-		System.out.println("Kill Avg by Team: (wtf)\n");
+		System.out.println("Kill Avg by Team:\n");
 		
 		System.out.println();
 		Map<String,Double> killAvgByTeam = stats.killAvgByTeam();
