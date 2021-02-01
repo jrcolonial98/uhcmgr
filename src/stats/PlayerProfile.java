@@ -76,6 +76,10 @@ public class PlayerProfile {
 		this.wins = wins;
 	}
 	
+	public int getLosses() {
+		return gamesPlayed - wins;
+	}
+	
 	public Map<String,Integer> getKilled() {
 		return killed;
 	}
@@ -111,6 +115,9 @@ public class PlayerProfile {
 	}
 	public int pveDeaths() {
 		return totalDeaths - pvpDeaths;
+	}
+	public double killsPerLoss() {
+		return ((double)kills / (double)(gamesPlayed-wins));
 	}
 	
 	public static class KdrComparator implements Comparator<PlayerProfile> {
@@ -169,6 +176,52 @@ public class PlayerProfile {
 			else {
 				return -1;
 			}
+		}
+	}
+	public static class KillsPerLossComparator implements Comparator<PlayerProfile> {
+		public int compare(PlayerProfile o1, PlayerProfile o2) {
+			double kr1 = o1.killsPerLoss();
+			double kr2 = o2.killsPerLoss();
+			
+			if (kr1 == kr2) {
+				return 0;
+			}
+			else if (Double.isNaN(kr1) && Double.isNaN(kr2)) {
+				return 0;
+			}
+			else if (kr1 == 1.0/0) {
+				return 1;
+			}
+			else if (kr2 == 1.0/0) {
+				return -1;
+			}
+			else if (Double.isNaN(kr1)) {
+				return -1;
+			}
+			else if (Double.isNaN(kr2)) {
+				return 1;
+			}
+			else if (kr1 > kr2) {
+				return 1;
+			}
+			else {
+				return -1;
+			}
+		}
+	}
+	public static class WinsComparator implements Comparator<PlayerProfile> {
+		public int compare(PlayerProfile o1, PlayerProfile o2) {
+			return o1.getWins() - o2.getWins();
+		}
+	}
+	public static class GamesPlayedComparator implements Comparator<PlayerProfile> {
+		public int compare(PlayerProfile o1, PlayerProfile o2) {
+			return o1.getGamesPlayed() - o2.getGamesPlayed();
+		}
+	}
+	public static class LossesComparator implements Comparator<PlayerProfile> {
+		public int compare(PlayerProfile o1, PlayerProfile o2) {
+			return o1.getLosses() - o2.getLosses();
 		}
 	}
 	
