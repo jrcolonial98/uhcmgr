@@ -52,7 +52,7 @@ public class LoadAll {
 		}
 		
 		
-		System.out.println(stats.getPlayerProfile("XmasGoose"));
+		System.out.println(stats.getPlayerProfile("RARich"));
 		
 		List<Performance> playerPerformances = stats.performancesByPlayer("Dunkersplatt");
 		for (Performance p : playerPerformances) {
@@ -63,7 +63,7 @@ public class LoadAll {
 		for (String team : killsByTeam.keySet()) {
 			System.out.println(team + ": " + killsByTeam.get(team));
 		}
-		
+		System.out.println();
 		Map<String,Integer> winsByTeam = stats.winsByTeam();
 		for (String team : winsByTeam.keySet()) {
 			System.out.println(team + ": " + winsByTeam.get(team));
