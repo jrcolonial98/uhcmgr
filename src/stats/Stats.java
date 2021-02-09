@@ -20,6 +20,7 @@ public class Stats {
 	
 	// members generated in constructor
 	List<PlayerProfile> playerProfiles;
+	List<TeammateProfile> teammateProfiles;
 	List<Performance> allPerformances;
 	Map<String,List<Performance>> allPerformancesByPlayer;
 	List<Matchup> allMatchups;
@@ -31,6 +32,7 @@ public class Stats {
 		this.registrations = registrations;
 		
 		this.playerProfiles = allPlayerProfiles();
+		this.teammateProfiles = allTeammateProfiles();
 		this.allPerformances = allPerformances();
 		this.allPerformancesByPlayer = allPerformancesByPlayer();
 		this.allMatchups = allMatchups();
@@ -41,6 +43,18 @@ public class Stats {
 	}
 	public PlayerProfile getPlayerProfile(String username) {
 		for (PlayerProfile p : playerProfiles) {
+			if (p.getUsername().equals(username)) {
+				return p;
+			}
+		}
+		return null;
+	}
+	
+	public List<TeammateProfile> getTeammateProfiles() {
+		return teammateProfiles;
+	}
+	public TeammateProfile getTeammateProfile(String username) {
+		for (TeammateProfile p : teammateProfiles) {
 			if (p.getUsername().equals(username)) {
 				return p;
 			}
@@ -64,6 +78,15 @@ public class Stats {
 		List<PlayerProfile> list = new ArrayList<PlayerProfile>();
 		for (Player player : players) {
 			PlayerProfile p = playerProfile(player.getUsername());
+			list.add(p);
+		}
+		return list;
+	}
+	
+	private List<TeammateProfile> allTeammateProfiles() {
+		List<TeammateProfile> list = new ArrayList<TeammateProfile>();
+		for (Player player : players) {
+			TeammateProfile p = teammateProfile(player.getUsername());
 			list.add(p);
 		}
 		return list;
@@ -166,6 +189,72 @@ public class Stats {
 		return p;
 	}
 	
+	private TeammateProfile teammateProfile(String username) {	
+		List<Registration> allTeams = teamsByPlayer().get(username);
+		
+		Map<String,Integer> teams = new HashMap<String,Integer>();
+		Map<String,Integer> teamedWith = new HashMap<String,Integer>();
+		
+		int gamesPlayed = 0;
+		int wins = 0;
+		for (Registration registration : registrations) {
+			if (registration.getPlayer().equals(username)) {
+				gamesPlayed++;
+				for (UHC uhc : uhcs) {
+					if (registration.getUhc() == uhc.getId()) {
+						if (registration.getTeam().equals(uhc.getWinner())) {
+							wins++;
+						}
+						break;
+					}
+				}
+			}
+		}
+		
+		// NOTE: This goes through registrations like O(n^2) so it could potentially be slow
+		
+		int totalTeammates = 0;
+		for (Registration registration : registrations) {
+			if (registration.getPlayer().equals(username)) {
+				String team = registration.getTeam();
+				if (!teams.containsKey(team)) {
+					teams.put(team, 0);
+				}
+				int oldVal = teams.get(team);
+				int newVal = oldVal + 1;
+				teams.put(team, newVal);
+				
+				int uhc = registration.getUhc();
+				
+				for (Registration registration2 : registrations) {
+					if (registration2.getTeam().equals(team) && registration2.getUhc() == uhc && !registration2.getPlayer().equals(username)) {
+						totalTeammates++;
+						String teammate = registration2.getPlayer();
+						if (!teamedWith.containsKey(teammate)) {
+							teamedWith.put(teammate, 0);
+						}
+						int oldVal2 = teamedWith.get(teammate);
+						int newVal2 = oldVal2 + 1;
+						teamedWith.put(teammate, newVal2);
+					}
+				}
+			}
+		}
+		
+		Player player = playerFromString(username);
+		String nickname = player.getNickname();
+		
+		TeammateProfile p = new TeammateProfile();
+		p.setUsername(username);
+		p.setNickname(nickname);
+		p.setGamesPlayed(gamesPlayed);
+		p.setTeams(teams);
+		p.setTeamedWith(teamedWith);
+		p.setTotalTeammates(totalTeammates);
+		
+		return p;
+	}
+	
 	public Map<String, List<Kill>> killsByPlayer() {
 		Map<String, List<Kill>> map = new HashMap<String, List<Kill>>();
 		
@@ -207,6 +296,22 @@ public class Stats {
 				map.put(victim, new ArrayList<Kill>());
 			}
 			map.get(victim).add(kill);
+		}
+		
+		return map;
+	}
+	
+	public Map<String, List<Registration>> teamsByPlayer() {
+		Map<String, List<Registration>> map = new HashMap<String, List<Registration>>();
+		
+		for (Registration registration : registrations) {
+			//if (!registration.isPvp() || registration.isFriendlyFire()) continue;
+			
+			String team = registration.getTeam();
+			if (!map.containsKey(team)) {
+				map.put(team, new ArrayList<Registration>());
+			}
+			map.get(team).add(registration);
 		}
 		
 		return map;

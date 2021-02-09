@@ -16,6 +16,7 @@ import stats.Elo;
 import stats.Matchup;
 import stats.Performance;
 import stats.PlayerProfile;
+import stats.TeammateProfile;
 
 public class LoadAll {
 	
@@ -173,6 +174,8 @@ public class LoadAll {
 		for (Performance p : playerPerformances2) {
 			System.out.println(p.toString());
 		}
+		
+		System.out.println(stats.getTeammateProfile("Dunkersplatt"));
 		
 		
 		//Map<String,Integer> elos = elo.currentElos();
