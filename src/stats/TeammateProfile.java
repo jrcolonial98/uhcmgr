@@ -1,5 +1,6 @@
 package stats;
 
+import java.util.Comparator;
 import java.util.Map;
 import java.util.Collections;
 import java.util.List;
@@ -61,6 +62,23 @@ public class TeammateProfile {
 	
 	public double averageTeamSize() {
 		return (1 + ((double)totalTeammates / (double)gamesPlayed));
+	}
+	
+	public static class AverageTeamSizeComparator implements Comparator<TeammateProfile> {
+		public int compare(TeammateProfile o1, TeammateProfile o2) {
+			double ats1 = o1.averageTeamSize();
+			double ats2 = o2.averageTeamSize();
+			
+			if (ats1 == ats2) {
+				return 0;
+			}
+			else if (ats1 > ats2) {
+				return 1;
+			}
+			else {
+				return -1;
+			}
+		}
 	}
 	
 	public String toString() {

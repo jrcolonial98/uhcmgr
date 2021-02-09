@@ -144,18 +144,6 @@ public class LoadAll {
 		
 		System.out.println("\n-----------------------------\n");
 		
-		System.out.println("Losses:\n");
-		
-		Comparator<PlayerProfile> c6 = new PlayerProfile.LossesComparator();
-		Collections.sort(profiles, c6);
-		
-		for (int i = 0; i < profiles.size(); i++) {
-			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			System.out.println(p.getUsername() + ": " + p.getLosses());
-		}
-		
-		System.out.println("\n-----------------------------\n");
-		
 		System.out.println("Kills per Loss:\n");
 		
 		Comparator<PlayerProfile> c7 = new PlayerProfile.KillsPerLossComparator();
@@ -164,6 +152,19 @@ public class LoadAll {
 		for (int i = 0; i < profiles.size(); i++) {
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
 			System.out.println(p.getUsername() + ": " + p.killsPerLoss());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Average Team Size:\n");
+		
+		List<TeammateProfile> tm_profiles = stats.getTeammateProfiles();
+		Comparator<TeammateProfile> c6 = new TeammateProfile.AverageTeamSizeComparator();
+		Collections.sort(tm_profiles, c6);
+		
+		for (int i = 0; i < tm_profiles.size(); i++) {
+			TeammateProfile p = tm_profiles.get(tm_profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.averageTeamSize());
 		}
 		
 		System.out.println("\n-----------------------------\n");
