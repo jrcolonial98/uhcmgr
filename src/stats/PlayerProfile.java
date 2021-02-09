@@ -2,6 +2,9 @@ package stats;
 
 import java.util.Comparator;
 import java.util.Map;
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
 
 public class PlayerProfile {
 	String username;
@@ -233,18 +236,27 @@ public class PlayerProfile {
 		s += kills + " kills, " + pvpDeaths + " PvP deaths, " + pveDeaths() + " PvE deaths, kdr = " + kdr() + "\n";
 		s += "Kills per game: " + killsPerGame() + "\n\n";
 		s += "Players Killed:\n";
-		for (String key : killed.keySet()) {
-			s += key + " x" + killed.get(key) + "\n";
+		List<Map.Entry<String,Integer>> sortedKilleds = new ArrayList<>(killed.entrySet());
+		sortedKilleds.sort(Map.Entry.comparingByValue());
+		Collections.reverse (sortedKilleds);
+		for (Map.Entry k : sortedKilleds) {
+			s += k.getKey() + " x" + k.getValue() + "\n";
 		}
 		s += "\n";
 		s += "Players Killed By:\n";
-		for (String key : killedBy.keySet()) {
-			s += key + " x" + killedBy.get(key) + "\n";
+		List<Map.Entry<String,Integer>> sortedKilledBys = new ArrayList<>(killedBy.entrySet());
+		sortedKilledBys.sort(Map.Entry.comparingByValue());
+		Collections.reverse (sortedKilledBys);
+		for (Map.Entry k : sortedKilledBys) {
+			s += k.getKey() + " x" + k.getValue() + "\n";
 		}
 		s += "\n";
 		s += "PvE Deaths:\n";
-		for (String key : environmentKilledBy.keySet()) {
-			s += key + " x" + environmentKilledBy.get(key) + "\n";
+		List<Map.Entry<String,Integer>> sortedEnvironmentKilledBys = new ArrayList<>(environmentKilledBy.entrySet());
+		sortedEnvironmentKilledBys.sort(Map.Entry.comparingByValue());
+		Collections.reverse (sortedEnvironmentKilledBys);
+		for (Map.Entry k : sortedEnvironmentKilledBys) {
+			s += k.getKey() + " x" + k.getValue() + "\n";
 		}
 		
 		return s;

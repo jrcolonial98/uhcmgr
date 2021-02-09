@@ -1,7 +1,9 @@
 package stats;
 
-import java.util.Comparator;
 import java.util.Map;
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
 
 public class TeammateProfile {
 	String username;
@@ -68,15 +70,20 @@ public class TeammateProfile {
 		s += gamesPlayed + " games played, " + averageTeamSize() + " average team size.\n";
 		s += "\n";
 		s += "Teams Played On:\n";
-		for (String key : teams.keySet()) {
-			s += key + " x" + teams.get(key) + "\n";
+		List<Map.Entry<String,Integer>> sortedTeams = new ArrayList<>(teams.entrySet());
+		sortedTeams.sort(Map.Entry.comparingByValue());
+		Collections.reverse (sortedTeams);
+		for (Map.Entry k : sortedTeams) {
+			s += k.getKey() + " x" + k.getValue() + "\n";
 		}
 		s += "\n";
 		s += "Teamed With:\n";
-		for (String key : teamedWith.keySet()) {
-			s += key + " x" + teamedWith.get(key) + "\n";
+		List<Map.Entry<String,Integer>> sortedTeamedWith = new ArrayList<>(teamedWith.entrySet());
+		sortedTeamedWith.sort(Map.Entry.comparingByValue());
+		Collections.reverse (sortedTeamedWith);
+		for (Map.Entry k : sortedTeamedWith) {
+			s += k.getKey() + " x" + k.getValue() + "\n";
 		}
-		
 		return s;
 	}
 }
