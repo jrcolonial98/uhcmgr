@@ -6,12 +6,15 @@ import model.UHC;
 import model.Registration;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import stats.Stats;
+import stats.Superlatives;
 import stats.Elo;
 import stats.Matchup;
 import stats.Performance;
@@ -169,14 +172,21 @@ public class LoadAll {
 		
 		System.out.println("\n-----------------------------\n");
 		
-		System.out.println(stats.getPlayerProfile("1ottsco"));
+		System.out.println(stats.getPlayerProfile("Dunkersplatt"));
 		
-		List<Performance> playerPerformances2 = stats.performancesByPlayer("Nova_MC");
+		List<Performance> playerPerformances2 = stats.performancesByPlayer("Dunkersplatt");
 		for (Performance p : playerPerformances2) {
 			System.out.println(p.toString());
 		}
 		
 		System.out.println(stats.getTeammateProfile("Dunkersplatt"));
+		
+		/* Map<Integer,Integer> uniquePlayerKills = Superlatives.uniquePlayerKillsPerUhc(kills, uhcs);
+		List<Entry<Integer, Integer>> list = new ArrayList<>(uniquePlayerKills.entrySet());
+		list.sort(Entry.comparingByValue());
+		for (Entry<Integer,Integer> entry : list) {
+			System.out.println("UHC " + entry.getKey() + ": " + entry.getValue() + " unique players");
+		} */
 		
 		
 		//Map<String,Integer> elos = elo.currentElos();
