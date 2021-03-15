@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Oink! Oink! Squeal!",
+        "description": "You took down Scott.",
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "hidden":false
+
+    },
+    "parent": "test:no_going_back",
+    
+    "criteria": {
+        "kill_a_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "CustomName": "\"1ottsco\""    
+                }
+            }
+        }
+    }
+}

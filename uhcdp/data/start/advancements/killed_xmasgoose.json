@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "No More Christmas",
+        "description": "You took down Nate.",
+        "icon": {
+            "item": "minecraft:chicken"
+        },
+        "hidden":false
+
+    },
+    "parent": "test:no_going_back",
+    
+    "criteria": {
+        "kill_a_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "CustomName": "\"XmasGoose\""    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "gg",
+        "description": "Death comes for us all.",
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        }
+    },
+    "parent": "test:root",
+
+    "criteria": {
+        "killed_by_entity": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {}
+        }
+    }
+}

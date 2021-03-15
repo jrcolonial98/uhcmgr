@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Witches Ain't Shit",
+        "description": "'nuff said.",
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "hidden":true
+    },
+    "parent": "test:root",
+
+    "criteria": {
+        "kill_a_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                    }
+            }
+        }
+    }
+}

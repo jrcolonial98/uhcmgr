@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Civilian Casualty",
+        "description": "It's their fault for erecting a village in a warzone.",
+        "icon": {
+            "item": "minecraft:poppy"
+        },
+        "hidden":true
+
+    },
+    "parent": "test:no_going_back",
+    
+    "criteria": {
+        "kill_a_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                    }
+            }
+        }
+    }
+}

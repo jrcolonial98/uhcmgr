@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Kingkiller",
+        "description": "You took down Brendan.",
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "hidden":false
+
+    },
+    "parent": "test:no_going_back",
+    
+    "criteria": {
+        "kill_a_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "CustomName": "\"Dunkersplatt\""    
+                }
+            }
+        }
+    }
+}

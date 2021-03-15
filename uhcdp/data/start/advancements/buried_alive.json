@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": "Buried Alive",
+        "description": "Get caught in some falling debri.",
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "hidden":false
+
+    },
+    "parent": "test:root",
+    
+    "criteria": {
+        "stuck_in_sand": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:sand"
+            }
+        },
+        "stuck_in_gravel": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:gravel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "stuck_in_sand",
+            "stuck_in_gravel"
+        ]
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "display": {
+        "title": "Chop Chop!",
+        "description": "Cleaved an enemy in half.",
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "hidden": false
+    },
+    "parent": "test:no_going_back",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:iron_axe\"}}"
+                    }
+                }
+            }
+        },
+        "wood": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\"}}"
+                    }
+                }
+            }
+        },
+        "stone": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:stone_axe\"}}"
+                    }
+                }
+            }
+        }
+
+    },
+    "requirements": [
+        [
+            "iron",
+            "stone",
+            "wood"
+        ]
+    ]
+}
