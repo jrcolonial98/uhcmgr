@@ -8,7 +8,7 @@
         "hidden":false
 
     },
-    "parent": "test:root",
+    "parent": "start:root",
     
     "criteria": {
         "stuck_in_sand": {

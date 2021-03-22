@@ -13,5 +13,5 @@
         "show_toast": true,
         "title": "Splat!"
     },
-    "parent": "test:death"
+    "parent": "start:death"
 }

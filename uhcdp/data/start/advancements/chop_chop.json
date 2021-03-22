@@ -7,7 +7,7 @@
         },
         "hidden": false
     },
-    "parent": "test:no_going_back",
+    "parent": "start:no_going_back",
     "criteria": {
         "iron": {
             "trigger": "minecraft:player_killed_entity",

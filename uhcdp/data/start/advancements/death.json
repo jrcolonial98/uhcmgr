@@ -9,7 +9,7 @@
             "item": "minecraft:skeleton_skull"
         }
     },
-    "parent": "test:root",
+    "parent": "start:root",
 
     "criteria": {
         "killed_by_entity": {

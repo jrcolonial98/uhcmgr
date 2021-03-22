@@ -6,7 +6,7 @@
             "item": "minecraft:feather"
         }
     },
-    "parent": "test:root",
+    "parent": "start:root",
     "criteria": {
         "breed_chickens": {
             "trigger": "minecraft:bred_animals",

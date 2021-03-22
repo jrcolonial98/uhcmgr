@@ -7,7 +7,7 @@
         },
         "hidden": true
     },
-    "parent": "test:root",
+    "parent": "start:root",
     "criteria": {
         "used_lava_bucket": {
             "trigger": "minecraft:player_hurt_entity",

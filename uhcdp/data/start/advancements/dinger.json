@@ -1,5 +1,5 @@
 {
-  "parent": "test:root",
+  "parent": "start:root",
   "display": {
     "icon": {
       "item": "minecraft:arrow"

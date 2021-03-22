@@ -7,7 +7,7 @@
         },
         "hidden":true
     },
-    "parent": "test:root",
+    "parent": "start:root",
 
     "criteria": {
         "kill_a_player": {

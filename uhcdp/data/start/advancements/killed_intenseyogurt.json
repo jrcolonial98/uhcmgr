@@ -8,7 +8,7 @@
         "hidden":false
 
     },
-    "parent": "test:no_going_back",
+    "parent": "start:no_going_back",
     
     "criteria": {
         "kill_a_player": {
