@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": "Booby Trapped!",
+        "description": "#FreeTheNipple",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "uhc:eat_poison_stew",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:trapped_chest"
+                    }
+                }
+            }
+        }
+    }
+}

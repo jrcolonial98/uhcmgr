@@ -1,0 +1,24 @@
+WIP:
+Death/netherdeath - right now it only catches entity kills
+team evil special - lava bucket kill, not properly implemented (need to hit player in lava to trigger)
+Splat! - die to fall damage, right now it's only the description
+- need to fix name kill advancements
+Tummy ache - drink a poison stew (current implementation can be triggered by a witch after eating normal stew)
+
+
+Last Laugh - afterlife kill
+Army of One - get three kills after the rest of your team has died
+Betrayal - ("I thought we were friends!", wither rose icon) hurt a teammate
+Yes Today - shoot through a shield
+An ACME Accident - anvil kill
+
+Coward - high sneak time stat (turtle shell icon)
+Tougher than nails - cumulatively lose more health than possible without healing
+Pacifist - die without doing any player damage (totem icon)
+
+Ironman - be the last person to take damage
+Ironteam - last team to take damage
+Just the two of us! - ("We can make it if we try") down to a team of two
+
+PvE - Not killed by players
+Bow to the king! - get killed by Dunkersplatt

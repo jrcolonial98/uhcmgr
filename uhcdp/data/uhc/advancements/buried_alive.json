@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": "Buried Alive",
+        "description": "Watch out for falling debri.",
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "hidden":true
+
+    },
+    "parent": "uhc:root",
+    
+    "criteria": {
+        "stuck_in_sand": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:sand"
+            }
+        },
+        "stuck_in_gravel": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:gravel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "stuck_in_sand",
+            "stuck_in_gravel"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish_bucket"
+        },
+        "title": "Gauvin's Revenge",
+        "description": "Don't swim. Ever.",
+        "hidden": true
+    },
+    "parent": "uhc:buried_alive",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "fluid": {
+                                    "tag": "minecraft:water"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "damage": {
+                    "type": {
+                        "is_magic": false,
+                        "bypasses_armor": true
+                    }
+                }
+            }
+        }
+    }
+}

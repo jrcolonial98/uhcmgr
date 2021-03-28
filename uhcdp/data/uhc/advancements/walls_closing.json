@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": "The Walls Are Closing In",
+        "description": "Why are you wasting time reading this text? Get moving! RUN!",
+        "icon": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "uhc:root"
+}

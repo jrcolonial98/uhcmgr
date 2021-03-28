@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:suspicious_stew"
+        },
+        "title": "Tummy Ache",
+        "description": "If it looks suspicious, you shouldn't eat it!",
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "uhc:root",
+    "criteria": {
+        "eat_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew"
+                }
+            }
+        },
+        "poisoned": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:poison": {}
+                }
+            }
+        }
+    }
+}

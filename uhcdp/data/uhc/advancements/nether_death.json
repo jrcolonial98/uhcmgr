@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": "We Don't Go To Ravenholm",
+        "description": "All Nether adventures must come to an end.",
+        "hidden": true
+    },
+    "parent": "uhc:death",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether"
+                    }
+                }
+            }
+        }
+    }
+}

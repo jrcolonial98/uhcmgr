@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Paul's Fetish",
+        "description": "He likes to watch.",
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "hidden": true
+    },
+    "parent": "uhc:root",
+    "criteria": {
+        "breed_chickens": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:chicken"
+                }
+            }
+        }
+    }
+    
+}

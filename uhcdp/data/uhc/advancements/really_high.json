@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "title": "Blazin'",
+        "description": "Get really high.",
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "parent": "uhc:high",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                        }
+                    }
+                ],
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 250
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

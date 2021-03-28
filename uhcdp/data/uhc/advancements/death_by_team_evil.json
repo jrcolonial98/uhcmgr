@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Oops!",
+        "description": "Team Evil got you ;)",
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        }
+    },
+    "parent": "uhc:death",
+
+    "criteria": {
+        "killed_by_something": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "team": "evil"
+                }
+            }
+        }
+    }
+}

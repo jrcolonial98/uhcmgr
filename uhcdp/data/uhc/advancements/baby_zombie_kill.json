@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Zombies Need Sex Ed Too",
+        "description": "This could have been prevented with a condom.",
+        "icon": {
+            "item": "minecraft:sea_pickle"
+        },
+        "hidden":true
+    },
+    "parent": "uhc:root",
+
+    "criteria": {
+        "kill_a_player": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "flags":{
+                        "is_baby": true
+                    }
+                }
+            }
+        }
+    }
+}

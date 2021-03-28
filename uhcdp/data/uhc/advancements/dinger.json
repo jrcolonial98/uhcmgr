@@ -1,0 +1,40 @@
+{
+  "parent": "uhc:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": "Dinger!",
+    "description": "Land a dinger on another player from 75m away.",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "hit_player": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:player",
+              "distance": {
+                "horizontal": {
+                  "min": 75.0
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "damage": {
+          "is_projectile": true
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_player"
+    ]
+  ]
+}

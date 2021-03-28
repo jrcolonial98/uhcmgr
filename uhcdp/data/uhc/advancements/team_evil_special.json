@@ -1,0 +1,32 @@
+{
+    "display": {
+        "description": "Hit someone with a lava bucket.",
+        "title": "The Team Evil Special",
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "hidden": true
+    },
+    "parent": "uhc:chop_chop",
+    "criteria": {
+        "used_lava_bucket": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "fluid": {
+                                    "tag": "minecraft:lava"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
