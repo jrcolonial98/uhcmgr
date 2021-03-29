@@ -27,7 +27,8 @@
           }
         ],
         "damage": {
-          "is_projectile": true
+          "is_projectile": true,
+          "blocked": false
         }
       }
     }
