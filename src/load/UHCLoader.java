@@ -23,6 +23,8 @@ public class UHCLoader {
 			String startTime = components[3];
 			String winner = components[4];
 			String seed = components[5];
+			String version = components[6];
+			String season = components[7];
 			
 			UHC uhc = new UHC();
 			uhc.setId(Integer.parseInt(id));
@@ -48,6 +50,10 @@ public class UHCLoader {
 			uhc.setWinner(winner);
 			
 			uhc.setSeed(seed);
+			
+			uhc.setVersion(version);
+			
+			uhc.setSeason(Integer.parseInt(season));
 			
 			list.add(uhc);
 		}

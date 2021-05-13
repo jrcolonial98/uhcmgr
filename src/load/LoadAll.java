@@ -24,10 +24,34 @@ import stats.TeammateProfile;
 public class LoadAll {
 	
 	public static void main(String[] args) throws IOException {
-		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc3.csv");
-		List<Kill> kills = KillLoader.loadKills("src/load/kill3.csv");
-		List<Player> players = PlayerLoader.loadPlayers("src/load/player3.csv");
-		List<Registration> registrations = RegistrationLoader.loadRegistrations("src/load/registration3.csv");
+		List<UHC> uhcs = UHCLoader.loadUHCs("src/load/uhc.csv");
+		List<Kill> kills = KillLoader.loadKills("src/load/kill.csv");
+		List<Player> players = PlayerLoader.loadPlayers("src/load/player.csv");
+		List<Registration> registrations = RegistrationLoader.loadRegistrations("src/load/registration.csv");
+		
+		// TAKE ONLY STAT'S FROM SEASON 2
+		// this is lazy, temporary code
+		List<UHC> filteredUhcs = new ArrayList<UHC>();
+		for (UHC uhc : uhcs) {
+			if (uhc.getSeason() == 2) {
+				filteredUhcs.add(uhc);
+			}
+		}
+		List<Kill> filteredKills = new ArrayList<Kill>();
+		for (Kill kill : kills) {
+			if (kill.getUhc() > 50) {
+				filteredKills.add(kill);
+			}
+		}
+		List<Registration> filteredRegistrations = new ArrayList<Registration>();
+		for (Registration registration : registrations) {
+			if (registration.getUhc() > 50) {
+				filteredRegistrations.add(registration);
+			}
+		}
+		uhcs = filteredUhcs;
+		kills = filteredKills;
+		registrations = filteredRegistrations;
 		
 		Stats stats = new Stats(uhcs, kills, players, registrations);
 		Elo elo = new Elo(uhcs, kills, players, registrations);
@@ -47,7 +71,7 @@ public class LoadAll {
 		
 		List<PlayerProfile> profiles = stats.getPlayerProfiles();
 		Comparator<PlayerProfile> c2 = new PlayerProfile.KillsPerGameComparator();
-		Collections.sort(profiles, c2);
+		//Collections.sort(profiles, c2);
 		
 		// Write out kill total across games into file
 		
@@ -56,10 +80,10 @@ public class LoadAll {
 		System.out.println("\n-----------------------------\n");
 		System.out.println("Kills per Game:\n");
 		
-		for (int i = 0; i < profiles.size(); i++) {
-			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
-			System.out.println(p.getUsername() + ": " + p.killsPerGame());
-		}
+		//for (int i = 0; i < profiles.size(); i++) {
+		//	PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+		//	System.out.println(p.getUsername() + ": " + p.killsPerGame());
+		//}
 		
 		System.out.println("\n-----------------------------\n");
 		System.out.println("Kills by Team:\n");
@@ -92,7 +116,7 @@ public class LoadAll {
 		List<Matchup> matchups = stats.getAllMatchups();
 		Comparator<Matchup> matchupsComparator = new Matchup.MostEncountersComparator();
 		Collections.sort(matchups, matchupsComparator);
-		for (int i = 0; i < 18; i++) {
+		for (int i = 0; i < 10; i++) {
 			Matchup m = matchups.get(matchups.size() - 1 - i);
 			System.out.println(m);
 		}

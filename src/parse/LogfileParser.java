@@ -87,7 +87,7 @@ public class LogfileParser {
 			"*",
 			"handleDisconnection()"
 	};
-	private static final String GAME_START = "commands from function 'start:start']";
+	private static final String GAME_START = "commands from function 'blitz:start']";
 	private static boolean gameStarted = false;
 	
 	public static void main(String[] args) {
