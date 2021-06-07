@@ -77,8 +77,8 @@ public class LoadAll {
 		
 		stats.writeToCsv("data.csv");
 		
-		System.out.println("\n-----------------------------\n");
-		System.out.println("Kills per Game:\n");
+		//System.out.println("\n-----------------------------\n");
+		//System.out.println("Kills per Game:\n");
 		
 		//for (int i = 0; i < profiles.size(); i++) {
 		//	PlayerProfile p = profiles.get(profiles.size() - 1 - i);
@@ -179,6 +179,18 @@ public class LoadAll {
 		for (int i = 0; i < profiles.size(); i++) {
 			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
 			System.out.println(p.getUsername() + ": " + p.killsPerLoss());
+		}
+		
+		System.out.println("\n-----------------------------\n");
+		
+		System.out.println("Kills per Game:\n");
+		
+		Comparator<PlayerProfile> c8 = new PlayerProfile.KillsPerGameComparator();
+		Collections.sort(profiles, c8);
+		
+		for (int i = 0; i < profiles.size(); i++) {
+			PlayerProfile p = profiles.get(profiles.size() - 1 - i);
+			System.out.println(p.getUsername() + ": " + p.killsPerGame());
 		}
 		
 		System.out.println("\n-----------------------------\n");
