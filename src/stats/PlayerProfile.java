@@ -11,7 +11,8 @@ public class PlayerProfile {
 	String nickname;
 	
 	int kills;
-	int bowKills;
+	int swordKills; // Note this is all melee: sword, axe, etc
+	int bowKills; // Note this also includes crossbows
 	int pvpDeaths;
 	int totalDeaths;
 	int gamesPlayed;
@@ -42,6 +43,13 @@ public class PlayerProfile {
 	}
 	public void setKills(int kills) {
 		this.kills = kills;
+	}
+	
+	public int getSwordKills() {
+		return swordKills;
+	}
+	public void setSwordKills(int swordKills) {
+		this.swordKills = swordKills;
 	}
 	
 	public int getBowKills() {
@@ -234,6 +242,7 @@ public class PlayerProfile {
 		s += "PLAYER PROFILE: " + username + "\n";
 		s += gamesPlayed + " games played, " + winRate() + " win rate\n";
 		s += kills + " kills, " + pvpDeaths + " PvP deaths, " + pveDeaths() + " PvE deaths, kdr = " + kdr() + "\n";
+		s += "Kills by type: Melee = " + getSwordKills() + ", Ranged = " + getBowKills() + ", Other/Unknown = " + (kills - getSwordKills() - getBowKills()) + "\n";
 		s += "Kills per game: " + killsPerGame() + "\n\n";
 		s += "Players Killed:\n";
 		List<Map.Entry<String,Integer>> sortedKilleds = new ArrayList<>(killed.entrySet());
