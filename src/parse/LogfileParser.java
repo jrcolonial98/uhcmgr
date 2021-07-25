@@ -117,7 +117,7 @@ public class LogfileParser {
 			System.out.println();
 			System.out.println("Parsing " + fileName + "...");
 			try {
-				List<String> kills = getKills(fileName);
+				List<String> kills = getKills("test_logs/" + fileName);
 				System.out.println("Found " + kills.size() + " kills.");
 				
 				for (String kill : kills) {
