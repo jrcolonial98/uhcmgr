@@ -17,12 +17,12 @@ schedule function text:one 2s append
 schedule function text:blitz 3s append 
 
 #starting kit
-schedule function blitz:kitup 3s append
+schedule function ninety:kitup 3s append
 # Start timers for border and clear effects
 schedule function helpers:cleareffects 3s append
 
-#shrink border across 50 mins
-worldborder set 101 3000
+#shrink border across 80 mins
+worldborder set 121 4800
 advancement grant @a[gamemode=survival] only uhc:walls_closing
 
 # Add kills and deaths scoreboard
