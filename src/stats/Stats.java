@@ -102,6 +102,7 @@ public class Stats {
 		Map<String,Integer> environmentKilledBy = new HashMap<String,Integer>();
 		
 		int numKills = 0;
+		int numSwordKills = 0;
 		int numBowKills = 0;
 		int numPvpDeaths = 0;
 		int numDeaths = 0;
@@ -117,6 +118,10 @@ public class Stats {
 				int oldVal = killed.get(victim);
 				int newVal = oldVal + 1;
 				killed.put(victim, newVal);
+				
+				if (kill.getMethod().equals("slew")) {
+					numSwordKills++;
+				}
 				
 				if (kill.getMethod().equals("shot")) {
 					numBowKills++;
@@ -177,6 +182,7 @@ public class Stats {
 		p.setUsername(username);
 		p.setNickname(nickname);
 		p.setKills(numKills);
+		p.setSwordKills(numSwordKills);
 		p.setBowKills(numBowKills);
 		p.setPvpDeaths(numPvpDeaths);
 		p.setTotalDeaths(numDeaths);

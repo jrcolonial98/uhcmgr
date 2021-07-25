@@ -9,6 +9,8 @@ public class UHC {
 	Time startTime = null;
 	String winner = "";
 	String seed = "";
+	String version = "";
+	int season = 0;
 	
 	public UHC() {
 		
@@ -54,6 +56,20 @@ public class UHC {
 	}
 	public String getSeed() {
 		return seed;
+	}
+	
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	public String getVersion() {
+		return version;
+	}
+	
+	public void setSeason(int season) {
+		this.season = season;
+	}
+	public int getSeason() {
+		return season;
 	}
 	
 	public String toString() {
