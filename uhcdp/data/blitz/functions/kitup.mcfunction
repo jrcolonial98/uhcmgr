@@ -1,9 +1,9 @@
 #starting kit
-replaceitem entity @a armor.head minecraft:iron_helmet 1
-replaceitem entity @a armor.chest minecraft:iron_chestplate 1
-replaceitem entity @a armor.legs minecraft:iron_leggings 1
-replaceitem entity @a armor.feet minecraft:iron_boots 1
-replaceitem entity @a weapon.offhand minecraft:shield 1
+item entity @a armor.head replace minecraft:iron_helmet 1
+item entity @a armor.chest replace minecraft:iron_chestplate 1
+item entity @a armor.legs replace minecraft:iron_leggings 1
+item entity @a armor.feet replace minecraft:iron_boots 1
+item entity @a weapon.offhand replace minecraft:shield 1
 give @a minecraft:diamond_pickaxe 1
 give @a minecraft:iron_sword 1
 give @a minecraft:iron_axe 1
