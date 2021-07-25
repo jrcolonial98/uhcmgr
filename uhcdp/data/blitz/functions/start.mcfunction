@@ -1,7 +1,7 @@
 # Misc
 fill 150 245 150 170 255 170 minecraft:air
 gamerule doDaylightCycle true
-gamerule naturalRegeneration true
+gamerule naturalRegeneration false
 advancement revoke @a everything
 time set 0
 
@@ -22,7 +22,7 @@ schedule function blitz:kitup 3s append
 schedule function helpers:cleareffects 3s append
 
 #shrink border across 50 mins
-worldborder set 51 3000
+worldborder set 101 3000
 advancement grant @a[gamemode=survival] only uhc:walls_closing
 
 # Add kills and deaths scoreboard
