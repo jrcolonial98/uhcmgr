@@ -14,6 +14,20 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"conditions": [
+						{
+							"condition": "killed_by_player"
+						}
+					]
+				}
+			]
 		}
 	]
 }

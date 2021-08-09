@@ -25,3 +25,7 @@ Functions to run alternate game modes are under their corresponding namespaces.
     - Regen on and start kitted up. Quick border close in.
     - Meant to mimic UHC endgames but a bit more forgiving.
     - Games complete in 50 mins or less.
+- **Hyper Blitz**
+	- Game gives enhanced tools to encourage nether trip and riskier actions
+	- Players drop diamonds along with Golden apples
+	- Players start with lapis, flint & steel, a bow, and nether wart
