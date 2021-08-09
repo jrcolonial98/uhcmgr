@@ -1,0 +1,12 @@
+/setblock 1 85 -2 minecraft:end_portal_frame[eye=true] replace
+/setblock 0 85 -2 minecraft:end_portal_frame[eye=false] replace
+/setblock -1 85 -2 minecraft:end_portal_frame[eye=true] replace
+/setblock 1 85 2 minecraft:end_portal_frame[eye=true] replace
+/setblock 0 85 2 minecraft:end_portal_frame[eye=false] replace
+/setblock -1 85 2 minecraft:end_portal_frame[eye=true] replace
+/setblock 2 85 1 minecraft:end_portal_frame[eye=true] replace
+/setblock 2 85 0 minecraft:end_portal_frame[eye=false] replace
+/setblock 2 85 -1 minecraft:end_portal_frame[eye=true] replace
+/setblock -2 85 1 minecraft:end_portal_frame[eye=true] replace
+/setblock -2 85 0 minecraft:end_portal_frame[eye=false] replace
+/setblock -2 85 -1 minecraft:end_portal_frame[eye=true] replace
