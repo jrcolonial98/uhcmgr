@@ -8,7 +8,7 @@
         "announce_to_chat": false,
         "description": "Die to fall damage.",
         "icon": {
-            "item": "minecraft:brown_dye"
+            "id": "minecraft:brown_dye"
         },
         "show_toast": true,
         "title": "Splat!",

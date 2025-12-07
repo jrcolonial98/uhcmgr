@@ -3,7 +3,7 @@
         "title": "Kingkiller",
         "description": "You took down Brendan.",
         "icon": {
-            "item": "minecraft:golden_helmet"
+            "id": "minecraft:golden_helmet"
         },
         "hidden":false
 

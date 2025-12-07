@@ -3,7 +3,7 @@
         "title": "No More Christmas",
         "description": "You took down Nate.",
         "icon": {
-            "item": "minecraft:chicken"
+            "id": "minecraft:chicken"
         },
         "hidden":false
 

@@ -3,7 +3,7 @@
         "title": "Civilian Casualty",
         "description": "It's their fault for erecting a village in a warzone.",
         "icon": {
-            "item": "minecraft:poppy"
+            "id": "minecraft:poppy"
         },
         "hidden":true
 

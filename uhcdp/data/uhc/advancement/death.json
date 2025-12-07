@@ -6,7 +6,7 @@
         "show_toast": true,
         "hidden": false,
         "icon": {
-            "item": "minecraft:elytra"
+            "id": "minecraft:elytra"
         }
     },
     "parent": "uhc:root",

@@ -3,7 +3,7 @@
         "title": "No Going Back...",
         "description": "Not all great Neptune’s ocean will wash this blood clean from thy hands.",
         "icon": {
-            "item": "minecraft:crimson_roots"
+            "id": "minecraft:crimson_roots"
         },
         "hidden": true
     },

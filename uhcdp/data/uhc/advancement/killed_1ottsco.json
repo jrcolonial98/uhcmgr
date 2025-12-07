@@ -3,7 +3,7 @@
         "title": "Oink! Oink! Squeal!",
         "description": "You took down Scott.",
         "icon": {
-            "item": "minecraft:porkchop"
+            "id": "minecraft:porkchop"
         },
         "hidden":false
 

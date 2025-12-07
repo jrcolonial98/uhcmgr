@@ -3,7 +3,7 @@
         "title": "That Was Intense",
         "description": "You took down Christian.",
         "icon": {
-            "item": "minecraft:milk_bucket"
+            "id": "minecraft:milk_bucket"
         },
         "hidden":false
 

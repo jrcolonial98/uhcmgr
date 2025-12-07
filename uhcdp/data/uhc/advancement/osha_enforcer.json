@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
         },
         "title": "OSHA Enforcer",
         "description": "Work in the dark to serve the light."
@@ -14,20 +14,29 @@
                 "item": {
                     "item": "minecraft:torch"
                 },
-                "location": {
-                    "position": {
-                        "y": {
-                            "min": -70,
-                            "max": 64
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                            "y": {
+                                "min": -70,
+                                "max": 64
+                            }
+                            }
                         }
-                    },
-                    "light": {
-                        "light": {
+                        },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "light": {
                             "min": 0,
                             "max": 1
+                            }
                         }
                     }
-                }
+                ]
+                    
             }
         }
     }

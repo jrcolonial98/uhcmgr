@@ -3,7 +3,7 @@
         "title": "Buried Alive",
         "description": "Watch out for falling debri.",
         "icon": {
-            "item": "minecraft:gravel"
+            "id": "minecraft:gravel"
         },
         "hidden":true
 

@@ -7,7 +7,7 @@
         
         "background": "minecraft:textures/block/cracked_polished_blackstone_bricks.png",
         "icon": {
-            "item": "minecraft:diamond"
+            "id": "minecraft:diamond"
         }
     },
     "criteria": {

@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:filled_map"
+            "id": "minecraft:filled_map"
         },
         "title": "Self-Centered",
         "description": "You'd like it if the world to revolved around you, huh?",

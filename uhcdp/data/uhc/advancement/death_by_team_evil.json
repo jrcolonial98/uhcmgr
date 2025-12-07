@@ -4,7 +4,7 @@
         "description": "Team Evil got you ;)",
         "hidden": true,
         "icon": {
-            "item": "minecraft:wither_skeleton_skull"
+            "id": "minecraft:wither_skeleton_skull"
         }
     },
     "parent": "uhc:death",

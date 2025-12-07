@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:suspicious_stew"
+            "id": "minecraft:suspicious_stew"
         },
         "title": "Tummy Ache",
         "description": "If it looks suspicious, you shouldn't eat it!",

@@ -3,7 +3,7 @@
         "title": "Witches Ain't Shit",
         "description": "'nuff said.",
         "icon": {
-            "item": "minecraft:potion"
+            "id": "minecraft:potion"
         },
         "hidden":true
     },

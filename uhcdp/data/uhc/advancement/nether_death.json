@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:netherrack"
+            "id": "minecraft:netherrack"
         },
         "title": "We Don't Go To Ravenholm",
         "description": "All Nether adventures must come to an end.",

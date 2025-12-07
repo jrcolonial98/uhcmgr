@@ -3,7 +3,7 @@
         "title": "Chop Chop!",
         "description": "Cleaved an enemy in half.",
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
         "hidden": false
     },

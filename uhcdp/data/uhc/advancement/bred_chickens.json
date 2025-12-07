@@ -3,7 +3,7 @@
         "title": "Paul's Fetish",
         "description": "He likes to watch.",
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
         "hidden": true
     },

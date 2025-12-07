@@ -3,7 +3,7 @@
         "description": "Hit someone with a lava bucket.",
         "title": "The Team Evil Special",
         "icon": {
-            "item": "minecraft:lava_bucket"
+            "id": "minecraft:lava_bucket"
         },
         "hidden": true
     },

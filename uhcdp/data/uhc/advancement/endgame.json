@@ -8,7 +8,7 @@
         "title": "Endgame",
         "description": "We're in the endgame now.",
         "icon": {
-            "item": "minecraft:ender_pearl"
+            "id": "minecraft:ender_pearl"
         },
         "show_toast": true,
         "announce_to_chat": false,

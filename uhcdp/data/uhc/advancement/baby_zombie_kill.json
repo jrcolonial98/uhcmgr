@@ -3,7 +3,7 @@
         "title": "Zombies Need Sex Ed Too",
         "description": "This could have been prevented with a condom.",
         "icon": {
-            "item": "minecraft:sea_pickle"
+            "id": "minecraft:sea_pickle"
         },
         "hidden":true
     },
